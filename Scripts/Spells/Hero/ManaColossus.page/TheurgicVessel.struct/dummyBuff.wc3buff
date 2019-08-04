@@ -1,0 +1,16 @@
+field	1
+name	Theurgic Vessel
+raw	ThV
+
+class
+levelsAmount
+lostOn
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNPotionOfVampirism.blp
+tooltip
+uberTooltip	This unit is a <name>. It increases spell power and spell vamp of nearby allied units.
+
+sfxPath	<casterEffect.wc3imp:target>
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW

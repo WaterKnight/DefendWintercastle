@@ -1,0 +1,7 @@
+field	1
+areaEffectPath	Abilities\Spells\Other\Andt\Andt.mdl
+areaRange	200.
+duration	20.
+healLifeRelativeAmount	0.15
+healManaRelativeAmount	0.15
+spawnAmountForRune	12

@@ -1,0 +1,40 @@
+field	jass ident	1	2	3	4	5	6
+name		Severance
+raw		Sev
+
+base		NORMAL
+class		ELEMENTAL
+levelsAmount
+order		howlofterror
+target		UNIT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		SV
+learnTooltip
+learnUberTooltip		Throws a missile on the targeted unit, which from there bounces to further potential targets nearby. Each unit struck falls into <MADNESS>madness</MADNESS>, loses armor and movement speed and receives minor damage (decreases with each bounce).|nUnits can be hit multiple times
+learnUberTooltipUpgrades		{Damage,<damage>};{Targets amount,<targetsAmount>};{Armor malus,<Buff\this.wc3obj:armorInc,->};{Movement speed malus,<Buff\this.wc3obj:moveSpeedInc,->};{Debuff duration,<Buff\this.wc3obj:duration,asSecs>}
+
+animation		spell
+areaRange		500
+areaRangeDisplay		false
+channelTime
+cooldown		12
+manaCost		40	50	65	85	110	140
+range		800
+targets		air,enemies,ground,neutral
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNAcidBomb.blp
+lore
+sharedBuffs		MADNESS
+tooltip
+uberTooltip		Throws a missile on the targeted unit, which from there bounces to further potential targets nearby. Each unit struck falls into <MADNESS>madness</MADNESS>, loses <Buff\this.wc3obj:armorInc,-> armor and <Buff\this.wc3obj:moveSpeedInc,-> movement speed for <Buff\this.wc3obj:duration> seconds and receives <damage> damage (decreases by <damageDecFactor,%> with each bounce).|nUnits can be hit multiple times
+
+damage		20	30	40	50	60	70
+damageDecFactor		0.2
+targetsAmount		5	6	7	8	9	10

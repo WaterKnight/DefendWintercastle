@@ -1,0 +1,45 @@
+field	jass ident	1	2	3	4	5	6
+name		Conflagration
+raw		Con
+
+base		NORMAL
+class		HERO_FIRST
+levelsAmount
+order		breathoffire
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Co
+learnTooltip
+learnUberTooltip		Spews a cone of smouldering in front of the caster in order to enshroud enemy ground units with the <IGNITION>ignition</IGNITION> and <ECLIPSE>eclipse</ECLIPSE> debuffs. Deals additional initial damage.
+learnUberTooltipUpgrades		{Damage,<damage>};{Debuff duration,<buffDuration> (<buffHeroDuration>) second(s)};{Max range,<maxLength>};{Start width,<widthStart>};{End width,<widthEnd>}
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		9
+manaCost		125	150	175	200	225	250
+range		500	550	600	650	700	750
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNWallOfFire.blp
+lore
+sharedBuffs		IGNITION;ECLIPSE
+tooltip
+uberTooltip		Spews a cone of smouldering in front of the caster in order to enshroud enemy ground units with the <IGNITION>ignition</IGNITION> and <ECLIPSE>eclipse</ECLIPSE> debuffs for <buffDuration> (<buffHeroDuration>) seconds. Deals additional <damage> initial damage.
+
+damage		25	35	45	55	65	75
+offset		100
+buffDuration		6	7	8	9	10	11
+buffHeroDuration		3	3.5	4	4.5	5	5.5
+maxLength	real	400	425	450	475	500	525
+speed	real	650	650
+widthEnd		300
+widthStart		0

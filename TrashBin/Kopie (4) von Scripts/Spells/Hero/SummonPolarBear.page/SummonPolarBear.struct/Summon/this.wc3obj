@@ -1,0 +1,5 @@
+field	jass ident	1	2	3	4	5
+duration		30	30
+healFactor		0.5
+invulnerabilityDuration		1.5	1.5
+remainingLifeMinFactor		0

@@ -1,0 +1,26 @@
+field	1	2	3	4	5	6
+name
+raw
+
+class	HERO_FIRST
+levelsAmount
+lostOn
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath	Abilities\Weapons\PhoenixMissile\Phoenix_Missile_mini.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.NORMAL
+
+sfxPath	<DashEffect.wc3imp:target>
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW
+
+unitMod	ghost	ghost
+unitModVal	true	true
+
+unitMod	stun	stun
+unitModVal	true	true

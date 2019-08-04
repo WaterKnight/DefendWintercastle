@@ -1,0 +1,31 @@
+field	jass ident	1	2	3	4	5
+name		Fountain Heal
+raw		AFHD
+
+base		SPECIAL_Aeat
+class		NORMAL
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range		384.
+targets		structure,invulnerable,vulnerable
+
+buttonPosX
+buttonPosY
+hotkey
+icon
+lore
+sharedBuffs
+tooltip
+uberTooltip
+
+specials		Eat1=0
+specials		Eat2=0
+specials		Eat3=0

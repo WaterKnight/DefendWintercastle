@@ -1,0 +1,31 @@
+field	jass ident	1	2	3	4	5
+name		Spirit Wolves
+raw		ASpW
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		spiritwolf
+target		IMMEDIATE
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		22
+manaCost		125
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNSpiritWolf.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Summons two spiritual wolves that aid in combat for <duration> seconds.
+
+duration		40
+offset		70
+summonAmount		2

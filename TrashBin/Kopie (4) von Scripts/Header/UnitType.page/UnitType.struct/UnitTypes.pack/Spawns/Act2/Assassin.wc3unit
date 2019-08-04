@@ -1,0 +1,95 @@
+field	value
+name	Assassin
+raw	Ass
+
+classes
+hero	false
+structure	false
+team	ATTACKER
+
+model	Units\Spawns\Act2\Assassin\Assassin.mdx
+modelAttachPts
+modelAnims
+modelAttachMods	large
+modelBones
+standardScale	1.25
+
+elevPts	0
+elevRad	50.
+maxRoll	10.
+maxPitch	10.
+scale	1.1
+selScale	1.3
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	140.
+shadowHeight	140.
+shadowOffsetX	50.
+shadowOffsetY	50.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNHellScream.blp
+soundset	PandarenBrewmaster
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	135.
+turnRate	0.6
+height
+heightMin
+animWalk	250.
+animRun	250.
+moveInterp	5
+
+animBlend	0.15
+animCastWaitBefore	0.4
+animCastWaitAfter	0.5
+
+armorAmount	1.
+armorSound	Flesh
+armorType	UNARMORED
+life	240.
+lifeRegen	1.
+mana	200.
+manaRegen	3.
+spellPower	60.
+sightRange	1800.
+sightRangeNight	800.
+
+attackType	NORMAL
+attackCooldown	1.4
+attackRange	100.
+attackRangeAcq	500.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	0.35
+attackWaitAfter	0.
+attackSound	WoodHeavyBash
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	NORMAL
+damageAmount	10
+damageDices	2
+damageSides	6
+
+collisionSize	32.
+combatFlags	ground
+deathTime	2.5
+exp	100
+gold	30
+
+abilities	Spells\Act2\ColdResistance.page\ColdResistance.struct\thisSpell

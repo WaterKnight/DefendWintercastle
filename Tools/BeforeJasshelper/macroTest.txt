@@ -1,0 +1,67 @@
+    globals
+        WeatherType WEATHER_TYPE = STRUCT_BASE
+    endglobals
+    struct WeatherType
+        implement Allocation
+        implement List
+        implement Name
+    integer self
+    method GetSelf takes nothing returns integer
+        return this.self
+    endmethod
+    method SetSelf takes integer value returns nothing
+        set this.self = value
+    endmethod
+    static method Create takes integer self returns thistype
+        local thistype this = thistype.allocate()
+        call this.SetSelf(self)
+        return this
+    endmethod
+    static key GetKeyMacro_INIT_KEY_ARRAY
+    static constant integer INIT_KEY_ARRAY = Math.Integer.MIN + Memory.IntegerKeys.Table.OFFSET + GetKeyMacro_INIT_KEY_ARRAY * Memory.IntegerKeys.Table.SIZE
+    static method AddInit takes string c, string name returns nothing
+        call Trigger.AddObjectInit(INIT_KEY_ARRAY, c, name)
+    endmethod
+    static method Init takes nothing returns nothing
+    endmethod
+endstruct
+    globals
+        WeatherEffect WEATHER_EFFECT = STRUCT_BASE
+    endglobals
+    struct WeatherEffect
+        implement Allocation
+        implement List
+        implement Name
+    static thistype MOON
+    weathereffect self
+    method Destroy takes nothing returns nothing
+        local weathereffect self = this.self
+        call this.deallocate()
+        call RemoveWeatherEffect(self)
+        set self = null
+    endmethod
+    method Hide takes nothing returns nothing
+        call EnableWeatherEffect(this.self, false)
+    endmethod
+    method Show takes nothing returns nothing
+        call EnableWeatherEffect(this.self, true)
+    endmethod
+    static method Create takes Rectangle whichRect, WeatherType whichType returns thistype
+        local thistype this = thistype.allocate()
+        set this.self = AddWeatherEffect(whichRect.self, whichType.GetSelf())
+        return this
+    endmethod
+    eventMethod Event_AfterIntro
+        if params.User.GetTrigger().IsLocal() then
+            call thistype.MOON.Show()
+        endif
+    endmethod
+    eventMethod Event_Start
+        set thistype.MOON = thistype.Create(Rectangle.WORLD, thistype.MOON_TYPE)
+        call Event.Create(AfterIntro.FOR_PLAYER_EVENT_TYPE, EventPriority.HEADER, function thistype.Event_AfterIntro).AddToStatics()
+    endmethod
+    initMethod Init of Header_5
+        call WeatherType.Init()
+        call Event.Create(EventType.START, EventPriority.HEADER, function thistype.Event_Start).AddToStatics()
+    endmethod
+endstruct

@@ -1,0 +1,44 @@
+field	jass ident	1	2	3	4	5
+name		Panda Paw
+raw		APaP
+
+base		NORMAL
+class		HERO_ULTIMATE
+levelsAmount
+order		drunkenhaze
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		PP
+learnTooltip
+learnUberTooltip		Stormy furiously brandishes his paws and stick in all directions while rushing to the target point. On arrival, enemies will be shoved away by the accrued vortex, landing hard on ground or other obstacles. The dealt damage will be greater if the individual target is already weakened by negative buffs.	Stormy furiously brandishes his paws and stick in all directions while rushing to the target point. On arrival, enemies will be shoved away by the accrued vortex, landing hard on ground or other obstacles. The dealt damage will be greater if the individual target is already weakened by negative buffs.|n|nNext Level:|nAdditional damage per buff: <damagePerBuff<prevLevel>> --> <damagePerBuff>|nCooldown: <cooldown<prevLevel>> seconds --> <cooldown> seconds|nMana cost: <manaCost<prevLevel>> --> <manaCost>|nImpact speed damage factor: <impactDamageFactor<prevLevel>> --> <impactDamageFactor>
+
+animation		attack
+areaRange		400
+areaRangeDisplay		true
+channelTime
+cooldown		15	14	13
+manaCost		125	150	175
+range		600
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNBearForm.blp
+
+lore		Atatatatatata! Hokuto - Mom's ferocity. You wished you were already dead.
+sharedBuffs
+tooltip
+uberTooltip		Stormy furiously brandishes his paws and stick in all directions while rushing to the target point. On arrival, enemies will be shoved away by the accrued vortex, landing hard on ground or other obstacles for <impactDamageFactor> times their impact speed as damage plus <damagePerBuff> for each negative buff they are affected by.
+
+acceleration		500	500
+animationIncrement		1
+arrivalTolerance		5
+dummyUnitDuration		1
+dummyUnitOffset		-75
+effectInterval		0.125
+speed		500	500

@@ -1,0 +1,39 @@
+field	jass ident	1	2	3	4	5
+name		Violet Earring
+raw		AViE
+
+base		NORMAL
+class		ARTIFACT
+levelsAmount
+order		sanctuary
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw
+learnTooltip
+learnUberTooltip
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		40	38	36	34	32
+manaCost		0
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNHeartOfAszune.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		This dapper trinket instantly restores Lizzy's mana by <manaIncrement> and refreshes all her cooldowns.
+
+casterEffectAttachPoint		AttachPoint.ORIGIN
+casterEffectPath		Abilities\Spells\Other\Charm\CharmTarget.mdl
+manaIncrement		160	250	340	430	520

@@ -1,0 +1,24 @@
+field	value
+name	Lumber
+raw	Lum
+
+classes	POWER_UP
+
+model	Objects\InventoryItems\BundleofLumber\BundleofLumber.mdl
+scale	1.25
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	Can be burnt to restore the meteorite's energy or be used to make some upgrades.
+icon
+tooltip
+uberTooltip
+
+abilities
+armor
+chargesAmount
+cooldownGroup
+goldCost
+lumberCost

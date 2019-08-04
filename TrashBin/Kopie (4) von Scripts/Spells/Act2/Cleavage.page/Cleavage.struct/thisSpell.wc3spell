@@ -1,0 +1,30 @@
+field	jass ident	1	2	3	4	5
+name		Cleavage
+raw		AClv
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		evileye
+target		POINT
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		7
+manaCost		60
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNShockWave.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Unleashes a shocking waves dealing <damage> (<maxDamage> max) damage in lines.
+
+interval		0.035
+maxDamage		700

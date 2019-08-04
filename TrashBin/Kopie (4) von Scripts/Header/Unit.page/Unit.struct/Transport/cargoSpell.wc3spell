@@ -1,0 +1,17 @@
+field	jass ident	1
+name
+raw		ATra
+base		SPECIAL_Advc
+classes		DUMMY
+
+areaRange		0
+cooldown		0
+manaCost		0
+range		0
+targets		enemy,friend,invulnerable,neutral,vulnerable
+
+specials		adur=0
+specials		ahdu=0
+specials		Car1=1
+specials		Dev2=0
+specials		Dev3=0

@@ -1,0 +1,30 @@
+static UnitType SUMMON_UNIT_TYPE
+    
+    
+static method Init_obj_summonUnitType takes nothing returns nothing
+    local ObjThread t = ObjThread.Create("D:\\Warcraft III\\Maps\\DWC\\Scripts\\Spells\\Act2\\SpiritWolves.page\\SpiritWolves.struct\\summonUnitType.wc3unit")
+    set thistype.SUMMON_UNIT_TYPE = UnitType.Create('uSpW')
+    call thistype.SUMMON_UNIT_TYPE.Scale.Set(1.25)
+    call thistype.SUMMON_UNIT_TYPE.Impact.Z.Set(77.479338842975)
+    call thistype.SUMMON_UNIT_TYPE.Outpact.Z.Set(77.479338842975)
+    call thistype.SUMMON_UNIT_TYPE.Armor.Set(0)
+    call thistype.SUMMON_UNIT_TYPE.Armor.Type.Set(Attack.ARMOR_TYPE_LARGE)
+    call thistype.SUMMON_UNIT_TYPE.Life.Set(300)
+    call thistype.SUMMON_UNIT_TYPE.Life.SetBJ(300)
+    call thistype.SUMMON_UNIT_TYPE.LifeRegeneration.Set(0)
+    call thistype.SUMMON_UNIT_TYPE.SightRange.Set(1200)
+    call thistype.SUMMON_UNIT_TYPE.SightRange.SetBJ(1200)
+    call thistype.SUMMON_UNIT_TYPE.SpellPower.Set(45)
+    call thistype.SUMMON_UNIT_TYPE.Attack.Set(Attack.NORMAL)
+    call thistype.SUMMON_UNIT_TYPE.Attack.Range.Set(90)
+    call thistype.SUMMON_UNIT_TYPE.Attack.Speed.SetByCooldown(1)
+    call thistype.SUMMON_UNIT_TYPE.Damage.Delay.Set(0.33)
+    call thistype.SUMMON_UNIT_TYPE.Damage.Set(15)
+    call thistype.SUMMON_UNIT_TYPE.Damage.SetBJ(15)
+    call thistype.SUMMON_UNIT_TYPE.Damage.Dices.Set(1)
+    call thistype.SUMMON_UNIT_TYPE.Damage.Sides.Set(2)
+    call thistype.SUMMON_UNIT_TYPE.Damage.Type.Set(Attack.DMG_TYPE_NORMAL)
+    call thistype.SUMMON_UNIT_TYPE.CollisionSize.Set(41.322314049587)
+    call DebugEx("init " + "D:\\Warcraft III\\Maps\\DWC\\Scripts\\Spells\\Act2\\SpiritWolves.page\\SpiritWolves.struct\\summonUnitType.wc3unit")
+    call t.Destroy()
+endmethod

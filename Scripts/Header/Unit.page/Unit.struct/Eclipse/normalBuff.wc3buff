@@ -1,0 +1,18 @@
+field	1
+name	Eclipse
+raw	Ecl
+
+class	NORMAL
+levelsAmount
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNSoulGem.blp
+tooltip
+uberTooltip	This unit is caught in an eclipse. Its spell power is decreased by <this.wc3obj:spellPowerRelInc,-,%>, move speed by <this.wc3obj:speedRelInc,-,%> and mana regeneration by <this.wc3obj:manaRegenRelInc,-,%>.
+
+sfxPath	<TargetEffect.wc3imp:target>
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.NORMAL
+
+unitMod	vertexColorBonus
+unitModVal	{<this.wc3obj:redInc>,<this.wc3obj:greenInc>,<this.wc3obj:blueInc>,<this.wc3obj:alphaInc>}

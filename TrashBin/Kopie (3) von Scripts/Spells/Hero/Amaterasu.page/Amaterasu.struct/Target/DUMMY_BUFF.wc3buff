@@ -1,0 +1,15 @@
+field	1
+name
+raw
+
+class	HERO_ULTIMATE_EX
+levelsAmount	2
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath	Abilities\Spells\Undead\DeathandDecay\DeathandDecayDamage.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.NORMAL

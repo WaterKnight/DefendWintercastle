@@ -1,0 +1,19 @@
+field	1	2	3	4	5	6
+name	Silent Boots
+raw	SiB
+
+class	ARTIFACT
+levelsAmount
+lostOn	dispel;death
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNSlippersOfAgility.blp
+tooltip
+uberTooltip	This unit is stealthed and has increased movement speed.
+
+sfxPath	Abilities\Spells\Orc\SpiritLink\SpiritLinkTarget.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW
+
+unitMod	ghost	ghost
+unitModVal	true	true

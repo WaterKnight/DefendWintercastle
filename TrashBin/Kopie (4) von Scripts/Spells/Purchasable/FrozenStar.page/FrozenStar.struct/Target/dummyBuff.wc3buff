@@ -1,0 +1,16 @@
+field	1
+name	Frozen Star
+raw	FrS
+
+class	PURCHASABLE
+levelsAmount
+lostOn
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNBreathOfFrost.blp
+tooltip
+uberTooltip	This unit was recently affected by a cold shiver. It has problems to do fast movements.
+
+sfxPath
+sfxAttachPt
+sfxLevel

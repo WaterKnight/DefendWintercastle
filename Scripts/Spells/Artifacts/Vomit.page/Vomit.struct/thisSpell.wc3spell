@@ -1,0 +1,35 @@
+field	jass ident	1	2	3	4	5	6
+name		Vomit
+raw		Vom
+
+base		NORMAL
+class		ARTIFACT
+levelsAmount
+order		sanctuary
+target		UNIT
+
+animation		spell
+areaRange		125
+areaRangeDisplay		true
+channelTime
+cooldown		3
+manaCost		25	30	35	40	45	50
+range		700
+targets		air,enemies,ground,neutral,organic
+
+learnIcon
+learnRaw		VO
+learnTooltip
+learnUberTooltip		Spits a slimy ball in the target direction at a medium distance, affecting all enemies it passes through. Causes damage (physical) over time and applies the <POISON>poison</POISON> debuff.|nThe missile disintegrates on impact, dealing additional damage (physical) in a small area.
+learnUberTooltipUpgrades		{Initial damage,<primaryDamage>};{Damage over time,<Target\this.wc3obj:damageOverTime>};{Poison duration,<Target\this.wc3obj:poisonDuration> (<Target\this.wc3obj:poisonHeroDuration>) second(s)}
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNCorrosiveBreath.blp
+lore
+sharedBuffs		POISON
+tooltip
+uberTooltip		Spits a slimy ball in the target direction at a medium distance, affecting all enemies it passes through. Causes <Target\this.wc3obj:damageOverTime> damage (physical) over time and applies the <POISON>poison</POISON> debuff for <Target\this.wc3obj:poisonDuration> (<Target\this.wc3obj:poisonHeroDuration>) seconds.|nThe missile disintegrates on impact, dealing additional <primaryDamage> damage (physical) in an area of <areaRange>.
+
+primaryDamage		10	20	30	40	50	60

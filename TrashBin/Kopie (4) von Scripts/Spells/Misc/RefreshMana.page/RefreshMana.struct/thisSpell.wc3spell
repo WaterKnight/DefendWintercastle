@@ -1,0 +1,31 @@
+field	jass ident	1	2	3	4	5
+name		Refresh Mana
+raw		AReM
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		replenishmana
+target		IMMEDIATE
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		30
+manaCost		90
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNManaRecharge.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Shares energy bound in the meteorite to all hero defenders. Restores <manaFactor,%> mana.
+
+manaFactor		0.5
+targetEffectAttachPoint		AttachPoint.ORIGIN
+targetEffectPath		Abilities\Spells\Items\AIre\AIreTarget.mdl

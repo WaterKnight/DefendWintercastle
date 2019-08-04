@@ -1,0 +1,13 @@
+field	1
+name	Idrt
+raw	Idrt
+
+texPath	TerrainArt\Icecrown\Ice_Dirt.blp
+cliffSet
+
+walkable	true
+flyable	true
+buildable	true
+
+footprints	true
+blightPriority	2

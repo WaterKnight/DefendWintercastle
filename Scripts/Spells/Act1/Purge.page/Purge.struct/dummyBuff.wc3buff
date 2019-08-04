@@ -1,0 +1,19 @@
+field	1
+name	Purge
+raw	Pur
+
+class	NORMAL
+levelsAmount
+lostOn	dispel
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNPurge.blp
+tooltip
+uberTooltip	This unit was purged. Its buffs were removed and it is slowed for a couple of seconds, slowly regaining its movements.
+
+sfxPath	Abilities\Spells\Orc\Purge\PurgeBuffTarget.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW
+
+powerLevels	6
+speedInc	-0.7

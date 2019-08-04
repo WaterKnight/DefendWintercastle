@@ -1,0 +1,27 @@
+field	1
+name
+raw
+
+class	NORMAL
+levelsAmount
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath
+sfxAttachPt
+sfxLevel
+
+unitMod	attackSpeedBonus
+unitModVal	<this.wc3obj:attackSpeedInc>
+
+unitMod	healAbilityBonusRel
+unitModVal	<this.wc3obj:healAbilityInc>
+
+unitMod	lifeRegenBonusRel
+unitModVal	<this.wc3obj:lifeRegenRelInc>
+
+unitMod	moveSpeedBonusRel
+unitModVal	<this.wc3obj:speedRelInc>

@@ -1,0 +1,24 @@
+field	value
+name	Penguin Feather
+raw	PeF
+
+classes
+
+model	Objects\InventoryItems\TreasureChest\treasurechest.mdl
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	Fluffy and heat-insulating.
+icon	ReplaceableTextures\CommandButtons\BTNPenguin.blp
+tooltip	Purchase <name>
+uberTooltip	Heightens the evasion value by 35 and the intelligence by 3.|nUsing: Heals a target by 120.
+
+abilities	thisSpell
+armor
+chargesAmount
+cooldownGroup
+goldCost	300
+lumberCost	0

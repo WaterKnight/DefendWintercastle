@@ -1,0 +1,46 @@
+field	jass ident	1	2	3	4	5
+name		Redwood Valkyrie
+raw		ARwV
+
+base		NORMAL
+class		ARTIFACT
+levelsAmount
+order		sanctuary
+target		POINT_OR_UNIT
+
+animation		attack
+areaRange		80
+areaRangeDisplay		false
+channelTime
+cooldown		4
+manaCost		30	40	50	60	70
+range		900
+targets		enemies
+
+learnIcon
+learnRaw		RV
+learnTooltip
+learnUberTooltip		Launches a burning arrow in the target direction, impacting on the first colliding enemy unit. This foe receives damage in height depending on the caster's normal attack damage, subsequently it will be ignited.	Launches a burning arrow in the target direction, impacting on the first colliding enemy unit. This foe receives damage in height depending on the caster's normal attack damage, subsequently it will be ignited.|n|nNext Level:|n|nMana cost: <manaCost<prevLevel>> --> <manaCost>|nSingle damage: <damage<prevLevel>> --> <damage>|nSingle damage per attack damage: <damageDamageModFactor<prevLevel>> --> <damageDamageModFactor>|nSplash damage: <splashDamage<prevLevel>> --> <splashDamage>
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNFlamingArrows.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Launches a burning arrow in the target direction, impacting on the first colliding enemy unit. This foe receives damage in height of <damage> + <damageDamageModFactor> times the normal attack damage, subsequently will be ignited for <igniteDuration> seconds.
+
+damage		15	30	45	60	75
+damageDamageModFactor		1.75	2	2.25	2.5	2.75
+damageDistanceFactor		1
+igniteDuration		8
+launchEffectAttachPoint		AttachPoint.WEAPON
+launchEffectPath		Abilities\Spells\Other\Incinerate\IncinerateBuff.mdl
+missileEffectAttachPoint		AttachPoint.ORIGIN
+missileEffectPath		Abilities\Spells\Other\BreathOfFire\BreathOfFireDamage.mdl
+splashAreaRange		115	115
+splashDamage		20	30	40	50	60
+
+speed		1300
+acceleration		0

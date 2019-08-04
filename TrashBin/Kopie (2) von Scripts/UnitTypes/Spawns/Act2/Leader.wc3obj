@@ -1,0 +1,103 @@
+field	value
+name	Leader
+raw	Lea
+
+classes
+hero	true
+structure	false
+team	ATTACKER
+
+model	units\demon\ChaosWarlord\ChaosWarlord.mdx
+modelAttachPts
+modelAnims
+modelAttachMods	medium
+modelBones
+standardScale	1.
+
+elevPts	0
+elevRad	50.
+maxRoll	10.
+maxPitch	10.
+scale	1.25
+selScale	1.
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	120.
+shadowHeight	120.
+shadowOffsetX	60.
+shadowOffsetY	60.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNChaosWarlord.blp
+soundset	ChaosWarlord
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	150.
+turnRate	0.6
+height
+heightMin
+animWalk	240.
+animRun	240.
+moveInterp	4
+
+animBlend	0.15
+animCastWaitBefore	0.3
+animCastWaitAfter	0.51
+
+armorAmount	5.
+armorSound	Flesh
+armorType	HERO
+life	4000.
+lifeRegen	5.
+mana	200.
+manaRegen	2.5
+spellPower	90.
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	NORMAL
+attackCooldown	1.5
+attackRange	100.
+attackRangeAcq	500.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	0.5
+attackWaitAfter	0.
+attackSound	MetalMediumChop
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	HERO
+damageAmount	20
+damageDices	2
+damageSides	8
+
+collisionSize	32.
+combatFlags	ground
+deathTime	1.75
+exp	200
+gold	100
+
+heroAttribute
+heroAgi
+heroAgiUp
+heroInt
+heroIntUp
+heroStr
+heroStrUp
+heroArmorUp
+heroNames	Tokkan

@@ -1,0 +1,45 @@
+field	jass ident	1	2	3	4	5
+name		Hand of Nature
+raw		AHoN
+
+base		NORMAL
+class		HERO_SECOND
+levelsAmount
+order		entanglingroots
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		HN
+learnTooltip
+learnUberTooltip		Vitalizes the ground to spawn a Cobra Lily, simultaneously selecting up to two close enemy targets in order to entangle them with thorny roots, not letting go and dealing damage over time, plus decreasing their chance to evade attacks. In addition to it, Tajran's affinity to nature enables him to regain life and mana from killing foes.	Vitalizes the ground to spawn a Cobra Lily, simultaneously selecting up to two close enemy targets in order to entangle them with thorny roots, not letting go and dealing damage over time, plus decreasing their chance to evade attacks. In addition to it, Tajran's affinity to nature enables him to regain life and mana from killing foes.|n|nNext Level:|nDamage: <damage<prevLevel>> --> <damage>|nDuration: <duration<prevLevel>> seconds --> <duration> seconds|nEvasion decrement: <evasionIncrement<prevLevel>> --> <evasionIncrement>|nRegained life/mana per kill: <lifeHeal<prevLevel>>/<manaHeal<prevLevel>> --> <lifeHeal>/<manaHeal>|nMana cost: <manaCost<prevLevel>> --> <manaCost>
+
+animation		spell
+areaRange		250
+areaRangeDisplay		true
+channelTime
+cooldown		8
+manaCost		65	75	85	95	105
+range		650
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNEntanglingRoots.blp
+
+lore		Sacred mother, answer my plea and grant me the ability to retain the equilibrium of this world. Your clutches shall resolve the conflict. Take shape, earthen seeds!
+sharedBuffs
+tooltip
+uberTooltip		Vitalizes the ground to spawn a Cobra Lily, simultaneously raising the root system to entangle up to two close enemy targets for <duration> seconds, damaging them for <damage> every <damageInterval> seconds and lowering their evasion by <evasionIncrement>. Additionally, Tajran is granted <lifeHeal> life and <manaHeal> mana for each enemy he or any of his Lily finishes off.
+
+summonDuration		40
+moveInterval		0.05
+maxTargetsAmount		2
+specialEffectPath		Abilities\Weapons\TreantMissile\TreantMissile.mdl
+summonEffectPath		Objects\Spawnmodels\NightElf\EntBirthTarget\EntBirthTarget.mdl
+summonUnitTypes		UnitType.COBRA_LILY	UnitType.COBRA_LILY2	UnitType.COBRA_LILY3	UnitType.COBRA_LILY4	UnitType.COBRA_LILY5
+
+include		Buff;Heal

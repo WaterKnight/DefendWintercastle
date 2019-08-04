@@ -1,0 +1,14 @@
+field	jass ident	1	2	3	4	5	6
+burnedManaPerSecond		65	100	140	185	235	290
+damagePerSecond		40	60	80	100	120	140
+damageInterval		0.1
+damagePerMana		0.75	0.75
+stunOverDuration		0.5	0.5
+targetExplosionEffectPath		Abilities\Weapons\LichMissile\LichMissile.mdx
+targetExplosionEffectAttachPoint		AttachPoint.CHEST
+transferedManaFactor		0.5
+
+summonDuration		25	25
+summonDeathEffectPath		Objects\Spawnmodels\Undead\UndeadLargeDeathExplode\UndeadLargeDeathExplode.mdl
+summonEffectAttachPoint		AttachPoint.ORIGIN
+summonEffectPath		Abilities\Spells\Undead\AnimateDead\AnimateDeadTarget.mdl

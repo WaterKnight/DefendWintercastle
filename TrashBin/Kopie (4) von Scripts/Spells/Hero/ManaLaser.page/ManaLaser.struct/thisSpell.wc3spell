@@ -1,0 +1,46 @@
+field	jass ident	1	2	3	4	5
+name		Mana Laser
+raw		AMaL
+
+base		NORMAL
+class		HERO_FIRST
+levelsAmount
+order		manaburn
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		ML
+learnTooltip
+learnUberTooltip		Liz launches an arcan wave and rides on its back by transforming herself into energy. Any enemy that comes in contact will be acquired by the stream that jumbles their mana up. The first <dispelledTargetsAmount> targets will be purged from positive buffs and slow down.	Liz launches an arcan wave and rides on its back by transforming herself into energy. Any enemy that comes in contact will be acquired by the stream that jumbles their mana up. The first <dispelledTargetsAmount> targets will be purged from positive buffs and slow down.|n|nNext Level:|nBurned mana: <burnedManaMax<prevLevel>> --> <burnedManaMax>|nMana cost: <manaCost<prevLevel>> --> <manaCost>
+
+animation		spell
+areaRange		200
+areaRangeDisplay		true
+channelTime
+cooldown		15
+manaCost		90	105	120	135	150
+range		99999
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNManaBurn.blp
+
+lore
+sharedBuffs
+tooltip
+uberTooltip		Liz launches an arcan wave and rides on its back by transforming herself into energy. Any enemy that comes in contact will be acquired by the stream that jumbles their mana up. The first <dispelledTargetsAmount> targets will be purged from positive buffs and slow down.
+
+burnedManaMax		50	80	110	140	180
+dispelledTargetsAmount		3	3	4	4	5
+effectLightningPath		MBUR
+height		50
+maxLength		650	650
+speed		900	900
+startOffset		90
+targetEffectAttachPoint		AttachPoint.ORIGIN
+targetEffectPath		Abilities\Spells\NightElf\ManaBurn\ManaBurnTarget.mdl

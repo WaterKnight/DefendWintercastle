@@ -1,0 +1,4 @@
+field	1
+type	skin
+src	HumanUITile02.blp
+target	UI\Console\Human\HumanUITile02.blp

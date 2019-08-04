@@ -1,0 +1,31 @@
+static UnitType array SUMMON_UNIT_TYPE
+    
+    
+static method Init_obj_summonUnitType5 takes nothing returns nothing
+    local ObjThread t = ObjThread.Create("D:\\Warcraft III\\Maps\\DWC\\Scripts\\Spells\\Purchasable\\GhostSword.page\\GhostSword.struct\\summonUnitType[5].wc3unit")
+    set thistype.SUMMON_UNIT_TYPE[5] = UnitType.Create('uGh5')
+    call thistype.SUMMON_UNIT_TYPE[5].Scale.Set(1)
+    call thistype.SUMMON_UNIT_TYPE[5].Impact.Z.Set(60)
+    call thistype.SUMMON_UNIT_TYPE[5].Outpact.Z.Set(60)
+    call thistype.SUMMON_UNIT_TYPE[5].Speed.Set(220)
+    call thistype.SUMMON_UNIT_TYPE[5].Armor.Set(1)
+    call thistype.SUMMON_UNIT_TYPE[5].Armor.Type.Set(Attack.ARMOR_TYPE_MEDIUM)
+    call thistype.SUMMON_UNIT_TYPE[5].Life.Set(350)
+    call thistype.SUMMON_UNIT_TYPE[5].Life.SetBJ(350)
+    call thistype.SUMMON_UNIT_TYPE[5].LifeRegeneration.Set(0)
+    call thistype.SUMMON_UNIT_TYPE[5].SightRange.Set(1400)
+    call thistype.SUMMON_UNIT_TYPE[5].SightRange.SetBJ(1400)
+    call thistype.SUMMON_UNIT_TYPE[5].SpellPower.Set(80)
+    call thistype.SUMMON_UNIT_TYPE[5].Attack.Set(Attack.NORMAL)
+    call thistype.SUMMON_UNIT_TYPE[5].Attack.Range.Set(128)
+    call thistype.SUMMON_UNIT_TYPE[5].Attack.Speed.SetByCooldown(1.7)
+    call thistype.SUMMON_UNIT_TYPE[5].Damage.Delay.Set(0.3)
+    call thistype.SUMMON_UNIT_TYPE[5].Damage.Set(10)
+    call thistype.SUMMON_UNIT_TYPE[5].Damage.SetBJ(10)
+    call thistype.SUMMON_UNIT_TYPE[5].Damage.Dices.Set(2)
+    call thistype.SUMMON_UNIT_TYPE[5].Damage.Sides.Set(2)
+    call thistype.SUMMON_UNIT_TYPE[5].Damage.Type.Set(Attack.DMG_TYPE_NORMAL)
+    call thistype.SUMMON_UNIT_TYPE[5].CollisionSize.Set(20)
+    call DebugEx("init " + "D:\\Warcraft III\\Maps\\DWC\\Scripts\\Spells\\Purchasable\\GhostSword.page\\GhostSword.struct\\summonUnitType[5].wc3unit")
+    call t.Destroy()
+endmethod

@@ -1,0 +1,17 @@
+field	1
+name
+raw	Sil
+
+base	SPECIAL_BNdo
+class	NORMAL
+classes	DUMMY
+levelsAmount
+positive
+
+icon	ReplaceableTextures\CommandButtons\BTNSilence.blp
+tooltip	Silenced
+uberTooltip	This unit has lost its voice; it cannot cast any spells.
+
+sfxPath
+sfxAttachPt
+sfxLevel

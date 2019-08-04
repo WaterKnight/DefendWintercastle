@@ -1,0 +1,93 @@
+field	value
+name	Ice Troll
+raw	IcT
+
+classes
+hero	false
+structure	false
+team	ATTACKER
+
+model	units\creeps\IceTroll\IceTroll.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.
+
+elevPts	0
+elevRad	30.
+maxRoll	10.
+maxPitch	10.
+scale	1.25
+selScale	1.
+vertexColorRed	190
+vertexColorGreen	255
+vertexColorBlue	255
+vertexColorAlpha	255
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	FLY
+shadowWidth	100.
+shadowHeight	100.
+shadowOffsetX	45.
+shadowOffsetY	45.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNIceTroll.blp
+soundset	IceTroll
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	145.
+turnRate	0.5
+height
+heightMin
+animWalk	270.
+animRun	270.
+moveInterp	5
+
+animBlend	0.15
+animCastWaitBefore	0.5
+animCastWaitAfter	0.51
+
+armorAmount	1.
+armorSound	Flesh
+armorType	MEDIUM
+life	70.
+lifeRegen	0.75
+mana
+manaRegen
+spellPower	20.
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	MISSILE
+attackCooldown	1.6
+attackRange	500.
+attackRangeAcq	600.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,air,item,ward
+attackWaitBefore	0.3
+attackWaitAfter	0.
+attackSound
+
+attackMissileModel	Abilities\Weapons\Axe\AxeMissile.mdl
+attackMissileSpeed	1200.
+attackMissileArc	0.15
+
+damageType	PIERCE
+damageAmount	8
+damageDices	2
+damageSides	2
+
+collisionSize	32.
+combatFlags	ground
+deathTime	3.
+exp	30
+gold	6

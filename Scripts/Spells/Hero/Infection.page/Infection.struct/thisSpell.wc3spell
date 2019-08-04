@@ -1,0 +1,40 @@
+field	jass ident	1	2	3	4	5	6
+name		Infection
+raw		Ifc
+
+base		NORMAL
+class		HERO_SECOND
+levelsAmount
+order		stoneform
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		In
+learnTooltip
+learnUberTooltip		When this spell is activated, <Drakul:name> obtains a boost in spell power. Normal attacks infect the target, <POISON>poisoning</POISON> it, reducing armor and spawning a descendant of with the shape of Drakul upon death. Furthermore, attacks go through the primary target to hit those behind it in a cone for some minor damage.
+learnUberTooltipUpgrades		{Duration,<duration,asSecs>}
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		13
+manaCost		50	62	74	86	98	110
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNDoom.blp
+lore
+sharedBuffs		POISON
+tooltip
+uberTooltip		When this spell is activated, <Drakul:name> obtains a boost in spell power of <spellPowerInc>. Normal attacks infect the target, <POISON>poisoning</POISON> it, reducing armor by <Target\this.wc3obj:armorInc,-> and spawning a descendant of Drakul upon death. Furthermore, attacks go through the primary target to hit those behind it in a cone for <Cone\this.wc3obj:damage> damage.|nCaster buff lasts <duration> seconds, target buff <Target\this.wc3obj:duration> seconds, summon lives for <Summon\this.wc3obj:duration> seconds.|nYou can have up to <Summon\this.wc3obj:maxAmount> summons as a maximum.
+
+duration		8	8	9	9	10	10
+manaLeechInc		3	5	7	9	11	13
+spellPowerInc		0	0

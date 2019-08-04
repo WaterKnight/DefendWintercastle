@@ -1,0 +1,28 @@
+field	jass ident	1
+name		Attack Ground
+raw
+profileIdent		CmdAttackGround
+
+base
+classes		DUMMY
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX		3
+buttonPosY		1
+hotkey		G
+icon		CommandAttackGround
+lore
+sharedBuffs
+tooltip		(<color=GOLD><hotkey></color>) <color=DWC><name></color>
+uberTooltip		Directs the unit to fire at the target position.

@@ -1,0 +1,43 @@
+field	jass ident	1	2	3	4	5
+name		Conflagration
+raw		ACon
+
+base		NORMAL
+class		HERO_FIRST
+levelsAmount
+order		breathoffire
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		CB
+learnTooltip
+learnUberTooltip
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		9
+manaCost		20	30	40	50	60
+range		500	550	600	650	700
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNWallOfFire.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip
+
+damage		35	60	85	110	135
+offset		100
+ignitionDuration		4	4.5	5	5.5	6
+maxLength		400	425	450	475	500
+speed		650
+widthEnd		300
+widthStart		0

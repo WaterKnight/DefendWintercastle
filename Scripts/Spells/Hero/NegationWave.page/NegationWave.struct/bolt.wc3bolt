@@ -1,0 +1,13 @@
+field	1
+raw	NeW
+
+texPath	ReplaceableTextures\Weather\LightningForked.blp
+avgSegLen	100
+width	50
+red	255
+green	255
+blue	255
+alpha	255
+noiseScale	0.05
+texCoordScale	0.5
+duration	2

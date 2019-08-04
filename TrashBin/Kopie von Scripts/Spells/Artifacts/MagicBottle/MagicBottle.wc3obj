@@ -1,0 +1,40 @@
+field	jass ident	1	2	3	4	5
+name		Magic Bottle
+raw		AMaB
+
+base		NORMAL
+class		ARTIFACT
+levelsAmount
+order		sanctuary
+target		UNIT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw
+learnTooltip
+learnUberTooltip
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		16
+manaCost		55	75	95	115	125
+range		700
+targets		air,friend,ground,invulnerable,organic,self,vulnerable
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNPotionOfOmniscience.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		A stimulating shake is thrown to an allied unit, temporarily boosting the target's spellpower by <spellPowerIncrement> and restoring <manaIncrement> mana.|nLasts <duration> seconds.
+
+staminaIncrement		25	35	45	55	60
+staminaRelativeIncrement		0.05
+
+include		Buff

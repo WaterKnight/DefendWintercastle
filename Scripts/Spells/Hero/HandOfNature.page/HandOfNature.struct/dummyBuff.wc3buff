@@ -1,0 +1,16 @@
+field	1
+name	Hand of Nature (Lily)
+raw
+
+class	HERO_SECOND
+levelsAmount
+lostOn
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath
+sfxAttachPt
+sfxLevel

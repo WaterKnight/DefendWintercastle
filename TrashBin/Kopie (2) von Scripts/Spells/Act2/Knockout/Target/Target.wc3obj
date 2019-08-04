@@ -1,0 +1,4 @@
+field	jass ident	1
+buffDuration		5
+damage		30
+stunDuration		2

@@ -1,0 +1,5 @@
+field	jass ident	1
+name
+raw		Loc
+base		SPECIAL_Aloc
+classes		DUMMY

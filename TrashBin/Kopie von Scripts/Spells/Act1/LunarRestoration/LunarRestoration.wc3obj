@@ -1,0 +1,29 @@
+field	jass ident	1	2	3	4	5
+name		Lunar Restoration
+raw		ALuR
+
+base		PASSIVE
+class		NORMAL
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost		100
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\PassiveButtons\PASBTNElunesBlessing.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		For a cost of <manaCost> mana, this unit will be automatically reincarnated on death.
+
+include		Revival

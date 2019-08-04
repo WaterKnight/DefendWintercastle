@@ -1,0 +1,8 @@
+field	jass ident	1
+name
+raw		Aid4
+base		SPECIAL_AIaa
+classes		DUMMY
+
+specials		Iaa1=16
+specials		acat=

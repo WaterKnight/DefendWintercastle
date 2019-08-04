@@ -1,0 +1,5 @@
+field	jass ident	1
+duration		4.5
+lifeFactor		0.3
+manaFactor		0.3
+specialEffectPath		Abilities\Spells\Orc\Reincarnation\ReincarnationTarget.mdl

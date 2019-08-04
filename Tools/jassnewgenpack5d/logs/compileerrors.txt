@@ -1,0 +1,5 @@
+logs\currentmapscript.j
+JASSHelper - Step 2 (structs)
+Line 72364: MAX_RANGE is not a member of AILetOff
+Line 72364: (At generated code): constant real s__AILetOff_MAX_RANGE_SQUARE=  AILetOff.MAX_RANGE * AILetOff.MAX_RANGE
+1

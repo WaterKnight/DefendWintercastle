@@ -1,0 +1,10 @@
+-jungle
+-tooltips
+-lower terrain
+
+tomes
+-1 vigor
+-1 focus
+-1 animus
+
+animus +spellvamp? +spelldmg?

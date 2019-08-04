@@ -1,0 +1,98 @@
+field	value
+name	Flower of Hope
+raw	SnM
+
+classes	NEUTRAL;STRUCTURE
+hero	false
+structure	true
+team	OTHER
+
+model	<Flower.wc3imp:target>
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.
+
+elevPts	4
+elevRad	50.
+maxRoll	0.
+maxPitch	0.
+scale	2.
+selScale	1.5
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	20.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	BuildingShadowSmall
+shadowWidth
+shadowHeight
+shadowOffsetX
+shadowOffsetY
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNSheep.blp
+soundset
+tooltip
+uberTooltip
+
+moveType
+moveSpeed
+turnRate
+height
+heightMin
+animWalk
+animRun
+moveInterp
+
+animBlend	0.15
+animCastWaitBefore	0.
+animCastWaitAfter	0.51
+
+armorAmount	0.
+armorSound	Wood
+armorType	MEDIUM
+life	200.
+lifeRegen	0.
+mana
+manaRegen
+spellPower	25.
+sightRange	1500.
+sightRangeNight	1500.
+
+attackType
+attackCooldown
+attackRange
+attackRangeAcq
+attackRangeBuffer	0.
+attackTargetFlags
+attackWaitBefore
+attackWaitAfter
+attackSound
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType
+damageAmount
+damageDices
+damageSides
+
+collisionSize
+combatFlags	ground,structure
+deathTime	3.
+exp
+gold	30
+
+
+structurePathTex
+structureSoldItems
+structureUbersplat

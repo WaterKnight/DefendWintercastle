@@ -1,0 +1,5 @@
+field	jass ident	1
+name		HeroSpellReplacerBuff
+raw		BHSR
+base		SPECIAL_BNeg
+classes		DUMMY

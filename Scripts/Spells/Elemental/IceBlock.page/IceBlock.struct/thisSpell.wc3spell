@@ -1,0 +1,39 @@
+field	jass ident	1	2	3	4	5
+name		Ice Block
+raw		IcB
+
+base		NORMAL
+class		ELEMENTAL
+levelsAmount
+order		hex
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw
+learnTooltip
+learnUberTooltip		Constrains the caster in a cubicle of ice, rendering him/her untouchable and non-actable. In this state, the caster is granted an additional life regeneration.
+learnUberTooltipUpgades		{Life regeneration bonus,<lifeRegenInc>};{Duration,<duration,asSecs>}
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		15
+manaCost		30	35	40	45	50
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNIcyTreasureBox.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Constrains the caster in a cubicle of ice, rendering him/her untouchable and non-actable for <duration> seconds. In this state, the caster is granted an additional life regeneration of <lifeRegenInc>.
+
+duration		5	5.5	6	6.5	7
+lifeRegenInc		5	10	15	20	25

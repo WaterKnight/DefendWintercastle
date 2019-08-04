@@ -1,0 +1,16 @@
+field	1
+name	Mine
+raw	SMB
+
+class
+levelsAmount
+lostOn	death
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNGoblinLandMine.blp
+tooltip
+uberTooltip	Goes boom.
+
+sfxPath	<PointingArrow.wc3imp:target>
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW

@@ -1,0 +1,16 @@
+field	1
+name	Boost
+raw	Boo
+
+class	NORMAL
+levelsAmount
+lostOn	dispel
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNEtherealFormOn.blp
+tooltip
+uberTooltip	This unit is boosted.
+
+sfxPath	Spells\Boost\Buff.mdx
+sfxAttachPt	AttachPoint.FOOT
+sfxLevel	EffectLevel.LOW

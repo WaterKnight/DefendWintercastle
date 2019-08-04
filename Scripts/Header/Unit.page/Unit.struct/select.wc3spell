@@ -1,0 +1,11 @@
+field	jass ident	1
+name
+raw
+base
+classes		DUMMY
+profileIdent		Anei
+
+buttonPosX		3
+buttonPosY		2
+icon		ReplaceableTextures\CommandButtons\BTNSelectUnit.blp
+tooltip		Select unit

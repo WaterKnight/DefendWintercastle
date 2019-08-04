@@ -1,0 +1,30 @@
+field	jass ident	1
+name		Warp
+raw		wrp
+
+base		SPECIAL_Awrp
+classes		DUMMY
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon
+lore
+sharedBuffs
+tooltip
+uberTooltip
+
+specials		Wrp1=0
+specials		Wrp2=0

@@ -1,0 +1,32 @@
+field	jass ident	1	2	3	4	5
+name		Burning Oil
+raw		ABuO
+
+base		SPECIAL_AIll
+class		NORMAL
+levelsAmount
+order
+target
+
+animation
+areaRange		140
+areaRangeDisplay		false
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\PassiveButtons\PASBTNFireRocks.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Artillery attacks ignite the ground for <duration> seconds.
+
+damagePerSecond		26
+duration		6
+interval		0.75
+specialEffectPath		Abilities\Spells\Orc\LiquidFire\Liquidfire.mdl

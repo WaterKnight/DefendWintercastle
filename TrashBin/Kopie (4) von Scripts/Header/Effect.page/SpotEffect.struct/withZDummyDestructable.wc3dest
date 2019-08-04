@@ -1,0 +1,44 @@
+field	value
+name
+raw	EfL
+
+classes	DUMMY
+
+model	Doodads\Terrain\InvisiblePlatform\InvisiblePlatform.mdl
+modelLightweight
+modelPortrait
+modelVariations
+
+flyHeight
+occluderHeight
+replaceableTex
+replaceableTexId
+selScale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+
+elevRad
+maxRoll
+maxPitch
+
+minimapDisplay
+minimapRed
+minimapGreen
+minimapBlue
+
+deathSound
+shadow
+
+armor
+fatLOS
+fogRad
+fogVisibility
+life
+selectable
+
+pathTex
+pathTexDead
+combatFlags
+cliffLevel
+walkable	true

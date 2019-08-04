@@ -1,0 +1,28 @@
+field	jass ident	1
+name		Select Hero Skill
+raw
+profileIdent		CmdSelectSkill
+
+base
+classes		DUMMY
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX		3
+buttonPosY		1
+hotkey		L
+icon		CommandNewSkill
+lore
+sharedBuffs
+tooltip		(<color=GOLD><hotkey></color>) <color=DWC><name></color>
+uberTooltip		Learn new hero abilities by spending skill points in this menu.

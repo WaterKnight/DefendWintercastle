@@ -1,0 +1,6 @@
+field	jass ident	1	2	3	4	5
+damage		40
+duration		3	3.5	4	4.5	5
+evasionIncrement		-40	-50	-60	-70	-80
+heroDuration		1
+damageInterval	INTERVAL	0.5

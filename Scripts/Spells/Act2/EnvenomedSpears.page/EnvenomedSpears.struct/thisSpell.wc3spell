@@ -1,0 +1,27 @@
+field	jass ident	1
+name		Envenomed Spears
+raw		EnS
+
+base		PASSIVE
+class		NORMAL
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\PassiveButtons\PASBTNEnvenomedSpear.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Applies some poison to this unit's spear to tranfer it to attacked targets. The poison deals <Target\this.wc3obj:damagePerSecond> damage per second and remains <Target\this.wc3obj:duration> (<Target\this.wc3obj:heroDuration>) seconds.

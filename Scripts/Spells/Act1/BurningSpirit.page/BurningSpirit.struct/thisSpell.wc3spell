@@ -1,0 +1,29 @@
+field	jass ident	1
+name		Burning Spirit
+raw		BuT
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		bloodlust
+target		UNIT
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		10
+manaCost		50
+range
+targets		air,friend,ground,invulnerable,organic,vulnerable
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNIncinerate.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Boosts an allied unit's attack speed by <this.wc3obj:attackSpeedInc,%>, move speed by <this.wc3obj:moveSpeedRelInc,%> and critical value by <this.wc3obj:critInc>.|nLasts <duration> seconds.
+
+duration		8

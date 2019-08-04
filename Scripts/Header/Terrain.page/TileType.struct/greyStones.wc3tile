@@ -1,0 +1,13 @@
+field	1
+name	Ggrs
+raw	Ggrs
+
+texPath	TerrainArt\Dungeon2\GGreyStones.blp
+cliffSet
+
+walkable	true
+flyable	true
+buildable	false
+
+footprints	true
+blightPriority	7

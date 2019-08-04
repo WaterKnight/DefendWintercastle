@@ -1,0 +1,24 @@
+field	value
+name	Boomerang Stone
+raw	BoS
+
+classes
+
+model	Objects\InventoryItems\TreasureChest\treasurechest.mdl
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	A clingy stone that finds its way back to its owner after being thrown.
+icon	ReplaceableTextures\CommandButtons\BTNGolemStormBolt.blp
+tooltip	Purchase <name>
+uberTooltip	Is thrown to the target to deal 40 damage and to paralyze it but then immediately turns back at you and stuns you too.
+
+abilities	thisSpell
+armor
+chargesAmount
+cooldownGroup
+goldCost	250
+lumberCost	0

@@ -1,0 +1,16 @@
+field	1
+name	Crippled
+raw	Crp
+
+class	HERO_SECOND
+levelsAmount	5
+lostOn	dispel
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNDispelMagic.blp
+tooltip
+uberTooltip	This unit is weakened by '<name>', reduced armor and attack speed.
+
+sfxPath	Spells\Crippling\Target.mdx
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW

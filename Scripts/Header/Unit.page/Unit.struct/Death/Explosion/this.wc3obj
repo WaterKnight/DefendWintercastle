@@ -1,0 +1,3 @@
+field	jassIdent	1
+commonBloodExplosionPath		<commonBloodExplosion.wc3imp:target>
+damageLifeFactor		0.6

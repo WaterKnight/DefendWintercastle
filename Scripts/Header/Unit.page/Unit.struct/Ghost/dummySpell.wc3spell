@@ -1,0 +1,8 @@
+field	jass ident	1
+name
+raw		Aeth
+base		SPECIAL_Aeth
+classes		DUMMY
+
+specials		Eth1=0
+specials		Eth2=0

@@ -1,0 +1,1 @@
+To enable RtC in a map, import RtCCommon.j as "Scripts\Common.j" in your map and save.

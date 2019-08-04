@@ -1,0 +1,4 @@
+field	jass ident	1	2	3	4	5
+damagePerShard	DAMAGE	7	13	21	31	43
+maxLength		400	500	600	700	800
+speed		700

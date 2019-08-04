@@ -1,0 +1,24 @@
+field	value
+name	Tropical Rainbow
+raw	TrR
+
+classes	POWER_UP
+
+model	Objects\InventoryItems\TreasureChest\treasurechest.mdl
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	Healthy common drink that shimmers in different colors.
+icon	ReplaceableTextures\CommandButtons\BTNSnazzyPotion.blp
+tooltip	Grab a <name>
+uberTooltip	Multivitamin drink that boosts damage, movement speed and spellpower by 20%, life regeneration and mana regeneration by 50%.|nLasts 60 seconds.
+
+abilities	ATrR
+armor
+chargesAmount	1
+cooldownGroup
+goldCost
+lumberCost

@@ -1,0 +1,24 @@
+field	value
+name	Horse Ride
+raw	HoR
+
+classes
+
+model
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description
+icon	ReplaceableTextures\CommandButtons\BTNRiderlessHorse.blp
+tooltip	Mount a horse
+uberTooltip	The horse carries you to its target location. You cannot act or be attacked meanwhile.
+
+abilities
+armor
+chargesAmount
+cooldownGroup
+goldCost	100
+lumberCost	0

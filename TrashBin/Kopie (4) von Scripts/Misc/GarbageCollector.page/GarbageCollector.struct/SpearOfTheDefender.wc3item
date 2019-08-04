@@ -1,0 +1,24 @@
+field	value
+name	Spear of the Defender
+raw	SoD
+
+classes
+
+model	Objects\InventoryItems\TreasureChest\treasurechest.mdl
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	A long spear with a sharp point.
+icon	ReplaceableTextures\CommandButtons\BTNThoriumRanged.blp
+tooltip	Purchase <name>
+uberTooltip	Adds 50 bonus damage but also lowers the attack rate by 20%. Grants 20% more armor and there is a chance to wound the target for 50 damage over 10 seconds.
+
+abilities
+armor
+chargesAmount
+cooldownGroup
+goldCost	1000
+lumberCost	0

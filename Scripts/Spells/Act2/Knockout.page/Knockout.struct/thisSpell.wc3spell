@@ -1,0 +1,27 @@
+field	jass ident	1
+name		Knockout
+raw		Kno
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		thunderbolt
+target		UNIT
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		12
+manaCost		80
+range		700
+targets		enemies
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNSeaGiantPulverize.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Launches oneself onto a hostile unit, thereby stunning it for <Target\this.wc3obj:stunDuration> seconds and dealing <Target\this.wc3obj:damage> damage. The stun effect can occur every <Target\this.wc3obj:buffDuration> seconds only.

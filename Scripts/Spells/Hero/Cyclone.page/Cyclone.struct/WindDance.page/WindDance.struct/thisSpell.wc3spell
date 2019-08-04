@@ -1,0 +1,29 @@
+field	jass ident	1	2	3
+name		Wind Dance
+raw		WiD
+
+base		PASSIVE
+class
+levelsAmount
+order
+target
+
+learnUberTooltipUpgrades		{this.wc3obj:damagePerSecond,Damage per second}
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		<icon.wc3imp:target>
+lore
+sharedBuffs
+tooltip
+uberTooltip

@@ -1,0 +1,24 @@
+field	value
+name	Robyn's Hood
+raw	RoH
+
+classes
+
+model	Objects\InventoryItems\TreasureChest\treasurechest.mdl
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	Simple leather clothing.
+icon	ReplaceableTextures\CommandButtons\BTNHoodOfCunning.blp
+tooltip	Purchase <name>
+uberTooltip	Heightens your armor by 4 and agility by 2.
+
+abilities
+armor
+chargesAmount
+cooldownGroup
+goldCost	320
+lumberCost	0

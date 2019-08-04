@@ -1,0 +1,6 @@
+field	jass ident	1	2	3	4	5
+duration		30
+healFactor	DURATION	0.5
+invulnerabilityDuration		1.5
+remainingLifeMinFactor		0
+summonUnitTypes		UnitType.POLAR_BEAR	UnitType.POLAR_BEAR2	UnitType.POLAR_BEAR3	UnitType.POLAR_BEAR4	UnitType.POLAR_BEAR5

@@ -1,0 +1,46 @@
+field	jass ident	1	2	3	4	5
+name		Avatar
+raw		AAva
+
+base		NORMAL
+class		HERO_ULTIMATE
+levelsAmount
+order		avatar
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Av
+learnTooltip
+learnUberTooltip		Turns Rocketeye into Avatarform, greatly boosting his armor, damage and max life. Also adds a life leech effect and magic immunity.	Turns Rocketeye into Avatarform, greatly boosting his armor, damage and max life. Also adds a life leech effect and magic immunity.|n|nNext Level:|nArmor increment: <armorIncrement<prevLevel>> --> <armorIncrement>|nDamage increment: <damageIncrement<prevLevel>> --> <damageIncrement>|nLife increment: <lifeIncrement<prevLevel>> --> <lifeIncrement>|nLife leech: <lifeLeechIncrement<prevLevel>> --> <lifeLeechIncrement>|nDuration: <duration<prevLevel>> seconds --> <duration> seconds
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		70
+manaCost		125
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNAvatar.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Turns Rocketeye into Avatarform, boosting his armor by <armorIncrement>, the damage by <damageIncrement> and max life by <lifeIncrement>. Also adds a life leech effect (<lifeLeechIncrement> hitpoints per hit) and magic immunity.|nLasts <duration> seconds.
+
+armorIncrement		5	7.5	10
+damageIncrement		20	30	40
+duration		30	45	60
+lifeIncrement		500	750	1000
+lifeLeechIncrement		5	10	15
+lifeLeechSpellPowerModFactor		0.125
+lifeSpellPowerModFactor		3
+scaleDuration		1
+scaleIncrement		0.3	0.5	0.7
+specialEffectPath		Abilities\Spells\Human\Avatar\AvatarCaster.mdl

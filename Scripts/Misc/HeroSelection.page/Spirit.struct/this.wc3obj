@@ -1,0 +1,8 @@
+field	jass ident	1
+dist		125
+height		200
+angleSpeed	real	0.25 * Math.FULL_ANGLE
+possessionEffectPath		Abilities\Spells\Undead\Possession\PossessionMissile.mdx
+possessionEffectAttachPoint		AttachPoint.CHEST
+possessionDeflectEffectPath		Abilities\Spells\Items\SpellShieldAmulet\SpellShieldCaster.mdx
+possessionDeflectEffectAttachPoint		AttachPoint.CHEST

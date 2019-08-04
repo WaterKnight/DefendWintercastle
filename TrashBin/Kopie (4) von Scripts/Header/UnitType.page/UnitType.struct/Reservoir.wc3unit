@@ -1,0 +1,100 @@
+field	value
+name	Reservoir
+raw	Res
+
+classes	NEUTRAL;STRUCTURE
+hero	false
+structure	true
+team	DEFENDER
+
+model	buildings\nightelf\MoonWell\MoonWell.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.
+
+elevPts	4
+elevRad	50.
+maxRoll	0.
+maxPitch	0.
+scale	1.1
+selScale	3.
+vertexColorRed	150
+vertexColorGreen	200
+vertexColorBlue	255
+vertexColorAlpha	255
+
+impactZ	120.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	ShadowMoonWell
+shadowWidth	0.
+shadowHeight	0.
+shadowOffsetX	0.
+shadowOffsetY	0.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNMoonWell.blp
+soundset	MoonWell
+tooltip
+uberTooltip
+
+moveType
+moveSpeed
+turnRate
+height
+heightMin
+animWalk
+animRun
+moveInterp
+
+animBlend	0.15
+animCastWaitBefore	0.
+animCastWaitAfter	0.51
+
+armorAmount	0.
+armorSound	Stone
+armorType	FORT
+life	INFINITE
+lifeRegen	0.
+mana	200.
+manaRegen	2.
+spellPower
+sightRange	300.
+sightRangeNight	300.
+
+attackType
+attackCooldown
+attackRange
+attackRangeAcq	0.
+attackRangeBuffer
+attackTargetFlags
+attackWaitBefore
+attackWaitAfter
+attackSound
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType
+damageAmount
+damageDices
+damageSides
+
+collisionSize
+combatFlags	structure
+deathTime	2.34
+exp
+gold
+
+
+structurePathTex	PathTextures\8x8Default.tga
+structureSoldItems
+structureUbersplat	ESMB
+
+abilities	Spells\Misc\Invulnerability.page\Invulnerability.struct\thisSpell;Spells\Misc\FountainHeal.page\FountainHeal.struct\thisSpell

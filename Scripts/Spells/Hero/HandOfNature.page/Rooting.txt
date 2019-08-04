@@ -1,0 +1,61 @@
+//! runtextmacro BaseStruct("Rooting, "ROOTING")
+    //! runtextmacro CreateHumanEyeTime("4")
+
+    real x
+    real y
+
+    method Ending takes nothing returns nothing
+        call this.deallocate()
+    endmethod
+
+    static method Interval takes nothing returns nothing
+        local thistype this = Timer.GetExpired().GetData()
+
+        local integer effectAligment = -this.effectAlignment
+        local real x = this.x
+        local real y = this.y
+
+        local real dX = target.Position.X.Get() - x
+        local real dY = target.Position.Y.Get() - y
+
+        local real angle = Math.Atan2(dY, dX)
+        local real d = Math.DistanceSquareByDeltas(dX, dY)
+
+        if (d > thistype.LENGTH_SQUARE) then
+            set x = x + thistype.LENGTH * Math.Cos(angle)
+            set y = y + thistype.LENGTH * Math.Sin(angle)
+
+            set this.effectAlignment = effectAlignment
+            set this.x = x
+            set this.y = y
+            call Spot.CreateEffect(x + effectAlignment * Math.Random(25., 50.), y + effectAlignment * Math.Random(25., 50.), thistype.SPECIAL_EFFECT_PATH, EffectLevel.NORMAL).Destroy()
+        else
+            call this.Ending()
+        endif
+    endmethod
+
+    static method Event_SpellEffect takes nothing returns nothing
+        local Unit caster = UNIT.Event.GetTrigger()
+        local Timer durationTimer = Timer.Create()
+        local Timer intervalTimer = Timer.Create()
+        local Unit targetUnit = UNIT.Event.GetTarget()
+        local thistype this = thistype.allocate()
+
+        set this.effectAlignment = 1
+        set this.x = caster.Position.X.Get()
+        set this.y = caster.Position.Y.Get()
+        call durationTimer.SetData(this)
+        call intervalTimer.SetData(this)
+
+        call target.Refs.Add()
+
+        call intervalTimer.Start(thistype.INTERVAL, true, function thistype.Interval)
+    endmethod
+
+    static method Init takes nothing returns nothing
+        set thistype.LENGTH = thistype.SPEED * thistype.UPDATE_TIME
+        call thistype.THIS_SPELL.Event.Add(Event.Create(UNIT.Abilities.Events.Effect.DUMMY_EVENT_TYPE, EventPriority.SPELLS, function thistype.Event_SpellEffect))
+
+        set thistype.LENGTH_SQUARE = thistype.LENGTH * thistype.LENGTH
+    endmethod
+endstruct

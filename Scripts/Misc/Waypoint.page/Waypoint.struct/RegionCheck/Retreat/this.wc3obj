@@ -1,0 +1,4 @@
+field	jass ident	1
+duration		5
+lifeRegenRelInc		4
+moveSpeedRelInc		0.5

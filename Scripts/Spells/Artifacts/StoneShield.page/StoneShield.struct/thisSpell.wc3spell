@@ -1,0 +1,44 @@
+field	jass ident	1	2	3	4	5	6
+name		Stone Shield
+raw		StS
+
+base		NORMAL
+class		ARTIFACT
+levelsAmount
+order		sanctuary
+target		UNIT
+
+animation		spell
+areaRange
+areaRangeDisplay		false
+channelTime
+cooldown		8
+manaCost		35	45	55	65	75	85
+range		700
+targets		friend,vulnerable,invulnerable
+
+learnIcon
+learnRaw		Sh
+learnTooltip
+learnUberTooltip		Raises an enchanted stone to rotate around the target unit, protecting it and boosting its armor.|nThe stone shrinks weaker over the duration as it explodes within intervals, dealing damage (physical, focus dependent) to nearby enemies each time.
+learnUberTooltipUpgrades		{Armor bonus,<armorInc>};{Damage per interval,<damage> (+<damagePerFocus> * focus)};{Duration,<duration,asSecs>}
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNArcaniteArmor.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Raises an enchanted stone to rotate around the target unit, protecting it and boosting its armor by <armorInc> initially.|nThe stone shrinks weaker over the duration of <duration> seconds as it explodes within <powerLevels> intervals, dealing <damage> damage (physical, +<damagePerFocus> * focus) to nearby enemies each time.
+
+armorInc		10	15	20	25	30	35
+damage		2	4	6	8	10	12
+damagePerFocus		0.5	0.5
+duration		10	10
+explosionEffectPath		Abilities\Weapons\ChimaeraLightningMissile\ChimaeraLightningMissile.mdl
+hitRange		32
+powerLevels		10
+speed		800	800
+targetEffectPath		Abilities\Weapons\WingedSerpentMissile\WingedSerpentMissile.mdl
+targetEffectAttachPoint		AttachPoint.CHEST

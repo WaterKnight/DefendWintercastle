@@ -1,0 +1,43 @@
+field	jass ident	1	2	3	4	5	6
+name		Warcry
+raw		Wac
+
+base		NORMAL
+class		HERO_FIRST
+levelsAmount
+order		roar
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		BR
+learnTooltip
+learnUberTooltip		Enforces the battle strength by buffing the attack damage of all nearby allied units (depending on vigor). Enemies in the same area will be disarmed for a short amount of time and lose a percentage of their remaining life (depending on the distance to the caster).
+learnUberTooltipUpgrades		{Damage close,<damageLifeFactor,*<rangeFactorClose>> * target remaining life};{Damage far,<damageLifeFactor,*<rangeFactorFar>> * target remaining life};{Attack damage bonus,<Target\this.wc3obj:dmgInc> (+<Target\this.wc3obj:dmgIncPerVigor>)};{Attack bonus duration,<Target\this.wc3obj:duration,asSecs>}
+
+animation		spell
+areaRange		450
+areaRangeDisplay		false
+cooldown		15
+channelTime
+manaCost		80	92	104	116	128	140
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNBattleRoar.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Buffs the attack damage of friends around the caster by <Target\this.wc3obj:dmgInc> (<Target\this.wc3obj:dmgIncPerVigor> * vigor) for <Target\this.wc3obj:duration> seconds while damaging enemies for <damageLifeFactor,%> of their remaining life (decreases down to <rangeFactorFar,%> of that with further range) and disarming them for <attackDisableDuration> seconds.
+
+attackDisableDuration		2	2
+damageLifeFactor		0.04	0.05	0.06	0.07	0.08	0.09
+specialEffectPath		Abilities\Spells\NightElf\BattleRoar\RoarCaster.mdl
+
+rangeFactorFar		0.3
+rangeFactorClose		1

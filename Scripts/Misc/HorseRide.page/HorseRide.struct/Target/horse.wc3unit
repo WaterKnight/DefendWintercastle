@@ -1,0 +1,44 @@
+field	value
+name
+raw	HoR
+
+classes	DUMMY
+hero
+structure
+team
+
+model	Units\Human\KnightNoRider\KnightNoRider.mdl
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale
+
+elevPts
+elevRad
+maxRoll	20
+maxPitch	20
+scale	1
+selScale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+shadowPath
+shadowWidth
+shadowHeight
+shadowOffsetX
+shadowOffsetY
+
+moveType
+moveSpeed	500
+turnRate	1.2
+height
+heightMin
+animWalk
+animRun
+moveInterp
+
+sightRange	800
+sightRangeNight	800

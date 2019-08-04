@@ -1,0 +1,4 @@
+field	jass ident	1
+manaRegenBonus		0.2
+maxManaBonus		15
+spellPowerBonus		2

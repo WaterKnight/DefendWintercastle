@@ -1,0 +1,3 @@
+lua printTableTest.lua
+
+pause

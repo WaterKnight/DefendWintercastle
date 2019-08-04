@@ -1,0 +1,94 @@
+field	value
+name	Mana Colossus (Level 2)
+raw	MC2
+
+classes
+hero	false
+structure	false
+team	DEFENDER
+
+model	units\undead\Abomination\Abomination.mdx
+modelAttachPts
+modelAnims
+modelAttachMods	large
+modelBones
+standardScale	0.9
+
+elevPts	0
+elevRad	50.
+maxRoll	10.
+maxPitch	10.
+scale	1.8
+selScale	2.1
+vertexColorRed	127
+vertexColorGreen	163
+vertexColorBlue	255
+vertexColorAlpha	200
+
+impactZ	100.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	230.
+shadowHeight	230.
+shadowOffsetX	95.
+shadowOffsetY	95.
+
+attachments
+blood
+bloodExplosion	Units\Undead\Abomination\AbominationExplosion.mdx
+icon	ReplaceableTextures\CommandButtons\BTNAbomination.blp
+soundset	Abomination
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	160.
+turnRate	0.4
+height
+heightMin
+animWalk	210.
+animRun	210.
+moveInterp	1
+
+animBlend	0.3
+animCastWaitBefore	0.3
+animCastWaitAfter	0.51
+
+armorAmount	10.
+armorSound	Flesh
+armorType	LARGE
+life	1500.
+lifeRegen	0.
+mana
+manaRegen
+spellPower	150.
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	NORMAL
+attackCooldown	2.25
+attackRange	250.
+attackRangeAcq	500.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	0.5
+attackWaitAfter	0.
+attackSound	MetalHeavyChop
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	NORMAL
+damageAmount	60
+damageDices	5
+damageSides	8
+
+collisionSize	48.
+combatFlags	ground
+deathTime	2.17
+exp
+gold

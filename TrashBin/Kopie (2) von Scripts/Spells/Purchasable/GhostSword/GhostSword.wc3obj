@@ -1,0 +1,48 @@
+field	jass ident	1	2	3	4	5
+name		Ghost Sword
+raw		AGhS
+
+base		NORMAL
+class		PURCHASABLE
+levelsAmount
+order		summonwareagle
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		GS
+learnTooltip
+learnUberTooltip
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		12
+manaCost		40	50	60	70	80
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNThoriumMelee.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip
+
+damageFactor		1	1.5	2	2.5	3
+deathEffectAttachPoint		AttachPoint.WEAPON
+deathEffectPath		Abilities\Spells\NightElf\Blink\BlinkCaster.mdl
+duration		25
+stolenMana		10	15	20	25	30
+summonEffectAttachPoint		AttachPoint.WEAPON
+summonEffectPath		Abilities\Spells\NightElf\Blink\BlinkCaster.mdl
+summonOffset		100
+summonUnitTypes		UnitType.GHOST_SWORD	UnitType.GHOST_SWORD2	UnitType.GHOST_SWORD3	UnitType.GHOST_SWORD4	UnitType.GHOST_SWORD5
+summonsAmount		2	2	3	3	4
+victimEffectAttachPoint		AttachPoint.ORIGIN
+victimEffectPath		Abilities\Spells\Human\Feedback\ArcaneTowerAttack.mdl

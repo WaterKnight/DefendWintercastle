@@ -1,0 +1,95 @@
+field	value
+name	Fountain of Life and Death
+raw	FLD
+
+classes
+hero	false
+structure	false
+team
+
+model	<Fountain.wc3imp:target>
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.
+
+elevPts	0
+elevRad	0.
+maxRoll	0.
+maxPitch	0.
+scale	1
+selScale	2.5
+vertexColorRed	255
+vertexColorGreen	255
+vertexColorBlue	255
+vertexColorAlpha	255
+
+impactZ	100.
+outpactX	0.
+outpactY	0.
+outpactZ	100.
+
+shadowPath
+shadowWidth	150.
+shadowHeight	150.
+shadowOffsetX	70.
+shadowOffsetY	70.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNFountainOfLife.blp
+soundset
+tooltip
+uberTooltip
+
+moveType
+moveSpeed	1
+turnRate
+height
+heightMin
+animWalk
+animRun
+moveInterp
+
+animBlend	0.15
+animCastWaitBefore	0.3
+animCastWaitAfter	0.51
+
+armorAmount	0.
+armorSound	Stone
+armorType	FORT
+life	INFINITE
+lifeRegen	0.
+mana	1000
+manaRegen	5
+spellPower	1000.
+sightRange	1200.
+sightRangeNight	800.
+
+attackType
+attackCooldown
+attackRange
+attackRangeAcq
+attackRangeBuffer
+attackTargetFlags
+attackWaitBefore
+attackWaitAfter
+attackSound
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType
+damageAmount
+damageDices
+damageSides
+
+collisionSize	150.
+combatFlags	structure
+deathTime	3.
+exp
+gold
+
+abilities	Invulnerability

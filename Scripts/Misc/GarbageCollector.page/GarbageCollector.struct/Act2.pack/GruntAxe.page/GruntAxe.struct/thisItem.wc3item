@@ -1,0 +1,24 @@
+field	value
+name	Grunt Axe
+raw	GrA
+
+classes
+
+model	Objects\InventoryItems\TreasureChest\treasurechest.mdl
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	A rough metal axe, that is more heavy than sharp.
+icon	ReplaceableTextures\CommandButtons\BTNOrcMeleeUpOne.blp
+tooltip	Purchase <name>
+uberTooltip	Increases the damage by 8 and the critical value strike by 50.
+
+abilities
+armor
+chargesAmount
+cooldownGroup
+goldCost	280
+lumberCost	0

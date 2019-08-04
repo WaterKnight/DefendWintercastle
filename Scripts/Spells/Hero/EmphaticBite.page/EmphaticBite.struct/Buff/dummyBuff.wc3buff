@@ -1,0 +1,19 @@
+field	1	2	3	4	5	6
+name	Emphatic Bite
+raw	EmB
+
+class	HERO_FIRST
+levelsAmount
+lostOn
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNCannibalize.blp
+tooltip
+uberTooltip	This unit's attack damage is increased by the '<name>' ability.
+
+sfxPath	Abilities\Spells\Orc\Bloodlust\BloodlustTarget.mdl
+sfxAttachPt	AttachPoint.WEAPON
+sfxLevel	EffectLevel.LOW
+
+unitMod	dmgBonusRel	dmgBonusRel
+unitModVal	<this.wc3obj:dmgRelInc>	<this.wc3obj:dmgRelInc>

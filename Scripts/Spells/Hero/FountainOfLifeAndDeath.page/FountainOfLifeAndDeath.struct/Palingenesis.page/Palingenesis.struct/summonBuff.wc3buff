@@ -1,0 +1,16 @@
+field	1
+name	Revived
+raw	FDL
+
+class
+levelsAmount
+lostOn
+positive
+
+icon	ReplaceableTextures\CommandButtons\BTNAnimateDead.blp
+tooltip
+uberTooltip	This unit was brought back to life.
+
+sfxPath
+sfxAttachPt
+sfxLevel

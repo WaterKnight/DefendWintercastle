@@ -1,0 +1,41 @@
+field	jass ident	1	2	3
+name		Fountain of Life and Death
+raw		FLD
+
+base		NORMAL
+class		HERO_ULTIMATE_EX
+levelsAmount
+order		blink
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		FL
+learnTooltip
+learnUberTooltip		Summons a fountain that possesses two abilities.|n<DecayAura:name>: <DecayAura:learnUberTooltip>|n<Palingenesis:name>: <Palingenesis:learnUberTooltip>
+learnUberTooltipUpgrades		{Summon duration,<duration,asSecs>}
+
+animation		spell
+areaRange		500	600	700
+areaRangeDisplay		true
+channelTime
+cooldown		120	110	100
+manaCost		300	375	450
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNFountainOfLife.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Summons a fountain that possesses two abilities.|n<DecayAura:name>: <DecayAura:uberTooltip>|n|n<Palingenesis:name>: <Palingenesis:uberTooltip>
+
+castEffectPath		Abilities\Spells\Demon\DarkPortal\DarkPortalTarget.mdl
+delay		3
+height		400
+duration		30	45	60

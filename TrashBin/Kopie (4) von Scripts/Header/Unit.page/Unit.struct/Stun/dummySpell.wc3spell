@@ -1,0 +1,17 @@
+field	jass ident	1
+name
+raw		AStn
+base		SPECIAL_AHtb
+classes		DUMMY
+
+cooldown		0
+manaCost		0
+range		99999
+targets		ground,enemies,friend,structure,air,neutral,invulnerable,vulnerable,ward
+
+specials		abuf=BStn
+specials		adur=0
+specials		ahdu=0
+specials		amat=
+specials		amsp=0
+specials		Htb1=0

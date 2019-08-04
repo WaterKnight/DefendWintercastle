@@ -1,0 +1,45 @@
+field	jass ident	1	2	3	4	5	6
+name		Tempest Strike
+raw		TeS
+
+base		NORMAL
+class		HERO_FIRST
+levelsAmount
+order		evileye
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Te
+learnTooltip
+learnUberTooltip		Slices through a short distance to dash in the target direction. Encountering units will be damaged (physical, proccs damage event) and if at least one unit is hit, <Smokealot:name> will gain an attack speed bonus.|n'<name>' lifts the cooldown of '<SapphireblueDagger:name>'.
+learnUberTooltipUpgrades		{Damage,<damage>};{Distance,<length>};{Attack speed bonus,<CriticalAttacks\this.wc3obj:attackSpeedInc,%>};{Attack bonus duration,<CriticalAttacks\this.wc3obj:duration,asSecs>}
+
+animation		spell
+areaRange		90
+areaRangeDisplay		false
+channelTime
+cooldown		10
+manaCost		70	85	100	115	130	145
+range		99999
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNCleavingAttack.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Slices through a short distance to dash in the target direction. Encountering units will be damaged by <damage> (physical, proccs damage event) and if at least one unit is hit, <Smokealot:name> will gain a <CriticalAttacks\this.wc3obj:attackSpeedInc,%> attack speed bonus for <CriticalAttacks\this.wc3obj:duration> seconds.|n'<name>' lifts the cooldown of '<SapphireblueDagger:name>'.
+
+damage		30	60	90	120	150	180
+duration	real	1
+length	real	450
+speedEnd	real	1700
+specialEffectAttachPoint		AttachPoint.FOOT
+specialEffectPath		<Afterburn.wc3imp:target>
+targetEffectAttachPoint		AttachPoint.CHEST
+targetEffectPath		Abilities\Spells\Other\Stampede\StampedeMissileDeath.mdl

@@ -1,0 +1,103 @@
+field	value
+name	True Leader
+raw	TrL
+
+classes
+hero	true
+structure	false
+team	ATTACKER
+
+model	units\other\Proudmoore\Proudmoore.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.25
+
+elevPts	0
+elevRad	30.
+maxRoll	10.
+maxPitch	10.
+scale	1.25
+selScale	1.1
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	100.
+shadowHeight	100.
+shadowOffsetX	50.
+shadowOffsetY	50.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNHeroPaladin.blp
+soundset	Proudmoore
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	180.
+turnRate	1.
+height
+heightMin
+animWalk	200.
+animRun	200.
+moveInterp	5
+
+animBlend	0.15
+animCastWaitBefore	0.5
+animCastWaitAfter	1.67
+
+armorAmount	7.
+armorSound	Metal
+armorType	HERO
+life	2500.
+lifeRegen	5.
+mana	200.
+manaRegen	2.5
+spellPower	120.
+sightRange	1800.
+sightRangeNight	800.
+
+attackType	NORMAL
+attackCooldown	2.2
+attackRange	100.
+attackRangeAcq	500.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	0.433
+attackWaitAfter	0.
+attackSound	MetalHeavySlice
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	HERO
+damageAmount	30
+damageDices	2
+damageSides	6
+
+collisionSize	32.
+combatFlags	ground
+deathTime	1.5
+exp	200
+gold	100
+
+heroAttribute
+heroAgi
+heroAgiUp
+heroInt
+heroIntUp
+heroStr
+heroStrUp
+heroArmorUp
+heroNames	Crook

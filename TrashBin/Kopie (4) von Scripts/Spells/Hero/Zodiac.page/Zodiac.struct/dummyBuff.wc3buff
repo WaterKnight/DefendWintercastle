@@ -1,0 +1,16 @@
+field	1
+name	Zodiac
+raw	ZoB
+
+class	HERO_FIRST
+levelsAmount
+lostOn	dispel
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNRacoon.blp
+tooltip
+uberTooltip	Animal friends of nature protect this unit.
+
+sfxPath	Units\NightElf\Owl\Owl.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW

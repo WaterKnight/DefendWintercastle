@@ -1,0 +1,3 @@
+lua createSpells.lua
+
+pause

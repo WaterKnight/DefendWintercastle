@@ -1,0 +1,93 @@
+field	value
+name	Gnoll Mage
+raw	GnM
+
+classes
+hero	false
+structure	false
+team	ATTACKER
+
+model	units\creeps\GnollWarden\GnollWarden.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.5
+
+elevPts	0
+elevRad	30.
+maxRoll	10.
+maxPitch	10.
+scale	1.25
+selScale	1.
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	140.
+shadowHeight	140.
+shadowOffsetX	50.
+shadowOffsetY	50.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNGnollWarden.blp
+soundset	Gnoll
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	135.
+turnRate	0.5
+height
+heightMin
+animWalk	200.
+animRun	200.
+moveInterp	5
+
+animBlend	0.15
+animCastWaitBefore	0.6
+animCastWaitAfter	1.23
+
+armorAmount	0.
+armorSound	Flesh
+armorType	LIGHT
+life	85.
+lifeRegen	1.5
+mana	90.
+manaRegen	1.
+spellPower	40.
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	MISSILE
+attackCooldown	1.6
+attackRange	500.
+attackRangeAcq	500.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,air,item,ward
+attackWaitBefore	0.3
+attackWaitAfter	0.
+attackSound
+
+attackMissileModel	Abilities\Weapons\FarseerMissile\FarseerMissile.mdx
+attackMissileSpeed	1200.
+attackMissileArc	0.15
+
+damageType	MAGIC
+damageAmount	7
+damageDices	1
+damageSides	5
+
+collisionSize	32.
+combatFlags	ground
+deathTime	3.
+exp	35
+gold	7

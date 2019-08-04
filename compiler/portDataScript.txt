@@ -1,0 +1,11 @@
+
+rd "D:\Warcraft III\Mapping\DWC\compiler\Build" /s /q
+
+mkdir Build
+
+e "D:\Warcraft III\Mapping\DWC\compiler\input.w3x" * "D:\Warcraft III\Mapping\DWC\compiler\Build" /fp
+
+del "D:\Warcraft III\Mapping\DWC\compiler\Build\(attributes)"
+del "D:\Warcraft III\Mapping\DWC\compiler\Build\(listfile)"
+exit
+

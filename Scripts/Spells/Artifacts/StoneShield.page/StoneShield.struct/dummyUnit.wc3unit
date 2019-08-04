@@ -1,0 +1,93 @@
+field	value
+name
+raw	StS
+
+classes	DUMMY
+hero
+structure
+team
+
+model	Abilities\Spells\Other\Volcano\VolcanoMissile.mdl
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale
+
+elevPts
+elevRad
+maxRoll
+maxPitch
+scale
+selScale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ
+outpactX
+outpactY
+outpactZ
+
+shadowPath	FLY
+shadowWidth	40
+shadowHeight	40
+shadowOffsetX	20
+shadowOffsetY	20
+
+attachments
+blood
+icon
+soundset
+tooltip
+uberTooltip
+
+moveType
+moveSpeed
+turnRate
+height
+heightMin
+animWalk
+animRun
+moveInterp
+
+animBlend
+animCastWaitBefore
+animCastWaitAfter
+
+armorAmount
+armorSound
+armorType
+life
+lifeRegen
+mana
+manaRegen
+spellPower
+sightRange
+sightRangeNight
+
+attackType
+attackCooldown
+attackRange
+attackRangeAcq
+attackRangeBuffer
+attackTargetFlags
+attackWaitBefore
+attackWaitAfter
+attackSound
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType
+damageAmount
+damageDices
+damageSides
+
+collisionSize
+combatFlags
+deathTime
+exp
+gold

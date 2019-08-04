@@ -1,0 +1,16 @@
+field	1
+name	Lightning Shield
+raw	LiS
+
+class	NORMAL
+levelsAmount
+lostOn	dispel
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNLightningShield.blp
+tooltip
+uberTooltip	An electrically charged shield is surround this unit. Nearby entities take damage.
+
+sfxPath	Abilities\Spells\Orc\LightningShield\LightningShieldTarget.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW

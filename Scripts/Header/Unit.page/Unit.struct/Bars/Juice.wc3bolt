@@ -1,0 +1,14 @@
+field	1
+raw	BaJ
+classes	DUMMY
+
+texPath	<Juice.wc3imp:target>
+avgSegLen	1
+width	5
+red	255
+green	255
+blue	255
+alpha	255
+noiseScale	0
+texCoordScale	0
+duration	99999

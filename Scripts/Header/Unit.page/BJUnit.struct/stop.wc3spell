@@ -1,0 +1,28 @@
+field	jass ident	1
+name		Stop
+raw
+profileIdent		CmdStop
+
+base
+classes		DUMMY
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX		1
+buttonPosY		0
+hotkey		S
+icon		CommandStop
+lore
+sharedBuffs
+tooltip		(<color=GOLD><hotkey></color>) <color=DWC><name></color>
+uberTooltip		Cancels any of the unit's ongoing order.

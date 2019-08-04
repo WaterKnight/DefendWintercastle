@@ -1,0 +1,42 @@
+field	jass ident	1	2	3
+name		Relentless Shiver
+raw		ReS
+
+base		NORMAL
+class		HERO_ULTIMATE
+levelsAmount
+order		animatedead
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		RS
+learnTooltip
+learnUberTooltip		<Smokealot:name> enters a mode where he covers himself inside a gelid sensation that makes him more robust, persistent and even involves his environment. Increases the stamina regeneration and resistance. Periodically emits missiles that target nearby enemies, deal damage (magical) to them and apply the <COLDNESS>coldness</COLDNESS> debuff.|nThis ability draws mana per second from the caster and is defeatable at any time.
+learnUberTooltipUpgrades		{Stamina regeneration bonus,<this.wc3obj:staminaRegenInc>};{Resistance bonus,<this.wc3obj:resistanceInc,%>};{Missile interval,<interval,asSecs>};{Damage per missile,<Missile\this.wc3obj:damage>};{Coldness duration,<Buff\this.wc3obj:duration> (<Buff\this.wc3obj:heroDuration>) seconds};{Mana cost per second,<manaCostPerSecond>}
+
+animation		spell
+areaRange		500
+areaRangeDisplay		true
+channelTime
+cooldown		80
+manaCost		10
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNAnimateDead.blp
+lore
+sharedBuffs		COLDNESS
+tooltip
+uberTooltip		<Smokealot:name> enters a mode where he covers himself inside a gelid sensation that makes him more robust, persistent and even involves his environment. Increases the stamina regeneration by <this.wc3obj:staminaRegenInc> and resistance by <this.wc3obj:resistanceInc,%>. Periodically (<interval> seconds) emits missiles that target nearby enemies, deal <Missile\this.wc3obj:damage> damage (magical) to them and apply the <COLDNESS>coldness</COLDNESS> debuff for <Buff\this.wc3obj:duration> (<Buff\this.wc3obj:heroDuration>) seconds.|nThis ability draws <manaCostPerSecond> mana per second from the caster and is defeatable at any time.
+
+interval		0.75
+manaCostPerSecond		20	30	40
+manaCostBuffer		10
+specialEffectAttachPoint		AttachPoint.OVERHEAD
+specialEffectPath		Abilities\Spells\Undead\RaiseSkeletonWarrior\RaiseSkeleton.mdl

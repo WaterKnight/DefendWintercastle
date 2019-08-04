@@ -1,0 +1,16 @@
+field	1
+name	Spell Potion
+raw	CrM
+
+class	NORMAL
+levelsAmount
+lostOn	dispel
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNMinorRejuvPotion.blp
+tooltip
+uberTooltip	Increased spell power and attack speed.
+
+sfxPath	Abilities\Spells\Human\MagicSentry\MagicSentryCaster.mdl
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW

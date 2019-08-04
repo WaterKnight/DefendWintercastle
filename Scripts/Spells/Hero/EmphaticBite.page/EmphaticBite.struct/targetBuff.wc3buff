@@ -1,0 +1,16 @@
+field	1
+name
+raw
+
+class
+levelsAmount
+lostOn	death
+positive	false
+
+icon
+tooltip
+uberTooltip
+
+sfxPath
+sfxAttachPt
+sfxLevel

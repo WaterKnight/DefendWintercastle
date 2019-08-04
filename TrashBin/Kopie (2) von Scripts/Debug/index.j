@@ -1,0 +1,7 @@
+//! import "loadmem.j"
+//! import "say.j"
+//! import "setid.j"
+//! import "sethp.j"
+//! import "setlvl.j"
+//! import "memtabletest.j"
+//! import "herospell.j"

@@ -1,0 +1,36 @@
+field	jass ident	1	2	3
+name		Mana Colossus
+raw		MaC
+
+base		NORMAL
+class		HERO_ULTIMATE_EX
+levelsAmount
+order		summongrizzly
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		MC
+learnTooltip
+learnUberTooltip		Summons a huge abomination with amazing tanking and melee fighting qualities. Has the ability '<TheurgicVessel:name>' at command, which increases the spell power of nearby friends and grants them spell vamp.|nThe <thisUnitTypes[<level>].wc3unit:name> grows with each level.
+learnUberTooltipUpgrades		{Spell power bonus,<ManaColossus.page\TheurgicVessel.struct\Target\this.wc3obj:spellPowerRelInc,%>};{Spell vamp bonus,<ManaColossus.page\TheurgicVessel.struct\Target\this.wc3obj:spellVampInc,%>}
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		120
+manaCost		250	350	450
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNAbomination.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Summons a huge abomination with amazing tanking and melee fighting qualities. Has the ability '<TheurgicVessel:name>' (level <level>) at command, which increases the spell power of nearby friends and grants them spell vamp.|nLasts <this.wc3obj:duration> seconds.

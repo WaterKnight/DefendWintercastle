@@ -1,0 +1,30 @@
+field	jass ident	1
+name		Stormbolt
+raw		Stb
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		thunderbolt
+target		UNIT
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		15
+manaCost		80
+range		700
+targets		air,enemies,ground,neutral
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNStormBolt.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Throws a mighty hammer to deal <damage> damage to the target unit and to stun it for <duration> seconds.
+
+damage		100
+duration		3

@@ -1,0 +1,16 @@
+field	1
+name	Relentless Shiver
+raw	DRB
+
+class	HERO_ULTIMATE
+levelsAmount
+lostOn
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNAnimateDead.blp
+tooltip
+uberTooltip	This unit frantically shivers and will be reawakened for Smokealot upon death.
+
+sfxPath	Abilities\Spells\NightElf\shadowstrike\shadowstrike.mdl
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW

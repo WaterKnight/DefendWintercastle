@@ -1,0 +1,4 @@
+field	jass ident	1
+attackSpeedInc		1
+duration		60
+specialEffectPath		Abilities\Spells\NightElf\BattleRoar\RoarCaster.mdx

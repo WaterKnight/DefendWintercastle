@@ -1,0 +1,15 @@
+field	jass ident	1
+name		Attack Disabled
+raw		ADAI
+
+base		SPECIAL_Agyb
+classes		DUMMY
+
+buttonPosX		3
+buttonPosY		0
+hotkey
+icon		<disabledIcon.wc3imp:target>
+lore
+sharedBuffs
+tooltip		Attack
+uberTooltip		Your attack is disabled due to an effect.

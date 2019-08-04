@@ -1,0 +1,7 @@
+field	jass ident	1
+name
+raw		Iid0
+base		SPECIAL_manh
+classes		DUMMY
+
+specials		iabi=Aiz0;ipow=1

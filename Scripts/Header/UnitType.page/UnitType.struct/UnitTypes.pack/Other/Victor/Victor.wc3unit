@@ -1,0 +1,93 @@
+field	value
+name	Victor
+raw	Vic
+
+classes	NEUTRAL
+hero	false
+structure	false
+team	DEFENDER
+
+model	units\critters\VillagerMan1\VillagerMan1.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.2
+
+elevPts	0
+elevRad	20.
+maxRoll	10.
+maxPitch	10.
+scale	1.2
+selScale	1.
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	140.
+shadowHeight	140.
+shadowOffsetX	50.
+shadowOffsetY	50.
+
+attachments	<Hammer.wc3imp:target>;HAND_RIGHT;LOW
+blood
+icon	ReplaceableTextures\CommandButtons\BTNVillagerMan1.blp
+soundset	VillagerMan2
+tooltip
+uberTooltip
+
+moveType
+moveSpeed
+turnRate
+height
+heightMin
+animWalk
+animRun
+moveInterp
+
+animBlend	0.15
+animCastWaitBefore	0.
+animCastWaitAfter	0.51
+
+armorAmount	0.
+armorSound	Metal
+armorType	LARGE
+life	200.
+lifeRegen	0.
+mana
+manaRegen
+spellPower	300.
+sightRange	500.
+sightRangeNight	500.
+
+attackType
+attackCooldown
+attackRange
+attackRangeAcq	0.
+attackRangeBuffer
+attackTargetFlags
+attackWaitBefore
+attackWaitAfter
+attackSound
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType
+damageAmount
+damageDices
+damageSides
+
+collisionSize
+combatFlags
+deathTime	3.
+exp
+gold

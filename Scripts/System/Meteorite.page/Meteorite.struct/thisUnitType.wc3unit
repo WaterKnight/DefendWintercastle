@@ -1,0 +1,101 @@
+field	value
+name	Meteorite
+raw	UMet
+
+classes	NEUTRAL;STRUCTURE
+hero	true
+structure	true
+team	DEFENDER
+
+model	buildings\other\SacrificialAltar\SacrificialAltar.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.
+
+elevPts	4
+elevRad	50.
+maxRoll	0.
+maxPitch	0.
+scale	3.
+selScale	3.5
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	40.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	BuildingShadowSmall
+shadowWidth	0.
+shadowHeight	0.
+shadowOffsetX	0.
+shadowOffsetY	0.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNUndeadShrine.blp
+soundset
+tooltip
+uberTooltip
+
+moveType
+moveSpeed
+turnRate
+height
+heightMin
+animWalk
+animRun
+moveInterp
+
+animBlend	0.15
+animCastWaitBefore	0.
+animCastWaitAfter	0.51
+
+armorAmount	0.
+armorSound	Stone
+armorType	FORT
+life	2500.
+lifeRegen	0.
+mana	200.
+manaRegen	1.
+spellPower
+sightRange	1000.
+sightRangeNight	1000.
+
+attackType
+attackCooldown
+attackRange
+attackRangeAcq	0.
+attackRangeBuffer
+attackTargetFlags
+attackWaitBefore
+attackWaitAfter
+attackSound
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType
+damageAmount
+damageDices
+damageSides
+
+collisionSize
+combatFlags	structure
+deathTime	3.
+exp
+gold
+
+heroNames	<color=ORANGE>Meteorite</color>
+
+structurePathTex	<pathTex.wc3imp:target>
+structureSoldItems
+structureUbersplat
+
+abilities	Spells\Misc\BigHealingWave.page\BigHealingWave.struct\thisSpell;Spells\Misc\BurnLumber.page\BurnLumber.struct\thisSpell;Spells\Misc\BurningSpiritMeteorite.page\BurningSpiritMeteorite.struct\thisSpell;Spells\Misc\CoreFusion.page\CoreFusion.struct\thisSpell;Spells\Misc\Lapidation.page\Lapidation.struct\thisSpell;Spells\Misc\RefreshMana.page\RefreshMana.struct\thisSpell

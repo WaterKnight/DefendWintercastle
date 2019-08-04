@@ -1,0 +1,41 @@
+doods:
+Cityscape Set: xXm0RpH3usXx
+SnowPine: Gottfrei http://www.hiveworkshop.com/forums/models-530/snowpine-114724/
+Wall: Rondo http://www.hiveworkshop.com/forums/models-530/mauer-50393/
+WallEnd: Rondo http://www.hiveworkshop.com/forums/models-530/turm2-50392/
+
+units:
+Balduir: supertoinkz http://www.hiveworkshop.com/forums/models-530/orcish-berserker-160867/
+GhostSword: jatter2 http://www.hiveworkshop.com/forums/models-530/trisword-49403/
+OrcAssassin: Linaze http://www.hiveworkshop.com/forums/models-530/orcassassine-121362/
+SpearScout: Dojo http://www.hiveworkshop.com/forums/models-530/hawk-scout-63142/
+Tarog: Dojo http://www.hiveworkshop.com/forums/models-530/chaoswarlockgreen-53382/
+Tower: unknownczar http://www.hiveworkshop.com/forums/models-530/tower-48014/
+
+sfx:
+Bleeding: cotd333 http://www.hiveworkshop.com/forums/models-530/fatal-wound-240589/
+EnchantedArrowBlueEffect: nGy http://www.hiveworkshop.com/forums/models-530/bluearrow-234011/
+EnchantedArrowFlash: epsilon http://www.hiveworkshop.com/forums/models-530/spiritarrow_byepsilon-217407/
+EnchantedArrowSkeleton: Wrathion http://www.hiveworkshop.com/forums/models-530/spiritarrow-245374/
+Immortality: Daelin http://www.hiveworkshop.com/forums/models-530/benefic-aura-48307/
+KhakiRecoveryVortex: Power http://www.hiveworkshop.com/forums/models-530/harvestlife-220905/
+LizzyMissile: 
+SakeBombMissile: RetroSexual http://www.hiveworkshop.com/forums/models-530/pandaren-brewmasters-rolling-keg-208407/
+SakeBombBarrel: Dojo
+TainedLeafHeal: WILL_THE_ALMIGHTY http://www.hiveworkshop.com/forums/models-530/ancient-explosion-sfx-104179/
+ThunderstrikeBolt: Tranquil www.hiveworkshop.com/forums/models-530/lightnings-multiple-111493/
+ThunderstrikeCharge: marcus158 http://www.hiveworkshop.com/forums/models-530/lightning-aura-98346/
+ThunderStrikeNova: dhguardianes http://www.hiveworkshop.com/forums/models-530/lightning-nova-226736/
+VictorHammer: Thrikodius http://www.hiveworkshop.com/forums/models-530/maul-strength-120860/
+VioletEarringMissile: EdwardSwolenToe http://www.hiveworkshop.com/forums/models-530/eyebeam-47814/
+VioletEarringMissileOld: Weep http://www.hiveworkshop.com/forums/models-530/arcane-missile-161562/
+VioletEarringMissileOld2: epsilon http://www.hiveworkshop.com/forums/models-530/spiritarrow_byepsilon-217407/
+VioletEarringWeaponAttach: marcus158 http://www.hiveworkshop.com/forums/models-530/darknova-108744/
+
+ui:
+Console: Kwaliti http://www.hiveworkshop.com/forums/1776613-post275.html
+Loadscreen Background: ? http://www.dreamscene.org/gallery.php?page=2&Cmd=Show&site=mystic_fantasy also see http://www.wallm.com/winter-gallery-dark-315679/, http://mp1331.deviantart.com/art/Dark-Winter-207961118
+Preview: ? http://www.albabackgrounds.com/winter_castle.html
+
+music:
+Bgm main: Aaron Krogh https://soundcloud.com/aaron-anderson-11/160-b-liliths-rage

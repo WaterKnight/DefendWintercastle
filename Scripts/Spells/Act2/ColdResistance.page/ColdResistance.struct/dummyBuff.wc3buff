@@ -1,0 +1,19 @@
+field	1
+name	Cold Resistance
+raw	CoR
+
+class	NORMAL
+levelsAmount
+lostOn
+positive
+
+icon	ReplaceableTextures\CommandButtons\BTNFreezingBreath.blp
+tooltip
+uberTooltip	This unit's spell armor is increased.
+
+sfxPath	Abilities\Spells\Undead\FrostArmor\FrostArmorTarget.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW
+
+unitMod	armorSpell
+unitModVal	<thisSpell.wc3spell:armorInc>

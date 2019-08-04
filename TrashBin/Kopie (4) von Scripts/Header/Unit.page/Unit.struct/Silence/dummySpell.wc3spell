@@ -1,0 +1,18 @@
+field	jass ident	1
+name
+raw		Sil
+base		SPECIAL_ANso
+classes		DUMMY
+
+cooldown		0
+manaCost		0
+range		99999
+targets		ground,enemies,friend,structure,air,neutral,invulnerable,vulnerable,ward
+
+specials		abuf=BSil
+specials		acat=
+specials		adur=0
+specials		ahdu=0
+specials		Nso1=0
+specials		Nso2=99999
+specials		Nso3=0

@@ -1,0 +1,16 @@
+field	1
+name	Protected by a bubble
+raw	Bub
+
+class	HERO_ULTIMATE
+levelsAmount	3
+lostOn
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNBigBadVoodooSpell.blp
+tooltip
+uberTooltip	This unit is protected from most harm.
+
+sfxPath	Abilities\Spells\Orc\Voodoo\VoodooAuraTarget.mdl
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW

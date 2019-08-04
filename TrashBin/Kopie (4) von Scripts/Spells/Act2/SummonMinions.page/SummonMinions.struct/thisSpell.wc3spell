@@ -1,0 +1,36 @@
+field	jass ident	1	2	3	4	5
+name		Summon Minions
+raw		ASuM
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		summonGrizzly
+target		IMMEDIATE
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime		10
+cooldown		30
+manaCost		0
+range
+targets
+
+buttonPosX		2
+buttonPosY		2
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNMassTeleport.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Allows your troups to interfere and support you in battle. Summons up to <intervalsAmount> x <summonsAmountPerInterval> Axe Fighters or Spear Scouts while channeling, that last for <summonDuration> seconds but with their full strength.
+
+intervalsAmount		6
+offset		500
+summonDuration		20
+summonUnitType	UnitType	UnitType.AXE_FIGHTER
+summonUnitTypeChance		1
+summonUnitType2	UnitType	UnitType.SPEAR_SCOUT
+summonUnitType2Chance		1
+summonsAmountPerInterval		2

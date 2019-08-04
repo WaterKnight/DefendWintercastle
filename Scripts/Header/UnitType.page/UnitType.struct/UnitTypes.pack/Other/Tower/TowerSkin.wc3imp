@@ -1,0 +1,4 @@
+field	1
+type	skin
+src	Tower.blp
+target	Units\Other\Tower\Tower.blp

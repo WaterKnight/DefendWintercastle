@@ -1,0 +1,19 @@
+field	1	2	3	4	5	6
+name
+raw
+
+class	NORMAL
+levelsAmount
+lostOn	death
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath	<buff.wc3imp:target>
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW
+
+unitMod	resistanceBonus	resistanceBonus
+unitModVal	<thisSpell.wc3spell:resistanceInc>	<thisSpell.wc3spell:resistanceInc>

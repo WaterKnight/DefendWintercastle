@@ -1,0 +1,19 @@
+field	1
+name
+raw
+
+class	DUMMY
+levelsAmount
+lostOn
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath	Abilities\Spells\Other\GeneralAuraTarget\GeneralAuraTarget.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW
+
+unitMod	moveSpeedBonusRel
+unitModVal	<this.wc3obj:moveSpeedRelInc>

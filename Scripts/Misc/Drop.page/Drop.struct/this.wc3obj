@@ -1,0 +1,3 @@
+field	1
+healEffectPath	Abilities\Spells\Items\ResourceItems\ResourceEffectTarget.mdx
+healEffectAttachPoint	AttachPoint.ORIGIN

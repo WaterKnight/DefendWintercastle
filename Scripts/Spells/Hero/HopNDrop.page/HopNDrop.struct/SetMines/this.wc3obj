@@ -1,0 +1,4 @@
+field	jass ident	1	2	3	4	5	6
+areaRange		200	220	240	260	280	300
+damage		30	45	60	80	105	135
+wavesAmount		3

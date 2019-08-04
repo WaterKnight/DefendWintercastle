@@ -1,0 +1,30 @@
+field	jass ident	1	2	3	4	5	6
+name		Water Bindings Lariat
+raw		WBS
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		summongrizzly
+target		UNIT
+
+animation		attack
+areaRange
+areaRangeDisplay
+channelTime		5
+cooldown		0
+manaCost		0
+range		99999
+targets		air,enemies,ground
+
+buttonPosX
+buttonPosY
+hotkey
+icon
+lore
+sharedBuffs
+tooltip
+uberTooltip
+
+damagePerSecond		7	10	14	19	25	31
+interval		0.25	0.25

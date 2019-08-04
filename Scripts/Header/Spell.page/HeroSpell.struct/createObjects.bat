@@ -1,0 +1,3 @@
+lua createObjects.lua
+
+pause

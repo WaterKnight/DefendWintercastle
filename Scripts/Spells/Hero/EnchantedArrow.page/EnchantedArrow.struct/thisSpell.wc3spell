@@ -1,0 +1,48 @@
+field	jass ident	1	2	3
+name		Enchanted Arrow
+raw		EnA
+
+base		NORMAL
+class		HERO_ULTIMATE
+levelsAmount
+order		drunkenhaze
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		EA
+learnTooltip
+learnUberTooltip		Inflates a huge magical arrow over a short channel time, which then launches off into the target direction. Any enemy unit it encounters is snared and dragged along the path. The missile only stops for terrain obstacles, where it explodes, causes heavy damage (magical) on the targets and stuns them.
+learnUberTooltipUpgrades		{Damage,<damage> (+<damagePerFocus> * focus)};{Stun duration,<stunDuration,asSecs>}
+
+animation		spell
+areaRange		200
+areaRangeDisplay
+channelTime		1
+cooldown		60
+manaCost		225	240	260
+range		99999
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNImprovedStrengthOfTheMoon.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Inflates a huge magical arrow over a short channel time, which then launches off into the target direction. Any enemy unit it encounters is snared and dragged along the path. The missile only stops for terrain obstacles, where it explodes, causes <damage> (+<damagePerFocus> * focus) damage (magical) on the targets and stuns them for <stunDuration> seconds.
+
+damage		300	400	500
+damagePerFocus		3	4	5
+explosionEffectPath		Objects\Spawnmodels\NightElf\NECancelDeath\NECancelDeath.mdl
+explosionEffectScaleFactor		64
+maxLength		99999	99999
+stunDuration		5	5
+
+missileEffectPath		<arrowEffect.wc3imp:target>
+missileEffectAttachPoint		AttachPoint.ORIGIN
+missileEffect2Path		<arrowEffect2.wc3imp:target>
+missileEffect2AttachPoint		AttachPoint.ORIGIN

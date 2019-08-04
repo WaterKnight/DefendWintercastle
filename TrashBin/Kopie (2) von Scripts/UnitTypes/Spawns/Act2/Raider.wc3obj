@@ -1,0 +1,93 @@
+field	value
+name	Raider
+raw	Rai
+
+classes
+hero	false
+structure	false
+team	ATTACKER
+
+model	units\orc\WolfRider\WolfRider.mdx
+modelAttachPts
+modelAnims
+modelAttachMods	medium
+modelBones
+standardScale	1.
+
+elevPts	0
+elevRad	30.
+maxRoll	10.
+maxPitch	45.
+scale	1.
+selScale	1.6
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	190.
+shadowHeight	190.
+shadowOffsetX	75.
+shadowOffsetY	75.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNRaider.blp
+soundset	Wolfrider
+tooltip
+uberTooltip
+
+moveType	HORSE
+moveSpeed	150.
+turnRate	0.5
+height
+heightMin
+animWalk	360.
+animRun	360.
+moveInterp	4
+
+animBlend	0.15
+animCastWaitBefore	0.6
+animCastWaitAfter	0.2
+
+armorAmount	0.
+armorSound	Flesh
+armorType	MEDIUM
+life	200.
+lifeRegen	0.5
+mana
+manaRegen
+spellPower	30.
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	NORMAL
+attackCooldown	1.85
+attackRange	135.
+attackRangeAcq	500.
+attackRangeBuffer	400.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	0.5
+attackWaitAfter	0.
+attackSound	MetalMediumSlice
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	SIEGE
+damageAmount	10
+damageDices	1
+damageSides	5
+
+collisionSize	32.
+combatFlags	ground
+deathTime	1.87
+exp	40
+gold	35

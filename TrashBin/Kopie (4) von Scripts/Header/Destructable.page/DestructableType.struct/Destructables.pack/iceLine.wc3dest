@@ -1,0 +1,44 @@
+field	value
+name	Ice Line
+raw	002
+
+classes	DECOR
+
+model	Doodads\Icecrown\Terrain\IceGate\IceGate
+modelLightweight
+modelPortrait	Doodads\Terrain\Portraits\Gate_Portrait\Gate_Portrait.mdl
+modelVariations
+
+flyHeight
+occluderHeight	400
+replaceableTex
+replaceableTexId
+selScale	512
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+
+elevRad	50
+maxRoll
+maxPitch
+
+minimapDisplay	true
+minimapRed
+minimapGreen
+minimapBlue
+
+deathSound
+shadow	ShadowGate3
+
+armor	Stone
+fatLOS
+fogRad	50
+fogVisibility	true
+life	500
+selectable	true
+
+pathTex	PathTextures\Gate1Path.tga
+pathTexDead	PathTextures\Gate1PathDeath.tga
+combatFlags	debris
+cliffLevel
+walkable

@@ -1,0 +1,15 @@
+field	1
+name	Ignited
+raw	Ign
+
+class	NORMAL
+levelsAmount
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNSelfDestruct.blp
+tooltip
+uberTooltip	This unit is ignited. It takes <this.wc3obj:relDmgPerSecond,%> (<this.wc3obj:relDmgHeroPerSecond>) magic damage per second.
+
+sfxPath	Abilities\Spells\Other\BreathOfFire\BreathOfFireDamage.mdx;<Target.wc3imp:target>;<Target.wc3imp:target>;<Target.wc3imp:target>;<Target.wc3imp:target>;<Target.wc3imp:target>
+sfxAttachPt	AttachPoint.OVERHEAD;AttachPoint.FOOT_LEFT;AttachPoint.FOOT_RIGHT;AttachPoint.HAND_LEFT;AttachPoint.CHEST;AttachPoint.HEAD
+sfxLevel	EffectLevel.LOW;EffectLevel.NORMAL;EffectLevel.NORMAL;EffectLevel.NORMAL;EffectLevel.NORMAL;EffectLevel.NORMAL

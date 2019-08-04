@@ -1,0 +1,34 @@
+field	1
+name	Tropical Rainbow
+raw	TrR
+
+class	ITEM
+levelsAmount
+lostOn	dispel
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNSnazzyPotion.blp
+tooltip
+uberTooltip	Is affected by an uberdosis of vitamins.
+
+sfxPath	Abilities\Spells\Orc\EtherealForm\SpiritWalkerChange.mdl
+sfxAttachPt	AttachPoint.HEAD
+sfxLevel	EffectLevel.LOW
+
+unitMod	dmgBonusRel
+unitModVal	<thisSpell.wc3spell:damageRelInc>
+
+unitMod	lifeRegenBonusRel
+unitModVal	<thisSpell.wc3spell:lifeRegenRelInc>
+
+unitMod	manaRegenBonusRel
+unitModVal	<thisSpell.wc3spell:manaRegenRelInc>
+
+unitMod	moveSpeedBonusRel
+unitModVal	<thisSpell.wc3spell:moveSpeedRelInc>
+
+unitMod	spellPowerBonusRel
+unitModVal	<thisSpell.wc3spell:spellPowerRelInc>
+
+unitMod	vertexColorBonus
+unitModVal	{0,-128,-64,0}

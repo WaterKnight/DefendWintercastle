@@ -1,0 +1,45 @@
+field	jass ident	1	2	3	4	5
+name		Emphatic Bite
+raw		AEmB
+
+base		NORMAL
+class		HERO_FIRST
+levelsAmount
+order		cannibalize
+target		UNIT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		EB
+learnTooltip
+learnUberTooltip		Slips to the target, steeping teeth deep into its neck and healing Drakul by sucking blood. If the target is hostile or neutral, this will additionally cause damage and silence. However, if the target was an ally, Drakul will inject some stereoids, boosting the target's attack damage, instead.|n'Emphatic Bite' proccs attack effects.	Slips to the target, steeping teeth deep into its neck and healing Drakul by sucking blood. If the target is hostile or neutral, this will additionally cause damage and silence. However, if the target was an ally, Drakul will inject some stereoids, boosting the target's attack damage, instead.|n'Emphatic Bite' proccs attack effects.|n|nNext Level:|nCooldown: <cooldown<prevLevel>> seconds --> <cooldown> seconds|nDamage: <damage<prevLevel>> --> <damage>|nDamage increment: <damageIncrement<prevLevel>> --> <damageIncrement>|nHeal: <heal<prevLevel>> --> <heal>|nMana cost: <manaCost<prevLevel>> --> <manaCost>
+
+animation		spell
+areaRange
+areaRangeDisplay
+cooldown		11	10	9	8	7
+channelTime
+manaCost		75	85	100	115	130
+range		550
+targets		friend,enemies,ground,invulnerable,neutral,organic,vulnerable
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNCannibalize.blp
+lore
+sharedBuffs		SILENCE
+tooltip
+uberTooltip		Slides to the target unit, steeping teeth deep into its neck and healing Drakul by <heal> (+ <healSpellPowerModFactor> x spell power). If the target is hostile or neutral, it will be additionally silenced for <silenceDuration> seconds and damaged by <damage>. However, if the target was an ally, Drakul will inject some stereoids, boosting the attack damage (+ <damageIncrement>), instead.|n'Emphatic Bite' proccs attack effects.
+
+damage		45	65	90	120	155
+effectCasterAmount		2
+heal		45	65	90	120	155
+healSpellPowerModFactor		1	1
+hitRange		120
+silenceDuration		3
+speed		1000
+targetEffectAttachPoint		AttachPoint.ORIGIN
+targetEffectPath		Abilities\Spells\Undead\Possession\PossessionMissile.mdl

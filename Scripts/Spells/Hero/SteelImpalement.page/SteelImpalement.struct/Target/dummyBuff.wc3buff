@@ -1,0 +1,16 @@
+field	1
+name	Steel Impalement
+raw	StI
+
+class	HERO_ULTIMATE_EX
+levelsAmount
+lostOn	dispel
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNImpale.blp
+tooltip
+uberTooltip	This unit is impaled. It cannot move and suffers from an open wound.
+
+sfxPath	<spear.wc3imp:target>
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW

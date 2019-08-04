@@ -1,0 +1,38 @@
+    static method Shuffle takes integer setKey returns nothing
+        local integer count = ARRAY_EMPTY
+        local integer iteration = Memory.IntegerKeys.Table.CountIntegers(thistype.PARENT_KEY, setKey)
+        local thistype array list
+        local thistype this
+
+        call Memory.IntegerKeys.Table.ShuffleIntegers(thistype.PARENT_KEY, setKey)
+
+        loop
+            exitwhen (iteration < Memory.IntegerKeys.Table.STARTED)
+
+            set this = Memory.IntegerKeys.Table.GetInteger(thistype.PARENT_KEY, setKey, iteration)
+
+            set count = count + 1
+
+            set list[count] = this
+
+            set iteration = iteration - 1
+        endloop
+
+        if (count < ARRAY_MIN) then
+            return
+        endif
+
+        set iteration = ARRAY_MIN
+
+        loop
+            call list[iteration].SetFirstOfSet(list[ARRAY_MIN])
+            call list[iteration].SetLastOfSet(list[count])
+            if (iteration < count) then
+                call list[iteration].SetNext(list[iteration + 1])
+            endif
+
+            set iteration = iteration + 1
+            exitwhen (iteration > count)
+        endloop
+        call list[count].SetNext(NULL)
+    endmethod

@@ -1,0 +1,31 @@
+field	jass ident	1	2	3	4	5
+name		Vomit
+raw		AVom
+
+base		NORMAL
+class		ARTIFACT
+levelsAmount
+order		sanctuary
+target		UNIT
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		5
+manaCost		15	20	25	30	35
+range		700
+targets		air,enemies,ground,neutral,organic
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNCorrosiveBreath.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		A stimulating shake is thrown to an allied unit, temporarily boosting the target's spellpower by <spellPowerIncrement> and restoring <manaIncrement> mana.|nLasts <duration> seconds.
+
+damage		30	40	50	60	70
+poisonDuration		3	4	5	6	7
+poisonHeroDuration		2	2

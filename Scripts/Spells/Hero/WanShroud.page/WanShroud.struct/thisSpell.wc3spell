@@ -1,0 +1,42 @@
+field	jass ident	1	2	3	4	5	6
+name		Wan Shroud
+raw		WSh
+
+base		NORMAL
+class		HERO_SECOND
+levelsAmount
+order		banish
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		WS
+learnTooltip
+learnUberTooltip		A veiling gas is released at the target location. It harms enemy units (magical damage), degrades their hit chance and armor (percentual).|nAttacking the affected units restores life and mana to the hero.
+learnUberTooltipUpgrades		{Damage per second,<damagePerSecond>};{Duration,<duration,asSecs>};{Life leech per attack,<Target\this.wc3obj:lifeLeech>};{Mana leech per attack,<Target\this.wc3obj:manaLeech>}
+
+animation		spell,channel
+areaRange		240	260	280	300	320	340
+areaRangeDisplay		true
+channelTime
+cooldown		17
+manaCost		120	135	150	165	180	195
+range		900
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNCyclone.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		A veiling gas released at the target location deals <damagePerSecond> damage per second to enemy units, decreases their armor by <Target\this.wc3obj:armorInc,-,%> and their hit chance by <Target\this.wc3obj:missInc>.|nAttacking the affected units restores <Target\this.wc3obj:lifeLeech> life and <Target\this.wc3obj:manaLeech> mana to the hero.|nLasts <duration> seconds.
+
+damageEffectAttachPoint		AttachPoint.ORIGIN
+damageEffectPath		Abilities\Spells\Human\Feedback\ArcaneTowerAttack.mdl
+damagePerSecond		3	5	7	9	11	13
+duration		10	10
+interval		0.75

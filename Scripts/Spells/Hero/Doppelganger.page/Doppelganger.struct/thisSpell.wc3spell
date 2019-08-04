@@ -1,0 +1,42 @@
+field	jass ident	1	2	3
+name		Doppelganger
+raw		DoG
+
+base		NORMAL
+class		HERO_ULTIMATE
+levelsAmount
+order		mirrorimage
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		DG
+learnTooltip
+learnUberTooltip		<Kera:name> creates an illusion of herself by phase shifting perpendicularly to the target direction. The movement length equals the casting distance (min is <minRange>). The illusion has only a percentage of the original's power but possesses an <COLDNESS>icy</COLDNESS> attack. Furthermore, it can blow itself up via its own ability '<BigBoom:name>'. The original <Kera:name> meanwhile obtains a fiery (splash damage) attack.
+learnUberTooltipUpgrades		{Fire buff area range,<FireBuff\this.wc3obj:areaRange>};{Fire buff damage factor,<FireBuff\this.wc3obj:damageFactor,%>};{Fire buff duration,<FireBuff\this.wc3obj:duration,asSecs>};{Illusion damage factor,<illusionDamageFactor,%>};{Illusion ice buff duration,<IceBuff\this.wc3obj:duration,asSecs>};{Summon duration,<duration,asSecs>}
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		60
+manaCost		175	200	225
+range		600
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNAvengingWatcher.blp
+lore
+sharedBuffs		COLDNESS
+tooltip
+uberTooltip		<Kera:name> creates an illusion of herself by phase shifting perpendicularly to the target direction. The movement length equals the casting distance (min is <minRange>). The illusion has only <illusionDamageFactor,%> of the original's power but possesses an <COLDNESS>icy</COLDNESS> attack. Furthermore, it can blow itself up via its own '<BigBoom:name>' (level <level>). The original <Kera:name> meanwhile obtains a fiery (splash damage) attack (<FireBuff\this.wc3obj:damageFactor,%> in <FireBuff\this.wc3obj:areaRange> range).
+
+duration		45	45
+illusionDeathEffectPath		Abilities\Spells\Orc\MirrorImage\MirrorImageDeathCaster.mdl
+illusionDamageFactor		0.3	0.5	0.7
+minRange		200
+specialEffectPath		Abilities\Spells\Human\Polymorph\PolyMorphDoneGround.mdl

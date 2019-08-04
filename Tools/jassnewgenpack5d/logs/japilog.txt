@@ -1,0 +1,4 @@
+Executable name: D:\Warcraft III\Mapping\DWC\Tools\jassnewgenpack5d\CustomWE\worldedit121.exe
+Detected worldedit.exe
+game.dll: 400000
+JassBindNative found at 0x6A5990

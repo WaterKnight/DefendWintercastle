@@ -1,0 +1,44 @@
+field	value
+name	Barricade
+raw	006
+
+classes	DECOR
+
+model	Doodads\LordaeronSummer\Terrain\Barricade\Barricade
+modelLightweight
+modelPortrait	Doodads\LordaeronSummer\Terrain\Barricade\Barricade0.mdx
+modelVariations	2
+
+flyHeight
+occluderHeight
+replaceableTex
+replaceableTexId
+selScale	80
+vertexColorRed	130
+vertexColorGreen	170
+vertexColorBlue	210
+
+elevRad
+maxRoll
+maxPitch
+
+minimapDisplay	true
+minimapRed
+minimapGreen
+minimapBlue
+
+deathSound
+shadow	ShadowCrates
+
+armor	Wood
+fatLOS
+fogRad
+fogVisibility
+life	50
+selectable	true
+
+pathTex
+pathTexDead
+combatFlags	debris
+cliffLevel
+walkable

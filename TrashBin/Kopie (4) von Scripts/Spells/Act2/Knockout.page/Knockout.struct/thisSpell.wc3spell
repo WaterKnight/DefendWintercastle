@@ -1,0 +1,27 @@
+field	jass ident	1	2	3	4	5
+name		Knockout
+raw		AKno
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		thunderbolt
+target		UNIT
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		12
+manaCost		80
+range		700
+targets		enemies
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNSeaGiantPulverize.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Launches oneself onto a hostile unit, thereby stunning it for <stunDuration> seconds and dealing <damage> damage. The stun effect can occur every <buffDuration> seconds only.

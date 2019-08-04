@@ -1,0 +1,16 @@
+field	1
+name
+raw
+
+class
+levelsAmount
+lostOn
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath	Abilities\Spells\Undead\Darksummoning\DarkSummonTarget.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.NORMAL

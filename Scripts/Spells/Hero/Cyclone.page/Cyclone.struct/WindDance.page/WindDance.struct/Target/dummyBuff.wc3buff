@@ -1,0 +1,16 @@
+field	1	2	3
+name	Cyclone - Churned
+raw	CyT
+
+class
+levelsAmount
+lostOn
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNCyclone.blp
+tooltip
+uberTooltip	This unit is being churned by a nearby Cyclone.
+
+sfxPath
+sfxAttachPt
+sfxLevel

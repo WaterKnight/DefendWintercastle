@@ -1,0 +1,38 @@
+field	jass ident	1	2	3	4	5
+name		Infection
+raw		AIfc
+
+base		NORMAL
+class		HERO_SECOND
+levelsAmount
+order		stoneform
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		In
+learnTooltip
+learnUberTooltip		When this spell is activated, Drakul obtains a boost in spell power. Normal attacks infect the target, poisoning it, reducing armor and spawning a descendant of with the shape of Drakul upon death. Furthermore, attacks go through the primary target to hit those behind it in a cone for some minor damage.	When this spell is activated, Drakul obtains a boost in spell power. Normal attacks infect the target, poisoning it, reducing armor and spawning a descendant of with the shape of Drakul upon death. Furthermore, attacks go through the primary target to hit those behind it in a cone for some minor damage.|n|nNext Level:|nArmor decrement: <armorIncrement<prevLevel>> --> <armorIncrement>|nCaster buff duration: <duration<prevLevel>> seconds --> <duration> seconds|nMana cost: <manaCost<prevLevel>> --> <manaCost>|nSpell power increment: <spellPowerIncrement<prevLevel>> --> <spellPowerIncrement>
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		13
+manaCost		50	62	74	86	98
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNDoom.blp
+lore
+sharedBuffs		POISON
+tooltip
+uberTooltip		When this spell is activated, Drakul obtains a boost in spell power of <spellPowerIncrement>. Normal attacks infect the target, poisoning it, reducing armor by <armorIncrement> and spawning a descendant of Drakul upon death. Furthermore, attacks go through the primary target to hit those behind it in a cone for <coneDamage> damage.|nCaster buff lasts <duration> seconds, target buff <targetDuration> seconds, summon lives for <summonDuration> seconds.|nYou can have up to <maxSummonsAmount> summons as a maximum.
+
+duration		8	8	9	9	10
+spellPowerIncrement		7	12	17	22	27

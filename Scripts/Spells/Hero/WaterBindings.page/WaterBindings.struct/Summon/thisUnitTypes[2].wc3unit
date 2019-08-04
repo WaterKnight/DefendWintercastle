@@ -1,0 +1,94 @@
+field	value
+name	Water Elemental (Level 2)
+raw	WB2
+
+classes
+hero	false
+structure	false
+team	DEFENDER
+
+model	units\human\WaterElemental\WaterElemental.mdx
+modelAttachPts
+modelAnims
+modelAttachMods	medium
+modelBones
+standardScale	0.9
+
+elevPts	0
+elevRad	50.
+maxRoll	10.
+maxPitch	10.
+scale	1
+selScale	1.6
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	120.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	200.
+shadowHeight	200.
+shadowOffsetX	80.
+shadowOffsetY	80.
+
+attachments
+blood
+bloodExplosion	<thisUnitTypes[1].wc3unit:bloodExplosion>
+icon	ReplaceableTextures\CommandButtons\BTNSummonWaterElemental.blp
+soundset	WaterElemental
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	230.
+turnRate	0.5
+height
+heightMin
+animWalk	200.
+animRun	200.
+moveInterp	2
+
+animBlend	0.15
+animCastWaitBefore	0.3
+animCastWaitAfter	0.51
+
+armorAmount	1.
+armorSound	Ethereal
+armorType	LARGE
+life	425.
+lifeRegen	0.
+mana
+manaRegen
+spellPower	30.
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	MISSILE
+attackCooldown	1.6
+attackRange	600.
+attackRangeAcq	600.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,air,item,ward
+attackWaitBefore	0.4
+attackWaitAfter	0.
+attackSound
+
+attackMissileModel	Abilities\Weapons\WaterElementalMissile\WaterElementalMissile.mdl
+attackMissileSpeed	1300.
+attackMissileArc	0.15
+
+damageType	PIERCE
+damageAmount	18
+damageDices	2
+damageSides	3
+
+collisionSize	32.
+combatFlags	ground
+deathTime	1.5
+exp
+gold

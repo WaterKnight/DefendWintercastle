@@ -1,0 +1,16 @@
+field	1
+name	Battle Rage
+raw	Bat
+
+class	HERO_FIRST
+levelsAmount	5
+lostOn	dispel
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNBattleRoar.blp
+tooltip
+uberTooltip	'<name>' affects this unit and increases its attack damage.
+
+sfxPath	Abilities\Spells\NightElf\BattleRoar\RoarTarget.mdl
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW

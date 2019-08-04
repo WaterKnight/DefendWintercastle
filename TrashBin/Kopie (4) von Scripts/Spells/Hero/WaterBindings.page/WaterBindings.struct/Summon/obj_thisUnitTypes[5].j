@@ -1,0 +1,32 @@
+static UnitType array THIS_UNIT_TYPES
+    
+    
+static method Init_obj_thisUnitTypes5 takes nothing returns nothing
+    local ObjThread t = ObjThread.Create("D:\\Warcraft III\\Maps\\DWC\\Scripts\\Spells\\Hero\\WaterBindings.page\\WaterBindings.struct\\Summon\\thisUnitTypes[5].wc3unit")
+    set thistype.THIS_UNIT_TYPES[5] = UnitType.Create('uWB5')
+    call thistype.THIS_UNIT_TYPES[5].Scale.Set(0.9)
+    call thistype.THIS_UNIT_TYPES[5].Impact.Z.Set(120)
+    call thistype.THIS_UNIT_TYPES[5].Outpact.Z.Set(60)
+    call thistype.THIS_UNIT_TYPES[5].Speed.Set(230)
+    call thistype.THIS_UNIT_TYPES[5].Armor.Set(3)
+    call thistype.THIS_UNIT_TYPES[5].Armor.Type.Set(Attack.ARMOR_TYPE_LARGE)
+    call thistype.THIS_UNIT_TYPES[5].Life.Set(800)
+    call thistype.THIS_UNIT_TYPES[5].Life.SetBJ(800)
+    call thistype.THIS_UNIT_TYPES[5].LifeRegeneration.Set(0)
+    call thistype.THIS_UNIT_TYPES[5].SightRange.Set(1400)
+    call thistype.THIS_UNIT_TYPES[5].SightRange.SetBJ(1400)
+    call thistype.THIS_UNIT_TYPES[5].SpellPower.Set(30)
+    call thistype.THIS_UNIT_TYPES[5].Attack.Set(Attack.MISSILE)
+    call thistype.THIS_UNIT_TYPES[5].Attack.Range.Set(600)
+    call thistype.THIS_UNIT_TYPES[5].Attack.Speed.SetByCooldown(1.6)
+    call thistype.THIS_UNIT_TYPES[5].Damage.Delay.Set(0.4)
+    call thistype.THIS_UNIT_TYPES[5].Attack.Missile.Speed.Set(1300)
+    call thistype.THIS_UNIT_TYPES[5].Damage.Set(30)
+    call thistype.THIS_UNIT_TYPES[5].Damage.SetBJ(30)
+    call thistype.THIS_UNIT_TYPES[5].Damage.Dices.Set(3)
+    call thistype.THIS_UNIT_TYPES[5].Damage.Sides.Set(4)
+    call thistype.THIS_UNIT_TYPES[5].Damage.Type.Set(Attack.DMG_TYPE_PIERCE)
+    call thistype.THIS_UNIT_TYPES[5].CollisionSize.Set(32)
+    call DebugEx("init " + "D:\\Warcraft III\\Maps\\DWC\\Scripts\\Spells\\Hero\\WaterBindings.page\\WaterBindings.struct\\Summon\\thisUnitTypes[5].wc3unit")
+    call t.Destroy()
+endmethod

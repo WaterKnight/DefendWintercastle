@@ -1,0 +1,28 @@
+field	jass ident	1
+name		Patrol
+raw
+profileIdent		CmdPatrol
+
+base
+classes		DUMMY
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX		0
+buttonPosY		1
+hotkey		P
+icon		CommandPatrol
+lore
+sharedBuffs
+tooltip		(<color=GOLD><hotkey></color>) <color=DWC><name></color>
+uberTooltip		Makes the unit commute between target point and current location while engaging any adversarial obstacle.

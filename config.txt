@@ -1,0 +1,8 @@
+project=D:\Warcraft III\Mapping\DWC\
+data=D:\Warcraft III\Mapping\DWC\Scripts\
+specs=D:\Warcraft III\Mapping\DWC\Specs\
+compile=D:\Warcraft III\Mapping\DWC\compiled\
+
+inputMap=D:\Warcraft III\Mapping\DWC\input.w3x
+outputMap=D:\Warcraft III\Mapping\DWC\output.w3x
+logTrackerLogPath=D:\Warcraft III\Logs\Defend Wintercastle\

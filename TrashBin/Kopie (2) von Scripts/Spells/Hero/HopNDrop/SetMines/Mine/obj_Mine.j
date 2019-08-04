@@ -1,0 +1,45 @@
+static integer array FIELD
+static real array MOVE_DURATION
+static string array SUMMON_UNIT_TYPE
+static integer array STUN_DURATION
+static real array EXPLOSION_DELAY
+static integer array MOVE_Z_SPEED_START
+static real array FRIENDLY_FIRE_FACTOR
+    
+static method Init_obj_Mine takes nothing returns nothing
+    set thistype.FIELD[1] = 1
+    set thistype.MOVE_DURATION[1] = 0.5
+    set thistype.SUMMON_UNIT_TYPE[1] = UnitType.TRAP_MINE
+    set thistype.STUN_DURATION[1] = 2
+    set thistype.EXPLOSION_DELAY[1] = 1.5
+    set thistype.MOVE_Z_SPEED_START[1] = 40
+    set thistype.FRIENDLY_FIRE_FACTOR[1] = 0.25
+    set thistype.FIELD[2] = 2
+    set thistype.MOVE_DURATION[2] = 0.5
+    set thistype.SUMMON_UNIT_TYPE[2] = UnitType.TRAP_MINE
+    set thistype.STUN_DURATION[2] = 2
+    set thistype.EXPLOSION_DELAY[2] = 1.5
+    set thistype.MOVE_Z_SPEED_START[2] = 40
+    set thistype.FRIENDLY_FIRE_FACTOR[2] = 0.25
+    set thistype.FIELD[3] = 3
+    set thistype.MOVE_DURATION[3] = 0.5
+    set thistype.SUMMON_UNIT_TYPE[3] = UnitType.TRAP_MINE
+    set thistype.STUN_DURATION[3] = 2
+    set thistype.EXPLOSION_DELAY[3] = 1.5
+    set thistype.MOVE_Z_SPEED_START[3] = 40
+    set thistype.FRIENDLY_FIRE_FACTOR[3] = 0.25
+    set thistype.FIELD[4] = 4
+    set thistype.MOVE_DURATION[4] = 0.5
+    set thistype.SUMMON_UNIT_TYPE[4] = UnitType.TRAP_MINE
+    set thistype.STUN_DURATION[4] = 2
+    set thistype.EXPLOSION_DELAY[4] = 1.5
+    set thistype.MOVE_Z_SPEED_START[4] = 40
+    set thistype.FRIENDLY_FIRE_FACTOR[4] = 0.25
+    set thistype.FIELD[5] = 5
+    set thistype.MOVE_DURATION[5] = 0.5
+    set thistype.SUMMON_UNIT_TYPE[5] = UnitType.TRAP_MINE
+    set thistype.STUN_DURATION[5] = 2
+    set thistype.EXPLOSION_DELAY[5] = 1.5
+    set thistype.MOVE_Z_SPEED_START[5] = 40
+    set thistype.FRIENDLY_FIRE_FACTOR[5] = 0.25
+endmethod

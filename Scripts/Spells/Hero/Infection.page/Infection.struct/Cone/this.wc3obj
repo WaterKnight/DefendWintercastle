@@ -1,0 +1,6 @@
+field	jass ident	1	2	3	4	5	6
+damage		10	15	25	35	45	55
+endWidth		300
+maxLength		500
+speed		650
+startWidth		0

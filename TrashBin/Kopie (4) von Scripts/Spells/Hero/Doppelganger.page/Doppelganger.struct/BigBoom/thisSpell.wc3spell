@@ -1,0 +1,30 @@
+field	jass ident	1	2	3	4	5
+name		Big Boom
+raw		ABiB
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		mirrorimage
+target		POINT_OR_UNIT
+
+animation		spell
+areaRange		300
+areaRangeDisplay		true
+channelTime
+cooldown		0
+manaCost		0
+range		50
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNSelfDestruct.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip
+
+damage		100	200	300
+igniteDuration		10	12	14

@@ -1,0 +1,15 @@
+field	1
+name	Cold
+raw	Col
+
+class	NORMAL
+levelsAmount
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNFrost.blp
+tooltip
+uberTooltip	This unit is stiff. It receives more damage when being under 25% of life and explodes upon death.
+
+sfxPath	Abilities\Spells\Other\FrostDamage\FrostDamage.mdl
+sfxAttachPt	AttachPoint.CHEST
+sfxLevel	EffectLevel.LOW

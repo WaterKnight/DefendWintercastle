@@ -1,0 +1,22 @@
+field	1	2	3
+name	Susanoo
+raw	SuB
+
+class	HERO_ULTIMATE_EX
+levelsAmount
+lostOn
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNHowlOfTerror.blp
+tooltip
+uberTooltip	Susanoo.
+
+sfxPath	<Buff.wc3imp:target>
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW
+
+unitMod	spellPowerBonusRel	spellPowerBonusRel
+unitModVal	<thisSpell.wc3spell:spellPowerRelInc>	<thisSpell.wc3spell:spellPowerRelInc>
+
+unitMod	attackSpeedBonus	attackSpeedBonus
+unitModVal	<thisSpell.wc3spell:attackSpeedInc>	<thisSpell.wc3spell:attackSpeedInc>

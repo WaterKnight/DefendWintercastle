@@ -1,0 +1,100 @@
+field	value
+name	Lightning Tower (Level 1)
+raw	LTw
+
+classes	STRUCTURE;UPGRADED
+hero	false
+structure	true
+team	DEFENDER
+
+model	buildings\other\TowerDefenseTower\TowerDefenseTower.mdx
+modelAttachPts
+modelAnims	upgrade,first
+modelAttachMods
+modelBones
+standardScale	1.
+
+elevPts	4
+elevRad	50.
+maxRoll	0.
+maxPitch	0.
+scale	1.
+selScale	2.5
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	120.
+outpactX	0.
+outpactY	0.
+outpactZ	255.
+
+shadowPath	ShadowCannonTower
+shadowWidth	0.
+shadowHeight	0.
+shadowOffsetX	0.
+shadowOffsetY	0.
+
+attachments	buildings\other\CircleOfPower\CircleOfPower.mdl;ORIGIN;NORMAL
+blood
+icon	ReplaceableTextures\CommandButtons\BTNAdvancedEnergyTower.blp
+soundset	ElvenGuardTower
+tooltip
+uberTooltip	Has <minDmg>-<maxDmg> Damage|nFires a stunning chain lightning bouncing between multiple targets
+
+moveType
+moveSpeed
+turnRate
+height
+heightMin
+animWalk
+animRun
+moveInterp
+
+animBlend	0.15
+animCastWaitBefore
+animCastWaitAfter
+
+armorAmount	0.
+armorSound	Stone
+armorType	FORT
+life	INFINITE
+lifeRegen	0.
+mana
+manaRegen
+spellPower
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	HOMING_MISSILE
+attackCooldown	6.
+attackRange	1000.
+attackRangeAcq	1000.
+attackRangeBuffer	0.
+attackTargetFlags	air,ground,structure,debris,item,ward
+attackWaitBefore	0.5
+attackWaitAfter	0.
+attackSound
+
+attackMissileModel
+attackMissileSpeed	1500.
+attackMissileArc	0.
+
+damageType	MAGIC
+damageAmount	1
+damageDices	1
+damageSides	1
+
+collisionSize
+combatFlags	structure
+deathTime	2.34
+exp
+gold
+
+
+structurePathTex	PathTextures\4x4Default.tga
+structureSoldItems
+structureUbersplat
+
+abilities	Spells\Misc\Invulnerability.page\Invulnerability.struct\thisSpell;Spells\Misc\LightningAttack.page\LightningAttack.struct\thisSpell

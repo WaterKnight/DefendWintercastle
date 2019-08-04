@@ -1,0 +1,16 @@
+field	1
+name
+raw
+
+class	HERO_SECOND
+levelsAmount	5
+lostOn	death
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath	Abilities\Weapons\PhoenixMissile\Phoenix_Missile_mini.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.NORMAL

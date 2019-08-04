@@ -1,0 +1,6 @@
+field	jass ident	1	2	3	4	5
+burnedMana		65	100	140	185	235
+damage		20	30	45	60	75
+effectLightningPath		MBUR
+stunDuration		1	1
+transferedManaFactor		0.5

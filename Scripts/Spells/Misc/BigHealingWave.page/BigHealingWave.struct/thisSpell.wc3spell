@@ -1,0 +1,33 @@
+field	jass ident	1
+name		Big Healing Wave
+raw		BHW
+
+base		NORMAL
+class
+levelsAmount
+order		healingwave
+target		UNIT
+
+animation		spell
+areaRange		99999
+areaRangeDisplay		false
+channelTime
+cooldown		15
+manaCost		100
+range		99999
+targets		air,friend,ground,invulnerable,organic,vulnerable
+
+buttonPosX
+buttonPosY
+hotkey		V
+icon		ReplaceableTextures\CommandButtons\BTNHealingWave.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Calls forth a ray of hope, filling the defenders' hearts with new strength. Heals up to <targetsAmount> allies for <restoredLifeFactor,%> of max life each.
+
+delay		0.35
+restoredLifeFactor		0.75
+targetEffectAttachPoint		AttachPoint.ORIGIN
+targetEffectPath		<TargetEffect.wc3imp:target>
+targetsAmount		100

@@ -1,0 +1,98 @@
+field	value
+name	Demolisher
+raw	Dem
+
+classes
+hero	false
+structure	false
+team	ATTACKER
+
+model	units\orc\catapult\catapult_V1.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.5
+
+elevPts	4
+elevRad	50.
+maxRoll	45.
+maxPitch	45.
+scale	1.
+selScale	2.75
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	280.
+shadowHeight	280.
+shadowOffsetX	110.
+shadowOffsetY	110.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNDemolisher.blp
+soundset	Catapult
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	135.
+turnRate	0.4
+height
+heightMin
+animWalk	185.
+animRun	185.
+moveInterp	1
+
+animBlend	0.15
+animCastWaitBefore	0.
+animCastWaitAfter	0.51
+
+armorAmount	10.
+armorSound	Wood
+armorType	FORT
+life	300.
+lifeRegen	0.
+mana
+manaRegen
+spellPower	75.
+sightRange	1400.
+sightRangeNight	1200.
+
+attackType	ARTILLERY
+attackCooldown	4.5
+attackRange	1450.
+attackRangeAcq	1450.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	0.1
+attackWaitAfter	0.
+attackSound
+
+attackMissileModel	abilities\weapons\DemolisherMissile\DemolisherMissile.mdx
+attackMissileSpeed	900.
+attackMissileArc	0.35
+
+attackSplash	80;1;150;0.4;220;0.2
+attackSplashTargetFlags	ALLY
+
+damageType	SIEGE
+damageAmount	70
+damageDices	1
+damageSides	30
+
+collisionSize	72.
+combatFlags	ground
+deathTime	3.34
+exp	150
+gold	50
+
+abilities	Spells\Misc\Invulnerability.page\Invulnerability.struct\thisSpell

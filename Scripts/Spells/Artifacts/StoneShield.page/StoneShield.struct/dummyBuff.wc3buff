@@ -1,0 +1,16 @@
+field	1
+name	Stone Shield
+raw	StS
+
+class	ARTIFACT
+levelsAmount
+lostOn
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNArcaniteArmor.blp
+tooltip
+uberTooltip	This unit is protected by a magical stone.
+
+sfxPath	Abilities\Spells\Items\AIda\AIdaTarget.mdl
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW

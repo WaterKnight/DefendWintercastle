@@ -1,0 +1,15 @@
+field	1
+name	Eclipse
+raw	Ecl
+
+class	NORMAL
+levelsAmount
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNSoulGem.blp
+tooltip
+uberTooltip	This unit is caught in an eclipse. Its spell power is decreased by 50%, armor by 25% and it does not regenerate mana.
+
+sfxPath	Other\Eclipse\Target.mdx
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.NORMAL

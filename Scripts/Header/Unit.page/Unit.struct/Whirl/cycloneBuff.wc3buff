@@ -1,0 +1,20 @@
+field	1
+name	Cyclone
+raw	WhC
+
+base	SPECIAL_Bcyc
+class
+classes	DUMMY
+levelsAmount
+positive
+
+icon	ReplaceableTextures\CommandButtons\BTNCyclone.blp
+tooltip	Whirled up
+uberTooltip	This unit is whirled up. It cannot act nor be interacted with.
+
+sfxPath
+sfxAttachPt
+sfxLevel
+
+specials	feat=<CycloneTarget.wc3imp:target>
+specials	fta0=sprite,first

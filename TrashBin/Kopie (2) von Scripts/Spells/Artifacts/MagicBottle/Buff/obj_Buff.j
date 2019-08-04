@@ -1,0 +1,45 @@
+static integer array MANA_INCREMENT
+static string array TARGET_EFFECT_PATH
+static integer array FIELD
+static integer array SPELL_POWER_INCREMENT
+static integer array DURATION
+static real array ATTACK_SPEED_INCREMENT
+static string array TARGET_EFFECT_ATTACH_POINT
+    
+static method Init_obj_Buff takes nothing returns nothing
+    set thistype.MANA_INCREMENT[1] = 25
+    set thistype.TARGET_EFFECT_PATH[1] = "Abilities\\Spells\\Items\\AIil\\AIilTarget.mdl"
+    set thistype.FIELD[1] = 1
+    set thistype.SPELL_POWER_INCREMENT[1] = 15
+    set thistype.DURATION[1] = 9
+    set thistype.ATTACK_SPEED_INCREMENT[1] = 0.1
+    set thistype.TARGET_EFFECT_ATTACH_POINT[1] = AttachPoint.ORIGIN
+    set thistype.MANA_INCREMENT[2] = 35
+    set thistype.TARGET_EFFECT_PATH[2] = "Abilities\\Spells\\Items\\AIil\\AIilTarget.mdl"
+    set thistype.FIELD[2] = 1
+    set thistype.SPELL_POWER_INCREMENT[2] = 25
+    set thistype.DURATION[2] = 9
+    set thistype.ATTACK_SPEED_INCREMENT[2] = 0.15
+    set thistype.TARGET_EFFECT_ATTACH_POINT[2] = AttachPoint.ORIGIN
+    set thistype.MANA_INCREMENT[3] = 45
+    set thistype.TARGET_EFFECT_PATH[3] = "Abilities\\Spells\\Items\\AIil\\AIilTarget.mdl"
+    set thistype.FIELD[3] = 1
+    set thistype.SPELL_POWER_INCREMENT[3] = 35
+    set thistype.DURATION[3] = 9
+    set thistype.ATTACK_SPEED_INCREMENT[3] = 0.2
+    set thistype.TARGET_EFFECT_ATTACH_POINT[3] = AttachPoint.ORIGIN
+    set thistype.MANA_INCREMENT[4] = 55
+    set thistype.TARGET_EFFECT_PATH[4] = "Abilities\\Spells\\Items\\AIil\\AIilTarget.mdl"
+    set thistype.FIELD[4] = 1
+    set thistype.SPELL_POWER_INCREMENT[4] = 45
+    set thistype.DURATION[4] = 9
+    set thistype.ATTACK_SPEED_INCREMENT[4] = 0.25
+    set thistype.TARGET_EFFECT_ATTACH_POINT[4] = AttachPoint.ORIGIN
+    set thistype.MANA_INCREMENT[5] = 60
+    set thistype.TARGET_EFFECT_PATH[5] = "Abilities\\Spells\\Items\\AIil\\AIilTarget.mdl"
+    set thistype.FIELD[5] = 1
+    set thistype.SPELL_POWER_INCREMENT[5] = 55
+    set thistype.DURATION[5] = 9
+    set thistype.ATTACK_SPEED_INCREMENT[5] = 0.3
+    set thistype.TARGET_EFFECT_ATTACH_POINT[5] = AttachPoint.ORIGIN
+endmethod

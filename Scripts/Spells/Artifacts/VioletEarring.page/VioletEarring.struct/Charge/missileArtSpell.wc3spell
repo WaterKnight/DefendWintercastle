@@ -1,0 +1,8 @@
+field	jass ident	1
+name
+raw		AVEX
+base		SPECIAL_Afrb
+classes		DUMMY
+
+specials		abuf=<missileArtBuff.wc3buff:raw>
+specials		amat=<SargerasBeam.wc3imp:target>

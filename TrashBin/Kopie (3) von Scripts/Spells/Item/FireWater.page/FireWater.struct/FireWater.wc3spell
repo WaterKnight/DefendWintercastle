@@ -1,0 +1,24 @@
+field	jass ident	1	2	3	4	5
+name		Fire Water
+raw		AFiW
+
+base		PARALLEL_IMMEDIATE
+class		ITEM
+levelsAmount
+order
+target
+
+animation
+areaRange		70
+areaRangeDisplay		false
+channelTime
+cooldown		40
+manaCost
+range
+targets
+
+casterEffectAttachPoint		AttachPoint.ORIGIN
+casterEffectPath		Abilities\Spells\Items\AIma\AImaTarget.mdl
+refreshedMana		750
+
+include		Buff

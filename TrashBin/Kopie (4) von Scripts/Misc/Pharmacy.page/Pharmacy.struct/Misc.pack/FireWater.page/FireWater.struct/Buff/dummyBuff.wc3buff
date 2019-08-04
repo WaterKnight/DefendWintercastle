@@ -1,0 +1,20 @@
+field	1
+name	Fire Water
+raw	FiW
+
+class	ITEM
+levelsAmount
+lostOn
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNGreaterInvulneralbility.blp
+tooltip
+uberTooltip	Damages nearby enemies periodically.
+
+sfxPath	Abilities\Spells\Other\ImmolationRed\ImmolationRedTarget.mdl
+sfxAttachPt	AttachPoint.CHEST
+sfxLevel	EffectLevel.LOW
+
+sfxPath	Abilities\Spells\Other\ANrm\ANrmTarget.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.NORMAL

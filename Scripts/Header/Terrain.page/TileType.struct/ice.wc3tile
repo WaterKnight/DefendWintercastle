@@ -1,0 +1,13 @@
+field	1
+name	Iice
+raw	Iice
+
+texPath	TerrainArt\Icecrown\Ice_Ice.blp
+cliffSet
+
+walkable	true
+flyable	true
+buildable	true
+
+footprints	false
+blightPriority	3

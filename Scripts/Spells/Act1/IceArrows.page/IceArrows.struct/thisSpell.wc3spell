@@ -1,0 +1,33 @@
+field	jass ident	1
+name		Ice Arrows
+raw		IcA
+
+base		PASSIVE
+class		NORMAL
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost		20
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNColdArrowsOn.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Transforms the attack missiles of this unit into frozen shards that freeze targets for <duration> (<heroDuration>) seconds.
+
+damage		25
+duration		6
+heroDuration		3
+targetEffectAttachPoint		AttachPoint.ORIGIN
+targetEffectPath		Abilities\Spells\Undead\FrostNova\FrostNovaTarget.mdl

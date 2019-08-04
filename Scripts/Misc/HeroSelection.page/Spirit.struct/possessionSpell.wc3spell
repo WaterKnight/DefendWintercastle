@@ -1,0 +1,27 @@
+field	jass ident	1
+name		Possess Hero
+raw		SPo
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		healingwave
+target		UNIT
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		1
+manaCost
+range		2000
+targets		hero,invulnerable,vulnerable
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNPossession.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Takes control of the targeted hero. You can reconsider your choice until you leave the chamber through one of the exits. Possess a hero to obtain more information.

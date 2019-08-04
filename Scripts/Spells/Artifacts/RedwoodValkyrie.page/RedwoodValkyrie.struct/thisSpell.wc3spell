@@ -1,0 +1,48 @@
+field	jass ident	1	2	3	4	5	6
+name		Redwood Valkyrie
+raw		RwV
+
+base		NORMAL
+class		ARTIFACT
+levelsAmount
+order		sanctuary
+target		POINT_OR_UNIT
+
+animation		attack
+areaRange		80
+areaRangeDisplay		false
+channelTime
+cooldown		4
+manaCost		30	40	50	60	70	80
+range		1300
+targets		enemies
+
+learnIcon
+learnRaw		RV
+learnTooltip
+learnUberTooltip		Launches a burning arrow in the target direction, impacting on the first colliding enemy unit. This foe receives damage in height depending on the caster's normal attack damage, subsequently it will be ignited.|nTargeting an air unit will make the <name> a missile with splash damage.
+learnUberTooltipUpgrades		{Damage,<damage> (+<damageDamageModFactor> * attack damage)};{Splash damage (only air),<splashDamage>}
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNFlamingArrows.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Launches a burning arrow in the target direction, impacting on the first colliding enemy unit. This foe receives <damage> (+<damageDamageModFactor> * attack damage) damage, subsequently it will be ignited for <igniteDuration> (<igniteHeroDuration>) seconds.|nTargeting an air unit will make the <name> a missile with <splashDamage> splash damage.
+
+damage		5	15	30	50	75	105
+damageDamageModFactor		1.75	2	2.25	2.5	2.75	3
+damageDistanceFactor		1
+igniteDuration		8
+igniteHeroDuration		3
+launchEffectAttachPoint		AttachPoint.WEAPON
+launchEffectPath		Abilities\Spells\Other\Incinerate\IncinerateBuff.mdl
+missileEffectAttachPoint		AttachPoint.ORIGIN
+missileEffectPath		Abilities\Spells\Other\BreathOfFire\BreathOfFireDamage.mdl
+splashAreaRange		115	115
+splashDamage		20	30	40	50	60	70
+
+speed		1500
+acceleration		0

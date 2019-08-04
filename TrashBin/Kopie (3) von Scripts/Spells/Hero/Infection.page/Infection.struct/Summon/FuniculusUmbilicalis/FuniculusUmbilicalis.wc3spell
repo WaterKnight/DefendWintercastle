@@ -1,0 +1,29 @@
+field	jass ident	1	2	3	4	5
+name		Funiculus Umbilicalis
+raw		AInS
+
+base		PASSIVE
+class		NORMAL
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNDoom.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		This unit is a dissociation of Drakul; it gets healed for <healFactor,%> of each healing its master receives.
+
+healFactor		0.25

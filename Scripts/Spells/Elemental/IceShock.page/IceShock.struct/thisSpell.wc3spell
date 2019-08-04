@@ -1,0 +1,42 @@
+field	jass ident	1	2	3	4	5	6
+name		Ice Shock
+raw		IcS
+
+base		NORMAL
+class		ELEMENTAL
+levelsAmount
+order		inferno
+target		UNIT
+
+animation		spell
+areaRange		200
+areaRangeDisplay		true
+channelTime
+cooldown		15
+manaCost		70
+range		600
+targets		air,enemies,ground,neutral,organic
+
+learnIcon
+learnRaw		IS
+learnTooltip
+learnUberTooltip		Instantly <FROST>freezes</FROST> the primary target, damaging it (magic) and <COLDNESS>chills</COLDNESS> down nearby secondary enemy units, damaging them as well (magic).
+learnUberTooltipUpgrades		{Primary damage,<primaryDamage>};{Frost duration,<frostDuration> (<frostHeroDuration>) seconds};{Secondary damage,<secondaryDamage>};{Coldness duration,<coldnessDuration> (<coldnessHeroDuration>) seconds}
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNGlacier.blp
+lore
+sharedBuffs		FROST;COLDNESS
+tooltip
+uberTooltip		Instantly <FROST>freezes</FROST> the primary target, damaging it for <primaryDamage> (magic) and <COLDNESS>chills</COLDNESS> down nearby secondary enemy units, damaging them for <secondaryDamage> (magic).|nLasts <frostDuration> (<frostHeroDuration>)/<coldnessDuration> (<coldnessHeroDuration>) seconds.
+
+primaryDamage		25	50	75	100	125	150
+secondaryDamage		10	25	40	55	70	85
+
+coldnessDuration		4	4
+coldnessHeroDuration		1	1
+frostDuration		4	4
+frostHeroDuration		1	1
+specialEffectPath		Abilities\Spells\Undead\FrostNova\FrostNovaTarget.mdl

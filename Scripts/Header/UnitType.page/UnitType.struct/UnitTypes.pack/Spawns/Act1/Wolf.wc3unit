@@ -1,0 +1,95 @@
+field	value
+name	Tundra Wolf
+raw	Wol
+
+classes
+hero	false
+structure	false
+team	ATTACKER
+
+model	units\creeps\WhiteWolf\WhiteWolf.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.
+
+elevPts	0
+elevRad	50.
+maxRoll	10.
+maxPitch	45.
+scale	1.
+selScale	1.25
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	140.
+shadowHeight	140.
+shadowOffsetX	60.
+shadowOffsetY	60.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNTimberWolf.blp
+soundset	SpiritWolf
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	125.
+turnRate	0.6
+height
+heightMin
+animWalk	240.
+animRun	240.
+moveInterp	5
+
+animBlend	0.15
+animCastWaitBefore	0.3
+animCastWaitAfter	0.51
+
+armorAmount	2.
+armorSound	Flesh
+armorType	LARGE
+life	120.
+lifeRegen	2.
+mana	100
+manaRegen	5
+spellPower	22.5
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	NORMAL
+attackCooldown	1.35
+attackRange	110.
+attackRangeAcq	500.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	0.33
+attackWaitAfter	0.
+attackSound	WoodMediumBash
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	NORMAL
+damageAmount	8
+damageDices	2
+damageSides	3
+
+collisionSize	32.
+combatFlags	ground
+deathTime	1.75
+exp	40
+gold	8
+
+abilities	Spells\Act1\LunarRestoration.page\LunarRestoration.struct\thisSpell

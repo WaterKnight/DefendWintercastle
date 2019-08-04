@@ -1,0 +1,11 @@
+field	jass ident	1
+name		Changer (<sourceRaw> to <targetRaw>)
+raw		AvC
+base		SPECIAL_Abrf
+classes		DUMMY
+
+specials		Emeu=<sourceRaw>
+specials		Eme1=<targetRaw>
+
+sourceRaw		<Rocketeye:raw>
+targetRaw		<thisUnitType.wc3unit:raw>

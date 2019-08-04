@@ -1,0 +1,11 @@
+field	jass ident	1
+name
+raw		Aloa
+base		SPECIAL_Aloa
+classes		DUMMY
+
+areaRange		0
+cooldown		0
+manaCost		0
+range		0
+targets		enemy,friend,invulnerable,neutral,vulnerable

@@ -1,0 +1,103 @@
+field	value
+name	Furbolg Oracle
+raw	FuO
+
+classes
+hero	true
+structure	false
+team	ATTACKER
+
+model	units\creeps\FurbolgTracker\FurbolgTracker.mdx
+modelAttachPts
+modelAnims
+modelAttachMods	large
+modelBones
+standardScale	1.
+
+elevPts	0
+elevRad	50.
+maxRoll	5.
+maxPitch	5.
+scale	3.6
+selScale	1.25
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	150.
+shadowHeight	150.
+shadowOffsetX	60.
+shadowOffsetY	60.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNFurbolgTracker.blp
+soundset	Furbolg
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	180.
+turnRate	0.15
+height
+heightMin
+animWalk	320.
+animRun	320.
+moveInterp	4
+
+animBlend	0.15
+animCastWaitBefore	0.5
+animCastWaitAfter	0.51
+
+armorAmount	4.
+armorSound	Flesh
+armorType	HERO
+life	6500.
+lifeRegen	15.
+mana	1500.
+manaRegen	25.
+spellPower	100.
+sightRange	1800.
+sightRangeNight	800.
+
+attackType	NORMAL
+attackCooldown	3.
+attackRange	100.
+attackRangeAcq	500.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	0.35
+attackWaitAfter	0.
+attackSound	WoodHeavyBash
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	HERO
+damageAmount	44
+damageDices	1
+damageSides	20
+
+collisionSize	32.
+combatFlags	ground
+deathTime	3.
+exp	50
+gold	50
+
+heroAttribute
+heroAgi
+heroAgiUp
+heroInt
+heroIntUp
+heroStr
+heroStrUp
+heroArmorUp
+heroNames	White Eyes Fursa

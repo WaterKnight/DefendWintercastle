@@ -1,0 +1,42 @@
+field	jass ident	1	2	3
+name		Boulder Crash
+raw		BoC
+
+base		NORMAL
+class		HERO_ULTIMATE_EX
+levelsAmount
+order		deathanddecay
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		BC
+learnTooltip
+learnUberTooltip		Channels a devastating ability, which steadily pulls all the nearby enemy units towards <Rocketeye:name> and hurts them over time. The damage dealt gets higher as a target gets closer.
+learnUberTooltipUpgrades		{Damage per second,<damagePerSecond>};{Range factor far,<rangeFactorFar,%>};{Pull speed,<pullSpeed>}
+
+animation		morph
+areaRange		450	600	850
+areaRangeDisplay
+cooldown		90
+channelTime		15
+manaCost		145	210	275
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNDizzy.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Channels a devastating ability, which steadily pulls (<pullSpeed> speed) all the nearby enemy units towards <Rocketeye:name> and hurts them over time. The damage per second varies from <damagePerSecond,*rangeFactorClose> near the caster to <damagePerSecond,*rangeFactorFar> on the circumference (<areaRange> area range).
+
+damagePerSecond		40	60	80
+interval		0.25
+rangeFactorClose		1
+rangeFactorFar		0.5
+pullSpeed		50	75	100

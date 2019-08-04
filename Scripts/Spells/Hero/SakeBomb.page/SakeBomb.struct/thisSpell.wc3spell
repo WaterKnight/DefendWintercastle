@@ -1,0 +1,47 @@
+field	jass ident	1	2	3	4	5	6
+name		Sake Bomb
+raw		SaB
+
+base		NORMAL
+class		HERO_SECOND
+levelsAmount
+order		thunderclap
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		SB
+learnTooltip
+learnUberTooltip		Throws an alcoholic mixture on the ground and sparks the fuse. On impact, enemy units become <POISON>intoxicated</POISON>. The construct blows up after a few seconds, <POISON>empoisoning</POISON> nearby foes once more. Enemy units will take slight damage (magical,  as well as become coated with poison. Already intoxicated units take greater initial damage.
+learnUberTooltipUpgrades		{Damage,<damage>};{Mana burn,<manaBurnRel,%>};{Poison duration,<poisonDuration,asSecs>}
+
+animation		spell
+areaRange		200	225	250	275	300	325
+areaRangeDisplay		true
+channelTime
+cooldown		4
+manaCost		35	40	50	65	85	95
+range		700
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNDrum.blp
+lore		You look a bit thirsty. Why not stay for a while so I can fix you some booze?....- Now you are a bit pale around the gills. You know what helps me in these situations?....- Then again, I have always been rather pallid.
+sharedBuffs		POISON
+tooltip
+uberTooltip		Places a sake-explosive mix on the ground and sparks the fuse, blowing up the whole construct after <duration> seconds. Enemy units will take <damage> damage as well as become coated with <POISON>poison</POISON> for <poisonDuration> seconds. Already intoxicated units take an additional damage of <poisonDamageAddFactor,%>.
+
+damage		25	45	65	85	105	125
+damageRangeFactorClose		0.5
+damageRangeFactorFar		1
+duration		3
+manaBurnRel		0.03	0.03	0.04	0.04	0.05	0.05
+poisonDamageAddFactor		0.3
+poisonDuration		7.5	8	8.5	9	9.5	10
+specialEffectPath		Abilities\Spells\Other\Volcano\VolcanoMissile.mdl
+targetEffectAttachPoint		AttachPoint.OVERHEAD
+targetEffectPath		Abilities\Spells\Other\StrongDrink\BrewmasterTarget.mdl

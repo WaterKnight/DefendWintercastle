@@ -1,0 +1,16 @@
+field	1
+name	Nurturing Grounds
+raw	NGP
+
+class	HERO_SECOND
+levelsAmount
+lostOn
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNEntanglingRoots.blp
+tooltip
+uberTooltip	This unit stands on poisonous ground.
+
+sfxPath
+sfxAttachPt
+sfxLevel

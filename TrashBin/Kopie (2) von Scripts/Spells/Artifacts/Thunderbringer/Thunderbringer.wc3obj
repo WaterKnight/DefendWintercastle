@@ -1,0 +1,33 @@
+field	jass ident	1	2	3	4	5
+name		Thunderbringer
+raw		AThu
+
+base		NORMAL
+class		ARTIFACT
+levelsAmount
+order		sanctuary
+target		UNIT
+
+animation		spell
+areaRange		100	150	200	225	250
+areaRangeDisplay		false
+channelTime
+cooldown		8
+manaCost		35	45	55	65	75
+range		175
+targets		enemy,organic
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNStormHammer.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Charges Rocketeye's weapon with lightning energy to obtain a splash effect that stuns picked targets on the next attack. Deals an extra damage of <damage> and stuns for <stunDuration> seconds.
+
+damage		30	60	90	120	150
+duration		12
+stunDuration		2	2.25	2.5	2.75	3
+specialEffectPath		Abilities\Spells\Human\ManaFlare\ManaFlareBoltImpact.mdl
+specialEffect2Path		Abilities\Spells\Other\Monsoon\MonsoonBoltTarget.mdl

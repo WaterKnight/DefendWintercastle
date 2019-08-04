@@ -1,0 +1,6 @@
+field	1
+name	Sleep Stun
+raw	BSls
+
+base	BUst
+classes	DUMMY

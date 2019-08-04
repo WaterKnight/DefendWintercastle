@@ -1,0 +1,35 @@
+field	jass ident	1	2	3	4	5
+name
+raw
+
+base
+class
+levelsAmount
+order
+target
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw
+learnTooltip
+learnUberTooltip
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\
+lore
+sharedBuffs
+tooltip
+uberTooltip

@@ -1,0 +1,33 @@
+field	1	2	3
+name	Avatar
+raw	Ava
+
+class	HERO_ULTIMATE
+levelsAmount	3
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNAvatar.blp
+tooltip
+uberTooltip	Avatar form
+
+sfxPath	Abilities\Spells\Orc\SpiritLink\SpiritLinkTarget.mdl
+sfxAttachPt	AttachPoint.CHEST
+sfxLevel	EffectLevel.NORMAL
+
+unitMod	vigorBonusRel	vigorBonusRel
+unitModVal	<thisSpell.wc3spell:vigorRelInc>	<thisSpell.wc3spell:vigorRelInc>
+
+unitMod	focusBonusRel	focusBonusRel
+unitModVal	<thisSpell.wc3spell:focusRelInc>	<thisSpell.wc3spell:focusRelInc>
+
+unitMod	animusBonusRel	animusBonusRel
+unitModVal	<thisSpell.wc3spell:animusRelInc>	<thisSpell.wc3spell:animusRelInc>
+
+unitMod	lifeLeech	lifeLeech
+unitModVal	<thisSpell.wc3spell:lifeLeechInc>	<thisSpell.wc3spell:lifeLeechInc>
+
+unitMod	scaleBonusTimed	scaleBonusTimed
+unitModVal	{<thisSpell.wc3spell:scaleInc>,<thisSpell.wc3spell:scaleDuration>}	{<thisSpell.wc3spell:scaleInc>,<thisSpell.wc3spell:scaleDuration>}
+
+unitMod	magicImmunity	magicImmunity
+unitModVal	true	true

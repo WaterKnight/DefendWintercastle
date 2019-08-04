@@ -1,0 +1,24 @@
+field	value
+name	Ice Tea
+raw	IcT
+
+classes
+
+model	Objects\InventoryItems\TreasureChest\treasurechest.mdl
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	Replenishes mana.
+icon	ReplaceableTextures\CommandButtons\BTNLesserRejuvPotion.blp
+tooltip	Purchase <name>
+uberTooltip	Returns 350 mana.
+
+abilities	thisSpell{2}
+armor
+chargesAmount	1
+cooldownGroup
+goldCost	80
+lumberCost	0

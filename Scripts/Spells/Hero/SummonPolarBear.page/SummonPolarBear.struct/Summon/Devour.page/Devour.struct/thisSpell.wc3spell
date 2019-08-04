@@ -1,0 +1,27 @@
+field	jass ident	1	2	3	4	5	6
+name		Devour
+raw		Dev
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		evileye
+target		UNIT
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		120
+manaCost
+range		150
+targets		organic,enemies
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNDevour.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Stores the target inside a place safe and warm, inside the bear's stomach.

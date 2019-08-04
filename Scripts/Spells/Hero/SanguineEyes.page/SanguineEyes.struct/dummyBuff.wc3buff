@@ -1,0 +1,16 @@
+field	1
+name	Sanguine Eyes
+raw	SaE
+
+class	HERO_ULTIMATE_EX
+levelsAmount
+lostOn	dispel
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNOrbofSlowness.blp
+tooltip
+uberTooltip	The caster of this buff receives health each time this unit takes damage.
+
+sfxPath	Abilities\Spells\Other\Doom\DoomTarget.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW

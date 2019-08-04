@@ -1,0 +1,13 @@
+field	1
+raw	CoT
+
+texPath	ReplaceableTextures\Weather\lariatCaught.blp
+avgSegLen	50
+width	20
+red	255
+green	255
+blue	255
+alpha	255
+noiseScale	0
+texCoordScale	0
+duration	2

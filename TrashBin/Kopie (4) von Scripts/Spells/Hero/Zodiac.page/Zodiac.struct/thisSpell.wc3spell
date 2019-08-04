@@ -1,0 +1,42 @@
+field	jass ident	1	2	3	4	5
+name		Zodiac
+raw		AZod
+
+base		NORMAL
+class		HERO_FIRST
+levelsAmount
+order		darkconversion
+target		UNIT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Zo
+learnTooltip
+learnUberTooltip		Summons a guardian spirit that heals a selected unit and amplifies its life regeneration by <lifeRegenAdd,%>. The target also receives an armor buff, unless the spell is cast on oneself, whereas the buff would be a boost in move speed.	Summons a guardian spirit that heals a selected unit and amplifies its life regeneration by <lifeRegenAdd,%>. The target also receives an armor buff, unless the spell is cast on oneself, whereas the buff would be a boost in move speed.|n|nNext Level:|nArmor increment: <armorIncrement<prevLevel>> --> <armorIncrement>|nDuration: <duration<prevLevel>> seconds --> <duration> seconds|nHeal: <heal<prevLevel>> --> <heal>|nMana cost: <manaCost<prevLevel>> --> <manaCost>|nMove speed increment: <speedRelativeIncrement<prevLevel>,%> --> <speedRelativeIncrement,%>
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		7
+manaCost		60	80	100	120	140
+range		600
+targets		air,friend,ground,invulnerable,neutral,organic,self,vulnerable
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNRacoon.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Summons a guardian spirit that heals a selected unit by <heal> (+<healSpellPowerModFactor> x spell power) and amplifies its life regeneration by <lifeRegenAdd,%>. The target also receives an armor buff of <armorIncrement>, unless the spell is cast on oneself, whereas the buff would be boost in move speed of <speedRelativeIncrement,%>.|nLasts <duration> seconds.
+
+armorIncrement		4	8	12	16	20
+duration		12	15	18	21	24
+heal		90	165	240	315	390
+healSpellPowerModFactor		1
+lifeRegenAdd		0.75
+specialEffectPath		Abilities\Spells\Human\Polymorph\PolyMorphTarget.mdl

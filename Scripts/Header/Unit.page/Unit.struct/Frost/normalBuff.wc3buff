@@ -1,0 +1,15 @@
+field	1
+name	Frost
+raw	Fro
+
+class	NORMAL
+levelsAmount
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNFreezingBreath.blp
+tooltip
+uberTooltip	This unit is frozen stiff. It cannot act and shatters on death.
+
+sfxPath	<Frost.wc3imp:target>
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW

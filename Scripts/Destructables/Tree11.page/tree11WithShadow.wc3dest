@@ -1,0 +1,44 @@
+field	value
+name	Tree11 with Shadow
+raw	00C
+
+classes	DECOR
+
+model	Doodads\Tree11\Tree11.mdx
+modelLightweight	true
+modelPortrait
+modelVariations
+
+flyHeight	100
+occluderHeight	230
+replaceableTex	ReplaceableTextures\AshenvaleTree\Ice_Tree
+replaceableTexId	32
+selScale	256
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+
+elevRad
+maxRoll
+maxPitch
+
+minimapDisplay	true
+minimapRed	32
+minimapGreen	128
+minimapBlue	100
+
+deathSound
+shadow	BuildingShadowSmall
+
+armor
+fatLOS
+fogRad
+fogVisibility
+life
+selectable
+
+pathTex
+pathTexDead
+combatFlags	tree
+cliffLevel
+walkable

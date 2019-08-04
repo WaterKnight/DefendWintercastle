@@ -1,0 +1,30 @@
+field	jass ident	1	2	3	4	5
+name		Lapidation
+raw		ALap
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		sleep
+target		POINT
+
+animation		spell
+areaRange		700
+areaRangeDisplay		true
+channelTime
+cooldown		60
+manaCost		80
+range		99999
+targets
+
+buttonPosX		2
+buttonPosY		0
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNGolemStormBolt.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Covers adversary units in a huge area under heavy rocks, stunning them for <duration> seconds.
+
+damage		100
+maxTargetsAmount		10

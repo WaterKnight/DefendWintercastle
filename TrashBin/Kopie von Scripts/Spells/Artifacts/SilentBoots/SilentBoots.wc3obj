@@ -1,0 +1,40 @@
+field	jass ident	1	2	3	4	5
+name		Silent Boots
+raw		ASiB
+
+base		PARALLEL_IMMEDIATE
+class		ARTIFACT
+levelsAmount
+order
+target
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw
+learnTooltip
+learnUberTooltip
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		25	22	19	16	13
+manaCost		50
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNSlippersOfAgility.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		A stimulating shake is thrown to an allied unit, temporarily boosting the target's spellpower by <spellPowerIncrement> and restoring <manaIncrement> mana.|nLasts <duration> seconds.
+
+casterEffectAttachPoint		AttachPoint.ORIGIN
+casterEffectPath		Abilities\Spells\Items\AIvi\AIviTarget.mdl
+duration		5	6	7	8	9
+moveSpeedIncrement		50	80	110	140	170

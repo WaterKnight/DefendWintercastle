@@ -1,0 +1,31 @@
+field	jass ident	1	2	3	4	5
+name		Muting Shout
+raw		AMuS
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		roar
+target		IMMEDIATE
+
+animation		spell
+areaRange		550
+areaRangeDisplay		true
+channelTime
+cooldown		15
+manaCost		30
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNBattleRoar.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip
+
+healFactor		0.05
+silenceDuration		4
+specialEffectPath		Abilities\Spells\NightElf\BattleRoar\RoarCaster.mdl

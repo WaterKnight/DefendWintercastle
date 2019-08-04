@@ -1,0 +1,4 @@
+field	1
+type	icon
+src	BTN404.blp
+target	ReplaceableTextures\CommandButtons\BTNTemp.blp

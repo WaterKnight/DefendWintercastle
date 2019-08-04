@@ -1,0 +1,5 @@
+field	jass ident	1
+damagePerSecond		5
+duration		4
+heroDuration		2
+interval		0.5

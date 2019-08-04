@@ -1,0 +1,11 @@
+//! import "AI.j"
+//! import "Commands.j"
+//! import "Header.j"
+//! import "Items.j"
+//! import "Misc.j"
+//! import "Other.j"
+//! import "Speeches.j"
+//! import "Spells.j"
+//! import "Units.j"
+
+//! import "Main.j"

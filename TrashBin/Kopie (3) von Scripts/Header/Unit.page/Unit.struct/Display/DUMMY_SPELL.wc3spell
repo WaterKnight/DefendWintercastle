@@ -1,0 +1,32 @@
+field	jass ident	1
+name		Update Unit Display
+raw		AUUD
+
+base		SPECIAL_AImh
+class
+levelsAmount
+order
+target
+
+specials		aart=
+specials		acap=
+specials		acat=
+specials		Ilif=0
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon
+lore
+sharedBuffs
+tooltip
+uberTooltip

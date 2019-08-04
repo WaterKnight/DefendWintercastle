@@ -1,0 +1,6 @@
+field	jass ident	1	2	3	4	5	6
+armorInc		-3	-5	-7	-9	-11	-13
+lifeLeech		2	3	4	5	6	7
+manaLeech		2	3	4	5	6	7
+missInc		30	60	90	120	150	180
+moveSpeedRelInc		-0.4	-0.4

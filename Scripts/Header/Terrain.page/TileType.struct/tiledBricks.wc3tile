@@ -1,0 +1,13 @@
+field	1
+name	Itbk
+raw	Itbk
+
+texPath	TerrainArt\Icecrown\Ice_TiledBricks.blp
+cliffSet
+
+walkable	true
+flyable	true
+buildable	false
+
+footprints	false
+blightPriority	8

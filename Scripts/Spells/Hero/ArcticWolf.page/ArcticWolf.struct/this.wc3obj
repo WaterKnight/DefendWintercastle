@@ -1,0 +1,13 @@
+field	jass ident	1	2	3
+dummyUnitEffectAttachPoint		AttachPoint.ORIGIN
+dummyUnitEffectPath		<IceVortex.wc3imp:target>
+dummyUnitFadeOut		0.5
+explosionDamage		100	175	250
+explosionEffectPath		<Explosion.wc3imp:target>
+height		50
+speed		400
+startOffset		90
+stunDuration		3	4	5
+summonAmount		1	2	3
+summonDuration		60	60
+travelDamage		0	0

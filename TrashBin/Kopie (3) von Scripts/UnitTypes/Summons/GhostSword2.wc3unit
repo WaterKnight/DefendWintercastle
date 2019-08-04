@@ -1,0 +1,93 @@
+field	value
+name	Ghost Sword (Level 2)
+raw	Gh2
+
+classes
+hero	false
+structure	false
+team	DEFENDER
+
+model	Units\Summons\GhostSword\GhostSword.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.
+
+elevPts	0
+elevRad	50.
+maxRoll	10.
+maxPitch	10.
+scale	1.
+selScale	1.3
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	FLY
+shadowWidth	60.
+shadowHeight	60.
+shadowOffsetX	10.
+shadowOffsetY	10.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNThoriumMelee.blp
+soundset
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	220.
+turnRate	0.5
+height
+heightMin
+animWalk	200.
+animRun	200.
+moveInterp	1
+
+animBlend	0.15
+animCastWaitBefore	0.
+animCastWaitAfter	0.51
+
+armorAmount	1.
+armorSound	Ethereal
+armorType	MEDIUM
+life	275.
+lifeRegen	0.
+mana
+manaRegen
+spellPower	40.
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	NORMAL
+attackCooldown	1.7
+attackRange	128.
+attackRangeAcq	300.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	0.3
+attackWaitAfter	0.
+attackSound	MetalLightChop
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	NORMAL
+damageAmount	5
+damageDices	2
+damageSides	2
+
+collisionSize	20.
+combatFlags	ground
+deathTime	3.
+exp
+gold

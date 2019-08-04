@@ -1,0 +1,16 @@
+field	1
+name	Severance
+raw	Sev
+
+class	PURCHASABLE
+levelsAmount
+lostOn	dispel
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNAcidBomb.blp
+tooltip
+uberTooltip	This unit's bones are deep-frozen. They easily splinter under physical force.
+
+sfxPath	Abilities\Spells\Undead\UnholyFrenzy\UnholyFrenzyTarget.mdl
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW

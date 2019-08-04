@@ -1,0 +1,35 @@
+field	jass ident	1	2	3	4	5
+name		Tainted Leaf
+raw		ATaL
+
+base		NORMAL
+class		ARTIFACT
+levelsAmount
+order		sanctuary
+target		UNIT
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		6
+manaCost		70
+range		800
+targets		air,enemies,friend,ground,invulnerable,neutral,organic,self,vulnerable
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNRejuvenation.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Tajran uses the leaf's power to immediately heal a single selected allied unit for 5% + 80 hitpoints. After that, he is put to sleep for 5 seconds, which can be manually interrupted by hitting the appearing ability.
+
+heal		80	100	120	140	160
+healFactor		0.05	0.1	0.15	0.2	0.25
+healTargetEffectAttachPoint		AttachPoint.ORIGIN
+healTargetEffectPath		Abilities\Spells\Human\Resurrect\ResurrectTarget.mdl
+selfFactor		0.7
+sleepDuration		3	3
+sleepHeroDuration		1	1

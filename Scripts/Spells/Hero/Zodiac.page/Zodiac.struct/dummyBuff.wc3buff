@@ -1,0 +1,16 @@
+field	1
+name	Zodiac
+raw	Zod
+
+class	HERO_ULTIMATE_EX
+levelsAmount
+lostOn	death
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNGenericSpellImmunity.blp
+tooltip
+uberTooltip	This unit is protected by animal spirits; it cannot collapse and is surrounded by a curing and winging aura.
+
+sfxPath	<casterEffect.wc3imp:target>
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW

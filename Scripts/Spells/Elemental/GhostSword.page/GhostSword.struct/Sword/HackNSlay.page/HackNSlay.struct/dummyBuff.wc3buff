@@ -1,0 +1,19 @@
+field	1
+name
+raw
+
+class
+levelsAmount
+lostOn
+positive	true
+
+icon
+tooltip
+uberTooltip
+
+sfxPath
+sfxAttachPt
+sfxLevel
+
+unitMod
+unitModVal

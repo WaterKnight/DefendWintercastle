@@ -1,0 +1,15 @@
+field	1
+name	Stunned
+raw	Stu
+
+class	NORMAL
+levelsAmount
+positive
+
+icon	ReplaceableTextures\CommandButtons\BTNStun.blp
+tooltip
+uberTooltip	This unit is stunned.
+
+sfxPath	Abilities\Spells\Human\Thunderclap\ThunderclapTarget.mdl
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW

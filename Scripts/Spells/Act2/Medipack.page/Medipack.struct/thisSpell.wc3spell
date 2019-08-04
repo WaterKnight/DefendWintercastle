@@ -1,0 +1,31 @@
+field	jass ident	1
+name		Medipack
+raw		MeP
+
+base		PARALLEL_IMMEDIATE
+class		NORMAL
+levelsAmount
+order
+target
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		15
+manaCost		25
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNManual.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Heals oneself for <heal> hitpoints immediately and cures all negative buffs.
+
+heal		150
+casterEffectAttachPoint		AttachPoint.CHEST
+casterEffectPath		<Medipack.wc3imp:target>

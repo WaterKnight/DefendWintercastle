@@ -1,0 +1,36 @@
+field	jass ident	1	2	3	4	5	6
+name		Twin Wolves
+raw		TwW
+
+base		NORMAL
+class		ELEMENTAL
+levelsAmount
+order		spiritwolf
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		AW
+learnTooltip
+learnUberTooltip		Summons a pair of wolves in front of <Aruruw:name> to assist her in combat. Those possess the abilities '<Carnivore:name>', which grants an additional critical value and a life leech effect, and '<Brotherhood:name>', which links both wolves to share part of their pain. <Aruruw:name> uses her friends to keep enemies on distance, so she can effectively show her archery skills.|nThe wolves grow stronger with each level.
+learnUberTooltipUpgrades		{Summons amount,<this.wc3obj:summonAmount>}
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		15
+manaCost		100
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNWolf.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Summons a pair of wolves in front of <Aruruw:name> to assist her in combat. Those possess the abilities '<Carnivore:name>', which grants an additional critical value and a life leech effect, and '<Brotherhood:name>', which links both wolves to share part of their pain. <Aruruw:name> uses her friends to keep enemies on distance, so she can effectively show her archery skills.

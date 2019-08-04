@@ -1,0 +1,100 @@
+field	value
+name	Ride Shop
+raw	RiS
+
+classes	NEUTRAL;STRUCTURE
+hero	false
+structure	true
+team	DEFENDER
+
+model	units\human\KnightNoRider\KnightNoRider.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.
+
+elevPts	4
+elevRad	50.
+maxRoll	0.
+maxPitch	0.
+scale	1.3
+selScale	1.23
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	120.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	120.
+shadowHeight	120.
+shadowOffsetX	60.
+shadowOffsetY	60.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNRiderlessHorse.blp
+soundset
+tooltip
+uberTooltip
+
+moveType
+moveSpeed
+turnRate
+height
+heightMin
+animWalk
+animRun
+moveInterp
+
+animBlend	0.15
+animCastWaitBefore	0.
+animCastWaitAfter	0.51
+
+armorAmount	0.
+armorSound	Flesh
+armorType	LIGHT
+life	INFINITE
+lifeRegen	0.
+mana
+manaRegen
+spellPower
+sightRange	500.
+sightRangeNight	500.
+
+attackType
+attackCooldown
+attackRange
+attackRangeAcq	0.
+attackRangeBuffer
+attackTargetFlags
+attackWaitBefore
+attackWaitAfter
+attackSound
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType
+damageAmount
+damageDices
+damageSides
+
+collisionSize
+combatFlags	structure
+deathTime	3.
+exp
+gold
+
+
+structurePathTex
+structureSoldItems	shopItem
+structureUbersplat
+
+abilities	Spells\Misc\Invulnerability.page\Invulnerability.struct\thisSpell

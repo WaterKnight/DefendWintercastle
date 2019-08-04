@@ -1,0 +1,13 @@
+field	1
+name	Idki
+raw	Idki
+
+texPath	TerrainArt\Icecrown\Ice_DarkIce.blp
+cliffSet
+
+walkable	true
+flyable	true
+buildable	true
+
+footprints	false
+blightPriority	6

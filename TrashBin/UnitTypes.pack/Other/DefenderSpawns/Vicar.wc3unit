@@ -1,0 +1,93 @@
+field	value
+name	Vicar
+raw	Via
+
+classes
+hero	false
+structure	false
+team	DEFENDER
+
+model	units\creeps\HumanMage\HumanMage.mdl
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.
+
+elevPts	0
+elevRad	50.
+maxRoll	10.
+maxPitch	10.
+scale	1.15
+selScale	1.
+vertexColorRed	255
+vertexColorGreen	255
+vertexColorBlue	255
+vertexColorAlpha	255
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	80.
+shadowHeight	80.
+shadowOffsetX	40.
+shadowOffsetY	40.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNBanditMage.blp
+soundset	Priest
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	270.
+turnRate	0.5
+height
+heightMin
+animWalk	185.
+animRun	185.
+moveInterp	0
+
+animBlend	0.15
+animCastWaitBefore	0.3
+animCastWaitAfter	0.51
+
+armorAmount	0.
+armorSound	Flesh
+armorType	UNARMORED
+life	200.
+lifeRegen	1.
+mana	150.
+manaRegen	1.
+spellPower	15.
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	HOMING_MISSILE
+attackCooldown	2.
+attackRange	600.
+attackRangeAcq	600.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,air,item,ward
+attackWaitBefore	0.3
+attackWaitAfter	0.
+attackSound
+
+attackMissileModel	Abilities\Weapons\PriestMissile\PriestMissile.mdl
+attackMissileSpeed	1200.
+attackMissileArc	0.15
+
+damageType	MAGIC
+damageAmount	1
+damageDices	1
+damageSides	2
+
+collisionSize	16.
+combatFlags	ground
+deathTime	3.
+exp	10
+gold	20

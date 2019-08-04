@@ -1,0 +1,7 @@
+field	jass ident	1
+name		Unit Scale Buff
+raw		BUSC
+base		SPECIAL_Bblo
+classes		DUMMY
+
+icon		ReplaceableTextures\CommandButtons\BTNBloodLust.blp

@@ -1,0 +1,44 @@
+field	value
+name	Igloo
+raw	004
+
+classes	DECOR
+
+model	Doodads\Icecrown\Structures\Igloo\Igloo
+modelLightweight
+modelPortrait	Doodads\Icecrown\Structures\Igloo\Igloo.mdx
+modelVariations
+
+flyHeight	100
+occluderHeight	230
+replaceableTex
+replaceableTexId
+selScale	256
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+
+elevRad
+maxRoll
+maxPitch
+
+minimapDisplay	true
+minimapRed
+minimapGreen
+minimapBlue
+
+deathSound
+shadow	BuildingShadowSmall
+
+armor
+fatLOS
+fogRad
+fogVisibility
+life
+selectable
+
+pathTex
+pathTexDead
+combatFlags
+cliffLevel
+walkable

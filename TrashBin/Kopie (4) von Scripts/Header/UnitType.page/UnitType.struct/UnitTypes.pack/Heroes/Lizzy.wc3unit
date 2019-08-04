@@ -1,0 +1,105 @@
+field	value
+name	Lizzy
+raw	Man
+
+classes
+hero	true
+structure	false
+team	DEFENDER
+
+model	units\human\Jaina\Jaina.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	0.85
+
+elevPts	0
+elevRad	20.
+maxRoll	5.
+maxPitch	5.
+scale	1.25
+selScale	1.05
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	60.
+outpactX	15.
+outpactY	0.
+outpactZ	66.
+
+shadowPath	NORMAL
+shadowWidth	140.
+shadowHeight	140.
+shadowOffsetX	70.
+shadowOffsetY	70.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNJaina.blp
+soundset	Jaina
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	305.
+turnRate	0.5
+height
+heightMin
+animWalk	400.
+animRun	400.
+moveInterp	0
+
+animBlend	0.15
+animCastWaitBefore	0.3
+animCastWaitAfter	2.4
+
+armorAmount	0.
+armorSound	Flesh
+armorType	HERO
+life	100.
+lifeRegen	0.
+mana	100.
+manaRegen	0.
+spellPower
+sightRange	1800.
+sightRangeNight	800.
+
+attackType	HOMING_MISSILE
+attackCooldown	1.7
+attackRange	600.
+attackRangeAcq	600.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,air,item,ward
+attackWaitBefore	0.55
+attackWaitAfter	0.
+attackSound
+
+attackMissileModel	Units\Heroes\Lizzy\Missile.mdx
+attackMissileSpeed	900.
+attackMissileArc	0.15
+
+damageType	MAGIC
+damageAmount	9
+damageDices	1
+damageSides	10
+
+collisionSize	27.2
+combatFlags	ground
+deathTime	2.8
+exp
+gold
+
+heroAttribute	INTELLIGENCE
+heroAgi	7.5
+heroAgiUp	3.
+heroInt	17.5
+heroIntUp	4.5
+heroStr	5.
+heroStrUp	2.5
+heroArmorUp	0.4
+heroNames	Lizzy Liz
+
+abilities	Spells\Hero\ManaLaser.page\ManaLaser.struct\thisSpell;Spells\Hero\Crippling.page\Crippling.struct\thisSpell;Spells\Hero\FairysTears.page\FairysTears.struct\thisSpell;Spells\Hero\Tsukuyomi.page\Tsukuyomi.struct\thisSpell

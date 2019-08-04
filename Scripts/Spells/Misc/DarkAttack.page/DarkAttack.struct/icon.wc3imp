@@ -1,0 +1,6 @@
+field	1
+type	icon
+src	PASBTNDarkAttack.blp
+target
+
+iconDisabledSrc	DISPASBTNDarkAttack.blp

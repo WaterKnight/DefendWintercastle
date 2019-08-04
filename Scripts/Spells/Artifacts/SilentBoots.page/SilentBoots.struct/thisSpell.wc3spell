@@ -1,0 +1,43 @@
+field	jass ident	1	2	3	4	5	6
+name		Silent Boots
+raw		SiB
+
+base		PARALLEL_IMMEDIATE
+class		ARTIFACT
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		10	9	8	7	6	5
+manaCost		50
+range
+targets
+
+learnIcon
+learnRaw		Si
+learnTooltip
+learnUberTooltip		<Kera:name> turns into stealth mode, turning her invisible. During this state, her movement speed is increased but the bonus steadily weakens over the duration. When attacking while '<name>' is on, the target will receive extra damage and be disarmed and <SILENCE>silenced</SILENCE> for a moment.
+learnUberTooltipUpgrades		{Movement speed initial bonus,<moveSpeedBonus>};{Duration,<duration,asSecs>};{Disarm/Silence duration,<disarmDuration> (<disarmHeroDuration>) second(s)};{Extra damage,<extraDamage>}
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNSlippersOfAgility.blp
+lore
+sharedBuffs		INVIS;SILENCE
+tooltip
+uberTooltip		<Kera:name> turns into stealth mode, turning her invisible. During this state, her movement speed is increased by <moveSpeedBonus> but the bonus steadily weakens over the duration of <duration> seconds. When attacking while '<name>' is on, the target will receive <extraDamage> extra damage and be disarmed and <SILENCE>silenced</SILENCE> for <disarmDuration> (<disarmHeroDuration>) seconds.
+
+casterEffectAttachPoint		AttachPoint.ORIGIN
+casterEffectPath		Abilities\Spells\Items\AIvi\AIviTarget.mdl
+duration		5	6	7	8	9	10
+moveSpeedBonus		130	170	210	250	290	330
+powerLevels		10
+
+disarmDuration		2	2	2	2	2	2
+disarmHeroDuration		1	1	1	1	1	1
+extraDamage		10	20	30	40	50	60

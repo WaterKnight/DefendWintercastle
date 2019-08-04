@@ -1,0 +1,39 @@
+contents of table: 06195510
+path --> Act_inject106: Allocation.allocate_mount.hook
+getPath --> function: 06188C80
+headerLine --> //! inject Allocation.allocate_mount.hook
+remove --> function: 06188C20
+target --> Allocation.allocate_mount.hook
+parentIndex --> 36
+nameVis --> inject106: Allocation.allocate_mount.hook
+footerLine --> //! endinject
+moveTo --> function: 06188CC0
+type --> inject
+//privateTable
+name --> inject106: Allocation.allocate_mount.hook
+copy --> function: 06188CE0
+//subs
+	//1
+		path --> Act_inject106: Allocation.allocate_mount.hook_this
+		getPath --> function: 06188D60
+		//parent
+recursion table: 06195510
+		remove --> function: 06188D00
+		parentIndex --> 1
+		nameVis --> this
+		addSub --> function: 06188D80
+		varType --> set
+		moveTo --> function: 06188DA0
+		type --> variable
+		//privateTable
+		name --> this
+		copy --> function: 06188DC0
+		//subs
+		getCallPath --> function: 06188D40
+		rename --> function: 06188D20
+		val -->  NULL
+	//this
+recursion table: 061956C8
+getCallPath --> function: 06188C60
+rename --> function: 06188C40
+addSub --> function: 06188CA0

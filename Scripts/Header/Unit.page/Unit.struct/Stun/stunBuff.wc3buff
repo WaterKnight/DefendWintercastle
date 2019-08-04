@@ -1,0 +1,19 @@
+field	1
+name
+raw	Stu
+
+base	SPECIAL_BPSE
+classes	DUMMY
+levelsAmount
+positive
+
+icon	ReplaceableTextures\CommandButtons\BTNStun.blp
+tooltip	Stunned
+uberTooltip	This unit is stunned and therefore cannot do any actions.
+
+sfxPath
+sfxAttachPt
+sfxLevel
+
+specials	ftat=
+specials	fta0=

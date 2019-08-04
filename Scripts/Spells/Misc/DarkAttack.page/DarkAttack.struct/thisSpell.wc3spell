@@ -1,0 +1,32 @@
+field	jass ident	1	2	3	4	5	6
+name		Dark Attack
+raw		DaA
+
+base		PASSIVE
+class		NORMAL
+levelsAmount		6
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		<icon.wc3imp:target>
+lore
+sharedBuffs
+tooltip
+uberTooltip		Enwraps hit enemies in an eclipse for <duration> (<heroDuration>) seconds.
+
+duration		6	6
+heroDuration		3	3
+specialEffectPath		Abilities\Spells\Undead\DeathCoil\DeathCoilSpecialArt.mdx
+specialEffectAttachPoint		AttachPoint.ORIGIN

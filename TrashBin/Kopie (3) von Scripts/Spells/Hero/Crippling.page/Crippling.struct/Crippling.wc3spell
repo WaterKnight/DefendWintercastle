@@ -1,0 +1,40 @@
+field	jass ident	1	2	3	4	5
+name		Crippling
+raw		ACrp
+
+base		NORMAL
+class		HERO_SECOND
+levelsAmount
+order		cripple
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Cp
+learnTooltip
+learnUberTooltip		Greatly reduces the damage, attack and movement speed of all enemy units in the target area each with a chance of <targetChance,%>. Losing the buff again will result in percental damage.	Greatly reduces the damage, attack and movement speed of all enemy units in the target area each with a chance of <targetChance,%>. Losing the buff again will result in percental damage.|n|nNext Level:|nAttack speed decrement: <attackSpeedIncrement<prevLevel>,%> --> <attackSpeedIncrement,%>|nCooldown: <cooldown<prevLevel>> seconds --> <cooldown> seconds|nDamage: <damage<prevLevel>> + <damageFactor<prevLevel>,%> --> <damage> + <damageFactor,%>|nMana cost: <manaCost<prevLevel>> --> <manaCost>
+
+animation		spell
+areaRange		300
+areaRangeDisplay		true
+cooldown		20	18	16	14	12
+channelTime
+manaCost		85	110	135	160	185
+range		650
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNDispelMagic.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Picks all enemy targets in the target region, dicing a chance of <targetChance,%> for each one to attach the following buff: Reduces the attack damage by <damageRelativeIncrement,%>, attack speed by <attackSpeedIncrement,%> and move speed by <moveSpeedRelativeIncrement,%> for <duration> seconds. After the buff has vanished, the target will be dealt a damage equal to <damage> + <damageFactor,%> of its maximum life.
+
+areaEffectPath		Spells\Crippling\Area.mdx
+targetChance		0.75
+
+include		Target

@@ -1,0 +1,95 @@
+field	value
+name	Snow Falcon
+raw	SnF
+
+classes
+hero	false
+structure	false
+team	ATTACKER
+
+model	units\creeps\WarEagle\WarEagle.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.
+
+elevPts	2
+elevRad	20.
+maxRoll	25.
+maxPitch	33.
+scale	0.9
+selScale	1.25
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	FLY
+shadowWidth	120.
+shadowHeight	120.
+shadowOffsetX	60.
+shadowOffsetY	60.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNWarEagle.blp
+soundset	WarEagle
+tooltip
+uberTooltip
+
+moveType	FLY
+moveSpeed	135.
+turnRate	0.6
+height	200.
+heightMin	100.
+animWalk	200.
+animRun	200.
+moveInterp	1
+
+animBlend	0.15
+animCastWaitBefore	0.3
+animCastWaitAfter	0.51
+
+armorAmount	0.
+armorSound	Flesh
+armorType	LIGHT
+life	110.
+lifeRegen	1.5
+mana	30.
+manaRegen	0.5
+spellPower	20.
+sightRange	1600.
+sightRangeNight	1200.
+
+attackType	MISSILE
+attackCooldown	1.5
+attackRange	500.
+attackRangeAcq	500.
+attackRangeBuffer	0.
+attackTargetFlags	ground,structure,debris,air,item,ward
+attackWaitBefore	0.5
+attackWaitAfter	0.
+attackSound
+
+attackMissileModel	Abilities\Weapons\ColdArrow\ColdArrowMissile.mdx
+attackMissileSpeed	1500.
+attackMissileArc	0.
+
+damageType	MAGIC
+damageAmount	7
+damageDices	1
+damageSides	4
+
+collisionSize	8.
+combatFlags	air
+deathTime	1.
+exp	50
+gold	25
+
+abilities	Spells\Act1\IceArrows.page\IceArrows.struct\thisSpell

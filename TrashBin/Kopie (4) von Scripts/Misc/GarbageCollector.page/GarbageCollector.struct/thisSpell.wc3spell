@@ -1,0 +1,33 @@
+field	jass ident	1	2	3	4	5
+name		Penguin Feather
+raw		APeF
+
+base		NORMAL
+class		ITEM
+levelsAmount
+order
+target		UNIT
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		12
+manaCost		60
+range		725
+targets		friend,organic
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNEtherealFormOn.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Adds <speedIncrement> to move speed for a short duration of <duration> seconds. Furthermore, the critical value is increased by <criticalIncrement>.
+
+evasionIncrement		0.35
+heal		120
+healEffectPath		Abilities\Spells\Human\Resurrect\ResurrectTarget.mdl
+healEffectAttachPoint		AttachPoint.ORIGIN
+intelligenceIncrement		3

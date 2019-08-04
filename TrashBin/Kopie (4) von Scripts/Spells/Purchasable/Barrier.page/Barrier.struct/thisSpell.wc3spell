@@ -1,0 +1,44 @@
+field	jass ident	1	2	3	4	5
+name		Barrier
+raw		ABar
+
+base		NORMAL
+class		PURCHASABLE
+levelsAmount
+order		summonfactory
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Ba
+learnTooltip
+learnUberTooltip		Builds up a line of barricades right in front of the hero, pushing back enemies as the ice blocks take shape.	Builds up a line of barricades right in front of the hero, pushing back enemies as the ice blocks take shape.|nNext Level:|nDuration: <duration<prevLevel>> seconds --> <duration> seconds|nLife: 125 --> 180|nMana cost: <manaCost<prevLevel>> --> <manaCost>	Builds up a line of barricades right in front of the hero, pushing back enemies as the ice blocks take shape.|nNext Level:|nDuration: <duration<prevLevel>> seconds --> <duration> seconds|nLife: 180 --> 240|nMana cost: <manaCost<prevLevel>> --> <manaCost>|nSummoned barricades amount: 3 --> 4	Builds up a line of barricades right in front of the hero, pushing back enemies as the ice blocks take shape.|nNext Level:|nDuration: <duration<prevLevel>> seconds --> <duration> seconds|nLife: 240 --> 310|nMana cost: <manaCost<prevLevel>> --> <manaCost>	Builds up a line of barricades right in front of the hero, pushing back enemies as the ice blocks take shape.|nNext Level:|nDuration: <duration<prevLevel>> seconds --> <duration> seconds|nLife: 310 --> 400|nMana cost: <manaCost<prevLevel>> --> <manaCost>|nSummoned barricades amount: 4 --> 5
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		8
+manaCost		20	30	40	50	60
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNFrostMourne.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Builds up a line of <summonsAmount> barricades right in front of the hero. These come with 125 hitpoints and crumble after <duration> seconds. This spell also throws back enemies as they get hit by one of the ice blocks.
+
+barrierEffectAttachPoint		AttachPoint.OVERHEAD
+barrierEffectPath		Abilities\Spells\Human\Avatar\AvatarCaster.mdl
+casterOffset		150
+duration		3	3.5	4	4.5	5
+moveDuration		0.4
+offset		260
+summonsAmount		3	3	4	4	5
+windowPerSummon	real	0.36 * Math.QUARTER_ANGLE

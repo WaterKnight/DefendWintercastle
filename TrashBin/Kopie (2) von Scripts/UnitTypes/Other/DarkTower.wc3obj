@@ -1,0 +1,97 @@
+field	value
+name	Dark Tower (Level 1)
+raw	DTw
+
+classes	STRUCTURE;UPGRADED
+hero	false
+structure	true
+team	DEFENDER
+
+model	buildings\other\TowerDefenseTower\TowerDefenseTower.mdx
+modelAttachPts
+modelAnims	fifth
+modelAttachMods
+modelBones
+standardScale	1.
+
+elevPts	4
+elevRad	50.
+maxRoll	0.
+maxPitch	0.
+scale	1.
+selScale	2.5
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	120.
+outpactX	0.
+outpactY	0.
+outpactZ	180.
+
+shadowPath	ShadowCannonTower
+shadowWidth	0.
+shadowHeight	0.
+shadowOffsetX	0.
+shadowOffsetY	0.
+
+attachments	buildings\other\CircleOfPower\CircleOfPower.mdl;ORIGIN;NORMAL
+blood
+icon	ReplaceableTextures\CommandButtons\BTNDeathTower.blp
+soundset	ElvenGuardTower
+tooltip
+uberTooltip	Has <minDmg>-<maxDmg> Damage|nApplies the Eclipse buff on attacks.|nSingle targets
+
+moveType
+moveSpeed
+turnRate
+height
+heightMin
+animWalk
+animRun
+moveInterp
+
+animBlend	0.15
+animCastWaitBefore
+animCastWaitAfter
+
+armorAmount	0.
+armorSound	Stone
+armorType	FORT
+life	UNIT_TYPE.Life.BLACK_DISPLAY
+lifeRegen	0.
+mana
+manaRegen
+spellPower
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	HOMING_MISSILE
+attackCooldown	1.75
+attackRange	1000.
+attackRangeAcq	1000.
+attackRangeBuffer	0.
+attackTargetFlags	air,ground,structure,debris,item,ward
+attackWaitBefore	0.5
+attackWaitAfter	0.
+attackSound
+
+attackMissileModel	Abilities\Spells\Undead\DeathCoil\DeathCoilMissile.mdx
+attackMissileSpeed	1000.
+attackMissileArc	0.
+
+damageType	CHAOS
+damageAmount	23
+damageDices	3
+damageSides	3
+
+collisionSize
+combatFlags	structure
+deathTime	2.34
+exp
+gold
+
+
+structurePathTex	PathTextures\4x4Default.tga
+structureSoldItems

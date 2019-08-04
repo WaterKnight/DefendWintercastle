@@ -1,0 +1,4 @@
+field	1
+type	skin
+src	circlePurple.blp
+target	Unit\Selection\circlePurple.blp

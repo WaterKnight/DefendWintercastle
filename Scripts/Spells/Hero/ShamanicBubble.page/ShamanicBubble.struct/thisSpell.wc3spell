@@ -1,0 +1,38 @@
+field	jass ident	1	2	3
+name		Shamanic Bubble
+raw		Bub
+
+base		NORMAL
+class		HERO_ULTIMATE
+levelsAmount
+order		voodoo
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Bu
+learnTooltip
+learnUberTooltip		Migrates the caster to the target position after a short delay. There, all nearby allies get engulfed in a protective aura (except for <Tajran:name>), rendering them <INVU>invulnerable</INVU>. As the ability is channeled, '<Thunderstrike:name>' is replaced by a ranged variant and <Tajran:name>'s heal ability is increased.
+learnUberTooltipUpgrades		{Heal ability bonus,<healAbilityInc,%>}
+
+animation		spell
+areaRange		500	600	700
+areaRangeDisplay		true
+channelTime		10	13	16
+cooldown		90	80	70
+manaCost		250
+range		675
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNBigBadVoodooSpell.blp
+lore
+sharedBuffs		INVU
+tooltip
+uberTooltip		Migrates the caster to the target position after a short delay. There, all nearby allies get engulfed in a protective aura (except for <Tajran:name>), rendering them <INVU>invulnerable</INVU>. As the ability is channeled, '<Thunderstrike:name>' is replaced by a ranged variant and <Tajran:name>'s heal ability is increased by <healAbilityInc,%>.
+
+healAbilityInc		0.2	0.3	0.4

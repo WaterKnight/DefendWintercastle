@@ -1,0 +1,6 @@
+setobjecttype abilities
+createobject AFSX
+makechange 0 anam
+makechange 0 ansf
+makechange 0 Emeu
+makechange 0 Eme1

@@ -1,0 +1,38 @@
+field	jass ident	1	2	3	4	5	6
+name		Purging Rain
+raw		PRa
+
+base		NORMAL
+class		HERO_FIRST
+levelsAmount
+order		blizzard
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		PR
+learnTooltip
+learnUberTooltip		Consecutive clusters of shooting stars crackle down on earth in order to smite <Lizzy:name>'s foes. The magical damage increases with each wave. Hit targets are <PURGE>purged</PURGE> for a couple of seconds. The caster needs to channel this ability.
+learnUberTooltipUpgrades		{Damage per wave,<Wave\this.wc3obj:damage>};{Purge duration,<Wave\this.wc3obj:purgeDuration,asSecs>};{Wave interval,<interval,asSecs>}
+
+animation		spell
+areaRange		300	325	350	375	400	425
+areaRangeDisplay		true
+channelTime		5
+cooldown		15
+manaCost		80	100	120	140	160	180
+range		600
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNStarfall.blp
+lore
+sharedBuffs		PURGE
+tooltip
+uberTooltip		Consecutive clusters of shooting stars crackle down on earth in order to smite <Lizzy:name>'s foes. Each wave deals <Wave\this.wc3obj:damage> (magical, +<Wave\this.wc3obj:damageRelAdd,%> per wave). Hit targets are <PURGE>purged</PURGE> for a <Wave\this.wc3obj:purgeDuration,asSecs>. The caster needs to channel this ability.
+
+interval		0.75	0.7	0.65	0.6	0.55	0.5

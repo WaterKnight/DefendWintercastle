@@ -1,0 +1,6 @@
+field	jass ident	1
+attackSpeedBonus		0
+criticalBonus		0.003
+evasionBonus		0.003
+rageBonus		1
+staminaBonus		8

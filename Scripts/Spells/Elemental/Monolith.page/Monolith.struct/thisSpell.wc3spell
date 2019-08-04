@@ -1,0 +1,43 @@
+field	jass ident	1	2	3	4	5	6
+name		Monolith
+raw		Mon
+
+base		NORMAL
+class		ELEMENTAL
+levelsAmount
+order		evileye
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Mo
+learnTooltip
+learnUberTooltip		Thrusts a magical rock into the target direction that shoves all units away and deals some damage to enemies. Afterwards, the rock becomes an immovable structure that emits a mystic aura called '<SacredAura:name>'.|n<SacredAura:name>: <SacredAura:learnUberTooltip>
+learnUberTooltipUpgrades		{Damage,<damage>};{Summon duration,<summonDuration,asSecs>};|n|n<SacredAura:name>:|n<SacredAura:learnUberTooltipUpgrades>
+
+animation		spell
+areaRange		350	350
+areaRangeDisplay		true
+channelTime
+cooldown		20
+manaCost		40	50	60	70	80	90
+range		99999
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNResStone.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Thrusts a magical rock into the target direction that shoves all units away and deals <damage> damage to enemies. Afterwards, the rock becomes an immovable structure that emits a mystic aura called <SacredAura:name> for <summonDuration> seconds.|n|n<SacredAura:name>|n<SacredAura:uberTooltip>
+
+damage		15	25	35	45	55	65
+hitRange		90
+maxLength		650	650
+summonDuration		15	15
+targetEffectAttachPoint		AttachPoint.CHEST
+targetEffectPath		<TargetDust.wc3imp:target>

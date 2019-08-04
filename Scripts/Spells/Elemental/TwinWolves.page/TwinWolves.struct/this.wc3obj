@@ -1,0 +1,8 @@
+field	jass ident	1	2	3	4	5	6
+summonAmount		2	2
+summonDuration		20	20
+summonOffset		100
+summonOffset2		50
+summonMoveOffset		125
+summonFadeIn		0.5
+summonWindow	real	Math.QUARTER_ANGLE / 3

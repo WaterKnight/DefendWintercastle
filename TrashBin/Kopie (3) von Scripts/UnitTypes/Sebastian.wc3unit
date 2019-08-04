@@ -1,0 +1,89 @@
+field	value
+name	Sebastian
+raw	Seb
+
+classes	NEUTRAL
+hero	false
+structure
+team	DEFENDER
+standardScale	1.
+
+armorAmount	0.
+armorSound	Flesh
+armorType	UNARMORED
+
+attackType
+attackCooldown
+attackRange
+attackRangeAcq	0.
+attackRangeBuffer
+attackTargetFlags
+attackWaitBefore
+attackWaitAfter
+attackSound
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType
+damageAmount
+damageDices
+damageSides
+
+model	units\human\Priest\Priest.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+
+elevPts	0
+elevRad	50.
+maxRoll	10.
+maxPitch	10.
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	120.
+shadowHeight	120.
+shadowOffsetX	50.
+shadowOffsetY	50.
+
+scale	1.
+selScale	1.
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+icon	ReplaceableTextures\CommandButtons\BTNPriest.blp
+soundset	Priest
+
+moveType
+moveSpeed
+turnRate
+animWalk
+animRun
+moveInterp
+
+animBlend	0.15
+animCastWaitBefore	0.5
+animCastWaitAfter	0.67
+
+life	120.
+lifeRegen	0.
+mana
+manaRegen
+spellPower	400.
+sightRange	500.
+sightRangeNight	500.
+
+collisionSize
+combatFlags
+deathTime	2.
+exp
+gold

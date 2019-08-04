@@ -1,0 +1,41 @@
+field	jass ident	1	2	3	4	5	6
+name		Thunderbringer
+raw		Thu
+
+base		NORMAL
+class		ARTIFACT
+levelsAmount
+order		sanctuary
+target		UNIT
+
+animation		spell
+areaRange		100	150	200	225	250	275
+areaRangeDisplay		false
+channelTime
+cooldown		7
+manaCost
+range		175
+targets		enemy,organic
+
+learnIcon
+learnRaw		TB
+learnTooltip
+learnUberTooltip		Strikes an enemy unit with lightning energy to obtain a splash attack and stun picked targets.
+learnUberTooltipUpgrades		{damage,Damage};{stunDuration,Stun duration}
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNStormHammer.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Strikes an enemy unit with lightning energy to obtain a splash attack (<damage> damage, <areaRange> area) and stun picked targets for <stunDuration> seconds.
+
+casterSpecialEffectPath		Abilities\Weapons\FarseerMissile\FarseerMissile.mdx
+casterSpecialEffectAttachPoint		AttachPoint.WEAPON
+damage		30	60	90	120	150	180
+duration		12
+stunDuration		2	2.25	2.5	2.75	3	3.25
+specialEffectPath		Abilities\Spells\Human\ManaFlare\ManaFlareBoltImpact.mdl
+specialEffect2Path		Abilities\Spells\Other\Monsoon\MonsoonBoltTarget.mdl

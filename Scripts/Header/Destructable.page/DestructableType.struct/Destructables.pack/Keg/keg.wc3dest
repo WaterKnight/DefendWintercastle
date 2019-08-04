@@ -1,0 +1,44 @@
+field	value
+name	Keg
+raw	Keg
+
+classes
+
+model	<keg.wc3imp:target>
+modelLightweight
+modelPortrait	Units\Other\TNTBarrel\TNTBarrel.mdl
+modelVariations
+
+flyHeight
+occluderHeight
+replaceableTex
+replaceableTexId
+selScale	90
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+
+elevRad
+maxRoll
+maxPitch
+
+minimapDisplay	true
+minimapRed
+minimapGreen
+minimapBlue
+
+deathSound	CrateDeath
+shadow	ShadowCrates
+
+armor	Wood
+fatLOS
+fogRad
+fogVisibility
+life	20
+selectable	true
+
+pathTex	PathTextures\2x2Default.tga
+pathTexDead
+combatFlags	debris
+cliffLevel
+walkable

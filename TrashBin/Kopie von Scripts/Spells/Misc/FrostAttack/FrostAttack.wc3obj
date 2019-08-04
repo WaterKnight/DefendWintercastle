@@ -1,0 +1,29 @@
+field	jass ident	1	2	3	4	5	6
+name		Frost Attack
+raw		AFrA
+
+base
+class
+levelsAmount		6
+order
+target
+
+animation
+areaRange		140
+areaRangeDisplay		false
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\PassiveButtons\PASBTNFreezingBreath.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Attacks of this unit coat enemy units in shivering cold for <duration> seconds.
+
+duration		2	2.5	3	3.5	4	4.5

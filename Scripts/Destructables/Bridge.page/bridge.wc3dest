@@ -1,0 +1,44 @@
+field	value
+name	Bridge
+raw	00D
+
+classes	DECOR
+
+model	<Bridge.wc3imp:target>
+modelLightweight
+modelPortrait
+modelVariations
+
+flyHeight
+occluderHeight
+replaceableTex
+replaceableTexId
+selScale
+vertexColorRed	180
+vertexColorGreen	200
+vertexColorBlue	200
+
+elevRad
+maxRoll
+maxPitch	-5.9
+
+minimapDisplay	true
+minimapRed
+minimapGreen
+minimapBlue
+
+deathSound
+shadow	ShadowCrates
+
+armor
+fatLOS
+fogRad
+fogVisibility
+life
+selectable
+
+pathTex	<pathTex.wc3imp:target>
+pathTexDead
+combatFlags
+cliffLevel	1
+walkable	true

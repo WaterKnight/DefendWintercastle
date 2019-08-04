@@ -1,0 +1,20 @@
+field	1
+name	Scroll of Protection
+raw	ScP
+
+class	ITEM
+levelsAmount
+lostOn	dispel
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNScroll.blp
+tooltip
+uberTooltip	Heightened armor.
+
+sfxPath	Abilities\Spells\Items\AIda\AIdaTarget.mdl
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.NORMAL
+
+sfxPath	Abilities\Spells\Other\ANrm\ANrmTarget.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.NORMAL

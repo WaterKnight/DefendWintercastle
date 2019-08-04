@@ -1,0 +1,93 @@
+field	value
+name	Descendant (Level 2)
+raw	De2
+
+classes
+hero	false
+structure	false
+team	DEFENDER
+
+model	units\undead\Tichondrius\Tichondrius.mdx
+modelAttachPts
+modelAnims
+modelAttachMods	medium
+modelBones
+standardScale	1.
+
+elevPts	0
+elevRad	50.
+maxRoll	10.
+maxPitch	10.
+scale	0.7
+selScale	2.33
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	100.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	160.
+shadowHeight	160.
+shadowOffsetX	60.
+shadowOffsetY	60.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNHeroDreadLord.blp
+soundset	HeroDreadLord
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	270.
+turnRate	0.5
+height
+heightMin
+animWalk	240.
+animRun	240.
+moveInterp	4
+
+animBlend	0.15
+animCastWaitBefore	0.3
+animCastWaitAfter	1.53
+
+armorAmount	0.
+armorSound	Flesh
+armorType	HERO
+life	125.
+lifeRegen	0.
+mana
+manaRegen
+spellPower	25.
+sightRange	1800.
+sightRangeNight	800.
+
+attackType	HOMING_MISSILE
+attackCooldown	1.8
+attackRange	500.
+attackRangeAcq	500.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,air,item,ward
+attackWaitBefore	0.55
+attackWaitAfter	0.
+attackSound
+
+attackMissileModel	Abilities\Weapons\SkeletalMageMissile\SkeletalMageMissile.mdl
+attackMissileSpeed	600.
+attackMissileArc	0.1
+
+damageType	CHAOS
+damageAmount	14
+damageDices	2
+damageSides	7
+
+collisionSize	16.
+combatFlags	ground
+deathTime	3.
+exp
+gold

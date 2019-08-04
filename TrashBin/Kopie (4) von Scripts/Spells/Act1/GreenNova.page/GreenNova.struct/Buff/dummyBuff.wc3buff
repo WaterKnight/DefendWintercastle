@@ -1,0 +1,16 @@
+field	1
+name	Entangled
+raw	GrN
+
+class	NORMAL
+levelsAmount
+lostOn	dispel
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNEntanglingRoots.blp
+tooltip
+uberTooltip	Unit is entangled.
+
+sfxPath	Abilities\Spells\NightElf\EntanglingRoots\EntanglingRootsTarget.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW

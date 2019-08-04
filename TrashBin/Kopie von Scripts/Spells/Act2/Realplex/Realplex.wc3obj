@@ -1,0 +1,35 @@
+field	jass ident	1	2	3	4	5
+name		Realplex
+raw		AReP
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		mirrorimage
+target		IMMEDIATE
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		10
+manaCost		50
+range
+targets
+
+buttonPosX		1
+buttonPosY		2
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNInvisibility.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Divides Leader into three shapes, one being the original. The other two illusions however also do 50% damage. They last for <duration> seconds.
+
+casterEffectAttachPoint		AttachPoint.OVERHEAD
+casterEffectPath		Abilities\Spells\Orc\MirrorImage\MirrorImageCaster.mdl
+deathEffectPath		Abilities\Spells\Orc\MirrorImage\MirrorImageDeathCaster.mdl
+duration		10
+illusionsAmount		2
+moveDuration		0.5
+offset		100

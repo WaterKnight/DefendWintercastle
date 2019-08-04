@@ -1,0 +1,19 @@
+field	1
+name	Frozen Star
+raw	FrS
+
+class
+levelsAmount
+lostOn	death
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNBreathOfFrost.blp
+tooltip
+uberTooltip	This unit was recently affected by a cold shiver. It has problems to do fast movements.
+
+sfxPath
+sfxAttachPt
+sfxLevel
+
+unitMod	moveSpeedBonus
+unitModVal	<this.wc3obj:moveSpeedInc>

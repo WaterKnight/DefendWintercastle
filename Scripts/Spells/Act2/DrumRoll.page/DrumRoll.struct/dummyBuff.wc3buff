@@ -1,0 +1,16 @@
+field	1
+name
+raw
+
+class
+levelsAmount
+lostOn
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath	Abilities\Spells\Orc\CommandAura\CommandAura.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW

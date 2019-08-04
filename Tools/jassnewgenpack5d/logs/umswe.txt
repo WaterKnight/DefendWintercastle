@@ -1,0 +1,34 @@
+registerstate umscore 0
+registerstate umscategories 0
+registerstate umstiles 0
+registerstate umspathing 0
+UMSWE umswe\umswe.mpq
+deletefile UI\WorldEditStrings.txt
+deletefile UI\WorldEditLayout.txt
+deletefile UI\MiscData.txt
+deletefile UI\WorldEditData.txt
+deletefile Units\UnitUI.slk
+deletefile Units\AbilityData.slk
+deletefile Units\UpgradeMetaData.slk
+deletefile Units\UpgradeEffectMetaData.slk
+deletefile Doodads\DoodadMetaData.slk
+deletefile Units\DestructableMetaData.slk
+deletefile Units\AbilityBuffMetaData.slk
+deletefile UI\SkinMetaData.slk
+deletefile Units\MiscMetaData.slk
+deletefile Units\AbilityMetaData.slk
+deletefile Units\UnitMetaData.slk
+deletefile TerrainArt\Terrain.slk
+deletefile Units\MiscGame.txt
+deletefile Units\UnitBalance.slk
+deletefile Units\DestructableData.slk
+runscript umswe\umswetriggers.lua
+deletefile UI\TriggerData.txt
+deletefile UI\TriggerStrings.txt
+runscript umswe\umsweimports.lua
+deletefile ReplaceableTextures\WorldEditUI\UMSWE.tga
+deletefile ReplaceableTextures\WorldEditUI\Actions-Regions.tga
+deletefile ReplaceableTextures\WorldEditUI\Actions-Success.tga
+deletefile ReplaceableTextures\WorldEditUI\Actions-Trackable.tga
+deletefile ReplaceableTextures\WorldEditUI\Actions-Compatibility.tga
+~UMSWE

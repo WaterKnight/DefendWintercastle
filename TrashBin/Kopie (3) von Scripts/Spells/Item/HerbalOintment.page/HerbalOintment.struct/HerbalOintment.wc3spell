@@ -1,0 +1,23 @@
+field	jass ident	1	2	3	4	5
+name		Herbal Ointment
+raw		AHeO
+
+base		PARALLEL_IMMEDIATE
+class		ITEM
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		10
+manaCost
+range
+targets
+
+duration		10
+interval		1
+lifeAdd		200
+manaAdd		200

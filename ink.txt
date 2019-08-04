@@ -1,0 +1,11 @@
+ink:
+
+-for each boss (drop, shared for everyone)
+-for each level
+-random drop
+
+used for buying magical items (runes, tomes, items with abilities)
+
+runes:
+-+15% gold from enemies
+-

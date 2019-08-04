@@ -1,0 +1,7 @@
+field	jass ident	1
+name
+raw		AiR1
+base		SPECIAL_AIas
+classes		DUMMY
+
+specials		Isx1=0.02

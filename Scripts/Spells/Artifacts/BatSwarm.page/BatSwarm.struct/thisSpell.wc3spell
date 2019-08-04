@@ -1,0 +1,41 @@
+field	jass ident	1	2	3	4	5	6
+name		Bat Swarm
+raw		BaS
+
+base		NORMAL
+class		ARTIFACT
+levelsAmount
+order		sanctuary
+target		UNIT
+
+animation		spell
+areaRange		400
+areaRangeDisplay		true
+cooldown		14
+channelTime
+manaCost		75	85	95	105	115	125
+range		800
+targets		air,enemies,friend,ground,invulnerable,neutral,organic,self,vulnerable
+
+learnIcon
+learnRaw		BS
+learnTooltip
+learnUberTooltip		Summons bats from the ceiling of Wintercastle to engulf the target unit.|non ally: Creates a <SPELL_SHIELD>spell shield</SPELL_SHIELD> to deflect a single negative spell.|non enemy: The target will be rendered in an <ECLIPSE>eclipse</ECLIPSE>.|nFrom there, the bats fly to the next nearby enemy targets to cause damage (physical) on them and restore lifepoints each to the target of the spell.
+learnUberTooltipUpgrades		{Damage per bat,<damage>};{Max bats amount,<maxEnemiesAmount>};{Spell shield duration,<spellShieldDuration,asSecs>};{Eclipse duration,<eclipseDuration,asSecs>};{Self heal,<heal>}
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNCarrionSwarm.blp
+lore
+sharedBuffs		SPELL_SHIELD;ECLIPSE
+tooltip
+uberTooltip		Summons bats from the ceiling of Wintercastle to engulf the target unit.|non ally: Creates a <SPELL_SHIELD>spell shield</SPELL_SHIELD> to deflect a single negative spell (lasts <spellShieldDuration> seconds).|non enemy: The target will be rendered in an eclipse (lasts <eclipseDuration> seconds).|nFrom there, the bats fly to the next <maxEnemiesAmount> nearby enemy targets to cause <damage> damage (physical) on them and restore <heal> lifepoints each to the target of the spell.
+
+damage		20	30	45	65	90	120
+eclipseDuration		7	7
+enemyEffectAttachPoint		AttachPoint.CHEST
+enemyEffectPath		Abilities\Weapons\LocustMissile\LocustMissile.mdl
+heal		20	25	30	35	40	45
+maxEnemiesAmount		3	3
+spellShieldDuration		7	7

@@ -1,0 +1,42 @@
+field	jass ident	1	2	3	4	5	6
+name		Fireburst
+raw		FiB
+
+base		NORMAL
+class		ELEMENTAL
+levelsAmount
+order		firebolt
+target		UNIT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		FB
+learnTooltip
+learnUberTooltip		A fairy dragon is summoned in order to launch an array of fireballs onto the target unit but they explode on the first enemy they collide with. Each fireball deals area damage and <IGNITION>ignites</IGNITION> the targets.
+learnUberTooltipUpgrades		{Missiles amount,<missilesAmount>};{Damage per fireball,<Shot\this.wc3obj:damage>};{Ignition duration,<Shot\this.wc3obj:ignitionDuration>}
+
+animation		spell
+areaRange		150	175	200	225	250	275
+areaRangeDisplay		false
+channelTime
+cooldown		6
+manaCost		45	65	90	120	155	195
+range		700
+targets		air,enemies,ground,neutral,structure
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNFireForTheCannon.blp
+lore
+sharedBuffs		IGNITION
+tooltip
+uberTooltip		After a delay of <missilesSpawnDelay> seconds, a fairy dragon begins to spout <missilesAmount> fireballs at the target unit in intervals of <missilesSpawnInterval> seconds. Each fireball triggers on collision and causes <Shot\this.wc3obj:damage,*<rangeFactorClose>> to <Shot\this.wc3obj:damage,*<rangeFactorFar>> (increases with range to caster) in an area of <areaRange>. Hit targets get <IGNITION>ignited</IGNITION> for <Shot\this.wc3obj:ignitionDuration> seconds.
+
+dummyUnitSpecialEffectPath		Abilities\Spells\Human\Polymorph\PolyMorphTarget.mdl
+dummyUnitSpecialEffectAttachPoint		AttachPoint.ORIGIN
+missilesAmount		3	3	4	4	5	5
+missilesSpawnDelay		0.75
+missilesSpawnInterval		0.45

@@ -1,0 +1,33 @@
+field	jass ident	1
+name		Death Axe
+raw		DeA
+
+base		PASSIVE
+class		NORMAL
+levelsAmount
+order
+target
+
+animation
+areaRange		80
+areaRangeDisplay		false
+channelTime
+cooldown
+manaCost
+range		750
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNSpiritWalkerMasterTraining.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		On death, this unit throws an axe to the next hostile target, damaging it for <damage> and disarming it for <disarmDuration> seconds.
+
+damage		70
+delay		1
+disarmDuration		3
+dummyEffectPath		Abilities\Weapons\VengeanceMissile\VengeanceMissile.mdx
+dummyEffectAttachPoint		AttachPoint.ORIGIN

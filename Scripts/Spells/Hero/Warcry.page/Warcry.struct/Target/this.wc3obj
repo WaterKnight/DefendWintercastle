@@ -1,0 +1,4 @@
+field	jass ident	1	2	3	4	5	6
+dmgInc		3	6	10	15	21	28
+dmgIncPerVigor		0.1	0.1
+duration		20	20

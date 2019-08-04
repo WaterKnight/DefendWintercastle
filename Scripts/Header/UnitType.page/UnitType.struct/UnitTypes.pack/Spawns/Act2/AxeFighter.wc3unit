@@ -1,0 +1,93 @@
+field	value
+name	Axe Fighter
+raw	Axe
+
+classes
+hero	false
+structure	false
+team	ATTACKER
+
+model	units\orc\Grunt\Grunt.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.2
+
+elevPts	0
+elevRad	30.
+maxRoll	10.
+maxPitch	10.
+scale	1.2
+selScale	1.
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	140.
+shadowHeight	140.
+shadowOffsetX	60.
+shadowOffsetY	60.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNGrunt.blp
+soundset	Grunt
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	125.
+turnRate	0.5
+height
+heightMin
+animWalk	240.
+animRun	240.
+moveInterp	4
+
+animBlend	0.15
+animCastWaitBefore	0.3
+animCastWaitAfter	0.51
+
+armorAmount	2.
+armorSound	Flesh
+armorType	LARGE
+life	400.
+lifeRegen	2.
+mana
+manaRegen
+spellPower	40.
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	NORMAL
+attackCooldown	1.6
+attackRange	100.
+attackRangeAcq	500.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	0.35
+attackWaitAfter	0.
+attackSound	MetalMediumChop
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	NORMAL
+damageAmount	16
+damageDices	3
+damageSides	3
+
+collisionSize	32.
+combatFlags	ground
+deathTime	1.75
+exp	90
+gold	20

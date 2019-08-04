@@ -1,0 +1,91 @@
+local path = io.local_path()
+
+local function createSpells(maxVal, inc)
+	local sheets = {}
+	local prefix
+
+	if inc then
+		prefix = 'inc'
+	else
+		prefix = 'dec'
+	end
+
+	local function createSpell(val)
+		local sheet = wc3objSheet.create('wc3spell')
+
+		local raw
+
+		if inc then
+			raw = 'SS'..getAscii(val - 1, 2)
+		else
+			raw = 'TS'..getAscii(val - 1, 2)
+		end
+
+		local index = #sheets + 1
+
+		sheets[index] = raw
+
+		if inc then
+			val = -val
+		end
+
+		sheet:setDefVal('name', string.format('SightRangeSpell (%s)', raw))
+		sheet:setDefVal('dummy', true)
+		sheet:setDefVal('raw', raw)
+		sheet:setDefVal('base', 'SPECIAL_AIsi')
+		sheet:setDefVal('levelsAmount', 2)
+		if inc then
+			sheet:setDefVal('jassVar', 'increasingSpells')
+		else
+			sheet:setDefVal('jassVar', 'decreasingSpells')
+		end
+
+		sheet:setDefVal('jassVarIndex', index)
+
+		sheet:setDefVal('jTargetPath', string.format('%sspells.j', path))
+
+		sheet:setDefVal('specials', 'Isib=0', 1)
+		sheet:setDefVal('specials', string.format('Isib=%i', val), 2)
+
+		sheet:setDefVal('refNames', string.format('%s_spells%s', path, raw))
+
+		sheet.path = io.local_dir()..'spells'
+
+		objectBuilder.defSheet(sheet)
+	end
+
+	local function createInitFile()
+		local sheet = wc3objSheet.create('wc3obj')
+
+		sheet:setDefVal('name', string.format('SightRangeInit (%s)', prefix))
+		sheet:setDefVal('levelsAmount', #sheets)
+
+		sheet:setDefVal('jTargetPath', string.format('%sinits.j', path))
+
+		local c = 1
+
+		while (sheets[c] ~= nil) do
+			sheet:setDefVal(string.format('%sRaws', prefix), string.format([['%s']], sheets[c]), c)
+
+			c = c + 1
+		end
+
+		sheet:setDefVal(string.format('%sMaxPacket', prefix), #sheets)
+		sheet:setDefVal(string.format('%sMaxPacketRaw', prefix), string.format([['%s']], sheets[#sheets]))
+
+		sheet:setDefVal('refNames', string.format('%s_%s', path, prefix))
+
+		sheet.path = io.local_dir()..'spells'
+
+		objectBuilder.defSheet(sheet)
+	end
+
+	for i = 1, maxVal, 1 do
+		createSpell(i)
+	end
+
+	createInitFile()
+end
+
+createSpells(256, true)
+createSpells(256, false)

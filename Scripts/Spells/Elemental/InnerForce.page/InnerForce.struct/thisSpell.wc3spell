@@ -1,0 +1,52 @@
+field	jass ident	1	2	3	4	5	6
+name		Inner Force
+raw		IFo
+
+base		PARALLEL_IMMEDIATE
+class		ELEMENTAL
+levelsAmount
+order		inferno
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		IF
+learnTooltip
+learnUberTooltip		<Smokealot:name> heats up to briefly jet waves of spiritual power. Each wave picks units around the caster, deals damage to foes and knocks them away but is gentle to friends and heals them. During the duration of effect, <Smokealot:name> experiences a bonus to critical value.
+learnUberTooltipUpgrades		{Damage per wave,<damage>};{Heal per wave,<heal>};{Critical value bonus,<Crit\this.wc3obj:critInc>}
+
+animation		spell
+areaRange		225
+areaRangeDisplay		false
+channelTime
+cooldown		13
+manaCost		40	50	60	70	80	90
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNImmolationOn.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		<Smokealot:name> heats up to briefly jet waves of spiritual power. Each wave picks units around the caster, deals <damage> damage to foes and knocks them away but is gentle to friends and heals them for <heal>. During the duration of effect (<duration> seconds), <Smokealot:name> experiences a bonus to critical value of <Crit\this.wc3obj:critInc>|n<wavesAmount> waves
+
+casterEffectAttachPoint		AttachPoint.ORIGIN
+casterEffectPath		Abilities\Spells\Human\MarkOfChaos\MarkOfChaosTarget.mdl
+casterEffect2AttachPoint		AttachPoint.ORIGIN
+casterEffect2Path		Abilities\Spells\Orc\WarStomp\WarStompCaster.mdl
+damage		30	50	70	90	120	150
+delay		0.75
+duration		3
+heal		25	34	43	52	61	70
+interval		1.25
+knockbackAcceleration		-1200
+knockbackDuration		0.5
+knockbackSpeed		600
+targetEffectAttachPoint		AttachPoint.ORIGIN
+targetEffectPath		Abilities\Weapons\PhoenixMissile\Phoenix_Missile_mini.mdl
+wavesAmount		3

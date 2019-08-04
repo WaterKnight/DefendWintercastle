@@ -1,0 +1,7 @@
+field	jass ident	1	2	3	4	5
+explosionDelay		1.5
+friendlyFireFactor		0.25
+moveDuration		0.5
+moveZSpeedStart		40
+stunDuration		2
+summonUnitType		UnitType.TRAP_MINE

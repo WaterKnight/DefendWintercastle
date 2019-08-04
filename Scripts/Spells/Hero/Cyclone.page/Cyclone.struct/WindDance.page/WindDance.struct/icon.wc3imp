@@ -1,0 +1,6 @@
+field	1
+type	icon
+src	PASBTNWindDance.blp
+target
+
+iconDisabledSrc	DISPASBTNWindDance.blp

@@ -1,0 +1,4 @@
+field	jass ident	1	2	3
+duration		0.5	0.5
+pickOffset		-125
+specialEffectPath		Abilities\Spells\Orc\WarStomp\WarStompCaster.mdl

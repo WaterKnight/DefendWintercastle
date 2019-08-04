@@ -1,0 +1,9 @@
+field	jass ident	1
+name
+raw		Apiv
+base		SPECIAL_Apiv
+classes		DUMMY
+
+specials		adur=0
+specials		ahdu=0
+specials		Gho1=0

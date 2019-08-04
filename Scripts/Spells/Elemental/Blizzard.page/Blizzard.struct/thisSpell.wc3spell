@@ -1,0 +1,38 @@
+field	jass ident	1	2	3	4	5	6
+name		Blizzard
+raw		Blz
+
+base		NORMAL
+class		ELEMENTAL
+levelsAmount
+order		blizzard
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		BZ
+learnTooltip
+learnUberTooltip		Makes shards of ice raining down on the target area in intervals, damaging all hostile units within.
+learnUberTooltipUpgrades		{Damage per wave,<Wave\this.wc3obj:damage>}
+
+animation		spell
+areaRange		275	325	375	425	475	525
+areaRangeDisplay		true
+channelTime		5
+cooldown		0
+manaCost		40	55	70	85	100	115
+range		600
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNBlizzard.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Waves of cutting, frozen shards crackle down on the ground, each dealing <Wave\this.wc3obj:damage> damage in a target area of <areaRange>.
+
+interval		0.75

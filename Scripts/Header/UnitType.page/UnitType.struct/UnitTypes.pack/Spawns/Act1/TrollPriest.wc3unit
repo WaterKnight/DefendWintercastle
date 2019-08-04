@@ -1,0 +1,95 @@
+field	value
+name	Ice Troll Priest
+raw	ITP
+
+classes
+hero	false
+structure	false
+team	ATTACKER
+
+model	units\creeps\IceTrollShadowPriest\IceTrollShadowPriest.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.25
+
+elevPts	0
+elevRad	30.
+maxRoll	10.
+maxPitch	10.
+scale	1.75
+selScale	1.
+vertexColorRed	170
+vertexColorGreen	130
+vertexColorBlue	255
+vertexColorAlpha	255
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	140.
+shadowHeight	140.
+shadowOffsetX	50.
+shadowOffsetY	50.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNIceTrollShaman.blp
+soundset	IceTrollShadowPriest
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	145.
+turnRate	0.5
+height
+heightMin
+animWalk	270.
+animRun	270.
+moveInterp	4
+
+animBlend	0.15
+animCastWaitBefore	0.5
+animCastWaitAfter	0.5
+
+armorAmount	0.
+armorSound	Flesh
+armorType	MEDIUM
+life	115.
+lifeRegen	2.
+mana	80.
+manaRegen	2.
+spellPower	35.
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	HOMING_MISSILE
+attackCooldown	1.8
+attackRange	600.
+attackRangeAcq	600.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,air,item,ward
+attackWaitBefore	0.3
+attackWaitAfter	0.
+attackSound
+
+attackMissileModel	Abilities\Weapons\LichMissile\LichMissile.mdx
+attackMissileSpeed	900.
+attackMissileArc	0.15
+
+damageType	MAGIC
+damageAmount	8
+damageDices	1
+damageSides	8
+
+collisionSize	40.
+combatFlags	ground
+deathTime	3.
+exp	25
+gold	9
+
+abilities	Spells\Act1\Heal.page\Heal.struct\thisSpell;Spells\Act1\HealExplosion.page\HealExplosion.struct\thisSpell

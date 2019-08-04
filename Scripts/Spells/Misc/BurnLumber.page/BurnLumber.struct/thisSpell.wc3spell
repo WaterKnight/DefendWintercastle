@@ -1,0 +1,30 @@
+field	jass ident	1
+name		Burn Lumber
+raw		BuL
+
+base		SPECIAL_AAns
+class		NORMAL
+levelsAmount
+order		neutralspell
+target		IMMEDIATE
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		10
+manaCost		0
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey		C
+icon		ReplaceableTextures\CommandButtons\BTNOrcLumberUpgradeTwo.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Spend some lumber to disintegrate it within the meteorite's notch. This will charge it up by <healMana> mana and <heal> life.
+
+heal		50
+healMana		50

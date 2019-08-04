@@ -1,0 +1,3 @@
+field	jass ident	1	2	3	4	5
+damageIncrement		15	25	35	45	55
+duration		8

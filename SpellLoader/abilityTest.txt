@@ -1,0 +1,43 @@
+
+//On Fire (Undead)
+addAbility('Afiu')
+//Load Pilot
+addAbility('Atlp')
+//Build (Orc)
+addAbility('AObu')
+//Build (Neutral)
+addAbility('ANbu')
+//Hero
+addAbility('AHer')
+//On Fire (Orc)
+addAbility('Afio')
+//On Fire
+addAbility('Afir')
+//Drop Pilot
+addAbility('Atdp')
+//Build (Human)
+addAbility('AHbu')
+//Locust
+addAbility('Aloc')
+//Alarm
+addAbility('Aalr')
+//On Fire (Human)
+addAbility('Afih')
+//Tree of life (for attaching art)
+addAbility('Atol')
+//Tank Turret
+addAbility('Attu')
+//Attack
+addAbility('Aatk')
+//Move
+addAbility('Amov')
+//Build (Naga)
+addAbility('AGbu')
+//Build (Night Elf)
+addAbility('AEbu')
+//Creep Sleep
+addAbility('ACsp')
+//On Fire (Night Elf)
+addAbility('Afin')
+//Build (Undead)
+addAbility('AUbu')

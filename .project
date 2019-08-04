@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Defend Wintercastle</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Archive</name>
+			<type>2</type>
+			<location>D:/Warcraft III/Mapping/DWC/Archive</location>
+		</link>
+		<link>
+			<name>Doodads</name>
+			<type>2</type>
+			<location>D:/Warcraft III/Mapping/DWC/Doodads</location>
+		</link>
+		<link>
+			<name>Play</name>
+			<type>2</type>
+			<location>D:/Warcraft III/Mapping/DWC/Play</location>
+		</link>
+		<link>
+			<name>ReplaceableTextures</name>
+			<type>2</type>
+			<location>D:/Warcraft III/Mapping/DWC/ReplaceableTextures</location>
+		</link>
+		<link>
+			<name>Scripts</name>
+			<type>2</type>
+			<location>D:/Warcraft III/Mapping/DWC/Scripts</location>
+		</link>
+		<link>
+			<name>Sounds</name>
+			<type>2</type>
+			<location>D:/Warcraft III/Mapping/DWC/Sounds</location>
+		</link>
+		<link>
+			<name>SpellLoader</name>
+			<type>2</type>
+			<location>D:/Warcraft III/Mapping/DWC/SpellLoader</location>
+		</link>
+		<link>
+			<name>Splats</name>
+			<type>2</type>
+			<location>D:/Warcraft III/Mapping/DWC/Splats</location>
+		</link>
+		<link>
+			<name>Tools</name>
+			<type>2</type>
+			<location>D:/Warcraft III/Mapping/DWC/Tools</location>
+		</link>
+		<link>
+			<name>TrashBin</name>
+			<type>2</type>
+			<location>D:/Warcraft III/Mapping/DWC/TrashBin</location>
+		</link>
+		<link>
+			<name>Vids</name>
+			<type>2</type>
+			<location>D:/Warcraft III/Mapping/DWC/Vids</location>
+		</link>
+		<link>
+			<name>compiler</name>
+			<type>2</type>
+			<location>D:/Warcraft III/Mapping/DWC/compiler</location>
+		</link>
+	</linkedResources>
+</projectDescription>

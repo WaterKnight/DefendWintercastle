@@ -1,0 +1,22 @@
+field	1
+name	Victory Rush
+raw	ViR
+
+class	NORMAL
+levelsAmount
+lostOn	dispel
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNBattleRoar.blp
+tooltip
+uberTooltip	This unit is in an adrenaline rush after having defeated an enemy hero nearby.
+
+sfxPath	Abilities\Spells\NightElf\BattleRoar\RoarTarget.mdl
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW
+
+areaRange	400.
+attackSpeedIncrement	0.3
+duration	15.
+movementSpeedIncrement	0.2
+specialEffectPath	Abilities\Spells\NightElf\BattleRoar\RoarCaster.mdl

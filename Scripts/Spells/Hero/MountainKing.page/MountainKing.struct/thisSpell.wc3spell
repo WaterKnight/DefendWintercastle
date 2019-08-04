@@ -1,0 +1,47 @@
+field	jass ident	1	2	3
+name		Mountain King
+raw		Ava
+
+base		NORMAL
+class		HERO_ULTIMATE
+levelsAmount
+order		avatar
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Av
+learnTooltip
+learnUberTooltip		<Rocketeye:name> grows in size and transcends into avatar shape, greatly boosting all his hero attributes and equipping himself with the '<Thunderbringer:name>' ability (level <level>). Also adds a life leech effect (spell power dependent), magic immunity and ghost.
+learnUberTooltipUpgrades		{Vigor bonus,<vigorRelInc,%>};{Focus bonus,<focusRelInc,%>};{Animus bonus,<animusRelInc,%>};{Life leech bonus,<lifeLeechInc> (+<lifeLeechIncSpellPowerMod> * spell power)};{Scale bonus,<scaleInc,%>};{Duration,<duration,asSecs>}
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		70
+manaCost		125
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNAvatar.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		<Rocketeye:name> grows in size (<scaleInc,%>) and transcends into avatar shape, greatly boosting all his hero attributes (<vigorRelInc,%> vigor, <focusRelInc,%> focus, <animusRelInc,%> animus) and equipping himself with the '<Thunderbringer:name>' ability (level <level>). Also adds a life leech effect of <lifeLeechInc> (+<lifeLeechIncSpellPowerMod> * spell power), magic immunity and ghost.|nLasts <duration> seconds.
+
+vigorRelInc		0.2	0.3	0.4
+focusRelInc		0.2	0.3	0.4
+animusRelInc		0.2	0.3	0.4
+
+duration		30	45	60
+lifeLeechInc		5	10	15
+lifeLeechIncSpellPowerMod		0.125
+scaleDuration		1
+scaleInc		0.4	0.6	0.8
+specialEffectPath		Abilities\Spells\Human\Avatar\AvatarCaster.mdl

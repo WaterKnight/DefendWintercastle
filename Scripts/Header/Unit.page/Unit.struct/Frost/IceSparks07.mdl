@@ -1,0 +1,571 @@
+// MDLFile version	Jun 27 2002 20:34:57
+// Exported on Mon Dec 19 22:14:45 2011
+Version {
+	FormatVersion 800,
+}
+Model "SparksExplosion" {
+	NumBones 4,
+	NumParticleEmitters2 11,
+	NumEvents 1,
+	BlendTime 150,
+	MinimumExtent { -55, -55, -125 },
+	MaximumExtent { 55, 55, 355 },
+	BoundsRadius 150,
+}
+Sequences 1 {
+	Anim "Birth" {
+		Interval { 0, 8000 },
+		NonLooping,
+	}
+}
+Textures 13 {
+	Bitmap {
+		Image "Textures\Clouds8x8Fire.blp",
+	}
+	Bitmap {
+		Image "Textures\Clouds8x8.blp",
+	}
+	Bitmap {
+		Image "Textures\GenericGlow64.blp",
+	}
+	Bitmap {
+		Image "Textures\Shockwave10.blp",
+	}
+	Bitmap {
+		Image "Textures\Shockwave1White.blp",
+	}
+	Bitmap {
+		Image "Textures\Star7b.blp",
+	}
+	Bitmap {
+		Image "Textures\Teal_64_Foam1.blp",
+	}
+	Bitmap {
+		Image "Textures\Flare.blp",
+	}
+	Bitmap {
+		Image "Textures\Flame4.blp",
+	}
+	Bitmap {
+		Image "Textures\Dust3x.blp",
+	}
+	Bitmap {
+		Image "Textures\ShockwaveWater1.blp",
+	}
+	Bitmap {
+		Image "Textures\Shockwave9.blp",
+	}
+	Bitmap {
+		Image "Textures\Dust5.blp",
+	}
+}
+Bone "Stream1" {
+	ObjectId 0,
+	GeosetId Multiple,
+	GeosetAnimId None,
+	Translation 2 {
+		Bezier,
+		0: { 0, 0, 0 },
+			InTan { 0, 0, 0 },
+			OutTan { 133, 133, 560 },
+		5000: { 133, 63, 0 },
+			InTan { 133, 133, 0 },
+			OutTan { 94.5, 101.5, 560 },
+	}
+}
+Bone "Stream2" {
+	ObjectId 1,
+	GeosetId Multiple,
+	GeosetAnimId None,
+	Translation 2 {
+		Bezier,
+		0: { 0, 0, 0 },
+			InTan { 0, 0, 0 },
+			OutTan { -136.5, -66.5, 420 },
+		4000: { -136.5, -66.5, 0 },
+			InTan { -136.5, -66.5, 0 },
+			OutTan { -108.5, -52.5, 140 },
+	}
+}
+Bone "Stream3" {
+	ObjectId 2,
+	GeosetId Multiple,
+	GeosetAnimId None,
+	Translation 2 {
+		Bezier,
+		0: { 0, 0, 0 },
+			InTan { 0, 0, 0 },
+			OutTan { 38.5, -105, 350 },
+		3600: { 38.5, -105, 0 },
+			InTan { 38.5, -105, 0 },
+			OutTan { 17.5, -98, 70 },
+	}
+}
+Bone "Stream4" {
+	ObjectId 3,
+	GeosetId Multiple,
+	GeosetAnimId None,
+	Translation 2 {
+		Bezier,
+		0: { 0, 0, 0 },
+			InTan { 0, 0, 0 },
+			OutTan { -126, 63, 420 },
+		3400: { -126, 63, 0 },
+			InTan { -126, 63, 0 },
+			OutTan { -98, 35, 70 },
+	}
+}
+PivotPoints 16 {
+	{ 0, 0, 0 },
+	{ 0, 0, 0 },
+	{ 0, 0, 0 },
+	{ 0, 0, 0 },
+	{ 0, 0, 0 },
+	{ 0, 0, 0 },
+	{ 0, 0, 24.5 },
+	{ 0, 0, 0 },
+	{ 0, 0, 0 },
+	{ 0, 0, 31.5 },
+	{ 0, 0, 0 },
+	{ 0, 0, 31.5 },
+	{ 0, 0, 31.5 },
+	{ 0, 0, 59.5 },
+	{ 0, 0, 0 },
+	{ 0, 0, 0 },
+}
+ParticleEmitter2 "Stream1Fire" {
+	ObjectId 4,
+	Parent 0,	// "Stream1"
+	Unshaded,
+	static Speed 7.7,
+	static Variation 0,
+	static Latitude 555,
+	static Gravity 55,
+	Visibility 3 {
+		DontInterp,
+		0: 0,
+		50: 1,
+		2000: 0,
+	}
+	LifeSpan 4,
+	static EmissionRate 24,
+	static Width 0,
+	static Length 0,
+	Blend,
+	Rows 1,
+	Columns 1,
+	Head,
+	TailLength 0,
+	Time 0.2,
+	SegmentColor {
+		Color { 1, 1, 1 },
+		Color { 1, 1, 1 },
+		Color { 1, 1, 0.74902 },
+	},
+	Alpha {255, 255, 0},
+	ParticleScaling {0, 25, 50},
+	LifeSpanUVAnim {0, 0, 1},
+	DecayUVAnim {0, 0, 1},
+	TailUVAnim {0, 0, 1},
+	TailDecayUVAnim {0, 0, 1},
+	TextureID 6,
+	PriorityPlane -2,
+	Translation 1 {
+		DontInterp,
+		0: { 0, 0, 0 },
+	}
+}
+ParticleEmitter2 "Stream2Fire" {
+	ObjectId 5,
+	Parent 1,	// "Stream2"
+	Unshaded,
+	static Speed 10.5,
+	static Variation 0,
+	static Latitude 555,
+	static Gravity 55,
+	Visibility 3 {
+		DontInterp,
+		0: 0,
+		50: 1,
+		2000: 0,
+	}
+	LifeSpan 4,
+	static EmissionRate 25,
+	static Width 0,
+	static Length 0,
+	Blend,
+	Rows 1,
+	Columns 1,
+	Head,
+	TailLength 0,
+	Time 0.2,
+	SegmentColor {
+		Color { 1, 1, 1 },
+		Color { 1, 1, 1 },
+		Color { 1, 1, 0.74902 },
+	},
+	Alpha {255, 255, 0},
+	ParticleScaling {0, 25, 50},
+	LifeSpanUVAnim {0, 0, 1},
+	DecayUVAnim {0, 0, 1},
+	TailUVAnim {0, 0, 1},
+	TailDecayUVAnim {0, 0, 1},
+	TextureID 6,
+	PriorityPlane -2,
+}
+ParticleEmitter2 "Fire" {
+	ObjectId 6,
+	Unshaded,
+	static Speed 155.4,
+	static Variation 1,
+	static Latitude 75,
+	static Gravity 25,
+	Visibility 2 {
+		DontInterp,
+		0: 1,
+		100: 0,
+	}
+	LifeSpan 0.4,
+	static EmissionRate 222,
+	static Width 52.5,
+	static Length 52.5,
+	Additive,
+	Rows 1,
+	Columns 1,
+	Head,
+	TailLength 0,
+	Time 0.1,
+	SegmentColor {
+		Color { 1, 1, 1 },
+		Color { 1, 1, 1 },
+		Color { 1, 1, 0.74902 },
+	},
+	Alpha {255, 255, 0},
+	ParticleScaling {0, 85, 25},
+	LifeSpanUVAnim {0, 0, 1},
+	DecayUVAnim {0, 0, 1},
+	TailUVAnim {0, 0, 1},
+	TailDecayUVAnim {0, 0, 1},
+	TextureID 12,
+}
+ParticleEmitter2 "Stream3Fire" {
+	ObjectId 7,
+	Parent 2,	// "Stream3"
+	Unshaded,
+	static Speed 10.5,
+	static Variation 0,
+	static Latitude 555,
+	static Gravity 55,
+	Visibility 3 {
+		DontInterp,
+		0: 0,
+		50: 1,
+		1600: 0,
+	}
+	LifeSpan 4,
+	static EmissionRate 25,
+	static Width 0,
+	static Length 0,
+	Blend,
+	Rows 1,
+	Columns 1,
+	Head,
+	TailLength 0,
+	Time 0.2,
+	SegmentColor {
+		Color { 1, 1, 1 },
+		Color { 1, 1, 1 },
+		Color { 1, 1, 0.74902 },
+	},
+	Alpha {255, 255, 0},
+	ParticleScaling {0, 25, 50},
+	LifeSpanUVAnim {0, 0, 1},
+	DecayUVAnim {0, 0, 1},
+	TailUVAnim {0, 0, 1},
+	TailDecayUVAnim {0, 0, 1},
+	TextureID 6,
+	PriorityPlane -2,
+}
+ParticleEmitter2 "Stream4Fire" {
+	ObjectId 8,
+	Parent 3,	// "Stream4"
+	Unshaded,
+	static Speed 10.5,
+	static Variation 0,
+	static Latitude 555,
+	static Gravity 55,
+	Visibility 3 {
+		DontInterp,
+		0: 0,
+		50: 1,
+		2000: 0,
+	}
+	LifeSpan 4,
+	static EmissionRate 25,
+	static Width 0,
+	static Length 0,
+	Blend,
+	Rows 1,
+	Columns 1,
+	Head,
+	TailLength 0,
+	Time 0.2,
+	SegmentColor {
+		Color { 1, 1, 1 },
+		Color { 1, 1, 1 },
+		Color { 1, 1, 0.74902 },
+	},
+	Alpha {255, 255, 0},
+	ParticleScaling {0, 25, 50},
+	LifeSpanUVAnim {0, 0, 1},
+	DecayUVAnim {0, 0, 1},
+	TailUVAnim {0, 0, 1},
+	TailDecayUVAnim {0, 0, 1},
+	TextureID 6,
+	PriorityPlane -2,
+}
+ParticleEmitter2 "Sparklies" {
+	ObjectId 9,
+	Unshaded,
+	static Speed 245,
+	static Variation 0.5,
+	static Latitude 7,
+	static Gravity 225,
+	Visibility 2 {
+		DontInterp,
+		0: 1,
+		100: 0,
+	}
+	LifeSpan 4,
+	static EmissionRate 222,
+	static Width 25.2,
+	static Length 25.2,
+	Blend,
+	Rows 1,
+	Columns 1,
+	Head,
+	TailLength 0,
+	Time 0.2,
+	SegmentColor {
+		Color { 1, 1, 1 },
+		Color { 1, 1, 1 },
+		Color { 1, 1, 0.74902 },
+	},
+	Alpha {255, 255, 0},
+	ParticleScaling {0, 45, 75},
+	LifeSpanUVAnim {0, 0, 1},
+	DecayUVAnim {0, 0, 1},
+	TailUVAnim {0, 0, 1},
+	TailDecayUVAnim {0, 0, 1},
+	TextureID 6,
+	PriorityPlane -2,
+}
+ParticleEmitter2 "Dust" {
+	ObjectId 10,
+	Unshaded,
+	static Speed -38.5,
+	static Variation 0.5,
+	static Latitude 85,
+	static Gravity 0,
+	Visibility 2 {
+		DontInterp,
+		0: 1,
+		100: 0,
+	}
+	LifeSpan 3,
+	static EmissionRate 300,
+	static Width 0,
+	static Length 0,
+	Additive,
+	Rows 1,
+	Columns 1,
+	Tail,
+	TailLength 4,
+	Time 0.1,
+	SegmentColor {
+		Color { 1, 1, 1 },
+		Color { 1, 1, 1 },
+		Color { 1, 1, 0.87451 },
+	},
+	Alpha {0, 255, 0},
+	ParticleScaling {25, 35, 45},
+	LifeSpanUVAnim {0, 0, 1},
+	DecayUVAnim {0, 0, 1},
+	TailUVAnim {0, 0, 1},
+	TailDecayUVAnim {0, 0, 1},
+	TextureID 12,
+	PriorityPlane -1,
+	Scaling 1 {
+		DontInterp,
+		0: { 1, 1, 1 },
+	}
+}
+ParticleEmitter2 "Flash" {
+	ObjectId 11,
+	Unshaded,
+	static Speed 59.5,
+	static Variation 0,
+	static Latitude 85,
+	static Gravity 0,
+	Visibility 2 {
+		DontInterp,
+		0: 1,
+		100: 0,
+	}
+	LifeSpan 0.4,
+	static EmissionRate 155,
+	static Width 78.4,
+	static Length 78.4,
+	Additive,
+	Rows 1,
+	Columns 1,
+	Head,
+	TailLength 0,
+	Time 0.1,
+	SegmentColor {
+		Color { 1, 1, 1 },
+		Color { 1, 1, 1 },
+		Color { 1, 1, 0.74902 },
+	},
+	Alpha {0, 125, 0},
+	ParticleScaling {255, 155, 0},
+	LifeSpanUVAnim {0, 0, 1},
+	DecayUVAnim {0, 0, 1},
+	TailUVAnim {0, 0, 1},
+	TailDecayUVAnim {0, 0, 1},
+	TextureID 2,
+	Scaling 1 {
+		DontInterp,
+		0: { 1, 1, 0 },
+	}
+}
+ParticleEmitter2 "Sparklies2" {
+	ObjectId 12,
+	Unshaded,
+	static Speed 245,
+	static Variation 0.5,
+	static Latitude 7,
+	static Gravity 225,
+	Visibility 2 {
+		DontInterp,
+		0: 1,
+		100: 0,
+	}
+	LifeSpan 4,
+	static EmissionRate 222,
+	static Width 25.2,
+	static Length 25.2,
+	Blend,
+	Rows 1,
+	Columns 1,
+	Head,
+	TailLength 0,
+	Time 0.3,
+	SegmentColor {
+		Color { 1, 1, 1 },
+		Color { 1, 1, 1 },
+		Color { 1, 1, 0.74902 },
+	},
+	Alpha {255, 255, 0},
+	ParticleScaling {0, 35, 85},
+	LifeSpanUVAnim {0, 0, 1},
+	DecayUVAnim {0, 0, 1},
+	TailUVAnim {0, 0, 1},
+	TailDecayUVAnim {0, 0, 1},
+	TextureID 6,
+	PriorityPlane -1,
+}
+ParticleEmitter2 "Shockwave" {
+	ObjectId 13,
+	Unshaded,
+	static Speed 38.5,
+	static Variation 0,
+	static Latitude 85,
+	static Gravity 0,
+	Visibility 2 {
+		DontInterp,
+		0: 1,
+		100: 0,
+	}
+	LifeSpan 5,
+	static EmissionRate 222,
+	static Width 87.5,
+	static Length 87.5,
+	Blend,
+	Rows 8,
+	Columns 8,
+	Head,
+	TailLength 0,
+	Time 0.2,
+	SegmentColor {
+		Color { 1, 1, 1 },
+		Color { 1, 1, 1 },
+		Color { 1, 1, 0.74902 },
+	},
+	Alpha {55, 55, 0},
+	ParticleScaling {75, 85, 96},
+	LifeSpanUVAnim {0, 32, 1},
+	DecayUVAnim {33, 64, 1},
+	TailUVAnim {0, 0, 1},
+	TailDecayUVAnim {0, 0, 1},
+	TextureID 1,
+	Scaling 1 {
+		DontInterp,
+		0: { 1, 1, 1 },
+	}
+}
+ParticleEmitter2 "Spires" {
+	ObjectId 14,
+	Unshaded,
+	static Speed 46.2,
+	static Variation 0.5,
+	static Latitude 85,
+	static Gravity 0,
+	Visibility 2 {
+		DontInterp,
+		0: 1,
+		300: 0,
+	}
+	LifeSpan 3,
+	static EmissionRate 55,
+	static Width 17.5,
+	static Length 17.5,
+	Additive,
+	Rows 1,
+	Columns 1,
+	Tail,
+	TailLength -3,
+	Time 0.1,
+	SegmentColor {
+		Color { 1, 1, 1 },
+		Color { 1, 1, 1 },
+		Color { 1, 1, 0.87451 },
+	},
+	Alpha {0, 255, 0},
+	ParticleScaling {25, 35, 45},
+	LifeSpanUVAnim {0, 0, 1},
+	DecayUVAnim {0, 0, 1},
+	TailUVAnim {0, 0, 1},
+	TailDecayUVAnim {0, 0, 1},
+	TextureID 12,
+	PriorityPlane -1,
+	Scaling 1 {
+		DontInterp,
+		0: { 1, 1, 1 },
+	}
+}
+Camera "Default View" {
+	Position { 1193.56, 0, 1193.56 },
+	FieldOfView 0.785398,
+	FarClip 10000,
+	NearClip 1,
+	Target {
+		Position { 0, 0, 0 },
+	}
+}
+EventObject "SNDxDHLB" {
+	ObjectId 15,
+	EventTrack 1 {
+		2,
+	}
+}

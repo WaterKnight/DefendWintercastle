@@ -1,0 +1,19 @@
+field	1
+name
+raw
+
+class	HERO_ULTIMATE
+levelsAmount
+lostOn
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath
+sfxAttachPt
+sfxLevel
+
+unitMod	invul;stun
+unitModVal	true;true

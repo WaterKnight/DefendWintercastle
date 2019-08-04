@@ -1,0 +1,16 @@
+field	1
+name	Strong
+raw	Bar
+
+class	PURCHASABLE
+levelsAmount
+lostOn
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNFrostMourne.blp
+tooltip
+uberTooltip	Very strong
+
+sfxPath
+sfxAttachPt
+sfxLevel

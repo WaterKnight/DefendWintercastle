@@ -1,0 +1,98 @@
+field	value
+name	Artifact Spot
+raw	ArS
+
+classes	NEUTRAL;STRUCTURE
+hero	false
+structure	true
+team	OTHER
+
+model	buildings\other\CircleOfPower\CircleOfPower.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.
+
+elevPts	4
+elevRad	50.
+maxRoll	0.
+maxPitch	0.
+scale	1.5
+selScale	2.66
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	120.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath
+shadowWidth
+shadowHeight
+shadowOffsetX
+shadowOffsetY
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNCOP.blp
+soundset	CircleOfPower
+tooltip
+uberTooltip
+
+moveType
+moveSpeed
+turnRate
+height
+heightMin
+animWalk
+animRun
+moveInterp
+
+animBlend	0.15
+animCastWaitBefore	0.
+animCastWaitAfter	0.51
+
+armorAmount	0.
+armorSound	Stone
+armorType	FORT
+life	INFINITE
+lifeRegen	0.
+mana
+manaRegen
+spellPower
+sightRange	500.
+sightRangeNight	500.
+
+attackType
+attackCooldown
+attackRange
+attackRangeAcq
+attackRangeBuffer	0.
+attackTargetFlags
+attackWaitBefore
+attackWaitAfter
+attackSound
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType
+damageAmount
+damageDices
+damageSides
+
+collisionSize
+combatFlags	ground,structure
+deathTime	3.
+exp
+gold
+
+
+structurePathTex
+structureSoldItems
+structureUbersplat

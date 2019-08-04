@@ -1,0 +1,4 @@
+field	jass ident	1	2	3	4	5
+attackSpeedIncrement		0.25	0.4	0.65	0.8	0.95
+buffDuration	DURATION	7.5
+criticalIncrement		40	60	80	100	120

@@ -1,0 +1,41 @@
+field	jass ident	1	2	3
+name		Steel Impalement
+raw		StI
+
+base		NORMAL
+class		HERO_ULTIMATE_EX
+levelsAmount
+order		roar
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		SI
+learnTooltip
+learnUberTooltip		Executes an artistic slow-motion jump while sending tons of weapons through the ground and air in nova waves, which impale any hostile unit in an immense range. Hit targets take damage, get snared and <BLEED>bleed</BLEED>.|n<Kera:name> becomes <IMMORTAL>immortal</IMMORTAL> and uninterruptable until the casting ends.
+learnUberTooltipUpgrades		{Damage per wave,<damage>};{Target duration,<Target\this.wc3obj:duration>}
+
+animation		slam
+areaRange		3000
+areaRangeDisplay		false
+cooldown		100	100	100
+channelTime		12
+manaCost		180	225	270
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNImpale.blp
+lore
+sharedBuffs		BLEED;IMMORTAL
+tooltip
+uberTooltip		Executes an artistic slow-motion jump while sending tons of weapons through the ground and air in <wavesAmount> nova waves, which impale any hostile unit in an immense range (<areaRange>). Hit targets take <damage> damage (physical), get snared and <BLEED>bleed</BLEED> for <Target\this.wc3obj:duration> seconds.|n<Kera:name> becomes <IMMORTAL>immortal</IMMORTAL> and uninterruptable until the casting ends.
+
+damage		50	100	150
+sfxDist		100
+specialEffectPath		Abilities\Spells\Undead\Impale\ImpaleMissTarget.mdl
+wavesAmount		3	3

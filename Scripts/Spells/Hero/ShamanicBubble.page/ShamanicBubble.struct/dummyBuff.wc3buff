@@ -1,0 +1,31 @@
+field	1	2	3
+name
+raw
+
+class	HERO_ULTIMATE
+levelsAmount
+lostOn
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath	Abilities\Spells\Other\Doom\DoomTarget.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW
+
+sfxPath	Abilities\Spells\Undead\Unsummon\UnsummonTarget.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.NORMAL
+
+//sfxPath	Abilities\Spells\Undead\Unsummon\UnsummonTarget.mdl
+sfxAttachPt	AttachPoint.CHEST_MOUNT_LEFT
+sfxLevel	EffectLevel.NORMAL
+
+//sfxPath	Abilities\Spells\Undead\Unsummon\UnsummonTarget.mdl
+sfxAttachPt	AttachPoint.CHEST_MOUNT_RIGHT
+sfxLevel	EffectLevel.NORMAL
+
+unitMod	healAbilityBonusRel	healAbilityBonusRel
+unitModVal	<thisSpell.wc3spell:healAbilityInc>	<thisSpell.wc3spell:healAbilityInc>

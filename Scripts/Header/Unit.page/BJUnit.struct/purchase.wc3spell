@@ -1,0 +1,28 @@
+field	jass ident	1
+name		Purchase
+raw
+profileIdent		CmdPurchase
+
+base
+classes		DUMMY
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX		0
+buttonPosY		0
+hotkey
+icon		CommandPurchase
+lore
+sharedBuffs
+tooltip
+uberTooltip

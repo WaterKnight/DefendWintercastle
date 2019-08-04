@@ -1,0 +1,16 @@
+field	1
+name	Cold and slowed
+raw	ChB
+
+class	PURCHASABLE
+levelsAmount
+lostOn	dispel
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNBreathOfFrost.blp
+tooltip
+uberTooltip	This unit was recently affected by a cold shiver. It has problems to do fast movements.
+
+sfxPath	Abilities\Spells\Undead\FrostArmor\FrostArmorDamage.mdl
+sfxAttachPt	AttachPoint.CHEST
+sfxLevel	EffectLevel.NORMAL

@@ -1,0 +1,13 @@
+field	1
+name	Jgsb
+raw	Jgsb
+
+texPath	TerrainArt\DalaranRuins\DRuins_Grass.blp
+cliffSet
+
+walkable	true
+flyable	true
+buildable	true
+
+footprints	true
+blightPriority	3

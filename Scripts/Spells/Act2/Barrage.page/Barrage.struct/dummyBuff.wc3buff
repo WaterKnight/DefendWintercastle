@@ -1,0 +1,19 @@
+field	1
+name
+raw
+
+class
+levelsAmount
+lostOn
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath
+sfxAttachPt
+sfxLevel
+
+unitMod	vertexColorBonusTimed
+unitModVal	{<thisSpell.wc3spell:redInc>,<thisSpell.wc3spell:greenInc>,<thisSpell.wc3spell:blueInc>,<thisSpell.wc3spell:alphaInc>,<thisSpell.wc3spell:colorFadeDuration>}

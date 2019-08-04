@@ -1,0 +1,22 @@
+field	jass ident	1	2	3	4	5
+name		Ice Tea
+raw		AIcT
+
+base		PARALLEL_IMMEDIATE
+class		ITEM
+levelsAmount		3
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		20	20	20
+manaCost
+range
+targets
+
+casterEffectAttachPoint		AttachPoint.ORIGIN
+casterEffectPath		Abilities\Spells\Items\AIma\AImaTarget.mdl
+refreshedMana		200	350	500

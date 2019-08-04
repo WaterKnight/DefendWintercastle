@@ -1,0 +1,16 @@
+field	1
+name	Lunar Restoration
+raw	LuR
+
+class	NORMAL
+levelsAmount
+lostOn
+positive	true
+
+icon	ReplaceableTextures\PassiveButtons\PASBTNElunesBlessing.blp
+tooltip
+uberTooltip	This unit will be revived.
+
+sfxPath	Abilities\Spells\Items\ScrollOfRegeneration\Scroll_Regen_Target.mdl
+sfxAttachPt	AttachPoint.CHEST
+sfxLevel	EffectLevel.NORMAL

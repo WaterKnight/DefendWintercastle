@@ -1,0 +1,26 @@
+field	jass ident	1
+name		Eternal Vial
+raw		Via
+
+base		PARALLEL_IMMEDIATE
+class		ITEM
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		60
+manaCost
+range
+targets
+
+duration		2
+healEffectAttachPoint		AttachPoint.ORIGIN
+healEffectPath		<Heal.wc3imp:target>
+healFactorPerInterval		0.075
+healManaFactorPerInterval		0.075
+healStaminaFactorPerInterval		0.075
+intervalsAmount		5

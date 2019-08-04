@@ -1,0 +1,16 @@
+field	1
+name	Fire Buff
+raw	DGF
+
+class	HERO_ULTIMATE
+levelsAmount	3
+lostOn	death
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNFire.blp
+tooltip
+uberTooltip	This unit's attacks are smouldering. It deals splash damage.
+
+sfxPath	Abilities\Spells\Items\AIfb\AIfbTarget.mdl
+sfxAttachPt	AttachPoint.WEAPON
+sfxLevel	EffectLevel.LOW

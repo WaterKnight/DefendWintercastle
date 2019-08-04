@@ -1,0 +1,19 @@
+field	1
+name	Drum Roll
+raw	DrR
+
+class
+levelsAmount
+lostOn
+positive	true
+
+icon	ReplaceableTextures\PassiveButtons\PASBTNDrum.blp
+tooltip
+uberTooltip	This brave warrior listens to the sound of war drums; its attack damage is increased. This buff stacks.
+
+sfxPath	<this.wc3obj:targetEffectPath>
+sfxAttachPt	<this.wc3obj:targetEffectAttachPoint>
+sfxLevel	EffectLevel.LOW
+
+unitMod	dmgBonusRel
+unitModVal	<this.wc3obj:dmgRelInc>

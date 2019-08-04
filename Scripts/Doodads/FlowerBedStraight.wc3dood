@@ -1,0 +1,35 @@
+field	jassIdent	1
+name		Flower Bed Straight
+raw		DFbS
+category		props
+
+selSize
+useClickHelper
+ignoreModelClick
+
+model		Doodads\Cityscape\Plants\FlowerBedStraight\FlowerBedStraight.mdx
+minScale		0.8
+maxScale		1.2
+defaultScale		1
+fixedRotation
+
+maxRoll
+maxPitch
+red		255
+green		255
+blue		255
+
+visRange		50
+showInFog		true
+animInFog
+hasShadow
+floats
+walkable
+
+minimapRed
+minimapGreen
+minimapBlue
+
+pathTex
+
+sound

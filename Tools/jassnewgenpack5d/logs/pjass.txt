@@ -1,0 +1,4 @@
+Parse successful:     4834 lines: jasshelper\common.j
+Parse successful:    20458 lines: jasshelper\blizzard.j
+Parse successful:      690 lines: logs\currentmapscript.j
+Parse successful:    25982 lines: <total>

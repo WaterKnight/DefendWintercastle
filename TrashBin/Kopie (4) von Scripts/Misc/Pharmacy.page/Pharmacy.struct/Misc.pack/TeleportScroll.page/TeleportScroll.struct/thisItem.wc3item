@@ -1,0 +1,24 @@
+field	value
+name	Teleport Scroll
+raw	TpS
+
+classes
+
+model	Objects\InventoryItems\TreasureChest\treasurechest.mdl
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	Teleports your hero.
+icon	ReplaceableTextures\CommandButtons\BTNScrollUber.blp
+tooltip	Purchase <name>
+uberTooltip	Teleports you to an allied building.
+
+abilities	thisSpell
+armor
+chargesAmount	1
+cooldownGroup
+goldCost	250
+lumberCost	0

@@ -1,0 +1,92 @@
+
+field "SOUND_OPTIONS"("Sound Options") has no section
+field "CHAT_INFO_TEXT"("") has no section
+field "COLON_OCCLUSION"("<color=DWC>Occlusion:</color>") has no section
+field "CHAT"("Log") has no section
+field "MAIN_MENU"("<color=DWC,WHITE>Main Menu</color>") has no section
+field "COLON_SOUND_EFFECTS_VOLUME"("<color=DWC>Sound volume:</color>") has no section
+field "COLON_MUSIC_VOLUME"("<color=DWC>Music volume:</color>") has no section
+field "LOADING_WAITING_FOR_PLAYERS"("Waiting for other players") has no section
+field "COLON_LIGHTS"("<color=DWC>Lights:</color>") has no section
+field "SUBGROUP_MODIFIER2"("<color=DWC>Subgroup order</color>") has no section
+field "COLON_GAME_SPEED"("<color=DWC>Game speed</color>") has no section
+field "MOVEMENT_SOUNDS"("<color=DWC>Movement sounds</color>") has no section
+field "SEND_TO_EVERYONE"("<color=WHITE>Send to everyone</color>") has no section
+field "KEY_OK"("<color=DWC><color=WHITE>O</color>K</color>") has no section
+field "LOAD"("Load (unused)") has no section
+field "KEY_VIDEO"("<color=DWC>G<color=WHITE>r</color>aphics</color>") has no section
+field "KEY_DELETE"("<color=DWC><color=WHITE>D</color>elete</color>") has no section
+field "LOW"("<color=WHITE>Low</color>") has no section
+field "CONFIRM_EXIT"("<color=DWC>Exit game</color>") has no section
+field "HELP"("Help") has no section
+field "KEY_HELP"("<color=DWC><color=WHITE>H</color>elp</color>") has no section
+field "GAMEPLAY_MOUSE_SCROLL_DISABLE"("<color=DWC>Deactivate mouse scrolling</color>") has no section
+field "KEY_RESTART_MISSION"("<color=DWC>Restart <color=WHITE>M</color>ap</color>") has no section
+field "KEY_GAMEPLAY"("<color=DWC><color=WHITE>G</color>ameplay</color>") has no section
+field "AMBIENT_SOUNDS"("<color=DWC>Ambient sounds</color>") has no section
+field "LOAD_GAME"("Load game") has no section
+field "DARK"("<color=WHITE>Dark</color>") has no section
+field "WARCRAFT_III_TIPS"("Hints") has no section
+field "MEDIUM"("<color=WHITE>Medium</color>") has no section
+field "ACCEPT"("<color=DWC>OK</color>") has no section
+field "KEY_NEXT_ARROW"("<color=DWC><color=WHITE>N</color>ext</color>") has no section
+field "KEY_END_GAME"("<color=DWC><color=WHITE>E</color>nd game</color>") has no section
+field "SEND_TO_ALLIES"("<color=WHITE>Send to allies</color>") has no section
+field "COLON_SEND_TO_PLAYER"("<color=WHITE>Send to player:</color>") has no section
+field "KEY_EXIT_PROGRAM"("<color=DWC><color=WHITE>E</color>xit game</color>") has no section
+field "OK"("<color=DWC>close window</color>") has no section
+field "COLON_SPELL_FILTER"("<color=DWC>Spell detail:</color>") has no section
+field "KEY_PREVIOUS_MENU"("<color=DWC>Go to previous me<color=WHITE>n</color>u</color>") has no section
+field "CANCEL"("<color=DWC>Cancel</color>") has no section
+field "KEY_SOUND"("<color=DWC><color=WHITE>S</color>ound</color>") has no section
+field "KEY_EXIT"("<color=DWC><color=WHITE>G</color>oodbye</color>") has no section
+field "HIGH"("<color=WHITE>High</color>") has no section
+field "FORMATION_TOGGLE"("<color=DWC>Activate formation toggle</color>") has no section
+field "MESSAGE_LOG"("Message Log") has no section
+field "KEY_BACK_ARROW"("<color=DWC><color=WHITE>B</color>ack</color>") has no section
+field "KEY_LOAD"("<color=DWC><color=WHITE>L</color>oad</color>") has no section
+field "KEY_TIPS"("<color=DWC><color=WHITE>T</color>ips</color>") has no section
+field "KEY_RESUME_GAME"("<color=DWC>Unpause game</color>") has no section
+field "END_GAME_OPTIONS"("") has no section
+field "POSITIONAL_AUDIO"("<color=DWC>3D audio</color>") has no section
+field "OFF"("<color=WHITE>Off</color>") has no section
+field "OPTIONS"("Options") has no section
+field "KEY_CANCEL"("<color=DWC><color=WHITE>C</color>ancel</color>") has no section
+field "TIPS"("Hints") has no section
+field "COLON_KEYBOARD_SCROLL"("<color=DWC>Keyboard scrolling:</color>") has no section
+field "HEALTH_BARS"("<color=DWC>Permanently show health bars</color>") has no section
+field "KEY_SAVE"("<color=DWC><color=WHITE>S</color>ave</color>") has no section
+field "ON"("<color=WHITE>On</color>") has no section
+field "KEY_RETURN_TO_GAME"("<color=DWC><color=WHITE>R</color>eturn to game</color>") has no section
+field "LOADING_LOADING"("Loading...") has no section
+field "CONFIRM_EXIT_MESSAGE"("<color=WHITE>Are you sure?</color>") has no section
+field "COLON_PARTICLES"("<color=DWC>Particles:</color>") has no section
+field "BRIGHT"("<color=WHITE>Bright</color>") has no section
+field "COLON_MODEL_DETAIL"("<color=DWC>Model detail:</color>") has no section
+field "LOADING_PRESS_A_KEY"("Press any key") has no section
+field "COLON_ANIM_QUALITY"("<color=DWC>Animation quality:</color>") has no section
+field "MESSAGING"("Messages") has no section
+field "COLON_SOUND_PROVIDER"("<color=DWC>Sound system:</color>") has no section
+field "SEND_TO_OBSERVERS"("<color=WHITE>Send to observers</color>") has no section
+field "KEY_LOAD_GAME"("<color=DWC><color=WHITE>L</color>oad game</color>") has no section
+field "VIDEO_OPTIONS"("Graphics Options") has no section
+field "ENVIRONMENTAL_EFFECTS"("<color=DWC>Environmental effects</color>") has no section
+field "KEY_PAUSE_GAME"("<color=DWC>Pause game</color>") has no section
+field "CHAT_HISTORY"("") has no section
+field "SAVE"("Save (unused)") has no section
+field "COLON_RESOLUTION"("<color=DWC>Resolution:</color>") has no section
+field "UNIT_SOUNDS"("<color=DWC>Unit replies</color>") has no section
+field "COLON_TEXTURE_QUALITY"("<color=DWC>Texture quality:</color>") has no section
+field "ENHANCED_TOOLTIPS"("<color=DWC>Extended tooltips</color>") has no section
+field "QUIT_MISSION"("<color=DWC,WHITE>*brrzzz*</color>") has no section
+field "KEY_SAVE_GAME"("<color=DWC><color=WHITE>S</color>ave game</color>") has no section
+field "GAMEPLAY_OPTIONS"("Gameplay Options") has no section
+field "SUBTITLES"("<color=DWC>Subtitles</color>") has no section
+field "SAVE_GAME"("Save game") has no section
+field "SEND_TO_REFEREES"("<color=WHITE>Send to referees/color>") has no section
+field "KEY_OPTIONS"("<color=DWC><color=WHITE>O</color>ptions</color>") has no section
+field "KEY_QUIT_MISSION"("<color=DWC><color=WHITE>Q</color>uit map</color>") has no section
+field "COLON_MOUSE_SCROLL"("<color=DWC>Mouse scrolling</color>") has no section
+field "COLON_GAMMA"("<color=DWC>Gamma:</color>") has no section
+field "COLON_CUSTOM_KEYS"("<color=DWC>Custom keys:</color>") has no section
+field "COLON_SHADOWS"("<color=DWC>Unit shadows:</color>") has no section

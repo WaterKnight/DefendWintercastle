@@ -1,0 +1,35 @@
+field	jass ident	1	2	3	4	5
+name		Bubble
+raw		ABub
+
+base		NORMAL
+class		HERO_ULTIMATE
+levelsAmount
+order		voodoo
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Bu
+learnTooltip
+learnUberTooltip		Engulfs all nearby companions in a protective aura while Tajran is channeling, thus rendering them invulnerable.	Engulfs all nearby companions in a protective aura while Tajran is channeling, thus rendering them invulnerable.|nNext Level:|nChannel time: <channelTime<prevLevel>> --> <channelTime>|nCooldown: <cooldown<prevLevel>> seconds --> <cooldown> seconds
+
+animation		spell,channel
+areaRange		600
+areaRangeDisplay		true
+channelTime		10	13	16
+cooldown		90	80	70
+manaCost		250
+range		675
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNBigBadVoodooSpell.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Engulfs all nearby companions in a protective aura while Tajran is channeling, thus rendering them invulnerable up to <channelTime> seconds.

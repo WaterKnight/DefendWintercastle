@@ -1,0 +1,27 @@
+field	jass ident	1	2	3	4	5	6
+name		Soaking Attack
+raw		SoA
+
+base		PASSIVE
+class		NORMAL
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\PassiveButtons\PASBTNPlagueCloud.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Attacks slow the target's movement speed by <Target\this.wc3obj:moveSpeedInc,-> and attack speed by <Target\this.wc3obj:attackSpeedInc,-,%>. This buff can stack up to three times.|nLasts <Target\this.wc3obj:duration> (<Target\this.wc3obj:heroDuration>) seconds.

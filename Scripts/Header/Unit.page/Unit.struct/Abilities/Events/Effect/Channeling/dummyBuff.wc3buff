@@ -1,0 +1,18 @@
+field	1
+name
+raw
+
+class
+levelsAmount
+lostOn
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath	<special.wc3imp:target>
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW
+sfxSound
+sfxSoundLoop	loopSound

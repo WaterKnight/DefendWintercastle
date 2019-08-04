@@ -1,0 +1,26 @@
+field	value
+name
+raw	BBD
+
+classes	DUMMY
+hero
+structure
+team
+
+model	<BigBoom.wc3imp:target>
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale
+
+elevPts
+elevRad
+maxRoll
+maxPitch
+scale	1.
+selScale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha

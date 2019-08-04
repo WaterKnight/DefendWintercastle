@@ -1,0 +1,15 @@
+field	1
+name	Bleeding
+raw	SoD
+
+class	NORMAL
+levelsAmount
+positive	false
+
+icon
+tooltip
+uberTooltip	This unit was perforated by '<name>', it loses hitpoints over time.
+
+sfxPath
+sfxAttachPt
+sfxLevel

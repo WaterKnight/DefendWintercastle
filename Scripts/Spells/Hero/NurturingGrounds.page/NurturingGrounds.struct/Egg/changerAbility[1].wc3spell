@@ -1,0 +1,8 @@
+field	jass ident	1
+name		Changer (<egg.wc3unit:raw> to <treant[1].wc3unit:raw>)
+raw		NG1
+base		SPECIAL_Abrf
+classes		DUMMY
+
+specials		Emeu=<egg.wc3unit:raw>
+specials		Eme1=<treant[1].wc3unit:raw>

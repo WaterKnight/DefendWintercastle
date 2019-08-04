@@ -1,0 +1,10 @@
+field	jassIdent	1
+attackSpeedInc		-0.25
+healAbilityInc		-0.5
+speedRelInc		-0.1
+lifeRegenRelInc		-0.5
+
+redInc		-100
+greenInc		0
+blueInc		-100
+alphaInc		0

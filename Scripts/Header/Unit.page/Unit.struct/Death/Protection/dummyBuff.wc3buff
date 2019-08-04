@@ -1,0 +1,15 @@
+field	1
+name
+raw
+
+class
+levelsAmount
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath	<buff.wc3imp:target>
+sfxAttachPt	AttachPoint.CHEST
+sfxLevel	EffectLevel.LOW

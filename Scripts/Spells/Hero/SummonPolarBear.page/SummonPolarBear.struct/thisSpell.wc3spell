@@ -1,0 +1,36 @@
+field	jass ident	1	2	3	4	5	6
+name		Polar Pal
+raw		SuG
+
+base		NORMAL
+class		HERO_SECOND
+levelsAmount
+order		summongrizzly
+target		UNIT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		SP
+learnTooltip
+learnUberTooltip		Calls for <Rocketeye:name>'s thick-skinned buddy, a strong bear summon, who pounces at the target unit to taunt adversaries away from dear friends.|non ally: Renders the target <INVU>invulnerable</INVU> for a moment.|non enemy: Grants the bear the ability '<ArcticBlink:name>' (level 1).|n|nWhile the summon resides on the map, this ability is substituted by '<Callback:name>', which can be used to release the bond, unsummon the bear and grant <Rocketeye:name> part of its remaining life force.|nThe bear grows stronger with each level.	Calls for <Rocketeye:name>'s thick-skinned buddy, a strong bear summon with the ability '<ArcticBlink:name>' (level <level,-1>), who pounces at the target unit to taunt adversaries away from dear friends.|non ally: Renders the target <INVU>invulnerable</INVU> for a moment.|non enemy: Increases the bear's '<ArcticBlink:name>' ability by one level.|n|nWhile the summon resides on the map, this ability is substituted by '<Callback:name>', which can be used to release the bond, unsummon the bear and grant <Rocketeye:name> part of its remaining life force.|nThe bear grows stronger with each level.		Calls for <Rocketeye:name>'s thick-skinned buddy, a strong bear summon with the abilities '<ArcticBlink:name>' (level <level,-1>) and '<Devour:name>', who pounces at the target unit to taunt adversaries away from dear friends.|non ally: Renders the target <INVU>invulnerable</INVU> for a moment.|non enemy: Increases the bear's '<ArcticBlink:name>' ability by one level.|n|nWhile While the summon resides on the map, this ability is substituted by '<Callback:name>', which can be used to release the bond, unsummon the bear and grant <Rocketeye:name> part of its remaining life force.|nThe bear grows stronger with each level.
+learnUberTooltipUpgrades		{Invulnerability duration,<Summon\this.wc3obj:invuDuration,asSecs>};{Duration,<Summon\this.wc3obj:duration>};{Heal,<Callback:healFactor,%> + <Callback:heal>}
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		25	23	21	19	17	15
+manaCost		85	100	115	130	145	160
+range		650
+targets		enemies,friend,ground,invulnerable,neutral,organic,notself,vulnerable
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNFrostBear.blp
+lore
+sharedBuffs		INVU
+tooltip
+uberTooltip		Calls for <Rocketeye:name>'s thick-skinned buddy, a strong bear summon with the ability '<ArcticBlink:name>', who pounces at the target unit to taunt adversaries away from dear friends.|non ally: Renders the target <INVU>invulnerable</INVU> for <Summon\this.wc3obj:invuDuration> seconds.|non enemy: Increases the bear's '<ArcticBlink:name>' ability by one level.|nWhile the summon remains on the map, the caster gains another ability '<Callback:name>', which can be used to release the bond, unsummon the bear and grant <Rocketeye:name> <Callback:heal> + <Callback:healFactor,%> of its remaining life force.	Calls for <Rocketeye:name>'s thick-skinned buddy, a strong bear summon with the ability '<ArcticBlink:name>' (level <level,-1>), who pounces at the target unit to taunt adversaries away from dear friends.|non ally: Renders the target <INVU>invulnerable</INVU> for <Summon\this.wc3obj:invuDuration> seconds.|non enemy: Increases the bear's '<ArcticBlink:name>' ability by one level.|nWhile the summon remains on the map, the caster gains another ability '<Callback:name>', which can be used to release the bond, unsummon the bear and grant <Rocketeye:name> <Callback:heal> + <Callback:healFactor,%> of its remaining life force.		Calls for <Rocketeye:name>'s thick-skinned buddy, a strong bear summon with the abilities '<ArcticBlink:name>' (level <level,-1>) and '<Devour:name>', who pounces at the target unit to taunt adversaries away from dear friends.|non ally: Renders the target <INVU>invulnerable</INVU> for <Summon\this.wc3obj:invuDuration> seconds.|non enemy: Increases the bear's '<ArcticBlink:name>' ability by one level.|nWhile the summon remains on the map, the caster gains another ability '<Callback:name>', which can be used to release the bond, unsummon the bear and grant <Rocketeye:name> <Callback:heal> + <Callback:healFactor,%> of its remaining life force.

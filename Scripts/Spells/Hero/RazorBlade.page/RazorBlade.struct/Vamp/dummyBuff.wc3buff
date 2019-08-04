@@ -1,0 +1,19 @@
+field	1	2	3	4	5	6
+name
+raw
+
+class	DUMMY
+levelsAmount
+lostOn
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath
+sfxAttachPt
+sfxLevel
+
+unitMod	spellVampBonus	spellVampBonus
+unitModVal	<this.wc3obj:spellVampInc>	<this.wc3obj:spellVampInc>

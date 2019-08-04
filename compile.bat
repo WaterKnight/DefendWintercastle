@@ -1,0 +1,3 @@
+compiler\start.bat
+
+pause

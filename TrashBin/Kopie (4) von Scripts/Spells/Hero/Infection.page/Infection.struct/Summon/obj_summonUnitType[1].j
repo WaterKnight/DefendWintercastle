@@ -1,0 +1,32 @@
+static UnitType array SUMMON_UNIT_TYPE
+    
+    
+static method Init_obj_summonUnitType1 takes nothing returns nothing
+    local ObjThread t = ObjThread.Create("D:\\Warcraft III\\Maps\\DWC\\Scripts\\Spells\\Hero\\Infection.page\\Infection.struct\\Summon\\summonUnitType[1].wc3unit")
+    set thistype.SUMMON_UNIT_TYPE[1] = UnitType.Create('uDes')
+    call thistype.SUMMON_UNIT_TYPE[1].Scale.Set(0.6)
+    call thistype.SUMMON_UNIT_TYPE[1].Impact.Z.Set(36)
+    call thistype.SUMMON_UNIT_TYPE[1].Outpact.Z.Set(21.6)
+    call thistype.SUMMON_UNIT_TYPE[1].Speed.Set(270)
+    call thistype.SUMMON_UNIT_TYPE[1].Armor.Set(0)
+    call thistype.SUMMON_UNIT_TYPE[1].Armor.Type.Set(Attack.ARMOR_TYPE_HERO)
+    call thistype.SUMMON_UNIT_TYPE[1].Life.Set(75)
+    call thistype.SUMMON_UNIT_TYPE[1].Life.SetBJ(75)
+    call thistype.SUMMON_UNIT_TYPE[1].LifeRegeneration.Set(0)
+    call thistype.SUMMON_UNIT_TYPE[1].SightRange.Set(1800)
+    call thistype.SUMMON_UNIT_TYPE[1].SightRange.SetBJ(1800)
+    call thistype.SUMMON_UNIT_TYPE[1].SpellPower.Set(15)
+    call thistype.SUMMON_UNIT_TYPE[1].Attack.Set(Attack.HOMING_MISSILE)
+    call thistype.SUMMON_UNIT_TYPE[1].Attack.Range.Set(500)
+    call thistype.SUMMON_UNIT_TYPE[1].Attack.Speed.SetByCooldown(1.8)
+    call thistype.SUMMON_UNIT_TYPE[1].Damage.Delay.Set(0.55)
+    call thistype.SUMMON_UNIT_TYPE[1].Attack.Missile.Speed.Set(600)
+    call thistype.SUMMON_UNIT_TYPE[1].Damage.Set(10)
+    call thistype.SUMMON_UNIT_TYPE[1].Damage.SetBJ(10)
+    call thistype.SUMMON_UNIT_TYPE[1].Damage.Dices.Set(2)
+    call thistype.SUMMON_UNIT_TYPE[1].Damage.Sides.Set(7)
+    call thistype.SUMMON_UNIT_TYPE[1].Damage.Type.Set(Attack.DMG_TYPE_CHAOS)
+    call thistype.SUMMON_UNIT_TYPE[1].CollisionSize.Set(5.76)
+    call DebugEx("init " + "D:\\Warcraft III\\Maps\\DWC\\Scripts\\Spells\\Hero\\Infection.page\\Infection.struct\\Summon\\summonUnitType[1].wc3unit")
+    call t.Destroy()
+endmethod

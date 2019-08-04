@@ -1,0 +1,13 @@
+field	1
+raw	KRS
+
+texPath	ReplaceableTextures\Weather\HealBeam.blp
+avgSegLen	100
+width	40
+red	255
+green	255
+blue	255
+alpha	255
+noiseScale	0.0001
+texCoordScale	0.6
+duration	2

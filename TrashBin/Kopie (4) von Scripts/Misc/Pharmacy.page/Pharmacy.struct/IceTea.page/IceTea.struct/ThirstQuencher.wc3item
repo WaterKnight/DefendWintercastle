@@ -1,0 +1,24 @@
+field	value
+name	Thirst Quencher
+raw	ThQ
+
+classes
+
+model	Objects\InventoryItems\TreasureChest\treasurechest.mdl
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	Replenishes mana.
+icon	ReplaceableTextures\CommandButtons\BTNRejuvPotion.blp
+tooltip	Purchase <name>
+uberTooltip	Returns 500 mana.
+
+abilities	thisSpell{3}
+armor
+chargesAmount	1
+cooldownGroup
+goldCost	210
+lumberCost	0

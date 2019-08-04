@@ -1,0 +1,11 @@
+field	jass ident	1
+name		Update Unit Display
+raw		AUUD
+
+base		SPECIAL_AImi
+classes		DUMMY
+
+specials		aart=
+specials		acap=
+specials		acat=
+specials		Ilif=0

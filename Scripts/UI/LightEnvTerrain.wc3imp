@@ -1,0 +1,4 @@
+field	1
+type	model
+src	LightEnvTerrain.mdx
+target	UI\LightEnvTerrain.mdx

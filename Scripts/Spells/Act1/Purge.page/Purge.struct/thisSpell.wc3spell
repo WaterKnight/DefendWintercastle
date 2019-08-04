@@ -1,0 +1,30 @@
+field	jass ident	1
+name		Purge
+raw		Pur
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		purge
+target		UNIT
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		8
+manaCost		90
+range		900
+targets		air,enemies,ground,neutral
+
+buttonPosX		2
+buttonPosY		2
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNPurge.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Instantly releases a unit from all positive buffs and steals <dummyBuff.wc3buff:speedInc,%> move speed. The lost speed is restored over <duration> (<heroDuration>) seconds.
+
+duration		6
+heroDuration		3

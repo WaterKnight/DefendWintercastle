@@ -1,0 +1,19 @@
+field	1	2	3	4	5	6
+name	Hand of Nature
+raw	HoN
+
+class
+levelsAmount
+lostOn	dispel
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNEntanglingRoots.blp
+tooltip
+uberTooltip	This unit is stunned by '<name>', has problems to evade attacks and takes damage over time.
+
+sfxPath	Abilities\Spells\NightElf\EntanglingRoots\EntanglingRootsTarget.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW
+
+unitMod	evasionBonus	evasionBonus
+unitModVal	<this.wc3obj:evasionInc>	<this.wc3obj:evasionInc>

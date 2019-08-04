@@ -1,0 +1,8 @@
+field	jass ident	1
+name
+raw		AHer
+base		SPECIAL_AHer
+classes		DUMMY
+
+specialsTrue		version=0
+specials		alev=0

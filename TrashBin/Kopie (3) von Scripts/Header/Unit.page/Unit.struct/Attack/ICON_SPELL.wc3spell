@@ -1,0 +1,27 @@
+field	jass ident	1
+name		Attack Disabled
+raw		ADAI
+
+base		SPECIAL_Agyb
+class
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX		3
+buttonPosY		0
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNDisabledAttack.blp
+lore
+sharedBuffs
+tooltip		Attack
+uberTooltip		Your attack is disabled due to an effect.

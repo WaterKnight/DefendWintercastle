@@ -1,0 +1,29 @@
+field	1
+name
+raw
+
+filePath	Abilities\Spells\Items\ResourceItems\ReceiveGold.wav
+
+channel
+eax	SPELL
+pitch	1
+pitchVariance	1
+priority	10
+volume	1
+
+fadeInRate
+fadeOutRate
+looping
+stopping	true
+
+is3d	true
+minDist	600
+maxDist
+cutoffDist	2000
+
+insideAngle
+outsideAngle
+outsideVolume
+orientationX
+orientationY
+orientationZ

@@ -1,0 +1,40 @@
+field	jass ident	1	2	3	4	5	6
+name		Garments of the Salamander
+raw		Sam
+
+base		PARALLEL_IMMEDIATE
+class		HERO_SECOND
+levelsAmount
+order		evileye
+target
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Ga
+learnTooltip
+learnUberTooltip		Takes on the Salamander shape with its attributes. <Jota:name> obtains another attack with shorter range and normal damage type and additonal armor, too. The Salamander features an increased life regeneration per nearby allied unit but does not refill mana. The ability '<WaterBindings:name>' gets replaced by '<Conflagration:name>' (cone damage + <IGNITION>ignition</IGNITION> and <ECLIPSE>eclipse</ECLIPSE>), '<Vomit:name>' (line damage + <POISON>poison</POISON>) takes the place of '<WhiteStaff:name>'. <Jota:name> can switch back at any time but '<name>' has a short cooldown.
+learnUberTooltipUpgrades		{Life regeneration bonus per unit,<lifeRegenInc>}
+
+animation		spell
+areaRange		500
+areaRangeDisplay
+cooldown		5
+channelTime
+manaCost		15
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNThunderLizardSalamander.blp
+lore
+sharedBuffs		IGNITION;ECLIPSE;POISON
+tooltip
+uberTooltip		Takes on the Salamander shape with its attributes. <Jota:name> obtains another attack with shorter range and normal damage type and additonal armor, too. The Salamander features an increased life regeneration of <lifeRegenInc> per nearby allied unit but does not refill mana. The ability '<WaterBindings:name>' gets replaced by '<Conflagration:name>' (cone damage + <IGNITION>ignition</IGNITION> and <ECLIPSE>eclipse</ECLIPSE>), '<Vomit:name>' (line damage + <POISON>poison</POISON>) takes the place of '<WhiteStaff:name>'. <Jota:name> can switch back at any time but '<name>' has a short cooldown.
+
+lifeRegenInc		3	5	7	9	11	13
+specialEffectPath		Abilities\Spells\Orc\FeralSpirit\feralspiritdone.mdl
+specialEffectAttachPoint		AttachPoint.CHEST

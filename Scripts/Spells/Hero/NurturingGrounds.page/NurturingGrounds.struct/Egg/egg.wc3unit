@@ -1,0 +1,96 @@
+field	value
+name	Treant Seed
+raw	NGS
+
+classes	WARD
+hero	false
+structure	false
+team	DEFENDER
+
+model	<egg.wc3imp:target>
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1
+
+elevPts	2
+elevRad	50
+maxRoll	45
+maxPitch	45
+scale	1.25
+selScale	0.5
+vertexColorRed	0
+vertexColorGreen	255
+vertexColorBlue	0
+vertexColorAlpha	255
+
+impactZ	11
+outpactX	0
+outpactY	70
+outpactZ	11
+
+shadowPath
+shadowWidth
+shadowHeight
+shadowOffsetX
+shadowOffsetY
+
+attachments
+blood
+bloodExplosion
+icon	ReplaceableTextures\CommandButtons\BTNPhoenixEgg.blp
+soundset
+tooltip
+uberTooltip
+
+moveType
+moveSpeed
+turnRate
+height
+heightMin
+animWalk
+animRun
+moveInterp
+
+animBlend	0.15
+animCastWaitBefore	0.3
+animCastWaitAfter	0.51
+
+armorAmount
+armorSound
+armorType	UNARMORED
+life	100
+lifeRegen	0.
+mana
+manaRegen
+spellPower	0
+sightRange	150
+sightRangeNight	150
+
+attackType
+attackCooldown
+attackRange
+attackRangeAcq
+attackRangeBuffer
+attackTargetFlags
+attackWaitBefore
+attackWaitAfter
+attackSound
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType
+damageAmount
+damageDices
+damageSides
+
+collisionSize	8
+combatFlags	ground
+deathTime	2.13
+exp
+gold
+
+abilities	Invulnerability

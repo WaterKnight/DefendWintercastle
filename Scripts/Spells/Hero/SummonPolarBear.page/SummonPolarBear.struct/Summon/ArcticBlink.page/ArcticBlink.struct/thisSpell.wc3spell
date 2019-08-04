@@ -1,0 +1,30 @@
+field	jass ident	1	2	3	4	5	6
+name		Arctic Blink
+raw		ArB
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		thunderbolt
+target		UNIT
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		9
+manaCost		40	50	60	70	80	90
+range		800
+targets		organic,enemies
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNBearBlink.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Teleports to a target enemy unit, damaging it by <damage> and applying a <stunDuration> seconds stun.
+
+damage		30	40	50	60	70	80
+stunDuration		2

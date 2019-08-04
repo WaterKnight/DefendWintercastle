@@ -1,0 +1,98 @@
+field	value
+name	Tavern
+raw	Tav
+
+classes	NEUTRAL;STRUCTURE
+hero	false
+structure	true
+team	DEFENDER
+
+model	buildings\other\Tavern\Tavern.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.
+
+elevPts	4
+elevRad	50.
+maxRoll	0.
+maxPitch	0.
+scale	2.
+selScale	8.
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	120.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	BuildingShadowSmall
+shadowWidth	0.
+shadowHeight	0.
+shadowOffsetX	0.
+shadowOffsetY	0.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNTavern.blp
+soundset
+tooltip
+uberTooltip
+
+moveType
+moveSpeed
+turnRate
+height
+heightMin
+animWalk
+animRun
+moveInterp
+
+animBlend	0.15
+animCastWaitBefore	0.
+animCastWaitAfter	0.51
+
+armorAmount	0.
+armorSound	Wood
+armorType	FORT
+life	INFINITE
+lifeRegen	0.
+mana
+manaRegen
+spellPower
+sightRange	500.
+sightRangeNight	500.
+
+attackType
+attackCooldown
+attackRange
+attackRangeAcq	0.
+attackRangeBuffer
+attackTargetFlags
+attackWaitBefore
+attackWaitAfter
+attackSound
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType
+damageAmount
+damageDices
+damageSides
+
+collisionSize
+combatFlags	structure
+deathTime	3.
+exp
+gold
+
+
+structurePathTex	PathTextures\Tavern.tga
+structureSoldItems	TropicalRainbow.page\TropicalRainbow.struct\thisItem
+structureUbersplat	HMED

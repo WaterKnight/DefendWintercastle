@@ -1,0 +1,45 @@
+field	jass ident	1	2	3	4	5	6
+name		Frozen Star
+raw		FrS
+
+base		NORMAL
+class		ELEMENTAL
+levelsAmount
+order		carrionswarm
+target		POINT
+
+animation		spell
+areaRange		400	500	600	700	800	900
+areaRangeDisplay		true
+channelTime
+cooldown		9
+manaCost		55	75	95	115	135	155
+range		700
+targets
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw
+learnTooltip
+learnUberTooltip		A shooting star of magic snow and ice traverses the space in a curved line in order to reach for the target area.  Enemy units in presence of the star get their movement speed reduced by and receive the <COLDNESS>coldness</COLDNESS> debuff temporarily. When reaching its destination, the star implodes, pulling units in an area into the center and bestowing damage upon them.
+learnUberTooltipUpgrades		{Debuff duration,<Target\this.wc3obj:duration> seconds};{Explosion damage,<Explosion\this.wc3obj:damage>}
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNStaffOfNegation.blp
+lore
+sharedBuffs		COLDNESS
+tooltip
+uberTooltip		A shooting star of magic snow and ice traverses the space in a curved line in order to reach for the target area.  Enemy units in presence of the star get their movement speed reduced by <Target\this.wc3obj:moveSpeedInc,-> and receive the <COLDNESS>coldness</COLDNESS> debuff for <Target\this.wc3obj:duration> seconds. When reaching its destination, the star implodes, pulling units in an area of <areaRange> into the center and bestowing <Explosion\this.wc3obj:damage> damage upon them.
+
+angleDFactor		10
+casterSightDFactor		0.1
+interval		0.035
+maxAngleD	real	0.25 * Math.QUARTER_ANGLE
+maxLength		700	700
+movingAreaRange		200	200
+specialEffectPath		Abilities\Spells\Undead\FreezingBreath\FreezingBreathMissile.mdl
+speed		600	600

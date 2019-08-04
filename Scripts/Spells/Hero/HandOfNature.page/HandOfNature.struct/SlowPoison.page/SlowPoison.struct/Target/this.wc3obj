@@ -1,0 +1,7 @@
+field	jass ident	1	2	3	4	5	6
+damagePerSecond		5
+evasionInc		-15	-20	-25	-30	-35	-40
+moveSpeedInc		-40	-70	-95	-115	-120	-125
+duration		4
+heroDuration		2
+interval		0.5

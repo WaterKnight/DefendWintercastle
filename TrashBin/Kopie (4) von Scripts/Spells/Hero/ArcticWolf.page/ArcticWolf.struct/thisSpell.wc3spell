@@ -1,0 +1,35 @@
+field	jass ident	1	2	3	4	5
+name		Arctic Wolf
+raw		AArw
+
+base		NORMAL
+class		HERO_ULTIMATE
+levelsAmount
+order		spiritwolf
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		AW
+learnTooltip
+learnUberTooltip		Summons a white wolf to support in battle while stunning enemies in a line as an initiation.	Summons two wolves to support battle in while stunning enemies in a line as an initiation.|n|nNext Level:|nStun duration: 3 seconds --> 4 seconds|nWolves Amount: 1 --> 2|nWolves have better stats	Summons three wolves to support in battle while stunning enemies in a line as an initiation.|n|nNext Level:|nStun duration: 4 seconds --> 5 seconds|nWolves Amount: 2 --> 3|nWolves have better stats
+
+animation		spell
+areaRange		300
+areaRangeDisplay		true
+channelTime
+cooldown		60
+manaCost		150
+range		750
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNWolf.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Aruruw's wolf summon run straight, stunning enemies in a line for <stunDuration> seconds. It finally materializes in the end to aid in combat. The wolf has 32-48 damage and 750 life.|nLasts <summonDuration> seconds.	Aruruw's wolf summon run straight, stunning enemies in a line for <stunDuration> seconds. It finally materializes in the end and splits up into two shapes to aid in combat. Both wolves have 50-70 damage and 750 life.|nLasts <summonDuration> seconds.	Aruruw's wolf summon run straight, stunning enemies in a line for <stunDuration> seconds. It finally materializes in the end and splits up into three shapes to aid in combat. All three wolves have 72-94 damage and 750 life.|nLasts <summonDuration> seconds.

@@ -1,0 +1,27 @@
+field	value
+name	Tome of Focus
+raw	ToA
+
+classes	POWER_UP
+
+model	Objects\InventoryItems\tomeGreen\tomeGreen.mdl
+scale	1.
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	Permanently increases focus.
+icon
+tooltip
+uberTooltip
+
+abilities
+armor
+chargesAmount
+cooldownGroup
+goldCost
+lumberCost
+
+specialEffectPath	Abilities\Spells\Items\AIam\AIamTarget.mdl
+specialEffectAttachPoint	AttachPoint.ORIGIN

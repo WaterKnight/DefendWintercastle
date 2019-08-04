@@ -1,0 +1,40 @@
+field	jass ident	1	2	3	4	5
+name		Sapphireblue Dagger
+raw		ASaD
+
+base		NORMAL
+class		ARTIFACT
+levelsAmount
+order		sanctuary
+target		POINT
+
+animation		spell
+areaRange		200
+areaRangeDisplay		true
+channelTime
+cooldown		11
+manaCost		30
+range		99999
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNDaggerOfEscape.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		The mystical dagger instantly teleports Smokealot to the target location where hostile units are hurt for 60 damage in an area of effect. In contrast, the user and his nearby fellows are being healed for <heal> + <healPerTarget> * number of enemies picked.
+
+buffDuration		7	7
+damage		0	0
+damageTargetEffectAttachPoint		AttachPoint.HEAD
+damageTargetEffectPath		none
+heal		25	36	45	52	57
+healPerTarget		5	6	7	8	9
+healTargetEffectAttachPoint		AttachPoint.ORIGIN
+healTargetEffectPath		Abilities\Spells\Human\\Resurrect\ResurrectTarget.mdl
+lifeLeechIncrement		3	5	7	9	12
+maxRange		500	500
+startEffectPath		Abilities\Spells\NightElf\Blink\BlinkCaster.mdl
+targetEffectPath		Abilities\Spells\NightElf\Blink\BlinkTarget.mdl

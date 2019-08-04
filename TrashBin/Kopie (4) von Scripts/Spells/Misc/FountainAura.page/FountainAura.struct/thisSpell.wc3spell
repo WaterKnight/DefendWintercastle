@@ -1,0 +1,27 @@
+field	jass ident	1	2	3	4	5
+name		Fountain Aura
+raw		AFoA
+
+base		PASSIVE
+class		NORMAL
+levelsAmount
+order
+target
+
+animation
+areaRange		575
+areaRangeDisplay		false
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\
+lore
+sharedBuffs
+tooltip
+uberTooltip		Increases all nearby units hitpoint regeneration by <lifeRegenerationRelativeIncrement,%>.

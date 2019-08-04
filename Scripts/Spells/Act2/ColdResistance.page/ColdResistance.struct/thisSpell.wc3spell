@@ -1,0 +1,29 @@
+field	jass ident	1
+name		Cold Resistance
+raw		CRe
+
+base		PASSIVE
+class		NORMAL
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\PassiveButtons\PASBTNFreezingBreath.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Passively increases the spell armor by <armorInc>.
+
+armorInc		15

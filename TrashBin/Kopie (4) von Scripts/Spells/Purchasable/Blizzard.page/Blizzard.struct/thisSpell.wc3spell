@@ -1,0 +1,37 @@
+field	jass ident	1	2	3	4	5
+name		Blizzard
+raw		ABlz
+
+base		NORMAL
+class		PURCHASABLE
+levelsAmount
+order		blizzard
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Bl
+learnTooltip
+learnUberTooltip		Waves of cutting, frozen shards crackling down on the ground, each dealing damage in a target area of large size.	Waves of cutting, frozen shards crackling down on the ground, each dealing damage in a target area of large size.|nNext Level:|nArea range: <areaRange<prevLevel>> --> <areaRange>|nDamage per wave: 20 --> 30|nMana cost: <manaCost<prevLevel>> --> <manaCost>
+
+animation		spell,channel
+areaRange		275	325	375	425	475
+areaRangeDisplay		true
+channelTime		5
+cooldown		0
+manaCost		40	55	70	85	100
+range		600
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNBlizzard.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Waves of cutting, frozen shards crackling down on the ground, each dealing <damage> damage in a target area of <areaRange>.
+
+interval		0.75

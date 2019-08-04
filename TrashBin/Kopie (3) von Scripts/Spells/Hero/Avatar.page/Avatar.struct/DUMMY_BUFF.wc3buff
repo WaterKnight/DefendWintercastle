@@ -1,0 +1,15 @@
+field	1
+name	Avatar
+raw	Ava
+
+class	HERO_ULTIMATE
+levelsAmount	3
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNAvatar.blp
+tooltip
+uberTooltip	Avatar form
+
+sfxPath	Abilities\Spells\Orc\SpiritLink\SpiritLinkTarget.mdl
+sfxAttachPt	AttachPoint.CHEST
+sfxLevel	EffectLevel.NORMAL

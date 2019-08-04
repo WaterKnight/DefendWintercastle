@@ -1,0 +1,38 @@
+field	jass ident	1	2	3	4	5
+name		Torch Light
+raw
+
+base		PASSIVE
+class		NORMAL
+levelsAmount
+order
+target
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw
+learnTooltip
+learnUberTooltip
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNVolcano.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Ignites targets on attack so they cannot turn invisible and take some percentual damage over <duration> (<heroDuration>) seconds.
+
+duration		5
+heroDuration		2

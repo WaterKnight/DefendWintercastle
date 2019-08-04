@@ -1,0 +1,12 @@
+field	jass ident	1
+name		HeroSpellReplacerBuff
+raw		BHSR
+base		SPECIAL_BNeg
+classes		DUMMY
+
+specials	ftat=
+specials	ftac=0
+specials	fta0=
+specials	fta1=
+specials	fta2=
+specials	fta3=

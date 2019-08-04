@@ -1,0 +1,39 @@
+static integer array END_WIDTH
+static integer array CONE_DAMAGE
+static integer array SPEED
+static integer array START_WIDTH
+static integer array FIELD
+static integer array MAX_LENGTH
+    
+static method Init_obj_Cone takes nothing returns nothing
+    set thistype.END_WIDTH[1] = 300
+    set thistype.CONE_DAMAGE[1] = 10
+    set thistype.SPEED[1] = 650
+    set thistype.START_WIDTH[1] = 0
+    set thistype.FIELD[1] = 1
+    set thistype.MAX_LENGTH[1] = 500
+    set thistype.END_WIDTH[2] = 300
+    set thistype.CONE_DAMAGE[2] = 15
+    set thistype.SPEED[2] = 650
+    set thistype.START_WIDTH[2] = 0
+    set thistype.FIELD[2] = 2
+    set thistype.MAX_LENGTH[2] = 500
+    set thistype.END_WIDTH[3] = 300
+    set thistype.CONE_DAMAGE[3] = 25
+    set thistype.SPEED[3] = 650
+    set thistype.START_WIDTH[3] = 0
+    set thistype.FIELD[3] = 3
+    set thistype.MAX_LENGTH[3] = 500
+    set thistype.END_WIDTH[4] = 300
+    set thistype.CONE_DAMAGE[4] = 35
+    set thistype.SPEED[4] = 650
+    set thistype.START_WIDTH[4] = 0
+    set thistype.FIELD[4] = 4
+    set thistype.MAX_LENGTH[4] = 500
+    set thistype.END_WIDTH[5] = 300
+    set thistype.CONE_DAMAGE[5] = 45
+    set thistype.SPEED[5] = 650
+    set thistype.START_WIDTH[5] = 0
+    set thistype.FIELD[5] = 5
+    set thistype.MAX_LENGTH[5] = 500
+endmethod

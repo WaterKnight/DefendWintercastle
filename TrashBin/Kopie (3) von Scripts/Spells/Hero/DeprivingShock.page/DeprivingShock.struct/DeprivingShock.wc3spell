@@ -1,0 +1,43 @@
+field	jass ident	1	2	3	4	5
+name		Depriving Shock
+raw		ADeS
+
+base		NORMAL
+class		HERO_SECOND
+levelsAmount
+order		darkconversion
+target		UNIT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		DS
+learnTooltip
+learnUberTooltip		Smokealot executes a swift movement upon an enemy unit, increasing his own evasion for <duration> seconds. This bonus is stackable up to 3 times. Also, the target's mana pool is leeched from, hurt for a minor damage and it will suffer a brief stun. A part of the affected mana will be transfered in Smokealot's favor.	Smokealot executes a swift movement upon an enemy unit, increasing his own evasion for <duration> seconds. This bonus is stackable up to 3 times. Also, the target's mana pool is leeched from, hurt for a minor damage and it will suffer a brief stun. A part of the affected mana will be transfered in Smokealot's favor.|n|nNext Level:|nBurned mana: <burnedMana<prevLevel>> --> <burnedMana>|nDamage: <damage<prevLevel>> --> <damage>|nEvasion increment per stack: <evasionIncrement<prevLevel>> --> <evasionIncrement>|nMana cost: <manaCost<prevLevel>> --> <manaCost>
+
+animation		spell
+areaRange		150	175	200	225	250
+areaRangeDisplay		false
+channelTime		0.5
+cooldown		4
+manaCost		30	45	60	75	90
+range		375
+targets		air,enemies,ground,neutral,organic
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNRavenForm.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Smokealot executes a swift movement upon an enemy unit, increasing his own evasion by <evasionIncrement> for <duration> seconds. This bonus is stackable up to 3 times. Also, the target's mana pool is leeched <burnedMana> points from, hurt for <damage> damage and it will suffer a <stunDuration> second stun. <transferedManaFactor,%> of the affected mana will be transfered in Smokealot's favor.
+
+burnedMana		65	100	140	185	235
+damage		20	30	45	60	75
+effectLightningPath		MBUR
+stunDuration		1
+transferedManaFactor		0.5
+
+include		Buff

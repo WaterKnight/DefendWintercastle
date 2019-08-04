@@ -1,0 +1,5 @@
+field	jass ident	1	2	3	4	5	6
+damage		30	40	60	70	80	90
+knockbackDuration		4
+knockbackSpeed		400
+specialEffectPath		Units\NightElf\Wisp\WispExplode.mdl

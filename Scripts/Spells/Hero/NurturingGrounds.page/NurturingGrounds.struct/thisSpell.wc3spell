@@ -1,0 +1,41 @@
+field	jass ident	1	2	3	4	5	6
+name		Nurturing Grounds
+raw		NuG
+
+base		NORMAL
+class		HERO_SECOND
+levelsAmount
+order		entanglingroots
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		NG
+learnTooltip
+learnUberTooltip		Sows grass at the target position, which quickly spreads in a circle shape. The new texture <POISON>poisons</POISON> enemies on touch and yields green seeds in intervals. Those seeds can be transformed into moving treants by receiving a healing effect.
+learnUberTooltipUpgrades		{Duration,<duration,asSecs>};{Seeds amount,<eggsAmount>};{Summon duration,<Egg\this.wc3obj:duration,asSecs>}
+
+animation
+areaRange		350	400	450	500	550	600
+areaRangeDisplay		true
+channelTime
+cooldown		17	16	15	14	13	12
+manaCost		50	62	74	86	98	110
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNEntanglingRoots.blp
+lore
+sharedBuffs		POISON
+tooltip
+uberTooltip		Sows grass at the target position, which quickly spreads in a circle shape of <areaRange> size. The new texture <POISON>poisons</POISON> enemies on touch and yields <eggsAmount> green seeds over the effect duration. Those seeds can be transformed into moving treants by receiving a healing effect.|nLasts <duration,asSecs>.
+
+duration		12	14	16	18	20	22
+eggsAmount		3	3	4	4	5	5
+spreadDuration		1	1
+specialEffectPath		Abilities\Spells\Undead\PlagueCloud\PlagueCloudCaster.mdl

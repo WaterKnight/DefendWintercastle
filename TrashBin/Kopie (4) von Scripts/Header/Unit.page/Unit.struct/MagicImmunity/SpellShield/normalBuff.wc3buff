@@ -1,0 +1,15 @@
+field	1
+name	Spell Shield
+raw	MSP
+
+class	NORMAL
+levelsAmount
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNRejuvenation.blp
+tooltip
+uberTooltip	Deflects a negative spell.
+
+sfxPath	Abilities\Spells\Items\StaffOfSanctuary\Staff_Sanctuary_Target.mdl
+sfxAttachPt	AttachPoint.CHEST
+sfxLevel	EffectLevel.LOW

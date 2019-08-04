@@ -1,0 +1,23 @@
+field	1
+name
+raw
+
+class	HERO_ULTIMATE_EX
+levelsAmount	2
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxpath	Abilities\Spells\Orc\LiquidFire\Liquidfire.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW
+
+sfxPath	Abilities\Spells\Other\Doom\DoomTarget.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.NORMAL
+
+sfxPath	Abilities\Spells\Orc\Voodoo\VoodooAura.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.NORMAL

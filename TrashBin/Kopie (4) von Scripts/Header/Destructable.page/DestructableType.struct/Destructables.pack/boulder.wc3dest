@@ -1,0 +1,44 @@
+field	value
+name	Boulder
+raw	007
+
+classes	DECOR
+
+model	Doodads\LordaeronSummer\Terrain\LoardaeronRockChunks\LoardaeronRockChunks
+modelLightweight
+modelPortrait	Doodads\Terrain\Portraits\RockChunks_Portrait\RockChunks_Portrait.mdx
+modelVariations	6
+
+flyHeight	100
+occluderHeight	230
+replaceableTex
+replaceableTexId
+selScale	144
+vertexColorRed	130
+vertexColorGreen	170
+vertexColorBlue	210
+
+elevRad
+maxRoll
+maxPitch
+
+minimapDisplay	true
+minimapRed
+minimapGreen
+minimapBlue
+
+deathSound	RockWallDeath
+shadow
+
+armor	Stone
+fatLOS
+fogRad
+fogVisibility
+life	250
+selectable
+
+pathTex
+pathTexDead
+combatFlags	tree
+cliffLevel
+walkable

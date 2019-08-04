@@ -1,0 +1,37 @@
+field	jass ident	1
+name		Barrage
+raw		Bag
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		thunderbolt
+target		UNIT
+
+animation
+areaRange		250
+areaRangeDisplay		false
+channelTime		5
+cooldown		12
+manaCost		80
+range		700
+targets		enemies,ground,neutral
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNFlakCannons.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Teleports to the target enemy unit in order to launch a terrific barrage, pulverizing nearby units. Deals <dmgPerSecond> damage per second.
+
+dmgPerSecond		100
+interval		0.3
+offset		50
+
+colorFadeDuration		2
+redInc		0
+greenInc		0
+blueInc		0
+alphaInc		0

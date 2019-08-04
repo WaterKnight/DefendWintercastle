@@ -1,0 +1,5 @@
+field	jass ident	1	2	3	4	5	6
+armorInc		-3	-5	-7	-9	-11	-13
+damageTotal		20	35	60	95	140	195
+duration		5	5
+interval		0.5

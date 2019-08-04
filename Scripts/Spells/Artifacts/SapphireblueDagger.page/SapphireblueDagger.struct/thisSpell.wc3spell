@@ -1,0 +1,43 @@
+field	jass ident	1	2	3	4	5	6
+name		Sapphireblue Dagger
+raw		SaD
+
+base		NORMAL
+class		ARTIFACT
+levelsAmount
+order		sanctuary
+target		POINT
+
+animation		spell
+areaRange		200
+areaRangeDisplay		true
+channelTime
+cooldown		11
+manaCost		30
+range		99999
+targets
+
+learnIcon
+learnRaw		Sg
+learnTooltip
+learnUberTooltip		The mystical dagger instantly teleports the caster to the target location and <FROST>freezes</FROST> every foe in the space between. Subsequently, <Smokealot:name>'s blade is charged with extra magical damage.|n <Smokealot:name> also gains a <SWIFTNESS>Swiftness</SWIFTNESS> token.
+learnUberTooltipUpgrades		{Max range,<maxRange>};{Frost duration,<frostDuration,asSecs>};{Extra damage (magic),<damageInc>};{Extra damage buff duration,<casterBuffDuration,asSecs>}
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNDaggerOfEscape.blp
+lore
+sharedBuffs		SWIFTNESS;FROST
+tooltip
+uberTooltip		The mystical dagger instantly teleports the caster to the target location (max <maxRange> range) and <FROST>freezes</FROST> every foe in the space between for <frostDuration> seconds. Subsequently, <Smokealot:name>'s blade is charged with extra <damageInc> magical damage for <casterBuffDuration> seconds.|n <Smokealot:name> also gains a <SWIFTNESS>Swiftness</SWIFTNESS> token.
+
+casterBuffDuration		8	8
+damageInc		8	13	20	29	40	53
+damageTargetEffectAttachPoint		AttachPoint.HEAD
+damageTargetEffectPath		none
+maxRange		500	500
+startEffectPath		Abilities\Spells\NightElf\Blink\BlinkCaster.mdl
+targetEffectPath		Abilities\Spells\NightElf\Blink\BlinkTarget.mdl
+
+frostDuration		4	4

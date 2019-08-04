@@ -1,0 +1,16 @@
+field	1
+name	Knockout
+raw	KnO
+
+class	NORMAL
+levelsAmount
+lostOn
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNEntanglingRoots.blp
+tooltip
+uberTooltip	This unit was recently paralyzed by a '<name>'; it cannot be stunned again by this spell while this buff persists.
+
+sfxPath
+sfxAttachPt
+sfxLevel

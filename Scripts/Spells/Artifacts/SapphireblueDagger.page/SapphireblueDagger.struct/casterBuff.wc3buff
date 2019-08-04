@@ -1,0 +1,16 @@
+field	1
+name	Sapphireblue Dagger
+raw	SaD
+
+class	DUMMY
+levelsAmount
+lostOn	death;dispel
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNThoriumMelee.blp
+tooltip
+uberTooltip	<Smokealot:name>'s attack is charged with extra (magical) damage.
+
+sfxPath	<casterBuff.wc3imp:target>;<casterBuff.wc3imp:target>;<casterBuff.wc3imp:target>;<casterBuff.wc3imp:target>;<casterBuff.wc3imp:target>
+sfxAttachPt	AttachPoint.WEAPON;AttachPoint.WEAPON;AttachPoint.WEAPON;AttachPoint.WEAPON;AttachPoint.WEAPON
+sfxLevel	EffectLevel.LOW;EffectLevel.NORMAL;EffectLevel.NORMAL;EffectLevel.NORMAL;EffectLevel.NORMAL

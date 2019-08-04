@@ -1,0 +1,4 @@
+field	jass ident	1	2	3
+areaRange		125	140	160
+damageFactor		0.3	0.5	0.7
+duration		30	30	30

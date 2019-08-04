@@ -1,0 +1,42 @@
+field	jass ident	1	2	3	4	5	6
+name		Snowy Sphere
+raw		SnS
+
+base		NORMAL
+class		ELEMENTAL
+levelsAmount
+order		acidbomb
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw
+learnTooltip
+learnUberTooltip		Sends out a sphere consisting of a lot of small ice shards. They gradually shove off and shoot out in all directions. Each shard deals damage.
+learnUberTooltipUpgrades		{Shards amount,<spawnAmount>};{Damage per shard,<Particle\this.wc3obj:damage>};{Shard range,<Particle\this.wc3obj:maxLength>}
+
+animation		spell
+areaRange		75
+areaRangeDisplay		false
+channelTime
+cooldown		15
+manaCost
+range		500
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNTornado.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Sends out a sphere consisting <spawnAmount> small ice shards. They gradually shove off and shoot out in all directions. Each shard deals <Particle\this.wc3obj:damage> damage in a range of <Particle\this.wc3obj:maxLength>.
+
+maxLength		800	800
+spawnAmount		20	30	40	50	60	70
+spawnAngleMaxAdd		14	14
+spawnOffset		-50
+speed		800	800

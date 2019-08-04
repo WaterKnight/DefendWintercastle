@@ -1,0 +1,19 @@
+field	1
+name	Mark of the Paw
+raw	MOP
+
+class	NORMAL
+levelsAmount
+lostOn	dispel
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNBattleRoar.blp
+tooltip
+uberTooltip	This unit carries the '<name>' and has an increased attack rate.
+
+sfxPath	Abilities\Spells\NightElf\BattleRoar\RoarTarget.mdl
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW
+
+unitMod	attackSpeedBonus
+unitModVal	<this.wc3obj:attackSpeedInc>

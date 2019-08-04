@@ -1,0 +1,51 @@
+field	jass ident	1	2	3	4	5	6
+name		Khaki Recovery
+raw		Rec
+
+base		NORMAL
+class		HERO_FIRST
+levelsAmount
+order		healingwave
+target		UNIT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Rc
+learnTooltip
+learnUberTooltip		Enwraps a couple of allied units in a greenish light, instantly recovering their hitpoints whereas each new target receives less than the previous one. The first target will also be dispelled from negative buffs. All targets receive a move speed boost.|nPassive properties: <Tajran:name>'s affinity to nature enables him to regain life and mana from killing foes.
+learnUberTooltipUpgrades		{Heal,<heal> (<healAddFactor,%> per target);{Max targets amount,<targetsAmount>}
+
+animation		spell
+areaRange		500
+areaRangeDisplay		false
+channelTime
+cooldown		6
+manaCost		105	120	135	150	165	180
+range		650
+targets		air,friend,ground,invulnerable,neutral,organic,self,vulnerable
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNMagicImmunity.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Enwraps up to <targetsAmount> allied units in a greenish light, instantly recovering their hitpoints by <heal> whereas each next target receives <healAddFactor,%> less from the initial value. The first target will also be dispelled from negative buffs. All targets receive a move speed boost of <moveSpeedInc> for <moveSpeedBuffDuration,asSecs>.|nPassive properties: <Tajran:name> is granted <Restoration\this.wc3obj:lifeHeal> life and <Restoration\this.wc3obj:manaHeal> mana for each enemy he or any of his Lilies finishes off.
+
+casterEffectAttachPoint		AttachPoint.ORIGIN
+casterEffectPath		Abilities\Spells\Other\Drain\DrainCaster.mdl
+damage		30	45	60	75	90	105
+damageAreaWidth		75
+delay		0.35
+heal		120	180	240	300	360	420
+healAddFactor		-0.15
+moveSpeedBuffDuration		8	8
+moveSpeedInc		50	60	70	80	90	100
+targetEffectAttachPoint		AttachPoint.ORIGIN
+targetEffectPath		<Target.wc3imp:target>
+targetsAmount		3	3	4	4	5	5
+vortexTargetEffectPath		<Vortex.wc3imp:target>
+vortexTargetAttachPoint		AttachPoint.ORIGIN

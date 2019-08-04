@@ -1,0 +1,24 @@
+field	value
+name	Emergency Provisions
+raw	EmP
+
+classes
+
+model	Objects\InventoryItems\TreasureChest\treasurechest.mdl
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	Restores lost hitpoints.
+icon	ReplaceableTextures\CommandButtons\BTNDust.blp
+tooltip	Purchase <name>
+uberTooltip	Restores 100 hitpoints.
+
+abilities	AEmP
+armor
+chargesAmount	1
+cooldownGroup
+goldCost	250
+lumberCost	0

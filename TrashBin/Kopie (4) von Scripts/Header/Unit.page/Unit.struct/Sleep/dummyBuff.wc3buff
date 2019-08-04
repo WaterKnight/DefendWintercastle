@@ -1,0 +1,15 @@
+field	1
+name	Sleep
+raw	ELB
+
+class	NORMAL
+levelsAmount
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNSleep.blp
+tooltip
+uberTooltip	zzZ
+
+sfxPath	Abilities\Spells\Undead\Sleep\SleepTarget.mdl
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW

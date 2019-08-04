@@ -1,0 +1,4 @@
+field	jass ident	1
+dmgRelInc		0.2
+targetEffectAttachPoint		AttachPoint.ORIGIN
+targetEffectPath		Abilities\Spells\Other\GeneralAuraTarget\GeneralAuraTarget.mdl

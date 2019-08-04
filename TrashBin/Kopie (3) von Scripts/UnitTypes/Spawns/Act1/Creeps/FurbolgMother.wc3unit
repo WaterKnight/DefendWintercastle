@@ -1,0 +1,93 @@
+field	value
+name	Furbolg Mother
+raw	FuM
+
+classes
+hero	false
+structure	false
+team	ATTACKER
+
+model	units\creeps\Furbolg\Furbolg.mdx
+modelAttachPts
+modelAnims
+modelAttachMods	medium
+modelBones
+standardScale	1.3
+
+elevPts	0
+elevRad	30.
+maxRoll	10.
+maxPitch	10.
+scale	2.
+selScale	1.5
+vertexColorRed	255
+vertexColorGreen	120
+vertexColorBlue	150
+vertexColorAlpha	255
+
+impactZ	100.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	140.
+shadowHeight	140.
+shadowOffsetX	50.
+shadowOffsetY	50.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNFurbolg.blp
+soundset	Furbolg
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	190.
+turnRate	0.5
+height
+heightMin
+animWalk	250.
+animRun	250.
+moveInterp	4
+
+animBlend	0.15
+animCastWaitBefore	0.5
+animCastWaitAfter	0.51
+
+armorAmount	4.
+armorSound	Flesh
+armorType	LARGE
+life	1000.
+lifeRegen	5.
+mana
+manaRegen
+spellPower	40.
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	NORMAL
+attackCooldown	2.
+attackRange	140.
+attackRangeAcq	300.
+attackRangeBuffer	250.
+attackTargetFlags	ground,ward
+attackWaitBefore	0.3
+attackWaitAfter	0.
+attackSound	WoodHeavyBash
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	CHAOS
+damageAmount	24
+damageDices	3
+damageSides	4
+
+collisionSize	48.
+combatFlags	ground
+deathTime	3.
+exp	80
+gold	150

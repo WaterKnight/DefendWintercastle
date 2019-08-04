@@ -1,0 +1,93 @@
+field	value
+name	Tuskar
+raw	Tus
+
+classes
+hero	false
+structure	false
+team	ATTACKER
+
+model	Units\Creeps\tuskarRanged\tuskarRanged.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	0.75
+
+elevPts	0
+elevRad	50.
+maxRoll	10.
+maxPitch	10.
+scale	0.75
+selScale	1.25
+vertexColorRed	255
+vertexColorGreen	255
+vertexColorBlue	255
+vertexColorAlpha	255
+
+impactZ	60.
+outpactX	11.
+outpactY	62.
+outpactZ	71.
+
+shadowPath	NORMAL
+shadowWidth	140.
+shadowHeight	140.
+shadowOffsetX	50.
+shadowOffsetY	50.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNTuskaarGold.blp
+soundset	Tuskarr
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	270.
+turnRate	0.6
+height
+heightMin
+animWalk	250.
+animRun	250.
+moveInterp	0
+
+animBlend	0.15
+animCastWaitBefore	0.3
+animCastWaitAfter	0.51
+
+armorAmount	0.
+armorSound	Flesh
+armorType	MEDIUM
+life	110.
+lifeRegen	1.25
+mana
+manaRegen
+spellPower	13.
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	MISSILE
+attackCooldown	1.8
+attackRange	500.
+attackRangeAcq	500.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,air,item,ward
+attackWaitBefore	0.3
+attackWaitAfter	0.
+attackSound
+
+attackMissileModel	abilities\weapons\TuskarSpear\TuskarSpear.mdx
+attackMissileSpeed	1200.
+attackMissileArc	0.15
+
+damageType	PIERCE
+damageAmount	7
+damageDices	3
+damageSides	2
+
+collisionSize	31.
+combatFlags	ground
+deathTime	2.
+exp	15
+gold	15

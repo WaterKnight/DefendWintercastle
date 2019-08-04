@@ -1,0 +1,45 @@
+field	jass ident	1	2	3	4	5
+name		Wan Shroud
+raw		AWSh
+
+base		NORMAL
+class		HERO_SECOND
+levelsAmount
+order		banish
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		WS
+learnTooltip
+learnUberTooltip
+
+animation		spell,channel
+areaRange		240	260	280	300	320
+areaRangeDisplay		true
+channelTime
+cooldown		17
+manaCost		120	135	150	165	180
+range		900
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNCyclone.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip
+
+absorptionFactor		0.5
+damageEffectAttachPoint		AttachPoint.ORIGIN
+damageEffectPath		Abilities\Spells\Human\Feedback\ArcaneTowerAttack.mdl
+damagePerInterval		1.5	2.5	4	6	8.5
+duration		10
+interval		0.75
+maxHealPerInterval		7.5	10	12.5	15	17.5
+
+include		Target

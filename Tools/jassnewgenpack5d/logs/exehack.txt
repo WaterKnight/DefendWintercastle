@@ -1,0 +1,4 @@
+3
+3
+1
+startinject1: CustomWE\\worldedit121.exe worldedit.exe  bin\weload.dll

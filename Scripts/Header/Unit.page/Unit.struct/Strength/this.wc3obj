@@ -1,0 +1,4 @@
+field	jass ident	1
+damageBonus		0.5
+lifeRegenBonus		0.25
+maxLifeBonus		25

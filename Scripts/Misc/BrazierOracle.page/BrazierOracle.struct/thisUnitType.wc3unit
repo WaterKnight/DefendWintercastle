@@ -1,0 +1,99 @@
+field	value
+name	Brazier
+raw	BrO
+
+classes	NEUTRAL;STRUCTURE
+hero
+structure	true
+team	DEFENDER
+
+model	Doodads\Ruins\Props\Firepot\Firepot.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.
+
+elevPts
+elevRad
+maxRoll
+maxPitch
+scale	1.8
+selScale	1
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	80.
+outpactX	0.
+outpactY	0.
+outpactZ	80.
+
+shadowPath
+shadowWidth	0.
+shadowHeight	0.
+shadowOffsetX	0.
+shadowOffsetY	0.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNUndeadShrine.blp
+soundset
+tooltip
+uberTooltip
+
+moveType
+moveSpeed
+turnRate
+height
+heightMin
+animWalk
+animRun
+moveInterp
+
+animBlend	0.15
+animCastWaitBefore	0.
+animCastWaitAfter	0.51
+
+armorAmount	0.
+armorSound	Stone
+armorType	FORT
+life	INFINITE
+lifeRegen	0.
+mana
+manaRegen
+spellPower
+sightRange	1000.
+sightRangeNight	1000.
+
+attackType	HOMING_MISSILE
+attackCooldown	1.4
+attackRange	1000
+attackRangeAcq	1000.
+attackRangeBuffer
+attackTargetFlags	air,ground
+attackWaitBefore
+attackWaitAfter
+attackSound
+
+attackMissileModel	Abilities\Weapons\PhoenixMissile\Phoenix_Missile.mdx
+attackMissileSpeed	1000
+attackMissileArc	0.05
+
+damageType	SPELLS
+damageAmount	0
+damageDices	1
+damageSides	1
+
+collisionSize
+combatFlags	structure
+deathTime	3.
+exp
+gold
+
+structurePathTex
+structureSoldItems
+structureUbersplat
+
+abilities	Invulnerability

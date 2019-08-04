@@ -1,0 +1,29 @@
+field	1
+name
+raw
+
+filePath	Abilities\Spells\Undead\Curse\CurseTarget1.wav
+
+channel	ANIMATION
+eax	SPELL
+pitch	1
+pitchVariance	1
+priority	10
+volume	0.7
+
+fadeInRate
+fadeOutRate
+looping
+stopping
+
+is3d	true
+minDist	900
+maxDist	10000
+cutoffDist	3000
+
+insideAngle
+outsideAngle
+outsideVolume
+orientationX
+orientationY
+orientationZ

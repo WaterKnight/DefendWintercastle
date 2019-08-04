@@ -1,0 +1,16 @@
+field	1
+name	Discovered
+raw	RVA
+
+class	NORMAL
+levelsAmount
+lostOn
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNHeal.blp
+tooltip
+uberTooltip	The truthful coal eyes of a snowman have seen through this unit's disguise.
+
+sfxPath
+sfxAttachPt
+sfxLevel

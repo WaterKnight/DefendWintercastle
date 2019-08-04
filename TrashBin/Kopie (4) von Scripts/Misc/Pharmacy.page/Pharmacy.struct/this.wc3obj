@@ -1,0 +1,4 @@
+field	jass ident	1
+damagePerSecond		30
+duration		15
+interval		0.35

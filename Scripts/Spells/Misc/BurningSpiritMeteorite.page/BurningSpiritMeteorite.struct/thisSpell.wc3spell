@@ -1,0 +1,32 @@
+field	jass ident	1
+name		Burning Spirit (Meteorite)
+raw		BuM
+
+base
+class
+levelsAmount
+order		bloodlust
+target		UNIT
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		60
+manaCost		60
+range		99999
+targets		air,friend,ground,invulnerable,organic,vulnerable
+
+buttonPosX
+buttonPosY
+hotkey		Q
+icon		ReplaceableTextures\CommandButtons\BTNIncinerate.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Shoots out a missile that boosts an allied unit's attack speed by <attackSpeedInc,%>, move speed by <moveSpeedRelInc,%> and critical value by <critInc,%>.|nLasts <duration> seconds.
+
+attackSpeedInc		0.25
+critInc		0.25
+duration		20
+moveSpeedRelInc		0.25

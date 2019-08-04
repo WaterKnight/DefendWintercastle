@@ -1,0 +1,6 @@
+field	jass ident	1	2	3	4	5
+coneDamage	DAMAGE	10	15	25	35	45
+endWidth		300
+maxLength		500
+speed		650
+startWidth		0

@@ -1,0 +1,11 @@
+field	jass ident	1	2	3
+damage		50	90	140
+damageAttackDamageMod		1	1
+impactEffectAttachPoint		AttachPoint.ORIGIN
+impactEffectPath		Abilities\Spells\Human\Thunderclap\ThunderClapCaster.mdl
+impactTolerance		10
+maxAngleOffset	real	0.65 * Math.QUARTER_ANGLE
+maxLength		600	725	850
+maxZ		275	275
+stunDuration		3	4	5
+stunHeroDuration		1.5	2	2.5

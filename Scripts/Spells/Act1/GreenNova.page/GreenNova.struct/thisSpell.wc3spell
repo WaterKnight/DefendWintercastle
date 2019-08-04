@@ -1,0 +1,33 @@
+field	jass ident	1
+name		Green Nova
+raw		GrN
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		entanglingroots
+target		IMMEDIATE
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		20
+manaCost		400
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNEntanglingRoots.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Sends out a nova that entangles hostile ground units, removing their attack and movement for <Buff\this.wc3obj:duration> (<Buff\this.wc3obj:heroDuration>) seconds.
+
+interval		0.125
+maxRadius		600
+specialEffectPath		Abilities\Spells\NightElf\EntanglingRoots\EntanglingRootsTarget.mdl
+specialEffectPerimeterInterval		200
+wavesAmount		10

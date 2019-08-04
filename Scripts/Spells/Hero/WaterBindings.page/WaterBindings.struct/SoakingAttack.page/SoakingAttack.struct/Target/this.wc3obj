@@ -1,0 +1,6 @@
+field	jass ident	1	2	3	4	5	6
+duration		6	6
+heroDuration		2	2
+
+attackSpeedInc		-0.1	-0.1
+moveSpeedInc		-35	-35

@@ -1,0 +1,40 @@
+field	jass ident	1	2	3
+name		Amaterasu
+raw		Ama
+
+base		NORMAL
+class		HERO_ULTIMATE_EX
+levelsAmount
+order		deathanddecay
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Am
+learnTooltip
+learnUberTooltip		Conjures devouring flames around the caster, dealing massive damage to nearby units over a channel time of <channelTime> seconds. Hurts oneself and allies. The caster's max hitpoints are heightened until the spell wears off.	Conjures devouring flames around the caster, dealing massive damage to nearby units over a channel time of <channelTime> seconds. Hurts oneself and allies. The caster's max hitpoints are heightened until the spell wears off.|n|nNext Level:|nDamage (over duration): <damageAll<prevLevel>> --> <damageAll>|nLife increment: <lifeIncrement<prevLevel>> --> <lifeIncrement<level>>|nMana cost: <manaCost<prevLevel>> --> <manaCost>
+
+animation		spell,channel
+areaRange		450
+areaRangeDisplay		true
+cooldown		90
+channelTime		15
+manaCost		145	210	275
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNOrbofSlowness.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Conjures devouring flames around the caster, dealing up to <damageAll> damage over <channelTime> seconds, including oneself and allies. Adds <lifeIncrement> to max life to the caster until the spell wears off.
+
+damageAirFactor		0.5
+damageAll		600	900	1200
+interval		0.35
+lifeIncrement		300	500	800

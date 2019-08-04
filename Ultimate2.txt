@@ -1,0 +1,170 @@
+vigor		+dmg, +life, +lifeRegen
+focus		+atkSpeed, +crit, +evasion, +stamina
+animus		+spellPower, +mana, +manaRegen
+
+
+dmg (magic), heals are spellPowerDep
+
+coldness	-25% atkSpeed, -25% speed, +15% dmg taken
+poison		-35% atkSpeed, -20% speed, -50% lifeRegen
+banish		dmg (physical) immune
+eclipse		banish, -30% speed, -50% spellPower, -50% manaRegen
+ignition	reveal, 4% (2%) dmg (magic) per second
+bleeding	reveal, 4% (2%) dmg (physical) per second
+attackDisable	no attack
+invis		invis, ghost, sure crit, no evasion
+silence		no cast
+sleep		sleep, sure crit, no evasion
+stun		pause
+frozen		pause, coldness, explosion
+whirl		pause, untouch, no regen
+
+1st learnable on levels 1, 3, 5, 7, 9, 11
+2nd learnable on levels 1, 3, 5, 7, 9, 11
+artifact learned per chapter
+elemental learnable on levels 1, 3, 5, 7, 9, 11
+ultimate learnable on levels 6, 12, 18
+ultimateEx learnable on levels 6, 12, 18
+
+-->last level: 2*6+6+2*3 -> 24 --> 23 incs/6 chapters --> ~3.83 incs per chapter
+
+Hero					Target		Effects							Shared Buffs		Costs
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Drakul (vigor)
+	Emphatic Bite			unit		slide, self heal								mid mana, mid cd
+							if ally: heal, +%dmg
+							if enemy: dmg (physical, trigEvents), bleed, silence	bleeding, silence
+	Infection			-		multiple summon, dot (magic), self +manaLeech					low mana, high cd
+		Funiculus Umbilicalis	passive		self heal on parent heal
+	Bat Swarm			unit circle	dmg (physical), eclipse					eclipse			mid mana, mid cd
+							if ally: spellShield					spellShield
+							if enemy: self heal
+	Chilly Breath			point cone	dmg (magic), more dmg on range, cold, refresh 2nd	coldness		mid mana, mid cd
+					(channel)
+
+
+	Rigor Mortis			-		rescue, self heal, mana heal, invis			invis (crit, ghost)	no mana, high cd
+	Fountain of Life and Death	point circle	summon (invu structure)								high mana, high cd
+		Aura of Decay				dmg (magic), -resistance
+		Palingenesis				revival
+
+Rocketeye (vigor)
+	Warcry				-		%dmg (magic, rangeDep), +dmg (vigorDep), attackDisable	attackDisable		high mana, high cd
+	Summon Polarbear		unit		summon, taunt, self heal							mid mana, mid cd
+							if ally: invul						invul
+							if enemy: Arctic Blink + 1
+		Artic Blink (level 2+)	point		dmg (magic), stun (no hero)				stun			low mana, mid cd
+		Devour (level 4+)	unit		transport, dmg over time (magic)						no mana, high cd
+	Stone Shield			unit		dmg (physical), +armor (focusDep), self dispel					low mana, mid cd
+	Monolith			point line	knockback, dmg (physical), +manaRegen						low mana, mid cd
+
+
+	Mountain King			-		self +leech, +%heroStats, +size, ghost, magicImmu	magicImmu, ghost	mid mana, mid cd
+	Boulder Crash			- (channel)	dmg (physical, rangeDep), gravity						mid mana, high cd
+
+Stormy (vigor)
+	Sleeping Draft			unit circle	sleep, self stamina heal, cold attack			sleep (crit), coldness	high mana, high cd
+	Sake Bomb			point circle	dmg (magic, rangeDep), poison, %mana burn		poison			mid mana, low cd
+	Magic Bottle			unit		mana heal, banish (not self)				banish			low mana, low cd
+							if ally: +spellPower (stack)
+							if enemy: dispel
+	Severance			unit		dmg (magic, dec), -armor, -speed						mid mana, mid cd
+
+
+	Panda Paw			point circle	slide (untouch), knockback, dmg (magic, trigEvents)				high mana, low cd
+							passive +leech
+	Sober up			-		dmg (magic, buffDep), bleed				bleeding		mid mana, high cd
+							self heal (buffDep), dispel (ally)
+
+Smokealot (focus)
+	Tempest Strike			point		slide, dmg (physical, trigEvents), refreshes artifact				mid mana, high cd
+							self +atkSpeed					
+	Depriving Shock			unit (channel)	dmg (magic), stun (no hero), revival (no hero)		stun			low mana, low cd
+							mana drain, +evasion (stack)
+	Sapphireblue Dagger		point circle	port, dmg (magic), heal (not self), +evasion (stack)				mid mana, mid cd
+	Inner Force			-		knockback, dmg (magic), +crit, ghost			ghost			low mana, high cd
+
+
+	Relentless Shiver		- (defeatable)	dmg (magic), self +resistance, +staminaRegen		coldness		high mana over time, 
+																	mid cd
+	Sanguine Eyes			unit		snare, target dmg taken -> self heal			bleeding, explosion	mid mana, high cd
+							refresh if remaining duration
+
+Aruruw (focus)
+	Ebony Shot			point cone	dmg (physical, dmgDep, trigEvents)						low mana, mid cd
+							charge attack: 
+	Hop'n'Drop			point		slide, dmg (physical), snare, explosion			explosion		high mana, high cd
+	Hawk Eye			-		tri target, reveal, -resistance							mid mana, low cd
+							on kill: self mana heal
+							charge attack: bleed					bleeding
+	Twin Wolves			-		duo summon									mid mana, mid cd
+		Brotherhood		passive		dmg split									-
+		Carnivore		passive		+leech, +crit									-
+
+
+	Enchanted Arrow			point circle	knockback, dmg (magic, focusDep), stun			stun			mid mana, mid cd
+					(channel)
+	Zodiac				unit (hero)	death protection								no mana, high cd
+							aura: heal (normal) over time (animusDep), +%speed
+
+Kera (focus)
+	Razor Blade			point		dmg (physical), dmg (physical), knockback					mid mana, low cd
+							passive +spellVamp
+	Wan Shroud			point circle	dmg (magic), +miss, -%armor							mid mana, mid cd
+							passive +manaLeech
+	Silent Boots			-		self +speed, dispel, invis				invis (crit, ghost)	low mana, mid cd
+	Ghost Swords			unit		summon, mana burn								low mana, mid cd
+		Hack'n'Slay		passive		+atkSpeed aura
+
+
+	Doppelganger			point		summon (magicImmu, mirror), self transport, +splash	magicImmu		high mana, high cd
+		Cold Grip		passive		cold attack						coldness		-
+		Big Boom		-		dmg (magic)						ignition		-
+	Steel Impalement		-		dmg (physical), snare, bleed				bleeding		mid mana, low cd
+					(channel)
+
+Lizzy (animus)
+	Fairy Shape			-		eclipse, mana burn -> self heal				ghost, banish, eclipse	mid mana, high cd
+							self banish, ghost, port
+	Arcane Blast			point circle	knockback, -atkSpeed, -dmg, %dmg (magic)					high mana, mid cd
+	Violet Earring			-		self mana heal, refreshes 1st and 2nd						no mana, high cd
+							passive charge: +dmg, banish				banish			low cd
+	Fireburst			unit		dmg (magic, rangeDep (inc))				ignition		mid mana, mid cd
+
+
+	Purging Rain			- (channel)	dmg (magic, inc), cold, dispel				coldness		high mana, high cd
+	Mana Colossus			- (channel)	summon (splash)									mid mana, mid cd
+		Theurgic Vessel		passive		+spellPower, +spellVamp aura
+
+Tajran (animus)
+	Khaki Recovery			unit		heal (dec), attackDisable, dispel			attackDisable		high mana, mid cd
+							passive self mana heal on healing
+	Tainted Leaf			unit circle	if ally: morph (+life, magicImmu), heal over time,	magicImmu		mid mana, mid cd
+							if enemy: sleep, dmg (magic)				sleep (crit)
+	Hand of Nature			point circle	multiple summon									low mana, low cd
+		Slow Poison		passive		on attack: -evasion, -speed				poison
+	Thunderstrike			-		dmg (magic, rangeDep), stun				stun			mid mana, high cd
+		Thunderstrike (alt)	point circle	dmg (magic, rangeDep), stun				stun			mid mana, high cd
+
+
+	Shamanic Bubble			point circle	port, invul, +%healAbility, switch 4th			invul			high mana, high cd
+					(channel)
+	Cyclone				point line	whirl, dmg (physical), summon				whirl			mid mana, mid cd
+		Wind Dance		passive		dmg (magic) over time, gravity (circling)
+
+Jota (animus)
+	Water Bindings			-		summon, +animus to caster							mid mana, mid cd
+		Soaking Attack				-speed, -atkSpeed (stack)
+		Conflagration (alt)	point cone	dmg (magic), ignite, eclipse				ignition, eclipse	high mana, high cd
+	Garments of the Salamander	-		self morph (melee), +lifeRegen per nearby ally,					low mana, low cd
+							no manaRegen, switch 1st and artifact
+	White Staff			unit (channel)	+evasion, self mana heal, explosion			explosion		low mana, low cd
+		Vomit (alt)		unit circle	poison (dmg (physical) over time)			poison			mid mana, mid cd
+	Ice Shock			unit circle	dmg (magic), freeze primary, cold secondary		frozen, coldness	mid mana, mid cd
+
+
+	Negation Wave			unit		dmg (magic), silence, buff steal			silence			low mana, low cd
+	Mass Mimesis			point circle	multiple summon (mirror, no hero)						high mana, mid cd
+		Hologram		passive		untouch							untouch			-

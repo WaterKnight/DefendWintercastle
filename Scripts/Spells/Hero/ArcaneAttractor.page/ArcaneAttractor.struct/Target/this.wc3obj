@@ -1,0 +1,7 @@
+field	jass ident	1	2	3	4	5	6
+attackSpeedInc		-0.3	-0.35	-0.4	-0.45	-0.5	-0.55
+dmgRelInc		-0.3	-0.3
+
+damageEffectAttachPoint		AttachPoint.ORIGIN
+damageEffectPath		Abilities\Spells\Undead\OrbOfDeath\AnnihilationMissile.mdl
+duration		5	5

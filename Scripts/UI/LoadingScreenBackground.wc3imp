@@ -1,0 +1,4 @@
+field	1
+type	skin
+src	LoadingScreenBackground.blp
+target	UI\LoadingScreenBackground.blp

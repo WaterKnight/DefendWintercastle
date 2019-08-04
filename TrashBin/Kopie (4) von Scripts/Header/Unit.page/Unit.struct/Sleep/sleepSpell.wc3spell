@@ -1,0 +1,15 @@
+field	jass ident	1
+name
+raw		ACsl
+base		SPECIAL_AUsl
+classes		DUMMY
+
+cooldown		0
+manaCost		0
+range		99999
+targets		enemy,friend,invulnerable,neutral,vulnerable
+
+specials		abuf=BSil
+specials		adur=0
+specials		ahdu=0
+specials		Usl1=0

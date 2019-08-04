@@ -1,0 +1,180 @@
+Version {
+	FormatVersion 800,
+}
+Model "LoadingScreen" {
+	NumGeosets 1,
+	NumBones 1,
+	NumParticleEmitters2 2,
+	BlendTime 150,
+	MaximumExtent { 0.8, 0.59999, 0 },
+	BoundsRadius 0.499997,
+}
+Sequences 1 {
+	Anim "Birth" {
+		Interval { 0, 50000 },
+	}
+}
+Textures 2 {
+	Bitmap {
+		Image "UI\LoadingScreenBackground.blp",
+	}
+	Bitmap {
+		Image "Textures\Yellow_Glow.blp",
+	}
+}
+Materials 1 {
+	Material {
+		Layer {
+			FilterMode None,
+			Unshaded,
+			TwoSided,
+			Unfogged,
+			static TextureID 0,
+		}
+	}
+}
+Geoset {
+	Vertices 4 {
+		{ 0.8, 0, 0 },
+		{ 0.8, 0.59999, 0 },
+		{ 0, 0, 0 },
+		{ 0, 0.59999, 0 },
+	}
+	Normals 4 {
+		{ 0, 1.19209e-007, 1 },
+		{ 0, 1.19209e-007, 1 },
+		{ 0, 1.19209e-007, 1 },
+		{ 0, 1.19209e-007, 1 },
+	}
+	TVertices 4 {
+		{ 1, 1 },
+		{ 1, 0 },
+		{ 0, 1 },
+		{ 0, 0 },
+	}
+	VertexGroup {
+		0,
+		0,
+		0,
+		0,
+	}
+	Faces 1 6 {
+		Triangles {
+			{ 3, 2, 1, 0, 1, 2 },
+		}
+	}
+	Groups 1 1 {
+		Matrices { 0 },
+	}
+	MaximumExtent { 0.8, 0.59999, 0 },
+	BoundsRadius 0.499997,
+	MaterialID 0,
+	SelectionGroup 0,
+}
+Bone "L2" {
+	ObjectId 0,
+	GeosetId 0,
+	GeosetAnimId None,
+}
+PivotPoints 3 {
+	{ 0, 0, 0 },
+	{ 0.5, 0.65, 5 },
+	{ 0.5, 0, 5 },
+}
+ParticleEmitter2 "UNNAMED" {
+	ObjectId 1,
+	Unshaded,
+	Unfogged,
+	static Speed 0.03,
+	static Variation 0.3,
+	static Latitude 40,
+	static Gravity -0.2,
+	LifeSpan 18,
+	EmissionRate 21 {
+		Linear,
+		0: 1.5,
+		3000: 0,
+		5000: 1.5,
+		8000: 0,
+		10000: 1.5,
+		13000: 0,
+		15000: 1.5,
+		18000: 0,
+		20000: 1.5,
+		23000: 0,
+		25000: 1.5,
+		28000: 0,
+		30000: 1.5,
+		33000: 0,
+		35000: 1.5,
+		38000: 0,
+		40000: 1.5,
+		43000: 0,
+		45000: 1.5,
+		48000: 0,
+		50000: 1.5,
+	}
+	static Width 0,
+	static Length 1,
+	Additive,
+	Rows 1,
+	Columns 1,
+	Head,
+	TailLength 0,
+	Time 0,
+	SegmentColor {
+		Color { 1, 1, 1 },
+		Color { 1, 1, 1 },
+		Color { 1, 1, 1 },
+	},
+	Alpha {255, 255, 0},
+	ParticleScaling {0.01, 0.01, 0.004},
+	LifeSpanUVAnim {0, 16, 0},
+	DecayUVAnim {16, 18, 0},
+	TailUVAnim {0, 0, 1},
+	TailDecayUVAnim {0, 0, 1},
+	TextureID 1,
+	Rotation 1 {
+		DontInterp,
+		0: { 0.707107, 0, 0, 0.707107 },
+	}
+}
+ParticleEmitter2 "UNNAMED" {
+	ObjectId 2,
+	Unshaded,
+	Unfogged,
+	static Speed 0.01,
+	static Variation 0.4,
+	static Latitude 80,
+	static Gravity -0.05,
+	LifeSpan 18,
+	EmissionRate 2 {
+		DontInterp,
+		0: 0.5,
+		40000: 150,
+	}
+	static Width 0,
+	static Length 1,
+	Additive,
+	Rows 1,
+	Columns 1,
+	Head,
+	TailLength 0,
+	Time 0,
+	SegmentColor {
+		Color { 1, 1, 1 },
+		Color { 1, 1, 1 },
+		Color { 1, 1, 1 },
+	},
+	Alpha {192, 192, 0},
+	ParticleScaling {0.015, 0.015, 0.005},
+	LifeSpanUVAnim {0, 16, 0},
+	DecayUVAnim {16, 18, 0},
+	TailUVAnim {0, 0, 1},
+	TailDecayUVAnim {0, 0, 1},
+	TextureID 1,
+	Rotation 1 {
+		DontInterp,
+		0: { -0.707107, 0, 0, 0.707107 },
+	}
+}

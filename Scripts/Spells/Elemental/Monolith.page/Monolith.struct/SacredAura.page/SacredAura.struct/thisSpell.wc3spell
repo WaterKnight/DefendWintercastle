@@ -1,0 +1,30 @@
+field	jass ident	1	2	3	4	5	6
+name		Sacred Aura
+raw		SaA
+
+base		PASSIVE
+class		NORMAL
+levelsAmount
+order
+target
+
+learnUberTooltip		An aura that increases the mana regeneration of nearby units.
+learnUberTooltipUpgrades		{Mana regeneration bonus,Target\this.wc3obj:manaRegenInc}
+
+animation
+areaRange		<Monolith:areaRange>
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\PassiveButtons\PASBTNBrilliance.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		An aura that increases the mana regeneration of nearby units by <Target\this.wc3obj:manaRegenInc> within an area of <areaRange>.

@@ -1,0 +1,103 @@
+field	value
+name	Stormy
+raw	Sto
+
+classes
+hero	true
+structure	false
+team	DEFENDER
+
+model	Units\Creeps\PandarenBrewmaster\PandarenBrewmaster.mdx
+modelAttachPts
+modelAnims
+modelAttachMods	large
+modelBones
+standardScale	1.
+
+elevPts	0
+elevRad	50.
+maxRoll	10.
+maxPitch	10.
+scale	1.25
+selScale	2.
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	140.
+shadowHeight	140.
+shadowOffsetX	50.
+shadowOffsetY	50.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNPandarenBrewmaster.blp
+soundset	PandarenBrewmaster
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	290.
+turnRate	0.6
+height
+heightMin
+animWalk	250.
+animRun	250.
+moveInterp	5
+
+animBlend	0.15
+animCastWaitBefore	0.35
+animCastWaitAfter	0.5
+
+armorAmount	1.5
+armorSound	Metal
+armorType	HERO
+life	100.
+lifeRegen	0.
+mana	100.
+manaRegen	0.
+spellPower
+sightRange	1800.
+sightRangeNight	800.
+
+attackType	NORMAL
+attackCooldown	1.7
+attackRange	100.
+attackRangeAcq	500.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	0.35
+attackWaitAfter	0.
+attackSound	WoodHeavyBash
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	NORMAL
+damageAmount	12
+damageDices	1
+damageSides	10
+
+collisionSize	32.
+combatFlags	ground
+deathTime	2.5
+exp
+gold
+
+heroAttribute	STRENGTH
+heroAgi	10.
+heroAgiUp	3.75
+heroInt	10.
+heroIntUp	3.75
+heroStr	10.5
+heroStrUp	3.75
+heroArmorUp	0.7
+heroNames	Pakon Stormbrewer

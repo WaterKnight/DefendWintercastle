@@ -1,0 +1,752 @@
+	local function addLine(line, pos)
+		local t = line:split("\n")
+
+		local size = #t
+
+		if pos then
+			for i = returnLinesC, pos, -1 do
+				returnLines[i + size] = returnLines[i]    --returnLines[i + size - 1]
+			end
+
+			for i = 1, size, 1 do
+				returnLines[pos + i - 1] = t[i]
+			end
+
+			returnLinesC = returnLinesC + size
+		else
+			local c = 1
+					
+			while t[c] do
+				returnLinesC = returnLinesC + 1
+				returnLines[returnLinesC] = t[c]
+						
+				c = c + 1						
+			end
+			--for k, v in pairs(t) do
+			--	returnLinesC = returnLinesC + 1
+			--	returnLines[returnLinesC] = v
+			--end
+		end
+
+		return size
+	end
+
+	local function replaceLines(line, posStart, posEnd)
+		if (posEnd == nil) then
+			posEnd = posStart
+		end
+
+		local size = posEnd - posStart + 1
+
+		for i = posStart, returnLinesC - size, 1 do
+			returnLines[i] = returnLines[i + size]
+		end
+
+		returnLinesC = returnLinesC - size
+
+		return addLine(line, posStart) - size
+	end
+
+local methods = {}
+local objMethods = {}
+local methodsFile = io.open([[..\..\Scripts\methods.txt]], "w+")
+local objMethodsFile = io.open([[..\..\Scripts\objMethods.txt]], "w+")
+
+methodsFile:close()
+objMethodsFile:close()
+
+local vJassPath = {}
+local vJassDepth = 0
+
+local function getvJassPath()
+	if (vJassDepth < 1) then
+		return ""
+	end
+
+	local result = table.concat(vJassPath, "_", 1, vJassDepth)
+
+	if (result == nil) then
+		return ""
+	end
+
+	return result
+end
+
+local initOfPath = {}
+
+local function transformInit(line)
+	local pos, posEnd = line:find("static method onInit", 1, true)
+
+	if pos then
+		line = line:gsub("private static method onInit", "static method onInit")
+
+		local path = getvJassPath()
+
+		if (initOfPath[path] == nil) then
+			initOfPath[path] = {}
+		end
+
+		local count = #initOfPath[path] + 1
+
+		name = "onInit"..count
+
+		initOfPath[path][count] = name
+		line = line:gsub("onInit", name)
+	end
+
+	return line
+end
+
+	local function pushLine(line)
+		local pos, posEnd = line:find("initMethod", 1, true)
+
+		if pos then
+			local name, pos, posEnd = line:readIdentifier(posEnd + 1)
+
+			local of, pos, posEnd = line:readIdentifier(posEnd + 1)
+			local loadingPart, pos, posEnd = line:readIdentifier(posEnd + 1)
+
+			loadingPart = loadingPart:upper()
+
+			line = [[static method ]]..name..[[ takes nothing returns boolean
+				local ObjThread t = ObjThread.CreateEx("initMethod " + thistype.]]..name..[[.name)
+			]]
+
+			addLine(transformInit([[
+				static method onInit takes nothing returns nothing
+					call Loading.AddInit_]]..loadingPart..[[(thistype.]]..name..[[.name, ]]..name:quote()..[[)
+				endmethod
+			]]))
+
+			waitingForInitMethodEnd = true
+
+			loadingsTotal = loadingsTotal + 1
+		end
+
+		local pos, posEnd = line:find("//! runtextmacro Load(", 1, true)
+
+		if (pos == nil) then
+			local name, pos2, pos2End = line:readIdentifier()
+
+			if (name == "initLoad") then
+				pos = pos2
+				posEnd = pos2End
+			end
+		end
+
+		if pos then
+			local name = line:readIdentifier(posEnd + 1)
+
+			name = name:upper()
+
+			loadingParts[#loadingParts + 1] = name
+
+			line = "call Loading.RunInits_"..name.."()"
+		end
+
+		--line = line:gsub("static method onInit", "static method onInitEx")
+
+		line = line:gsub("//! import", "///! import")
+		line = line:gsub("allocate%(%)", "allocCustom()")
+		line = line:gsub("deallocate%(%)", "deallocCustom()")
+
+		local varNamePos, varNamePosEnd = line:find("=", 1, true)
+
+		if varNamePos then
+			varName = line:reverseReadIdentifier(varNamePos - 1)
+
+			if (varName == nil) then
+				varName = ""
+			end
+		else
+			varName = ""
+		end
+
+		--line = line:gsub("Event%.Create%(", [[Event.Create(]]..(curMethod..[[ (]]..varName..[[)]]):quote()..[[, ]])
+		line = line:gsub("Event%.Create%(", [[Event.Create(]]..line:gsub([["]], [[\"]]):quote()..[[, ]])
+		line = line:gsub("Event%.CreateLimit%(", [[Event.CreateLimit(]]..(curMethod..[[ (]]..varName..[[)]]):quote()..[[, ]])
+		line = line:gsub("UnitList%.Create%(%)", [[UnitList.Create(]]..(curMethod..[[ (]]..varName..[[)]]):quote()..[[)]])
+
+		line = line:gsub(" %/ ", " *1. / ")
+		line = line:gsub(" div ", " / ")
+
+		local pos, posEnd = line:find("//! textmacro")
+
+		if pos then
+			curMacro = macros[name]
+			line = ""
+		elseif line:find("//! endtextmacro") then
+			curMacro = nil
+			line = ""
+		end
+
+		if (curMacro == nil) then
+			local vJassName
+
+			local name, pos, posEnd = line:readIdentifier(1)
+
+			if waitingForInitMethodEnd then
+				if (name == "endmethod") then
+					addLine([[call t.Destroy()]])
+					addLine([[return true]])
+
+					waitingForInitMethodEnd = false
+				end
+			end
+
+			if (name == "runtextmacro") then
+				local name, pos, posEnd = line:readIdentifier(posEnd + 1)
+
+				if (name == "Folder") then
+					local name, pos, posEnd = line:readIdentifier(posEnd + 1)
+
+					vJassName = "Folder"..name
+				elseif (name == "BaseStruct") then
+					local name, pos, posEnd = line:readIdentifier(posEnd + 1)
+
+					vJassName = name
+				elseif (name == "StaticStruct") then
+					local name, pos, posEnd = line:readIdentifier(posEnd + 1)
+
+					vJassName = name
+				elseif (name == "Struct") then
+					local name, pos, posEnd = line:readIdentifier(posEnd + 1)
+
+					vJassName = "Struct"..name
+				end
+			elseif (name == "scope") then
+				local name, pos, posEnd = line:readIdentifier(posEnd + 1)
+
+				vJassName = name
+			elseif (name == "struct") then
+				local name, pos, posEnd = line:readIdentifier(posEnd + 1)
+
+				vJassName = name
+			elseif (name == "endscope") then
+				vJassName = -1
+			elseif (name == "endstruct") then
+				vJassName = -1
+			end
+
+			if vJassName then
+				if (vJassName == -1) then
+					vJassDepth = vJassDepth - 1
+				else
+					vJassDepth = vJassDepth + 1
+					vJassPath[vJassDepth] = vJassName
+				end
+			end
+		end
+
+		local c = 1
+		local funcName
+		local funcType
+
+		while (c <= #funcTypes) and (funcType == nil) do
+			local pos, posEnd = line:find(" *"..funcTypes[c].startWord.." ")
+
+			if pos then
+				funcType = funcTypes[c]
+				funcName = line:sub(posEnd + 1, line:len())
+			end
+
+			c = c + 1
+		end
+
+		if funcType then
+			local params = "nothing"
+			local returnType
+
+			if funcType.forceTrueReturn then
+				returnType = "boolean"
+			else
+				returnType = "nothing"
+			end
+
+			line = "static method "..funcName.." takes "..params.." returns "..returnType
+
+			lastFuncType = funcType
+		end
+
+		line = transformInit(line)
+
+		if (lastFuncType and lastFuncType.forceTrueReturn) then
+			if (line:gsub(" ", ""):gsub("\t", "") == "return") then
+				line = "return true"
+			end
+		end
+
+		if line:gsub(" ", ""):gsub("\t", ""):find("endmethod") then
+			if (lastFuncType and lastFuncType.forceTrueReturn) then
+				addLine("return true")
+
+				lastFuncType = nil
+			end
+		end
+
+		addLine(line)
+
+		if (funcType and funcType.includeParams) then
+			addLine([[local EventResponse params = EventResponse.GetTrigger()]])
+		end
+
+		local function tryAddMethod(line, mTable, mFile)
+			local methodStart, methodEnd = line:find("static method ", 1, true)
+
+			if (methodStart and line:find("takes nothing", methodEnd, true)) then
+				local function toJassName(s)
+					local result = ""
+
+					for i = 1, s:len(), 1 do
+						local c = s:sub(i, i)
+
+						if (c == ".") then
+							result=  result..c
+						elseif ((c >= 'A') and (c <= 'Z') and (i ~= 1)) then
+							result = result.."_"..c
+						else
+							result = result..c:upper()
+						end
+					end
+
+					return result
+				end
+
+				local methodPrefix = prefix
+
+				methodPrefix = methodPrefix:gsub("%.struct", "")
+				--methodPrefix = methodPrefix:gsub("\\", ".")
+
+				local c = 1
+				local t = methodPrefix:split("\\")
+
+				methodPrefix = ""
+
+				while t[c] do
+					if t[c + 2] then
+						methodPrefix = methodPrefix.."Folder"..t[c].."_"
+					elseif t[c + 1] then
+						if (c > 1) then
+							methodPrefix = methodPrefix.."Struct"..t[c].."."
+						else
+							methodPrefix = methodPrefix..t[c].."."
+						end
+					end
+
+					c = c + 1
+				end
+
+				--[[if (methodPrefix:find(".", 1, true) and methodPrefix:sub(methodPrefix:find(".", 1, true) + 1, methodPrefix:len()):find(".", 1, true)) then
+					methodPrefix = toJassName(methodPrefix:sub(1, methodPrefix:find(".", 1, true) - 1))..methodPrefix:sub(methodPrefix:find(".", 1, true), methodPrefix:len())
+				end]]
+
+				if methodPrefix:find(".", 1, true) then
+					methodEnd = methodEnd + 1
+
+					local methodName = line:sub(methodEnd, line:find(" ", methodEnd, true) - 1)
+
+					if (methodName:find("$", 1, true) == nil) then
+						mTable[methodPrefix..methodName] = methodName
+						mFile:write("\n"..methodPrefix..methodName)
+
+						curMethod = methodPrefix..methodName
+					end
+				end
+			end
+		end
+
+		local blockName
+		local blockType
+		local name, pos, posEnd = line:readIdentifier()
+
+		if ((name == "private") or (name == "public")) then
+			name, pos, posEnd = line:readIdentifier(posEnd + 1)
+		end
+
+		if (name == "struct") then
+			blockType = "struct"
+			blockName = line:readIdentifier(posEnd + 1)
+		elseif (name == "scope") then
+			blockType = "folder"
+			blockName = line:readIdentifier(posEnd + 1)
+		end
+
+		if blockName then
+			blockName = blockName:gsub("Folder", ""):gsub("Struct", "")
+		end
+
+		if ((line:find("//", 1, true) == nil) or (line:find("//!", 1, true) and (line:find("///", 1, true) == nil)) or blockType) then
+			local isFolder = line:find("//! runtextmacro Folder", 1, true) or (blockType == "folder")
+			local isStructLine = (line:find("//! runtextmacro BaseStruct", 1, true) or line:find("//! runtextmacro Struct", 1, true) or line:find("//! runtextmacro StaticStruct", 1, true)) or (blockType == "struct")
+
+			if (isFolder or isStructLine) then
+				nestDepth = nestDepth + 1
+
+				local structName
+
+				if blockType then
+					nestType[nestDepth] = blockType
+					structName = blockName
+if structName:find("Movement") then
+print(structName, nestType[nestDepth])
+os.execute("pause")
+end
+				elseif isFolder then
+					nestType[nestDepth] = "folder"
+					structName = line:sub(line:find("(".."\"", 1, true) + 2, line:find(")") - 2)
+				elseif line:find("//! runtextmacro BaseStruct") then
+					nestType[nestDepth] = "struct"
+					structName = line:sub(line:find("(".."\"", 1, true) + 2, line:find(",") - 2)
+				else
+					nestType[nestDepth] = "struct"
+					structName = line:sub(line:find("(".."\"", 1, true) + 2, line:find(")") - 2)
+				end
+
+				if (nestDepth == 1) then
+					structName = structName..".struct"
+				end
+
+				prefix = prefix..structName..[[\]]
+
+				if ((foundImp[prefix] == nil) and isStructLine) then
+				print(path, prefix)
+					local impPath = getFolder(path)..prefix.."obj.j"
+if prefix:find("Movement") then
+print(prefix, impPath)
+os.execute("pause")
+end
+					local imp = io.open(impPath, "r")
+					foundImp[prefix] = true
+
+					if imp then
+						addLine(string.rep(" ", nestDepth * 4).."//import: "..impPath)
+
+						for impLine in imp:lines() do
+							addLine(string.rep(" ", nestDepth * 4)..impLine)
+
+							tryAddMethod(impLine, objMethods, objMethodsFile)
+						end
+
+						imp:close()
+
+						addLine(string.rep(" ", nestDepth * 4).."//end of import: "..impPath)
+					end
+				end
+			elseif (line:find("endstruct") or line:find("endscope")) then
+				nestDepth = nestDepth - 1
+
+				string.backFind = function(s, search)
+					s = s:reverse()
+
+					if (s:find(search) == nil) then
+						return nil
+					end
+
+					return (s:len() - s:find(search) + 1)
+				end
+
+				if prefix:backFind("\\") then
+					prefix = prefix:sub(1, prefix:backFind("\\") - 1)
+
+					if (prefix:backFind("\\") == nil) then
+						prefix = ""
+					else
+						prefix = prefix:sub(1, prefix:backFind("\\"))
+					end
+				end
+			end
+		end
+
+		if (nestType[nestDepth] == "struct") then
+			tryAddMethod(line, methods, methodsFile)
+		end
+	end
+
+os.execute("pause")
+if false then
+	local nestDepth = 0
+	local structStartPos = {}
+	local structLines = {}
+	local structNames = {}
+
+	for i = 1, linesC, 1 do
+		local line = lines[i]
+
+		local name, pos, posEnd = line:readIdentifier()
+
+		if (name == "struct" or (((name == "private") or (name == "public")) and line:readIdentifier(posEnd + 1) == "struct")) then
+			local name = line:readIdentifier(posEnd + 1)
+
+			nestDepth = nestDepth + 1
+
+			structStartPos[nestDepth] = i
+			structLines[nestDepth] = {}
+			structNames[nestDepth] = name
+
+			if (nestDepth > 2) then
+				local t = structLines[nestDepth - 1]
+
+				--t[#t + 1] = "LinkToStruct("..table.concat(structNames, "_")..")"
+				t[#t + 1] = table.concat(structNames, "_").." "..name.." = this"
+				t[#t + 1] = table.concat(structNames, "_").." LinkToStruct_"..name
+
+				lines[i] = ""
+			elseif (nestDepth == 2) then
+				--lines[i] = "LinkToStruct("..table.concat(structNames, "_")..")"
+				lines[i] = table.concat(structNames, "_").." "..name.." = this"
+				lines[i] = lines[i].."\n"..table.concat(structNames, "_").." LinkToStruct_"..name
+			end
+		elseif (name == "endstruct") then
+			nestDepth = nestDepth - 1
+
+if nestDepth<0 then
+	os.execute("pause")
+end
+			if (nestDepth > 0) then
+				lines[structStartPos[1] - 1] = lines[structStartPos[1] - 1].."\nstruct "..table.concat(structNames, "_").."\n"..table.concat(structLines[nestDepth + 1], "\n").."\nendstruct"
+				lines[i] = ""
+			end
+
+			structNames[nestDepth + 1] = nil
+		elseif (nestDepth > 1) then
+			local t = structLines[nestDepth]
+
+			t[#t + 1] = line
+
+			lines[i] = ""
+		end
+	end
+
+	curMacro = nil
+
+	for i = 1, linesC, 1 do
+		local t = lines[i]:split("\n")
+
+		for i2 = 1, #t, 1 do
+			pushLine(t[i2])
+		end
+	end
+
+	addLine("\n//end of file: "..path)
+
+	--shift local declarations
+	local afterLocals
+	local afterLocalsC
+	local curMethod
+	local curMethodLineNum
+
+	local c = 1
+
+	while returnLines[c] do
+		local line = returnLines[c]
+
+		if curMethod then
+			--local ident, pos, posEnd = line:readIdentifier()
+			local ident
+
+			if line:find("local ") then
+				ident = "local"
+			elseif line:find("endmethod") then
+				ident = "endmethod"
+			elseif (line:isWhitespace(true) == false) then
+				ident = "afterLocals"
+			end
+
+			if ident then
+				if afterLocals then
+					if (ident == "local") then
+						local ident, pos, posEnd = line:readIdentifier()
+
+						local type, pos, posEnd = line:readIdentifier(posEnd + 1)
+
+						local name, pos, posEnd = line:readIdentifier(posEnd + 1)
+
+						local isArray
+
+						if (name == "array") then
+							isArray = true
+
+							name, pos, posEnd = line:readIdentifier(posEnd + 1)
+						else
+							isArray = false
+						end
+
+						local var = {}
+
+						var.name = name
+						var.isArray = isArray
+						var.type = type
+
+						afterLocalsC = afterLocalsC + 1
+						afterLocals[afterLocalsC] = var
+
+						if line:sub(posEnd + 1):isWhitespace(true) then
+							line = ""
+						else
+							line = "set "..name..line:sub(posEnd + 1)
+						end
+
+						c = c + replaceLines(line, c)
+
+						local decLine = "local "..type
+
+						if isArray then
+							decLine = decLine.." ".."array"
+						end
+
+						decLine = decLine .." "..name
+
+						c = c + addLine(decLine, curMethodLineNum + 1)
+					end
+				else
+					if (ident == "afterLocals") then
+						afterLocals = {}
+						afterLocalsC = 0
+					end
+				end
+
+				if (ident == "endmethod") then
+					afterLocals = nil
+					afterLocalsC = 0
+					curMethod = nil
+				end
+			end
+		else
+counter=counter+1
+			--local ident, pos, posEnd = line:readIdentifier()
+			local ident
+
+			if line:find("method ") then
+				ident = "method"
+			end
+
+			if (ident == "method") then
+				curMethod = true
+				--curMethod, pos, posEnd = line:readIdentifier(posEnd + 1)
+
+				curMethodLineNum = c
+			elseif (ident == "static") then
+				curMethod = true
+				--ident, pos, posEnd = line:readIdentifier(posEnd + 1)
+
+				if (ident == "method") then
+					curMethod = true
+					--curMethod, pos, posEnd = line:readIdentifier(posEnd + 1)
+
+					curMethodLineNum = c
+				end
+			end
+		end
+
+		c = c + 1
+	end
+
+	returnTable = returnLines
+
+	if returnTable then
+		linesC = linesC + 1
+		lines[linesC] = returnTable
+	end
+end
+end
+
+pathsFile = io.open([[..\..\Scripts\paths.txt]], "r")
+
+if false then
+if pathsFile then
+	local curIndent = -1
+	local curPath = ""
+	
+	line = pathsFile:read()
+
+	while line do
+		local indent = 0
+
+		while line:find("\t", 1, true) do
+			indent = indent + 1
+
+			line = line:sub(line:find("\t", 1, true) + 1)
+		end
+
+		if (indent <= curIndent) then
+			for i = 1, (curIndent - indent + 1), 1 do
+				curPath = curPath:sub(1, curPath:len() - 1)
+
+				if lastFind(curPath, [[\]]) then
+					curPath = curPath:sub(1, lastFind(curPath, [[\]]))
+				else
+					curPath = ""
+				end
+			end
+		end
+
+		if line:find(".j", 1, true) then
+			addJ([[..\Scripts\]]..curPath..line)
+		end
+
+		curIndent = indent
+		curPath = curPath..line..[[\]]
+
+		line = pathsFile:read()
+	end
+
+	pathsFile:close()
+end
+end
+
+addLine([[
+struct Loading
+	static integer LOADING_PARTS_AMOUNT = 0
+]])
+
+local f = io.open("loadingParts.txt", "w+")
+
+for k, v in pairs(loadingParts) do
+	addLine([[
+//		static trigger array LOADING_PARTS_OF_]]..v..[[ 
+//		static boolexpr array LOADING_PARTS_OF_]]..v..[[ 
+		static string array LOADING_PARTS_OF_]]..v..[[ 
+		static string array LOADING_PARTS_OF_]]..v..[[_NAME 
+		static integer LOADING_PARTS_OF_]]..v..[[_COUNT = ARRAY_EMPTY
+
+		static method AddInit_]]..v..[[ takes string s, string name returns nothing
+			set LOADING_PARTS_OF_]]..v..[[_COUNT = LOADING_PARTS_OF_]]..v..[[_COUNT + 1
+//			set LOADING_PARTS_OF_]]..v..[[[LOADING_PARTS_OF_]]..v..[[_COUNT] = CreateTrigger()
+//			set LOADING_PARTS_OF_]]..v..[[[LOADING_PARTS_OF_]]..v..[[_COUNT] = Condition(c)
+			set LOADING_PARTS_OF_]]..v..[[[LOADING_PARTS_OF_]]..v..[[_COUNT] = s
+			set LOADING_PARTS_OF_]]..v..[[_NAME[LOADING_PARTS_OF_]]..v..[[_COUNT] = name
+
+//			call TriggerAddCondition(LOADING_PARTS_OF_]]..v..[[[LOADING_PARTS_OF_]]..v..[[_COUNT], Condition(c))
+		endmethod
+
+		static method RunInits_]]..v..[[_LabelTrig takes nothing returns boolean
+			//call Loading.Load(]]..v:quote()..[[, 0)
+
+			return true
+		endmethod
+
+		static method RunInits_]]..v..[[ takes nothing returns boolean
+			local integer iteration = LOADING_PARTS_OF_]]..v..[[_COUNT
+//			local trigger labelTrig = CreateTrigger()
+//			local boolexpr labelTrig = Condition(function thistype.RunInits_]]..v..[[_LabelTrig)
+			local string labelTrig = thistype.RunInits_]]..v..[[_LabelTrig.name
+
+//			call TriggerAddCondition(labelTrig, Condition(function thistype.RunInits_]]..v..[[_LabelTrig))
+
+			call Loading.Queue(labelTrig, ]]..v:quote()..[[)
+
+			loop
+				exitwhen (iteration < ARRAY_MIN)
+
+				call Loading.Queue(LOADING_PARTS_OF_]]..v..[[[iteration], LOADING_PARTS_OF_]]..v..[[_NAME[iteration])
+				//call TriggerEvaluate(LOADING_PARTS_OF_]]..v..[[[iteration])
+
+				set iteration = iteration - 1
+			endloop
+
+			return true
+		endmethod
+	]])
+
+	f:write("\n"..v)
+end

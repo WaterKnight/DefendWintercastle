@@ -1,0 +1,42 @@
+field	jass ident	1	2	3	4	5
+name		Relentless Shiver
+raw		AReS
+
+base		NORMAL
+class		HERO_ULTIMATE
+levelsAmount
+order		animatedead
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		RS
+learnTooltip
+learnUberTooltip		|n|nNext Level:|nDuration: <duration<prevLevel>> seconds --> <duration> seconds|nMana cost: <manaCost<prevLevel>> --> <manaCost>|nTargets amount: <maxTargetsAmount<prevLevel>> --> <maxTargetsAmount>
+
+animation		spell
+areaRange		500
+areaRangeDisplay		true
+channelTime
+cooldown		80
+manaCost		10
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNAnimateDead.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip
+
+interval		0.75
+manaCostPerSecond		8	13	18
+manaCostBuffer		10
+maxTargetsAmount		5	8	11
+specialEffectAttachPoint		AttachPoint.OVERHEAD
+specialEffectPath		Abilities\Spells\Undead\RaiseSkeletonWarrior\RaiseSkeleton.mdl

@@ -1,0 +1,24 @@
+field	value
+name	Gold Coin
+raw	Coi
+
+classes	POWER_UP
+
+model	Objects\InventoryItems\PotofGold\PotofGold.mdl
+scale	1.
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	Glitters.
+icon
+tooltip
+uberTooltip
+
+abilities
+armor
+chargesAmount
+cooldownGroup
+goldCost
+lumberCost

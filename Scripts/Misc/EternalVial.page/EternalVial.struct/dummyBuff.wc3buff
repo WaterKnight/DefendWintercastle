@@ -1,0 +1,16 @@
+field	1
+name	Eternal Vial
+raw	Via
+
+class
+levelsAmount
+lostOn	death
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNVialFull.blp
+tooltip
+uberTooltip	This unit's life, mana and stamina are restored by magical water over time.
+
+sfxPath
+sfxAttachPt
+sfxLevel

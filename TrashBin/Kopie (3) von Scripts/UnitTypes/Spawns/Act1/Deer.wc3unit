@@ -1,0 +1,93 @@
+field	value
+name	Deer
+raw	Dee
+
+classes
+hero	false
+structure	false
+team	ATTACKER
+
+model	units\critters\BlackStagMale\BlackStagMale.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.5
+
+elevPts	0
+elevRad	20.
+maxRoll	10.
+maxPitch	45.
+scale	1.7
+selScale	1.
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	35.
+outpactX	0.
+outpactY	0.
+outpactZ	35.
+
+shadowPath	NORMAL
+shadowWidth	140.
+shadowHeight	140.
+shadowOffsetX	50.
+shadowOffsetY	50.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNStag.blp
+soundset
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	150.
+turnRate	0.5
+height
+heightMin
+animWalk	380.
+animRun	380.
+moveInterp	0
+
+animBlend	0.15
+animCastWaitBefore	0.4
+animCastWaitAfter	0.5
+
+armorAmount	0.
+armorSound	Flesh
+armorType	MEDIUM
+life	60.
+lifeRegen	0.5
+mana	25.
+manaRegen	1.5
+spellPower	10.
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	NORMAL
+attackCooldown	1.4
+attackRange	90.
+attackRangeAcq	500.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	0.5
+attackWaitAfter	0.
+attackSound	WoodMediumBash
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	NORMAL
+damageAmount	5
+damageDices	1
+damageSides	2
+
+collisionSize	24.
+combatFlags	ground
+deathTime	2.5
+exp	20
+gold	5

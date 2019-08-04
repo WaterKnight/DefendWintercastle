@@ -1,0 +1,24 @@
+field	value
+name
+raw
+
+classes
+
+model
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description
+icon
+tooltip
+uberTooltip
+
+abilities
+armor
+chargesAmount
+cooldownGroup
+goldCost
+lumberCost

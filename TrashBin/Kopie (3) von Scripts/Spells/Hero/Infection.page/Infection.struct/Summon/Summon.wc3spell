@@ -1,0 +1,6 @@
+field	jass ident	1	2	3	4	5
+summonDuration	DURATION	23
+maxSummonsAmount	MAX_AMOUNT	4
+summonUnitType		UnitType.DESCENDANT	UnitType.DESCENDANT2	UnitType.DESCENDANT3	UnitType.DESCENDANT4	UnitType.DESCENDANT5
+
+include		FuniculusUmbilicalis

@@ -1,0 +1,19 @@
+field	1	2	3	4	5	6
+name	White Staff
+raw	WhS
+
+class	ARTIFACT
+levelsAmount
+lostOn
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNAdvancedStrengthOfTheMoon.blp
+tooltip
+uberTooltip	The evasion value of this unit is increased. The caster channeling this buff regenerates mana.
+
+sfxPath	Abilities\Spells\Items\AIil\AIilTarget.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW
+
+unitMod	evasionBonus	evasionBonus
+unitModVal	<this.wc3obj:evasionInc>	<this.wc3obj:evasionInc>

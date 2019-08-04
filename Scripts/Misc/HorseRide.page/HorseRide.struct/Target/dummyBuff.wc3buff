@@ -1,0 +1,27 @@
+field	1
+name
+raw
+
+class	NORMAL
+levelsAmount
+lostOn	death
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath
+sfxAttachPt
+sfxLevel
+
+dismountOffset	200.
+dummyUnitDuration	0.5
+dummyUnitOffset	-65.
+endingEffectPath	Abilities\Spells\Human\Polymorph\PolyMorphDoneGround.mdl
+endingEffectAttachPoint	AttachPoint.ORIGIN
+fadeOut	2.
+horseEffectPath	UI\Feedback\WaypointFlags\WaypointFlag.mdl
+horseEffectAttachPoint	AttachPoint.ORIGIN
+startEffectPath	Abilities\Spells\Human\Polymorph\PolyMorphDoneGround.mdl
+startEffectAttachPoint	AttachPoint.ORIGIN

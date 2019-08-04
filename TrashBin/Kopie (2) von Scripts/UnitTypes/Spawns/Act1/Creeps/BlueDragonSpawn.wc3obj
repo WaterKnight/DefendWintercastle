@@ -1,0 +1,93 @@
+field	value
+name	Blue Dragon Spawn
+raw	BDS
+
+classes
+hero	false
+structure	false
+team	ATTACKER
+
+model	units\creeps\AzureDragonWelp\AzureDragonWelp.mdx
+modelAttachPts
+modelAnims
+modelAttachMods	medium
+modelBones
+standardScale	0.7
+
+elevPts	2
+elevRad	100.
+maxRoll	25.
+maxPitch	33.
+scale	0.7
+selScale	1.75
+vertexColorRed	150
+vertexColorGreen	150
+vertexColorBlue	255
+vertexColorAlpha	255
+
+impactZ	0.
+outpactX	0.
+outpactY	60.
+outpactZ	-10.
+
+shadowPath	FLY
+shadowWidth	140.
+shadowHeight	140.
+shadowOffsetX	70.
+shadowOffsetY	70.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNAzureDragon.blp
+soundset	AzureDragon
+tooltip
+uberTooltip
+
+moveType	FLY
+moveSpeed	300.
+turnRate	0.1
+height
+heightMin
+animWalk	200.
+animRun	200.
+moveInterp	1
+
+animBlend	0.15
+animCastWaitBefore	0.47
+animCastWaitAfter	0.51
+
+armorAmount	0.
+armorSound	Flesh
+armorType	LARGE
+life	300.
+lifeRegen	1.
+mana
+manaRegen
+spellPower	25.
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	HOMING_MISSILE
+attackCooldown	1.8
+attackRange	600.
+attackRangeAcq	600.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,air,item,ward
+attackWaitBefore	0.94
+attackWaitAfter	0.
+attackSound
+
+attackMissileModel	Abilities\Weapons\FrostWyrmMissile\FrostWyrmMissile.mdx
+attackMissileSpeed	800.
+attackMissileArc	0.1
+
+damageType	PIERCE
+damageAmount	12
+damageDices	1
+damageSides	2
+
+collisionSize	48.
+combatFlags	air
+deathTime	3.
+exp	35
+gold	14

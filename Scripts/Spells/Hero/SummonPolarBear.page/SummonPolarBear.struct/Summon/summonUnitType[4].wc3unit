@@ -1,0 +1,95 @@
+field	value
+name	Knut (Level 4)
+raw	PB4
+
+classes
+hero	false
+structure	false
+team	DEFENDER
+
+model	units\creeps\PolarBear\PolarBear.mdx
+modelAttachPts
+modelAnims
+modelAttachMods	medium
+modelBones
+standardScale	1.
+
+elevPts	0
+elevRad	50.
+maxRoll	10.
+maxPitch	45.
+scale	1.35
+selScale	1.8
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	140.
+shadowHeight	140.
+shadowOffsetX	50.
+shadowOffsetY	50.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNFrostBear.blp
+soundset	GrizzlyBear
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	270.
+turnRate	0.5
+height
+heightMin
+animWalk	200.
+animRun	200.
+moveInterp	1
+
+animBlend	0.15
+animCastWaitBefore	0.
+animCastWaitAfter	0.51
+
+armorAmount	5.
+armorSound	Flesh
+armorType	LARGE
+life	750.
+lifeRegen	2.5
+mana	140.
+manaRegen	1.25
+spellPower	75.
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	NORMAL
+attackCooldown	1.35
+attackRange	128.
+attackRangeAcq	500.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	0.63
+attackWaitAfter	0.
+attackSound	WoodHeavyBash
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	NORMAL
+damageAmount	26
+damageDices	3
+damageSides	4
+
+collisionSize	48.
+combatFlags	ground
+deathTime	1.97
+exp
+gold
+
+abilities

@@ -1,0 +1,20 @@
+field	1
+name	Ice Block
+raw	IcB
+
+class	PURCHASABLE
+levelsAmount
+lostOn	dispel
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNIcyTreasureBox.blp
+tooltip
+uberTooltip	A cage of ice protects this unit.
+
+sfxPath	Abilities\Spells\Undead\FreezingBreath\FreezingBreathTargetArt.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW
+
+sfxPath	Abilities\Spells\Items\StaffOfSanctuary\Staff_Sanctuary_Target.mdl
+sfxAttachPt	AttachPoint.CHEST
+sfxLevel	EffectLevel.NORMAL

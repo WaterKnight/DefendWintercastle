@@ -1,0 +1,16 @@
+field	1
+name	Poisoned
+raw	SBP
+
+class	HERO_SECOND
+levelsAmount
+lostOn	death;dispel
+positive
+
+icon	ReplaceableTextures\CommandButtons\BTNDrum.blp
+tooltip
+uberTooltip	Poisoned.
+
+sfxPath
+sfxAttachPt
+sfxLevel

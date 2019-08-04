@@ -1,0 +1,39 @@
+field	jass ident	1	2	3	4	5
+name		Severance
+raw		ASev
+
+base		NORMAL
+class		PURCHASABLE
+levelsAmount
+order		howlofterror
+target		UNIT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Se
+learnTooltip
+learnUberTooltip
+
+animation		spell
+areaRange		500
+areaRangeDisplay		false
+channelTime
+cooldown		12
+manaCost		40	50	65	85	110
+range		525
+targets		air,enemies,ground,neutral
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNAcidBomb.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip
+
+targetsAmount		3	3	4	4	5
+
+include		Buff

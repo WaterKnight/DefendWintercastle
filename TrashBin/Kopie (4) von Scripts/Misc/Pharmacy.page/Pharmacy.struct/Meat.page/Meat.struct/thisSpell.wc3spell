@@ -1,0 +1,24 @@
+field	jass ident	1	2	3	4	5
+name		Meat
+raw		AMea
+
+base		PARALLEL_IMMEDIATE
+class		ITEM
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		20
+manaCost
+range
+targets
+
+casterEffectAttachPoint		AttachPoint.ORIGIN
+casterEffectPath		Abilities\Spells\Human\Heal\HealTarget.mdl
+duration		10
+interval		1
+heal		300

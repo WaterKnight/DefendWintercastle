@@ -1,0 +1,5 @@
+field	jass ident	1	2	3
+angleSpeedMax	real	Math.HALF_ANGLE
+damageInterval		0.03
+damagePerSecond		20	30	40
+distDecFactor		0.1

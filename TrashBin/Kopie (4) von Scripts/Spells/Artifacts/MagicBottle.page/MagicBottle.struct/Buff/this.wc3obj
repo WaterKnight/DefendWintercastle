@@ -1,0 +1,7 @@
+field	jass ident	1	2	3	4	5
+attackSpeedIncrement		0.1	0.15	0.2	0.25	0.3
+duration		9	9
+manaIncrement		25	35	45	55	60
+spellPowerIncrement		15	25	35	45	55
+targetEffectAttachPoint		AttachPoint.ORIGIN
+targetEffectPath		Abilities\Spells\Items\AIil\AIilTarget.mdl

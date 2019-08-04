@@ -1,0 +1,27 @@
+field	value
+name	Tome of Vigor
+raw	ToS
+
+classes	POWER_UP
+
+model	Objects\InventoryItems\tomeRed\tomeRed.mdl
+scale	1.
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	Permanently increases vigor.
+icon
+tooltip
+uberTooltip
+
+abilities
+armor
+chargesAmount
+cooldownGroup
+goldCost
+lumberCost
+
+specialEffectPath	Abilities\Spells\Items\AIsm\AIsmTarget.mdl
+specialEffectAttachPoint	AttachPoint.ORIGIN

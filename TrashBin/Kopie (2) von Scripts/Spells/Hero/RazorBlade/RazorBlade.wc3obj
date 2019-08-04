@@ -1,0 +1,42 @@
+field	jass ident	1	2	3	4	5
+name		Razor Blade
+raw		ARaz
+
+base		NORMAL
+class		HERO_FIRST
+levelsAmount
+order		evileye
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		RB
+learnTooltip
+learnUberTooltip
+
+animation		spell
+areaRange		90
+areaRangeDisplay		false
+channelTime
+cooldown		12
+manaCost		70	85	100	115	130
+range		99999
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNWhirlwind.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip
+
+damage		20	35	55	80	110
+maxLength		750
+targetEffectAttachPoint		AttachPoint.CHEST
+targetEffectPath		Abilities\Weapons\GlaiveMissile\GlaiveMissileTarget.mdl
+
+include		Drawback

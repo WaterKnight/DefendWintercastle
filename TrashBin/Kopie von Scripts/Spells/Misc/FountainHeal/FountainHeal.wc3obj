@@ -1,0 +1,38 @@
+field	jass ident	1	2	3	4	5
+name		Fountain Heal
+raw		AFoH
+
+base		SPECIAL_Ambt
+class		NORMAL
+levelsAmount
+order
+target
+
+animation
+areaRange		0
+areaRangeDisplay		false
+channelTime
+cooldown
+manaCost
+range		0
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\
+lore
+sharedBuffs
+tooltip
+uberTooltip		Collects water of the moon with regenerative powers.
+
+specials		acat=;aeat=Abilities\Spells\NightElf\MoonWell\MoonWellTarget.mdl;asat=;Mbt1=0;Mbt2=0;Mbt3=999;Mbt4=37.5;Mbt5=\0
+
+casterEffectAttachPoint		AttachPoint.ORIGIN
+casterEffectPath		Abilities\Spells\NightElf\MoonWell\MoonWellCasterArt.mdl
+healLifePerManaPoint		1.5
+healManaPerManaPoint		1.5
+targetLifeEffectAttachPoint		AttachPoint.ORIGIN
+targetLifeEffectPath		Abilities\Spells\Human\Heal\HealTarget.mdl
+targetManaEffectAttachPoint		AttachPoint.ORIGIN
+targetManaEffectPath		Abilities\Spells\Items\AIma\AImaTarget.mdl

@@ -1,0 +1,30 @@
+field	jass ident	1	2	3	4	5	6
+name		Dark Attack
+raw		ADaA
+
+base		PASSIVE
+class		NORMAL
+levelsAmount		6
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNSoulGem.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Enwraps hit enemies in an eclipse for <duration> (<heroDuration>) seconds.
+
+duration		6
+heroDuration		3

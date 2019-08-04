@@ -1,0 +1,42 @@
+field	jass ident	1	2	3	4	5
+name		Doppelganger
+raw		ADoG
+
+base		NORMAL
+class		HERO_ULTIMATE
+levelsAmount
+order		mirrorimage
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		DG
+learnTooltip
+learnUberTooltip
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		10
+manaCost		50
+range		500
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNAvengingWatcher.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip
+
+illusionDeathEffectPath		Abilities\Spells\Orc\MirrorImage\MirrorImageDeathCaster.mdl
+duration		30
+illusionDamageFactor		0.3	0.5	0.7
+minRange		200
+
+include		BigBoom;FireBuff;IceBuff

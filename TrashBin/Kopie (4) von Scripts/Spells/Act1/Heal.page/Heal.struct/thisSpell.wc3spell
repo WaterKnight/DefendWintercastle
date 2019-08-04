@@ -1,0 +1,31 @@
+field	jass ident	1	2	3	4	5
+name		Heal
+raw		AHel
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		heal
+target		UNIT
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		5
+manaCost		40
+range		900
+targets		air,friend,ground,neutral,organic,invulnerable,vulnerable
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNHeal.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Heals a targeted unit for <heal> hitpoints.
+
+heal		50
+targetEffectAttachPoint		AttachPoint.ORIGIN
+targetEffectPath		Abilities\Spells\Human\HolyBolt\HolyBoltSpecialArt.mdl

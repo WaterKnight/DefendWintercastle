@@ -1,0 +1,14 @@
+field	jass ident	1
+name
+raw		WhI
+base		SPECIAL_AUim
+classes		DUMMY
+
+cooldown		0
+manaCost		0
+range		99999
+targets		sapper,invulnerable,vulnerable
+
+specials		abuf=<cycloneBuffExtra.wc3buff:raw>
+specials		Uim4=99999
+specials		Uim1=1

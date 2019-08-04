@@ -1,0 +1,51 @@
+field	jass ident	1	2	3
+name		Fairy Shape
+raw		FaS
+
+base		PARALLEL_IMMEDIATE
+class		HERO_ULTIMATE
+levelsAmount
+order		manaburn
+target
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		FS
+learnTooltip
+learnUberTooltip		Transforms <Lizzy:name> into her native fairy shape, <BANISH>banishing</BANISH> herself and gaining the ability to walk through units. Periodically shoots lightning bolts on nearby enemy units that suck off mana, heal <Lizzy:name> for it (depending on the burned mana) and put the target into an <ECLIPSE>eclipse</ECLIPSE>. Also improves other abilities:|n<PurgingRain:name>: No longer has to be channeled.|n<ArcaneAttractor:name>: Additionally applies a stun to targets.|n<Fireburst:name>: Jumps to a secondary target, dealing part of the original damage to it.
+learnUberTooltipUpgrades		{Lightning bolt interval,<interval>};{Burned mana per lightning bolt,<burnedMana>};{Max heal per lightning bolt,<heal>};{Eclipse duration,<eclipseDuration> (<eclipseHeroDuration>) second(s)};{<ArcaneAttractor:name> stun duration,<arcaneAttractorStunDuration,asSecs>};{<Fireburst:name> extra damage factor,<fireburstExtraDmgFactor,%>};{Transformation duration,<duration,asSecs>}
+
+animation
+areaRange		300
+areaRangeDisplay		true
+channelTime
+cooldown		15
+manaCost		90	105	120
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNManaBurn.blp
+
+lore
+sharedBuffs		BANISH;ECLIPSE
+tooltip
+uberTooltip		Transforms <Lizzy:name> into her native fairy shape, <BANISH>banishing</BANISH> herself and gaining the ability to walk through units. Periodically (in intervals of <interval> seconds) shoots lightning bolts on nearby enemy units that suck off <burnedMana> mana, heal <Lizzy:name> for a maximum of <heal> hitpoints (depending on the burned mana) and put the target into an <ECLIPSE>eclipse</ECLIPSE> for <eclipseDuration> (<eclipseHeroDuration>) seconds. Also improves other abilities:|n<PurgingRain:name>: No longer has to be channeled.|n<ArcaneAttractor:name>: Additionally applies a <arcaneAttractorStunDuration>-seconds stun to targets.|n<Fireburst:name>: Jumps to a secondary target, dealing <fireburstExtraDmgFactor,%> of the original damage to it.|nLasts <duration> seconds.
+
+burnedMana	real	50	80	110
+duration	real	5	5
+heal		10	14
+interval	real	0.5	0.5
+targetBanishDuration		6	6
+targetEffectAttachPoint		AttachPoint.ORIGIN
+targetEffectPath		Abilities\Spells\NightElf\ManaBurn\ManaBurnTarget.mdl
+
+eclipseDuration		4	4
+eclipseHeroDuration		2	2
+
+arcaneAttractorStunDuration		4	5	6
+fireburstExtraDmgFactor		0.5	0.7	0.9

@@ -1,0 +1,52 @@
+field	1
+raw	FDrl
+classes	DUMMY
+
+texPath	ReplaceableTextures\Weather\CloudSingleFlat.blp
+alphaMode	1
+useFog	1
+height	10
+angleX	0
+angleY	0
+emissionRate	20
+lifespan	4
+particles	1600
+speed	20
+accel	0
+variance	0
+texR	1
+texC	1
+head	1
+tail	0
+tailLength	0.4
+latitude	2
+longitude	180
+midTime	0.5
+sound
+
+redStart	160
+greenStart	20
+blueStart	30
+alphaStart	0
+
+redMid	128
+greenMid	20
+blueMid	30
+alphaMid	32
+
+redEnd	64
+greenEnd	20
+blueEnd	30
+alphaEnd	0
+
+scaleStart	20
+scaleMid	70
+scaleEnd	100
+
+hUVStart	0
+hUVMid	0
+hUVEnd	0
+
+tUVStart	0
+tUVMid	0
+tUVEnd	0

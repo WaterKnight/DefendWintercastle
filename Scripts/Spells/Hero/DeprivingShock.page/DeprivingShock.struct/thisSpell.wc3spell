@@ -1,0 +1,36 @@
+field	jass ident	1	2	3	4	5	6
+name		Depriving Shock
+raw		DeS
+
+base		NORMAL
+class		HERO_SECOND
+levelsAmount
+order		darkconversion
+target		UNIT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		DS
+learnTooltip
+learnUberTooltip		Channels a lightning on an enemy target unit, suppressing it (not on heroes), burning its mana and dealing damage over time. Part of the mana is absorbed by the caster. If the target dies under the effect of '<name>', it gets reanimated on the caster's side for a duration time.|n<Smokealot:name> receives a <SWIFTNESS>swiftness</SWIFTNESS> token for casting this ability.
+learnUberTooltipUpgrades		{Burned mana per second,<this.wc3obj:burnedManaPerSecond>};{Damage per second,<this.wc3obj:damagePerSecond>};{Damage per burned mana,<this.wc3obj:damagePerMana>};{Absorbed mana factor,<this.wc3obj:transferedManaFactor,%>}
+
+animation		spell
+areaRange		150	175	200	225	250	275
+areaRangeDisplay		false
+channelTime		2
+cooldown		4
+manaCost		30	45	60	75	90	105
+range		575
+targets		air,enemies,ground,neutral,organic
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNRavenForm.blp
+lore
+sharedBuffs		SWIFTNESS
+tooltip
+uberTooltip		Channels a lightning on an enemy target unit, suppressing it (not on heroes), burning <this.wc3obj:burnedManaPerSecond> mana and dealing <this.wc3obj:damagePerSecond> (+<this.wc3obj:damagePerMana> * burned mana) damage per second. Part (<this.wc3obj:transferedManaFactor,%>) of the mana is absorbed by the caster. If the target dies under the effect of '<name>', it gets reanimated on the caster's side for a <this.wc3obj:summonDuration> seconds.|n<Smokealot:name> receives a <SWIFTNESS>swiftness</SWIFTNESS> token for casting this ability.

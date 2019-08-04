@@ -1,0 +1,96 @@
+field	value
+name	Faerie Dragon (Crippling)
+raw	Crp
+
+classes
+hero	false
+structure	false
+team	DEFENDER
+
+model	units\nightelf\FaerieDragon\FaerieDragon.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1
+
+elevPts	2
+elevRad	50
+maxRoll	33
+maxPitch	45
+scale	1
+selScale	1.5
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	11
+outpactX	0
+outpactY	70
+outpactZ	11
+
+shadowPath	FLY
+shadowWidth	120
+shadowHeight	120
+shadowOffsetX	60
+shadowOffsetY	60
+
+attachments
+blood
+bloodExplosion
+icon	ReplaceableTextures\CommandButtons\BTNFaerieDragon.blp
+soundset	FaerieDragon
+tooltip
+uberTooltip
+
+moveType	FLY
+moveSpeed	150
+turnRate	0.4
+height
+heightMin
+animWalk	200
+animRun	200
+moveInterp	4
+
+animBlend	0.15
+animCastWaitBefore	0.3
+animCastWaitAfter	0.51
+
+armorAmount
+armorSound
+armorType	UNARMORED
+life	INFINITE
+lifeRegen	0.
+mana
+manaRegen
+spellPower	50
+sightRange	750
+sightRangeNight	750
+
+attackType
+attackCooldown
+attackRange
+attackRangeAcq
+attackRangeBuffer
+attackTargetFlags
+attackWaitBefore
+attackWaitAfter
+attackSound
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType
+damageAmount
+damageDices
+damageSides
+
+collisionSize	8
+combatFlags	air
+deathTime	2.13
+exp
+gold
+
+abilities	Invulnerability

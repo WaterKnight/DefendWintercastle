@@ -1,0 +1,31 @@
+field	jass ident	1
+name		Fuzzy Attack
+raw		FuA
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		thunderbolt
+target		UNIT
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime		4.25
+cooldown		15
+manaCost		150
+range		700
+targets		enemies
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNFurbolg.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Shoots up to <intervalsAmount> flocci at the targeted unit, each dealing <damagePerMissile> damage. This spell has a delay time of <delay> seconds, then blasting out the missiles in even intervals.
+
+damagePerMissile		50
+delay		2.5
+intervalsAmount		7

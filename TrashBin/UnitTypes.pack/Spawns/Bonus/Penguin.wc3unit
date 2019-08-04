@@ -1,0 +1,93 @@
+field	value
+name	Penguin
+raw	PeB
+
+classes
+hero	false
+structure	false
+team	ATTACKER
+
+model	units\critters\Penguin\Penguin.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.
+
+elevPts	0
+elevRad	20.
+maxRoll	10.
+maxPitch	10.
+scale	1.725
+selScale	0.9
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	70.
+shadowHeight	70.
+shadowOffsetX	35.
+shadowOffsetY	35.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNPenguin.blp
+soundset	Penguin
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	340.
+turnRate	0.5
+height
+heightMin
+animWalk	200.
+animRun	200.
+moveInterp	0
+
+animBlend	0.15
+animCastWaitBefore	0.4
+animCastWaitAfter	0.5
+
+armorAmount	0.
+armorSound	Flesh
+armorType	LARGE
+life	55.
+lifeRegen	1.
+mana
+manaRegen
+spellPower	10.
+sightRange	350.
+sightRangeNight	350.
+
+attackType	NORMAL
+attackCooldown	1.5
+attackRange	100.
+attackRangeAcq	500.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	1.
+attackWaitAfter	0.
+attackSound
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	CHAOS
+damageAmount	5
+damageDices	1
+damageSides	1
+
+collisionSize	16.
+combatFlags	ground
+deathTime	2.33
+exp
+gold

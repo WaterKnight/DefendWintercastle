@@ -1,0 +1,4 @@
+field	jass ident	1	2	3
+fireBuffAreaRange	AREA_RANGE	125	140	160
+fireBuffDamageFactor	DAMAGE_FACTOR	0.3	0.5	0.7
+fireBuffDuration	DURATION	30	30	30

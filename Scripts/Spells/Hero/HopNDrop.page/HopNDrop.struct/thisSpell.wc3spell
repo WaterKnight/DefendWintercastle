@@ -1,0 +1,41 @@
+field	jass ident	1	2	3	4	5	6
+name		Hop'n'Drop
+raw		Hop
+
+base		NORMAL
+class		HERO_SECOND
+levelsAmount
+order		stasistrap
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		HD
+learnTooltip
+learnUberTooltip		Executes a mighty pounce directed at the target location while dropping explosives underneath. These traps activate after a short delay and deal <EXPLOSION>explosion</EXPLOSION> damage as well as stun nearby foes.
+learnUberTooltipUpgrades		{Damage per mine,<SetMines\this.wc3obj:damage>};{Explosion radius,<SetMines\this.wc3obj:areaRange>}
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		22	21	20	19	18	17
+manaCost		120	140	160	180	200	220
+range		900
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNGoblinLandMine.blp
+lore		Precision, elegance, courage,.. and 10 kilograms of gun powder refine my combat ability. I ain't your little support. My mentor has thaught me this technique. I have never quite understood what it was meant for but I kinda liked the fireworks.
+sharedBuffs		EXPLOSION
+tooltip
+uberTooltip		Executes a mighty pounce directed at the target location while dropping explosives underneath. These traps activate after a delay of <SetMines\Mine\this.wc3obj:explosionDelay> seconds and deal <SetMines\this.wc3obj:damage> <EXPLOSION>explosion</EXPLOSION> damage as well as stun nearby foes for <SetMines\Mine\this.wc3obj:stunDuration> seconds.
+
+duration		1
+floorTolerance		1
+height		500
+maxLength		900

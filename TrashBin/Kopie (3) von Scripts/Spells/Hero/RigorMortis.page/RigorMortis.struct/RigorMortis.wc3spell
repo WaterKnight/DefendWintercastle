@@ -1,0 +1,43 @@
+field	jass ident	1	2	3	4	5
+name		Rigor Mortis
+raw		ARig
+
+base		NORMAL
+class		HERO_ULTIMATE
+levelsAmount
+order		rejuvination
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Re
+learnTooltip
+learnUberTooltip		Puts Drakul in a near-death state only to be resurrected again after a short delay. As an after effect, part of his life and mana are restored and he obtains a temporary invisibility.	Puts Drakul in a near-death state only to be resurrected again after a short delay. As an after effect, part of his life and mana are restored and he obtains a temporary invisibility|n|nNext Level:|nCooldown: <cooldown<prevLevel>> seconds --> <cooldown> seconds|nMana cost: <manaCost<prevLevel>> --> <manaCost>|nRestored life: <lifeFactor<prevLevel>,%> --> <lifeFactor,%>|nRestored mana: <manaFactor<prevLevel>,%> --> <manaFactor,%>
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		70	60	50
+manaCost		100	150	200
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNStatUp.blp
+lore
+sharedBuffs		INVISIBILITY
+tooltip
+uberTooltip		Puts Drakul in a near-death state only to be resurrected again after <delay> seconds. As an after effect, his life is restored by <lifeFactor,%>, his mana by <manaFactor,%> and he becomes invisible for <invisibleDuration> seconds.
+
+delay		4
+invisibilityDuration		5
+lifeFactor		0.3	0.5	0.7
+manaFactor		0.3	0.5	0.7
+specialEffectPath		Abilities\Spells\Orc\Reincarnation\ReincarnationTarget.mdl
+targetEffectAttachPoint		AttachPoint.ORIGIN
+targetEffectPath		Abilities\Spells\Demon\DarkPortal\DarkPortalTarget.mdl

@@ -1,0 +1,37 @@
+field	jass ident	1	2
+name		Relocate
+raw		TsR
+
+base		NORMAL
+class		HERO_ULTIMATE_EX
+levelsAmount
+order		bloodlust
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		TR
+learnTooltip
+learnUberTooltip		Moves your tsukuyomi to the target location over time.
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		0
+manaCost		0
+range		99999
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNUndeadUnLoad.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Moves your tsukuyomi to the target location over time.
+
+speed		300

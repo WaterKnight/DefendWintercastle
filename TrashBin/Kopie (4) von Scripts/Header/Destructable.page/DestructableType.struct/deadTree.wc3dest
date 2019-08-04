@@ -1,0 +1,44 @@
+field	value
+name	Dead Tree
+raw	001
+
+classes	DECOR
+
+model	Doodads\Terrain\NorthrendTree\NorthrendTree.mdx
+modelLightweight	true
+modelPortrait
+modelVariations	10
+
+flyHeight	100
+occluderHeight	230
+replaceableTex	ReplaceableTextures\NorthrendTree\NorthTree
+replaceableTexId	34
+selScale	128
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+
+elevRad
+maxRoll
+maxPitch
+
+minimapDisplay	true
+minimapRed	32
+minimapGreen	48
+minimapBlue	32
+
+deathSound
+shadow	BuildingShadowSmall
+
+armor	Wood
+fatLOS
+fogRad
+fogVisibility
+life
+selectable
+
+pathTex
+pathTexDead
+combatFlags	tree
+cliffLevel
+walkable

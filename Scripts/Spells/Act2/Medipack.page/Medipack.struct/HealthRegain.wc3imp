@@ -1,0 +1,4 @@
+field	1
+type	skin
+src	Textures\HealthRegain.blp
+target	Textures\HealthRegain.blp

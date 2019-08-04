@@ -1,0 +1,28 @@
+field	1
+name	Swiftness 1
+raw	SW1
+
+class
+levelsAmount
+lostOn
+positive	true
+
+icon	<ChargeBuff1.wc3imp:target>
+tooltip
+uberTooltip	Swift movements grant this unit an increased evasion chance.
+
+sfxPath	Abilities\Spells\Other\Tornado\Tornado_Target.mdl
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW
+
+sfxPath	Abilities\Spells\Other\Tornado\Tornado_Target.mdl
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW
+
+sfxPath	Abilities\Spells\Other\Tornado\Tornado_Target.mdl
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW
+
+sfxPath	Abilities\Spells\Other\Tornado\Tornado_Target.mdl
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW

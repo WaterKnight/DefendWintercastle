@@ -1,0 +1,103 @@
+// MDLFile version	Jun 27 2002 20:34:57
+// Exported on Thu Dec 29 03:06:35 2011
+Version {
+	FormatVersion 800,
+}
+Model "FlameThrowerSpawnObj" {
+	NumParticleEmitters2 2,
+	BlendTime 150,
+	MinimumExtent { -53.393, -66.0848, -47.4457 },
+	MaximumExtent { 43.4524, 30.7605, 49.3996 },
+	BoundsRadius 54.4777,
+}
+Sequences 2 {
+	Anim "Stand" {
+		Interval { 0, 1000 },
+		NonLooping,
+	}
+	Anim "Death" {
+		Interval { 2000, 3000 },
+	}
+}
+Textures 2 {
+	Bitmap {
+		Image "Textures\Clouds8x8Fire.blp",
+	}
+	Bitmap {
+		Image "Textures\GenericGlowX.blp",
+	}
+}
+PivotPoints 2 {
+	{ -21.1244, -16.6447, -11.7685 },
+	{ -20.4255, -16.6447, -5.84226 },
+}
+ParticleEmitter2 "BlizParticle FLAME 1" {
+	Unshaded,
+	Unfogged,
+	static Speed -200,
+	static Variation 0.02,
+	static Latitude 30,
+	static Gravity 0,
+	LifeSpan 0.5,
+	EmissionRate 3 {
+		DontInterp,
+		0: 50,
+		600: 0,
+		2000: 0,
+	}
+	static Width 30,
+	static Length 30,
+	Additive,
+	Rows 8,
+	Columns 8,
+	Head,
+	TailLength 1,
+	Time 0.5,
+	SegmentColor {
+		Color { 1, 1, 1 },
+		Color { 0.752941, 0.752941, 0.752941 },
+		Color { 0.501961, 0.501961, 0.501961 },
+	},
+	Alpha {255, 255, 0},
+	ParticleScaling {15, 30, 50},
+	LifeSpanUVAnim {0, 32, 1},
+	DecayUVAnim {33, 64, 1},
+	TailUVAnim {0, 0, 1},
+	TailDecayUVAnim {0, 0, 1},
+	TextureID 0,
+}
+ParticleEmitter2 "BlizParticle FLAME 02" {
+	Unshaded,
+	Unfogged,
+	static Speed -300,
+	static Variation 0.02,
+	static Latitude 30,
+	static Gravity 0,
+	LifeSpan 0.5,
+	EmissionRate 3 {
+		DontInterp,
+		0: 60,
+		800: 0,
+		2000: 0,
+	}
+	static Width 30,
+	static Length 30,
+	Additive,
+	Rows 8,
+	Columns 8,
+	Head,
+	TailLength 1,
+	Time 0.3,
+	SegmentColor {
+		Color { 0.752941, 0.752941, 0.752941 },
+		Color { 0.501961, 0.501961, 0.501961 },
+		Color { 0, 0, 0 },
+	},
+	Alpha {255, 255, 0},
+	ParticleScaling {20, 30, 50},
+	LifeSpanUVAnim {0, 32, 1},
+	DecayUVAnim {33, 64, 1},
+	TailUVAnim {0, 0, 1},
+	TailDecayUVAnim {0, 0, 1},
+	TextureID 0,
+}

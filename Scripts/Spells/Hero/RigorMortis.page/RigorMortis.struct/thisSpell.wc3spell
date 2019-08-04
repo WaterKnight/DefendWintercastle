@@ -1,0 +1,44 @@
+field	jass ident	1	2	3
+name		Rigor Mortis
+raw		Rig
+
+base		NORMAL
+class		HERO_ULTIMATE
+levelsAmount
+order		rejuvination
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Re
+learnTooltip
+learnUberTooltip		Puts <Drakul:name> in a near-death state only to be resurrected again after a short delay. As an after effect, part of his life and mana are restored and he gains <PERM_INVIS>greater invisibility</PERM_INVIS> and ghost.
+learnUberTooltipUpgrades		{Restored life,<lifeFactor,%>};{Restored mana,<manaFactor,%>}
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		180	160	140
+manaCost		100	150	200
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNStatUp.blp
+lore
+sharedBuffs		PERM_INVIS
+tooltip
+uberTooltip		Puts <Drakul:name> in a near-death state only to be resurrected again after a short delay of <delay> seconds. As an after effect, <lifeFactor,%> of his life and <manaFactor,%> of his mana are restored and he gains <PERM_INVIS>greater invisibility</PERM_INVIS> and ghost for <AfterBuff\this.wc3obj:invisDuration> seconds.
+
+castEffectPath		Abilities\Spells\Demon\DarkPortal\DarkPortalTarget.mdl
+delay		2
+lifeFactor		0.3	0.5	0.7
+manaFactor		0.3	0.5	0.7
+specialEffectPath		Abilities\Spells\Orc\Reincarnation\ReincarnationTarget.mdl
+targetEffectAttachPoint		AttachPoint.ORIGIN
+targetEffectPath		Abilities\Spells\Demon\DarkPortal\DarkPortalTarget.mdl

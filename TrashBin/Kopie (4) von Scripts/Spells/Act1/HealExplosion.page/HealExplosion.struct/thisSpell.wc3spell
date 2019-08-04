@@ -1,0 +1,38 @@
+field	jass ident	1	2	3	4	5
+name		Heal Explosion
+raw		AHEx
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		bloodlust
+target		IMMEDIATE
+
+animation		spell
+areaRange		300
+areaRangeDisplay		false
+channelTime		2.5
+cooldown		15
+manaCost		25
+range
+targets
+
+buttonPosX		1
+buttonPosY		2
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNHealExplosion.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		After <channelTime> seconds of channeling, the caster heals every friend in range by <heal> and damages enemies by <damage>.
+
+damage		50
+heal		120
+chargeEffectAttachPoint		AttachPoint.WEAPON
+chargeEffectPath		Spells\HealExplosion\Charge.mdx
+damageTargetEffectAttachPoint		AttachPoint.CHEST
+damageTargetEffectPath		Abilities\Spells\Human\MarkOfChaos\MarkOfChaosDone.mdl
+explosionEffectAttachPoint		AttachPoint.CHEST
+explosionEffectPath		Abilities\Spells\Items\StaffOfPurification\PurificationCaster.mdl
+healTargetEffectAttachPoint		AttachPoint.CHEST
+healTargetEffectPath		Abilities\Spells\Items\StaffOfPurification\PurificationTarget.mdl

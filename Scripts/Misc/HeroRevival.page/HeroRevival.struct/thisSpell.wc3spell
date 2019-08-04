@@ -1,0 +1,40 @@
+field	jass ident	1
+name		Revive Hero
+raw		AHRv
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		resurrection
+target		IMMEDIATE
+
+animation		spell,channel
+areaRange
+areaRangeDisplay
+castTime
+channelTime		2
+cooldown
+manaCost		100
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNResurrection.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Revives the hero.
+
+deathEffectPath		Abilities\Spells\Undead\CarrionSwarm\CarrionSwarmDamage.mdl
+deathEffectAttachPt		AttachPoint.CHEST
+ghostEffectPath		Abilities\Spells\Undead\RegenerationAura\ObsidianRegenAura.mdl
+ghostEffectAttachPt		AttachPoint.ORIGIN
+lifeFactor		1
+magicImmunityDuration		5.
+manaCap		100
+manaFactor		0.5
+manaRegeneration		10.
+reviveEffectPath		Abilities\Spells\Human\ReviveHuman\ReviveHuman.mdl
+reviveEffectAttachPt		AttachPoint.ORIGIN

@@ -1,0 +1,7 @@
+field	jass ident	1	2	3
+damagePerBuff		20	30	40
+knockBackDuration		0.5
+pickOffset		-125
+specialEffectPath		Abilities\Spells\Orc\WarStomp\WarStompCaster.mdl
+
+include		Target

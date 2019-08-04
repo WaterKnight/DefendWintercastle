@@ -1,0 +1,33 @@
+field	jass ident	1
+name		Energy Charge
+raw		EnC
+
+base		PASSIVE
+class		NORMAL
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\PassiveButtons\PASBTNSeaGiantPulverize.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Every third attack deals <Target\this.wc3obj:dmgInc> extra damage and restores <Target\this.wc3obj:heal> life.
+
+attacksAmountNeeded		3
+chargeEffectPath		Abilities\Spells\Orc\SpiritLink\SpiritLinkTarget.mdx
+chargeEffectAttachPoint		AttachPoint.CHEST
+chargeEffect2Path		Abilities\Weapons\WitchDoctorMissile\WitchDoctorMissile.mdx
+chargeEffect2AttachPoint		AttachPoint.HAND_RIGHT

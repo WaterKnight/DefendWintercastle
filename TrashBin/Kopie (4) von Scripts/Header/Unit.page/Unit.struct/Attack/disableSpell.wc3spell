@@ -1,0 +1,8 @@
+field	jass ident	1
+name
+raw		Abun
+
+base		SPECIAL_Abun
+classes		DUMMY
+
+cooldown		1

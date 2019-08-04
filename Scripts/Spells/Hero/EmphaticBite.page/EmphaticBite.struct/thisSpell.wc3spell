@@ -1,0 +1,48 @@
+field	jass ident	1	2	3	4	5	6
+name		Emphatic Bite
+raw		EmC
+
+base		NORMAL
+class		HERO_FIRST
+levelsAmount
+order		cannibalize
+target		UNIT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		EB
+learnTooltip
+learnUberTooltip		Slips to the target, steeping teeth deep into its neck and healing <Drakul:name> by sucking blood from it. The effects thereafter depend on the target's disposition.|non ally: Heals the target and boosts its attack damage.|non enemy: Causes damage (physical, triggers damage events), <BLEED>bleeding</BLEED> and <SILENCE>silences</SILENCE> the target.
+learnUberTooltipUpgrades		{Self heal,<heal>};{Heal ally,<healAlly>};{Damage buff bonus,<Buff\this.wc3obj:dmgRelInc,%>;{Damage,<damage>};{Bleeding duration,<debuffDuration,asSecs>};{Silence duration,<debuffDuration,asSecs>}
+
+animation		spell
+areaRange
+areaRangeDisplay
+cooldown		11	10	9	8	7
+channelTime
+manaCost		75	85	100	115	130
+range		700
+targets		friend,enemies,ground,invulnerable,neutral,organic,vulnerable
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNCannibalize.blp
+lore
+sharedBuffs		SILENCE;BLEED
+tooltip
+uberTooltip		Slips to the target, steeping teeth deep into its neck and healing <Drakul:name> for <heal>. The effects thereafter depend on the target's disposition.|non ally: Heals the target by <healAlly> and boosts its attack damage by <Buff\this.wc3obj:dmgRelInc,%> for <Buff\this.wc3obj:duration> seconds.|non enemy: Causes <damage> damage (physical, triggers damage events), <BLEED>bleeding</BLEED> and <SILENCE>silences</SILENCE> the target for <debuffDuration> seconds.
+
+damage		45	65	90	120	155	195
+debuffDuration		3	3
+distHeightFactor		0.2
+effectCasterAmount		2
+heal		45	65	90	120	155	195
+healAlly		30	45	60	80	100	125
+hitRange		120
+knockbackSpeedFactor		0.75
+speed		1000
+targetEffectAttachPoint		AttachPoint.ORIGIN
+targetEffectPath		Abilities\Spells\Undead\Possession\PossessionMissile.mdl

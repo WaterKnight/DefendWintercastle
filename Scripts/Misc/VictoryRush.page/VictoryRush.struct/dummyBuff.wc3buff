@@ -1,0 +1,22 @@
+field	1
+name	Victory Rush
+raw	ViR
+
+class	NORMAL
+levelsAmount
+lostOn	dispel
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNBattleRoar.blp
+tooltip
+uberTooltip	This unit is in an adrenaline rush after having defeated an enemy hero nearby.
+
+sfxPath	Abilities\Spells\NightElf\BattleRoar\RoarTarget.mdl
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW
+
+unitMod	attackSpeedBonus
+unitModVal	<this.wc3obj:attackSpeedInc>
+
+unitMod	moveSpeedBonusRel
+unitModVal	<this.wc3obj:moveSpeedRelInc>

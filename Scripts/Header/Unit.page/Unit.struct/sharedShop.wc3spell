@@ -1,0 +1,27 @@
+field	jass ident	1
+name
+raw		Ane2
+base		SPECIAL_Aneu
+classes		DUMMY
+
+specials		aran=350
+
+specials		Neu1=650
+specials		Neu2=1
+specials		Neu3=1
+specials		Neu4=1
+
+specials		aubx=3
+specials		auby=2
+specials		abpx=0
+specials		abpy=0
+
+specials		auar=ReplaceableTextures\CommandButtons\BTNSelectHeroOff.blp
+specials		aart=ReplaceableTextures\CommandButtons\BTNSelectHeroOn.blp
+specials		acat=Abilities\Spells\Other\Aneu\AneuCaster.mdl
+specials		acap=overhead
+specials		atat=Abilities\Spells\Other\Aneu\AneuTarget.mdl
+specials		ata0=overhead
+
+specials		aut1=Deselect Hero
+specials		atp1=Select Hero

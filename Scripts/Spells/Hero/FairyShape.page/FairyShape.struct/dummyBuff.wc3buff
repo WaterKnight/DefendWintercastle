@@ -1,0 +1,21 @@
+field	1	2	3
+name
+raw
+
+class
+levelsAmount
+lostOn	death
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath
+sfxAttachPt
+sfxLevel
+
+unitMod	ghost	ghost
+unitModVal	true	true
+unitMod	scaleBonusTimed	scaleBonusTimed
+unitModVal	{1,0.5}	{1,0.5}

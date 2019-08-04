@@ -1,0 +1,15 @@
+field	1
+name
+raw
+
+class	NORMAL
+levelsAmount
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath	Abilities\Spells\Other\SoulBurn\SoulBurnbuff.mdl
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW

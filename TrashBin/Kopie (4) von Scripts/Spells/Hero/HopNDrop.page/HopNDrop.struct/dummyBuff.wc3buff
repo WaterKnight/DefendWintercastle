@@ -1,0 +1,20 @@
+field	1
+name
+raw
+
+class	HERO_SECOND
+levelsAmount	5
+lostOn
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath	Abilities\Spells\Undead\OrbOfDeath\OrbOfDeathMissile.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.NORMAL
+
+sfxPath	units\human\phoenix\phoenix.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.NORMAL

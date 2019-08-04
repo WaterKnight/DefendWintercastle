@@ -1,0 +1,38 @@
+field	jass ident	1	2	3
+name		Charm
+raw		MaX
+
+base		NORMAL
+class		HERO_ULTIMATE_EX
+levelsAmount
+order		banish
+target		UNIT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		MX
+learnTooltip
+learnUberTooltip		Teleports a non-hero unit to the portal of '<MassMimesis:name>'.
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		10	9	8
+manaCost		10	10	10
+range		350	450	550
+targets		air,enemy,friend,ground,invulnerable,nonhero,self,vulnerable
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNCharm.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Teleports a non-hero unit to the portal of '<MassMimesis:name>'.
+
+sourceEffectPath		Abilities\Spells\NightElf\Blink\BlinkTarget.mdl
+targetEffectPath		Abilities\Spells\NightElf\Blink\BlinkCaster.mdl

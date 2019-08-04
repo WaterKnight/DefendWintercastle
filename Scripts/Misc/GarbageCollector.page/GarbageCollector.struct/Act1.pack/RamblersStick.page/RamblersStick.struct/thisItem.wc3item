@@ -1,0 +1,24 @@
+field	value
+name	Rambler's Stick
+raw	RaS
+
+classes
+
+model	Objects\InventoryItems\TreasureChest\treasurechest.mdl
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	A sticky stick, the classic epee.
+icon	ReplaceableTextures\CommandButtons\BTNNatureTouchGrow.blp
+tooltip	Purchase <name>
+uberTooltip	Increases damage by 5, intelligence by 4 and armor by 1.
+
+abilities
+armor
+chargesAmount
+cooldownGroup
+goldCost	280
+lumberCost	0

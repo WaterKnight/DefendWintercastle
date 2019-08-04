@@ -1,0 +1,45 @@
+field	jass ident	1	2	3	4	5	6
+name		Barrier
+raw		Bar
+
+base		NORMAL
+class		ELEMENTAL
+levelsAmount
+order		summonfactory
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		BA
+learnTooltip
+learnUberTooltip		Creates an arc of walls before the caster, pushing enemies out of the way.
+learnUberTooltipUpgrades		{Summon Duration,<duration> seconds};{Summons Amount,<summonsAmount>}
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		8
+manaCost		20	30	40	50	60	70
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNFrostMourne.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Builds up a line of <summonsAmount> walls in front of the caster. These come with <summonUnitType[<level>].wc3unit:life> hitpoints and crumble after <duration> seconds. This spell also throws back enemies as they get hit by one of the blocks.
+
+barrierEffectAttachPoint		AttachPoint.OVERHEAD
+barrierEffectPath		Abilities\Spells\Human\Avatar\AvatarCaster.mdl
+casterOffset		150
+duration		3	3.5	4	4.5	5	5.5
+moveDuration		0.4
+offset		260
+summonsAmount		3	3	4	4	5	5
+windowPerSummon	real	0.36 * Math.QUARTER_ANGLE

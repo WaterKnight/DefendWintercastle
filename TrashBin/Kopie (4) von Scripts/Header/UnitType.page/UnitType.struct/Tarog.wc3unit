@@ -1,0 +1,95 @@
+field	value
+name	Tarog
+raw	Tar
+
+classes
+hero	false
+structure	false
+team	ATTACKER
+
+model	Units\Spawns\Act2\Tarog\Tarog.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.
+
+elevPts	0
+elevRad	50.
+maxRoll	10.
+maxPitch	10.
+scale	1.35
+selScale	1.15
+vertexColorRed	255
+vertexColorGreen	255
+vertexColorBlue	255
+vertexColorAlpha	190
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	150.
+shadowHeight	150.
+shadowOffsetX	60.
+shadowOffsetY	60.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNChaosWarlockGreen.blp
+soundset	Shaman
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	135.
+turnRate	0.6
+height
+heightMin
+animWalk	250.
+animRun	250.
+moveInterp	0
+
+animBlend	0.15
+animCastWaitBefore	0.3
+animCastWaitAfter	0.51
+
+armorAmount	0.
+armorSound	Ethereal
+armorType	MEDIUM
+life	825.
+lifeRegen	2.75
+mana
+manaRegen
+spellPower	85.
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	HOMING_MISSILE
+attackCooldown	1.75
+attackRange	600.
+attackRangeAcq	600.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,air,item,ward
+attackWaitBefore	0.43
+attackWaitAfter	0.
+attackSound
+
+attackMissileModel	Abilities\Weapons\FireBallMissile\FireBallMissile.mdx
+attackMissileSpeed	1200.
+attackMissileArc	0.1
+
+damageType	CHAOS
+damageAmount	10
+damageDices	2
+damageSides	3
+
+collisionSize	31.
+combatFlags	ground
+deathTime	1.33
+exp	120
+gold	60
+
+abilities	SerpentWard;Severance

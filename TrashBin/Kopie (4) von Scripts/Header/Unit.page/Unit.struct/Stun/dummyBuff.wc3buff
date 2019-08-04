@@ -1,0 +1,18 @@
+field	1
+name
+raw	BStn
+
+base	SPECIAL_BPSE
+classes	DUMMY
+levelsAmount
+positive
+
+icon
+tooltip	Stunned
+uberTooltip	This unit is stunned and therefore cannot do any actions.
+
+sfxPath
+sfxAttachPt
+sfxLevel
+
+specials	ftat=

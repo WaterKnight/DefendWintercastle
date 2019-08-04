@@ -1,0 +1,98 @@
+field	value
+name	Pharmacy
+raw	Pha
+
+classes	NEUTRAL;STRUCTURE
+hero	false
+structure	true
+team	DEFENDER
+
+model	buildings\demon\CorruptedAncientofWar\CorruptedAncientofWar.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.
+
+elevPts	4
+elevRad	50.
+maxRoll	0.
+maxPitch	0.
+scale	2.
+selScale	4.5
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	120.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	ShadowGoblinMerchant
+shadowWidth	0.
+shadowHeight	0.
+shadowOffsetX	0.
+shadowOffsetY	0.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNCorruptedAncientOfWar.blp
+soundset	Merchant
+tooltip
+uberTooltip
+
+moveType
+moveSpeed
+turnRate
+height
+heightMin
+animWalk
+animRun
+moveInterp
+
+animBlend	0.15
+animCastWaitBefore	0.
+animCastWaitAfter	0.51
+
+armorAmount	0.
+armorSound	Stone
+armorType	FORT
+life	UNIT_TYPE.Life.BLACK_DISPLAY
+lifeRegen	0.
+mana
+manaRegen
+spellPower
+sightRange	500.
+sightRangeNight	500.
+
+attackType
+attackCooldown
+attackRange
+attackRangeAcq	0.
+attackRangeBuffer
+attackTargetFlags
+attackWaitBefore
+attackWaitAfter
+attackSound
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType
+damageAmount
+damageDices
+damageSides
+
+collisionSize
+combatFlags	structure
+deathTime	3.
+exp
+gold
+
+
+structurePathTex	PathTextures\12x12Default.tga
+structureSoldItems	IEmP,IFiW,IHeO,IIcT,IMea,IScP,ISDr,ITpS,IThQ
+structureUbersplat	EMDA

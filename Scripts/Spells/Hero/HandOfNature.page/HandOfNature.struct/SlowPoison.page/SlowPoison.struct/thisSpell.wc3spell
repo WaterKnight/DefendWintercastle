@@ -1,0 +1,29 @@
+field	jass ident	1	2	3	4	5	6
+name		Slow Poison
+raw		SlP
+
+base		PASSIVE
+class		NORMAL
+levelsAmount
+order
+target
+
+learnUberTooltipUpgrades		{{Target\this.wc3obj:evasionInc,-},Evasion value malus};{{Target\this.wc3obj:moveSpeedInc,-},Movement speed malus}
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\PassiveButtons\PASBTNPoisonSting.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Attacks slow the target by <Target\this.wc3obj:moveSpeedInc,-> and decrease evasion by <Target\this.wc3obj:evasionInc,->.|nLasts <Target\this.wc3obj:duration> (<Target\this.wc3obj:heroDuration>) seconds.

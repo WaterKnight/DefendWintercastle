@@ -1,0 +1,45 @@
+field	jass ident	1	2	3	4	5	6
+name		Tainted Leaf
+raw		TaL
+
+base		NORMAL
+class		ARTIFACT
+levelsAmount
+order		sanctuary
+target		UNIT
+
+animation		spell
+areaRange		200
+areaRangeDisplay		true
+channelTime
+cooldown		6
+manaCost		70
+range		800
+targets		air,enemies,friend,ground,invulnerable,neutral,organic,self,vulnerable
+
+learnIcon
+learnRaw		TL
+learnTooltip
+learnUberTooltip		<Tajran:name> uses the leaf's power to cast on a targeted unit.|non allied units: Heals a percentage of the target's life (less if the target is the caster) and bestows a buff that heals more (absolute) hitpoints over time and grants a bonus to max life and magic immunity for a short duration.|non enemy units: Deals damage around the target and puts hostile units to <SLEEP>sleep</SLEEP>.
+learnUberTooltipUpgrades		{Initial heal,<healFactor,%>};{Heal over time,<heal>};{Buff duration,<buffDuration,asSecs>};{Damage,<damage>};{Sleep duration,<sleepDuration> (<sleepHeroDuration>) second(s)}
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNRejuvenation.blp
+lore
+sharedBuffs		SLEEP
+tooltip
+uberTooltip		<Tajran:name> uses the leaf's power to cast on a targeted unit.|non allied units: Heals <healFactor,%> of the target's life (only <healFactor,*<selfFactor>,%>) if target is the caster) and bestows a buff that heals <healOverTime> hitpoints over time and grants a <maxLifeInc> to max life and magic immunity for <buffDuration> seconds.|non enemy units: Deals <damage> damage around the target and puts hostile units to <SLEEP>sleep</SLEEP> for <sleepDuration> (<sleepHeroDuration>) seconds.
+
+buffDuration		8	8
+healFactor		0.05	0.1	0.15	0.2	0.25	0.3
+healInterval		0.75
+healOverTime		80	100	120	140	160	180
+healTargetEffectPath		<Heal.wc3imp:target>
+maxLifeInc		100	150	200	250	300	350
+
+damage		25	40	55	70	85	100
+selfFactor		0.7
+sleepDuration		3	4	5	6	7	8
+sleepHeroDuration		3	3

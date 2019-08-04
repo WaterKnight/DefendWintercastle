@@ -1,0 +1,43 @@
+field	jass ident	1	2	3	4	5
+name		Tsukuyomi
+raw		ATsu
+
+base		NORMAL
+class		HERO_ULTIMATE_EX
+levelsAmount
+order		banish
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Ts
+learnTooltip
+learnUberTooltip		Creates a magical sphere that slowly pulls enemy units to its center. These adversaries that soujorn in the zone are caught in an eclipse and lose mana over time, which is transfered to the caster. This mana sucking effect also applies to allied units but their mana simply vanishes.	Creates a magical sphere that slowly pulls enemy units to its center. These adversaries that soujorn in the zone are caught in an eclipse and lose mana over time, which is transfered to the caster. This mana sucking effect also applies to allied units but their mana simply vanishes.|n|nNext Level:|nArea range: <areaRange<prevLevel>> --> <areaRange>|nDuration: <duration<prevLevel>> seconds --> <duration> seconds|nStolen mana per second: <stolenMana<prevLevel>> --> <stolenMana>|nMana cost: <manaCost<prevLevel>> --> <manaCost>|nPull factor: <pullFactor<prevLevel>,%> --> <pullFactor,%>
+
+animation		spell,channel
+areaRange		275	350
+areaRangeDisplay		true
+channelTime
+cooldown		80
+manaCost		200	300
+range		900
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNBanish.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Creates a magical sphere that slowly pulls enemy units to its center. These adversaries that soujorn in the zone are caught in an eclipse and lose <stolenMana> mana per second, which is transfered to the caster. This mana sucking effect also applies to allied units but their mana simply vanishes.|nLasts <duration> seconds.
+
+duration		15	20
+interval		1
+pullFactor		0.35	0.45
+stolenMana		10	20
+stolenManaAbsorptionFactor		0.15
+
+include		Relocate;Target

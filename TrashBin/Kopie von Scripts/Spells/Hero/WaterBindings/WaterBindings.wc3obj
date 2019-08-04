@@ -1,0 +1,37 @@
+field	jass ident	1	2	3	4	5
+name		Water Bindings
+raw		AWaB
+
+base		NORMAL
+class		HERO_FIRST
+levelsAmount
+order		summongrizzly
+target		UNIT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		WB
+learnTooltip
+learnUberTooltip
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		12
+manaCost		90	105	120	140	160
+range		650
+targets		air,enemies,ground,neutral
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNSummonWaterElemental.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip
+
+include		Summon

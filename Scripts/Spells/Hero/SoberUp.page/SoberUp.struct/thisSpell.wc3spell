@@ -1,0 +1,52 @@
+field	jass ident	1	2	3
+name		Sober up
+raw		SoU
+
+base		NORMAL
+class		HERO_ULTIMATE_EX
+levelsAmount
+order		roar
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		SU
+learnTooltip
+learnUberTooltip		After a short delay, this spell affects all nearby units.|nallies: Are dispelled from negative buffs.|nenemies: Receive damage (magical, depending on the negative buffs they carry) and get banished.
+learnUberTooltipUpgrades		{Damage per buff,<damagePerBuff>};{Banish duration,<banishDuration> (<banishHeroDuration>) second(s)};{Heal per buff,<healPerBuff>}
+
+animation		spell
+areaRange		750
+areaRangeDisplay		false
+cooldown		120	100	80
+channelTime		0.5	0.5
+manaCost		150	150	150
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNStormEarth&Fire.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip
+
+damageEffectPath		Abilities\Spells\Human\Polymorph\PolyMorphDoneGround.mdl
+damageEffectAttachPoint		AttachPoint.CHEST
+healEffectPath		Abilities\Spells\Other\HealingSpray\HealBottleMissile.mdl
+healEffectAttachPoint		AttachPoint.CHEST
+
+banishDuration		5	7	9
+banishHeroDuration		3.5	5	6.5
+damagePerBuff		35	50	65
+delay		0.5
+healPerBuff		15	30	35
+
+shockwaveEffectPath		<shockwave.wc3imp:target>
+shockwaveEffectScaleSize		512
+explosionEffectPath		Units\NightElf\Wisp\WispExplode.mdx
+explosionEffectScaleSize		512

@@ -1,0 +1,24 @@
+field	value
+name	Meat
+raw	Mea
+
+classes
+
+model	Objects\InventoryItems\TreasureChest\treasurechest.mdl
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	Restores lost hitpoints.
+icon	ReplaceableTextures\CommandButtons\BTNMonsterLure.blp
+tooltip	Purchase <name>
+uberTooltip	Restores 300 hitpoints over 10 seconds.
+
+abilities	thisSpell
+armor
+chargesAmount	1
+cooldownGroup
+goldCost	100
+lumberCost	0

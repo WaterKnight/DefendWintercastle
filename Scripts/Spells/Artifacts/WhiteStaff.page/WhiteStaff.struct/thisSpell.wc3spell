@@ -1,0 +1,37 @@
+field	jass ident	1	2	3	4	5	6
+name		White Staff
+raw		WhS
+
+base		NORMAL
+class		ARTIFACT
+levelsAmount
+order		sanctuary
+target		UNIT
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime		5	4.75	4.5	4.25	4	3.75
+cooldown		10
+manaCost		5
+range		700
+targets		air,enemies,friend,ground,invulnerable,organic,vulnerable
+
+learnIcon
+learnRaw		WS
+learnTooltip
+learnUberTooltip		Channels a spell on an allied entity in order to replenish the caster's mana over time. The target unit also benefits from this link by gaining an enhanced evasion against attacks.|n<Jota:name> can use this ability to blow up summons and make them <EXPLOSION>burst</EXPLOSION>.
+learnUberTooltipUpgrades		{Mana heal per second,<manaHealPerSecond>};{Evasion bonus,<Target\this.wc3obj:evasionInc>}
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNAdvancedStrengthOfTheMoon.blp
+lore
+sharedBuffs		CHANNEL;EXPLOSION
+tooltip
+uberTooltip		Channels a spell on an allied entity in order to replenish the caster's mana over time (<manaHealPerSecond> per second). The target unit also benefits from this link by having an enhanced evasion of <Target\this.wc3obj:evasionInc>.|n<Jota:name> can use this ability to blow up summons and make them <EXPLOSION>burst</EXPLOSION>.
+
+interval		0.25
+manaHealPerSecond		8	12	16	20	24	28
+summonScaleAdd		1

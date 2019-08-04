@@ -1,0 +1,5 @@
+
+argument 1: jasshelper\common.j
+argument 2: jasshelper\blizzard.j
+argument 3: D:\Warcraft III\Mapping\DWC\Play\dwc76g.w3x
+D:\Warcraft III\Mapping\DWC\compiler\startFromExtern.bat  "jasshelper\common.j" "jasshelper\blizzard.j" "D:\Warcraft III\Mapping\DWC\Play\dwc76g.w3x"

@@ -1,0 +1,39 @@
+static integer array FIELD
+static real array INVULNERABILITY_DURATION
+static integer array REMAINING_LIFE_MIN_FACTOR
+static integer array DURATION
+static string array SUMMON_UNIT_TYPES
+static real array HEAL_FACTOR
+    
+static method Init_obj_Summon takes nothing returns nothing
+    set thistype.FIELD[1] = 1
+    set thistype.INVULNERABILITY_DURATION[1] = 1.5
+    set thistype.REMAINING_LIFE_MIN_FACTOR[1] = 0
+    set thistype.DURATION[1] = 30
+    set thistype.SUMMON_UNIT_TYPES[1] = UnitType.POLAR_BEAR
+    set thistype.HEAL_FACTOR[1] = 0.5
+    set thistype.FIELD[2] = 2
+    set thistype.INVULNERABILITY_DURATION[2] = 1.5
+    set thistype.REMAINING_LIFE_MIN_FACTOR[2] = 0
+    set thistype.DURATION[2] = 30
+    set thistype.SUMMON_UNIT_TYPES[2] = UnitType.POLAR_BEAR2
+    set thistype.HEAL_FACTOR[2] = 0.5
+    set thistype.FIELD[3] = 3
+    set thistype.INVULNERABILITY_DURATION[3] = 1.5
+    set thistype.REMAINING_LIFE_MIN_FACTOR[3] = 0
+    set thistype.DURATION[3] = 30
+    set thistype.SUMMON_UNIT_TYPES[3] = UnitType.POLAR_BEAR3
+    set thistype.HEAL_FACTOR[3] = 0.5
+    set thistype.FIELD[4] = 4
+    set thistype.INVULNERABILITY_DURATION[4] = 1.5
+    set thistype.REMAINING_LIFE_MIN_FACTOR[4] = 0
+    set thistype.DURATION[4] = 30
+    set thistype.SUMMON_UNIT_TYPES[4] = UnitType.POLAR_BEAR4
+    set thistype.HEAL_FACTOR[4] = 0.5
+    set thistype.FIELD[5] = 5
+    set thistype.INVULNERABILITY_DURATION[5] = 1.5
+    set thistype.REMAINING_LIFE_MIN_FACTOR[5] = 0
+    set thistype.DURATION[5] = 30
+    set thistype.SUMMON_UNIT_TYPES[5] = UnitType.POLAR_BEAR5
+    set thistype.HEAL_FACTOR[5] = 0.5
+endmethod

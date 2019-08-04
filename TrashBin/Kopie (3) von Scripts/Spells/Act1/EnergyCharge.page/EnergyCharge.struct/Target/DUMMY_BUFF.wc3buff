@@ -1,0 +1,16 @@
+field	1
+name	Energy Charge
+raw	EnC
+
+class	NORMAL
+levelsAmount
+lostOn	death
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNSeaGiantPulverize.blp
+tooltip
+uberTooltip	The next attack deals extra damage and restores some life.
+
+sfxPath	Abilities\Weapons\GreenDragonMissile\GreenDragonMissile.mdl
+sfxAttachPt	AttachPoint.HAND_RIGHT
+sfxLevel	EffectLevel.LOW

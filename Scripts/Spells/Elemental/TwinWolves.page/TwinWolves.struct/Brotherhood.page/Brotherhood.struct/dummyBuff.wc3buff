@@ -1,0 +1,16 @@
+field	1	2	3	4	5	6
+name	Brotherhood
+raw	Brh
+
+class	NORMAL
+levelsAmount
+lostOn
+positive
+
+icon	ReplaceableTextures\PassiveButtons\PASBTNGnollCommandAura.blp
+tooltip
+uberTooltip	The wolf twins split part of their damage with their brother.
+
+sfxPath
+sfxAttachPt
+sfxLevel

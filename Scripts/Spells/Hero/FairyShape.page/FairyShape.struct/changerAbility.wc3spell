@@ -1,0 +1,8 @@
+field	jass ident	1
+name		Changer (UMan to ULFS)
+raw		AFSC
+base		SPECIAL_Acpf
+classes		DUMMY
+
+specials		Emeu=UMan
+specials		Eme1=ULFS

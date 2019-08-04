@@ -1,0 +1,13 @@
+field	1
+raw	Crp
+
+texPath	ReplaceableTextures\Weather\Lightning.blp
+avgSegLen	100
+width	50
+red	255
+green	0
+blue	200
+alpha	255
+noiseScale	0.05
+texCoordScale	0.5
+duration	2

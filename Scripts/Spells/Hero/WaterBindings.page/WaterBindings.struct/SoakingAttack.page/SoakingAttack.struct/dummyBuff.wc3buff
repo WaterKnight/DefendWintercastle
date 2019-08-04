@@ -1,0 +1,16 @@
+field	1
+name
+raw
+
+class	NORMAL
+levelsAmount
+lostOn
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath	Abilities\Spells\Items\AIob\AIobTarget.mdl;Abilities\Spells\Items\AIob\AIobTarget.mdl
+sfxAttachPt	AttachPoint.HAND_LEFT;AttachPoint.HAND_RIGHT
+sfxLevel	EffectLevel.LOW;EffectLevel.LOW

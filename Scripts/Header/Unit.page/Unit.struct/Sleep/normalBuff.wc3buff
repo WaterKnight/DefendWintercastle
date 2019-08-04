@@ -1,0 +1,15 @@
+field	1
+name	Sleep
+raw
+
+class	DUMMY
+levelsAmount
+positive	false
+
+icon
+tooltip
+uberTooltip
+
+sfxPath	Abilities\Spells\Undead\Sleep\SleepTarget.mdl
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW

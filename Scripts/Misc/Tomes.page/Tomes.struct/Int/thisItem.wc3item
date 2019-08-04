@@ -1,0 +1,27 @@
+field	value
+name	Tome of Animus
+raw	ToI
+
+classes	POWER_UP
+
+model	Objects\InventoryItems\tomeBlue\tomeBlue.mdl
+scale	1.
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	Permanently increases animus.
+icon
+tooltip
+uberTooltip
+
+abilities
+armor
+chargesAmount
+cooldownGroup
+goldCost
+lumberCost
+
+specialEffectPath	Abilities\Spells\Items\AIsm\AIsmTarget.mdl
+specialEffectAttachPoint	AttachPoint.ORIGIN

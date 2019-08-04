@@ -1,0 +1,4 @@
+field	jass ident	1
+specialEffectAttachPoint		AttachPoint.ORIGIN
+specialEffectPath		Abilities\Spells\Items\TomeOfRetraining\TomeOfRetrainingCaster.mdl
+resetEffectPath		Abilities\Spells\NightElf\Blink\BlinkTarget.mdl

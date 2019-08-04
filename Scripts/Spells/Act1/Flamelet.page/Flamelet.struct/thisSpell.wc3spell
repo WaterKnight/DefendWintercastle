@@ -1,0 +1,38 @@
+field	jass ident	1
+name		Flamelet
+raw		Fba
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		sanctuary
+target		POINT
+
+animation		spell
+areaRange		80
+areaRangeDisplay		false
+channelTime		2
+cooldown		12
+manaCost		50
+range		900
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNFireBolt.blp
+lore
+sharedBuffs		IGNITION
+tooltip
+uberTooltip		Hurls a fiery ball of <damage> damage and ignition at the target for <igniteDuration> (<igniteHeroDuration> seconds.
+
+damage		40
+igniteDuration		5
+igniteHeroDuration		1.5
+launchEffectAttachPoint		AttachPoint.WEAPON
+launchEffectPath		Abilities\Spells\Other\Incinerate\IncinerateBuff.mdl
+missileEffectAttachPoint		AttachPoint.ORIGIN
+missileEffectPath		Abilities\Spells\Other\BreathOfFire\BreathOfFireDamage.mdl
+
+speed		900
+acceleration		0

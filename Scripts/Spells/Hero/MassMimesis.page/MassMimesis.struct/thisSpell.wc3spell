@@ -1,0 +1,42 @@
+field	jass ident	1	2	3
+name		Mass Mimesis
+raw		MaM
+
+base		NORMAL
+class		HERO_ULTIMATE_EX
+levelsAmount
+order		banish
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		MM
+learnTooltip
+learnUberTooltip		Opens up a portal at the target position. Casting any ability on any unit (excluding illusions, structures, wards, enemy heroes) makes a copy of this unit and spawns it under the portal. The thereby created (<UNTOUCH>untouchable</UNTOUCH>) illusion runs to its original's position. While the spell effect proceeds, this ability is replaced by '<Charm:name>'.|n<Charm:name>: <Charm:learnUberTooltip>
+learnUberTooltipUpgrades		{Duration,<duration,asSecs>};{Illusion duration,<summonDuration,asSecs>}
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		120
+manaCost		400	500	600
+range		99999
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNAbsorbMagic.blp
+lore
+sharedBuffs		UNTOUCH
+tooltip
+uberTooltip		Opens up a portal at the target position for <duration,asSecs>. Casting any ability on any unit (excluding illusions, structures, wards, enemy heroes) makes a copy of this unit and spawns it under the portal. The thereby created (<UNTOUCH>untouchable</UNTOUCH>) illusion, which lasts for <summonDuration,asSecs>, runs to its original's position. While the spell effect proceeds, this ability is replaced by '<Charm:name>'.|n<Charm:name>:<Charm:uberTooltip>
+
+duration		60	60
+summonBirthEffectPath		Abilities\Spells\Items\AIil\AIilTarget.mdl
+summonBirthEffectAttachPoint		AttachPoint.ORIGIN
+summonDeathEffectPath		Abilities\Spells\Items\AIil\AIilTarget.mdl
+summonDuration		20	30	40

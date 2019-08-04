@@ -1,0 +1,31 @@
+field	jass ident	1
+name		Boost
+raw		Boo
+
+base		PARALLEL_IMMEDIATE
+class		NORMAL
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		20
+manaCost		18
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNEtherealFormOn.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Adds <moveSpeedInc> to move speed for a short duration of <duration> seconds. Furthermore, the critical value is increased by <critInc>.
+
+duration		3
+critInc		100
+moveSpeedInc		150

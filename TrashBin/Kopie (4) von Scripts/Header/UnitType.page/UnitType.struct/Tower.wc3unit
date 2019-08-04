@@ -1,0 +1,103 @@
+field	value
+name	Tower
+raw	Tow
+
+classes	STRUCTURE
+hero	false
+structure	true
+team	DEFENDER
+
+model	Units\Other\Tower\Tower.mdx
+modelAttachPts
+modelAnims
+modelAttachMods	second
+modelBones
+standardScale	1.
+
+elevPts	4
+elevRad	50.
+maxRoll	0.
+maxPitch	0.
+scale	2.25
+selScale	1.5
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	ShadowCannonTower
+shadowWidth	0.
+shadowHeight	0.
+shadowOffsetX	0.
+shadowOffsetY	0.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNRockTower.blp
+soundset	ElvenGuardTower
+tooltip
+uberTooltip
+
+moveType
+moveSpeed
+turnRate
+height
+heightMin
+animWalk
+animRun
+moveInterp
+
+animBlend	0.15
+animCastWaitBefore	0.
+animCastWaitAfter	0.51
+
+armorAmount	2.
+armorSound	Wood
+armorType	LARGE
+life	INFINITE
+lifeRegen	0.
+mana
+manaRegen
+spellPower
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	ARTILLERY
+attackCooldown	2.5
+attackRange	2000.
+attackRangeAcq	2000.
+attackRangeBuffer	0.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	0.3
+attackWaitAfter	0.
+attackSound
+
+attackMissileModel	Abilities\Weapons\AncientProtectorMissile\AncientProtectorMissile.mdx
+attackMissileSpeed	900.
+attackMissileArc	0.35
+
+attackSplash	80;1;150;0.4;220;0.2
+attackSplashTargetFlags
+
+damageType	SIEGE
+damageAmount	10
+damageDices	5
+damageSides	3
+
+collisionSize
+combatFlags	structure
+deathTime	2.34
+exp
+gold
+
+
+structurePathTex
+structureSoldItems
+structureUbersplat
+
+abilities	Spells\Misc\Invulnerability.page\Invulnerability.struct\thisSpell

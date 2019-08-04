@@ -1,0 +1,4 @@
+field	1
+type	texture
+src	casterEffect_rune.blp
+target	ManaColossus\TheurgicVessel\CasterEffect_Rune.blp

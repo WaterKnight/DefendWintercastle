@@ -1,0 +1,108 @@
+    //! runtextmacro Struct("GoToSpotWithAngleSpeed")
+        static Event STOP_EVENT
+        static Timer UPDATE_TIMER
+
+        real targetX
+        real targetY
+        real targetZ
+
+        //! runtextmacro CreateList("ACTIVE_LIST")
+        //! runtextmacro CreateForEachList("FOR_EACH_LIST", "ACTIVE_LIST")
+
+        static method Update takes nothing returns nothing
+            local real d
+            local real dX
+            local real dY
+            local real dZ
+            local real speedX
+            local real speedY
+            local real speedZ
+            local real targetX
+            local real targetY
+            local real targetZ
+            local thistype this
+            local real x
+            local real y
+            local real z
+
+            call thistype.FOR_EACH_LIST_Set()
+
+            loop
+                set this = thistype.FOR_EACH_LIST_FetchFirst()
+
+                exitwhen (this == NULL)
+
+                set x = Missile(this).Position.X.Get()
+                set y = Missile(this).Position.Y.Get()
+                set z = Missile(this).Position.Z.Get()
+
+                set angle = Missile(this).Angle.GetXY()
+                set targetAngle = Math.AtanByDeltas(targetY - y, targetX - x)
+
+                set angle = Math.ApproachAngle(angle, targetAngle, this.angleSpeed)
+
+                set speedX = Missile(this).Speed.GetXAdd()
+                set speedY = Missile(this).Speed.GetYAdd()
+                set speedZ = Missile(this).Speed.GetZAdd()
+                set targetX = this.targetX
+                set targetY = this.targetY
+                set targetZ = this.targetZ
+
+                set x = x + speedX * Math.Cos(angle)
+                set y = y + speedX * Math.Sin(angle)
+
+                set dX = targetX - x
+                set dY = targetY - y
+                set dZ = targetZ - z
+
+                set d = Math.DistanceByDeltasWithZ(dX, dY, dZ)
+
+                if (d < speedX + Missile(this).CollisionSize.Get()) then
+                    call this.Ending()
+
+                    call Missile(this).Impact.Do(targetX, targetY, targetZ)
+                else
+                    set dX = dX / d
+                    set dY = dY / d
+                    set dZ = dZ / d
+                    call Missile(this).Speed.AddPolar(Missile(this).Acceleration.GetXAdd(), Missile(this).Acceleration.GetYAdd(), Missile(this).Acceleration.GetZAdd())
+
+                    call Missile(this).Position.Add(speedX * dX, speedX * dY, speedX * dZ)
+                endif
+            endloop
+        endmethod
+
+        method Ending takes nothing returns nothing
+            call Missile(this).Event.Remove(STOP_EVENT)
+            if thistype.ACTIVE_LIST_Remove(this) then
+                call thistype.UPDATE_TIMER.Pause()
+            endif
+        endmethod
+
+        static method Event_Stop takes nothing returns nothing
+            local thistype this = params.Missile.GetTrigger()
+
+            call this.Ending()
+        endmethod
+
+        method Start takes real targetX, real targetY, real targetZ, real angle, real angleSpeed returns nothing
+            call Missile(this).Start(targetX, targetY, targetZ)
+
+            set this.targetX = targetX
+            set this.targetY = targetY
+            set this.targetZ = targetZ
+            call Missile(this).Event.Add(STOP_EVENT)
+
+            call Missile(this).Angle.Set(angle)
+            call Missile(this).Arc.Start()
+
+            if thistype.ACTIVE_LIST_Add(this) then
+                call thistype.UPDATE_TIMER.Start(MISSILE.UpdateTime.VALUE, true, function thistype.Update)
+            endif
+        endmethod
+
+        static method Init takes nothing returns nothing
+            set thistype.STOP_EVENT = Event.Create(Missile.STOP_EVENT_TYPE, EventPriority.HEADER, function thistype.Event_Stop)
+            set thistype.UPDATE_TIMER = Timer.Create()
+        endmethod
+    endstruct

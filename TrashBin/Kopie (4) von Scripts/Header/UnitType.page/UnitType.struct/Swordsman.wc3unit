@@ -1,0 +1,93 @@
+field	value
+name	Swordsman
+raw	Swo
+
+classes
+hero	false
+structure	false
+team	DEFENDER
+
+model	units\human\TheCaptain\TheCaptain.mdl
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.2
+
+elevPts	0
+elevRad	20.
+maxRoll	10.
+maxPitch	10.
+scale	1.25
+selScale	1.2
+vertexColorRed	255
+vertexColorGreen	255
+vertexColorBlue	255
+vertexColorAlpha	255
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	120.
+shadowHeight	120.
+shadowOffsetX	60.
+shadowOffsetY	60.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNTheCaptain.blp
+soundset	Captain
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	270.
+turnRate	0.6
+height
+heightMin
+animWalk	200.
+animRun	200.
+moveInterp	5
+
+animBlend	0.15
+animCastWaitBefore	0.
+animCastWaitAfter	0.51
+
+armorAmount	3.
+armorSound	Metal
+armorType	LARGE
+life	400.
+lifeRegen	1.
+mana
+manaRegen
+spellPower	40.
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	NORMAL
+attackCooldown	1.
+attackRange	100.
+attackRangeAcq	500.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	0.5
+attackWaitAfter	0.
+attackSound	MetalMediumSlice
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	NORMAL
+damageAmount	2
+damageDices	1
+damageSides	3
+
+collisionSize	31.
+combatFlags	ground
+deathTime	3.04
+exp	10
+gold	20

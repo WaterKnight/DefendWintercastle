@@ -1,0 +1,10 @@
+field	jass ident	1
+name		Unit Casting Point or Unit
+raw		AUCQ
+base		SPECIAL_ANcl
+classes		DUMMY
+
+specials		Ncl2=3
+specials		Ncl3=12
+specials		atar=vulnerable,invulnerable
+specials		aran=99999

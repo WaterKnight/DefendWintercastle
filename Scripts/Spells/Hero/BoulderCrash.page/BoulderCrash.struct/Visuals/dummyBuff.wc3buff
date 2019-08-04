@@ -1,0 +1,15 @@
+field	1
+name
+raw
+
+class	HERO_ULTIMATE_EX
+levelsAmount
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath	<Area2.wc3imp:target>
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW

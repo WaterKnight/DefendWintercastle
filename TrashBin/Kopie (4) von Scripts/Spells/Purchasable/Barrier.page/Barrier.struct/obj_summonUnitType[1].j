@@ -1,0 +1,20 @@
+
+static method Init_obj_summonUnitType1 takes nothing returns nothing
+    local ObjThread t = ObjThread.Create("D:\\Warcraft III\\Maps\\DWC\\Scripts\\Spells\\Purchasable\\Barrier.page\\Barrier.struct\\summonUnitType[1].wc3unit")
+    set thistype.SUMMON_UNIT_TYPE[1] = UnitType.Create('uBar')
+    call thistype.SUMMON_UNIT_TYPE[1].Classes.Add(UnitClass.STRUCTURE)
+    call thistype.SUMMON_UNIT_TYPE[1].Classes.Add(UnitClass.WARD)
+    call thistype.SUMMON_UNIT_TYPE[1].Scale.Set(1)
+    call thistype.SUMMON_UNIT_TYPE[1].Impact.Z.Set(60)
+    call thistype.SUMMON_UNIT_TYPE[1].Outpact.Z.Set(60)
+    call thistype.SUMMON_UNIT_TYPE[1].Speed.Set(1)
+    call thistype.SUMMON_UNIT_TYPE[1].Armor.Set(5)
+    call thistype.SUMMON_UNIT_TYPE[1].Armor.Type.Set(Attack.ARMOR_TYPE_FORT)
+    call thistype.SUMMON_UNIT_TYPE[1].Life.Set(125)
+    call thistype.SUMMON_UNIT_TYPE[1].Life.SetBJ(125)
+    call thistype.SUMMON_UNIT_TYPE[1].LifeRegeneration.Set(0)
+    call thistype.SUMMON_UNIT_TYPE[1].SpellPower.Set(60)
+    call thistype.SUMMON_UNIT_TYPE[1].CollisionSize.Set(40)
+    call DebugEx("init " + "D:\\Warcraft III\\Maps\\DWC\\Scripts\\Spells\\Purchasable\\Barrier.page\\Barrier.struct\\summonUnitType[1].wc3unit")
+    call t.Destroy()
+endmethod

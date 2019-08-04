@@ -1,0 +1,25 @@
+field	1	2	3	4	5	6
+name	Tainted Leaf
+raw	TaL
+
+class	ARTIFACT
+levelsAmount
+lostOn	dispel
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNRejuvenation.blp
+tooltip
+uberTooltip	Transformed.
+
+sfxPath
+sfxAttachPt
+sfxLevel
+
+unitMod	magicImmunity	magicImmunity
+unitModVal	true	true
+
+unitMod	maxLifeBonus	maxLifeBonus
+unitModVal	<thisSpell.wc3spell:maxLifeInc>	<thisSpell.wc3spell:maxLifeInc>
+
+unitMod	vertexColorBonus	vertexColorBonus
+unitModVal	{255,-127,255,0}	{255,-127,255,0}

@@ -1,0 +1,29 @@
+field	jass ident	1	2	3	4	5
+name		Reveal Aura
+raw		AReA
+
+base		PASSIVE
+class		NORMAL
+levelsAmount		2
+order
+target
+
+animation
+areaRange		200	1500
+areaRangeDisplay		false
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\PassiveButtons\PASBTNMagicalSentry.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Unveils nearby stealthed enemy units.
+
+include		Target

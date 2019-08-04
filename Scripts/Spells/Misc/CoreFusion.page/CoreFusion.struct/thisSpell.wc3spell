@@ -1,0 +1,30 @@
+field	jass ident	1
+name		Core Fusion
+raw		ACoF
+
+base		NORMAL
+class
+levelsAmount
+order		deathanddecay
+target		IMMEDIATE
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		60
+manaCost		150
+range
+targets
+
+buttonPosX		1
+buttonPosY
+hotkey		X
+icon		ReplaceableTextures\CommandButtons\BTNUsedSoulGem.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Instantly restores <healFactor,%> life to the meteorite.
+
+healFactor		0.2
+specialEffectPath		Abilities\Spells\Other\Volcano\VolcanoMissile.mdl

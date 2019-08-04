@@ -1,0 +1,24 @@
+field	value
+name	Flame Tongue
+raw	FlT
+
+classes	SCROLL
+
+model	Objects\InventoryItems\TreasureChest\treasurechest.mdl
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description
+icon	ReplaceableTextures\CommandButtons\BTNFlare.blp
+tooltip	Purchase <name>
+uberTooltip	Contains power.
+
+abilities
+armor
+chargesAmount
+cooldownGroup
+goldCost
+lumberCost

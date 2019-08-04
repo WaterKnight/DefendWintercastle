@@ -1,0 +1,239 @@
+    /*static thistype FIRST_TO_RUN = NULL
+    static thistype TEMP
+    static constant real TICK_TIME_OUT = 2. / 32.
+
+    trigger action
+    integer initialTicks
+    boolean isPeriodic
+    boolean isRunning
+    thistype next
+    thistype prev
+    integer remainingTicks
+
+    method Restart takes nothing returns nothing
+        local thistype next
+        local thistype prev
+        local integer remainingTicks = this.initialTicks
+
+        if (thistype.FIRST_TO_RUN == NULL) then
+            set thistype.FIRST_TO_RUN = this
+            set this.next = NULL
+        else
+            set next = thistype.FIRST_TO_RUN
+            set prev = NULL
+
+            loop
+                exitwhen (remainingTicks < next.remainingTicks)
+
+                set prev = next
+
+                set next = next.next
+
+                exitwhen (next == NULL)
+            endloop
+
+            if (prev == NULL) then
+                set thistype.FIRST_TO_RUN = this
+                set this.next = next
+            else
+                if (next == NULL) then
+                    set this.next = NULL
+                else
+                    set next.prev = this
+                    set this.next = next
+                endif
+
+                set prev.next = this
+                set this.prev = prev
+            endif
+        endif
+
+        set this.isRunning = true
+        set this.remainingTicks = remainingTicks
+    endmethod
+
+    static trigger TEMP_TRIG
+    static hashtable CACHE
+
+    static method GetTriggerFromCode takes code c returns trigger
+        local integer id = Code.GetId(c)
+
+        set TEMP_TRIG = LoadTriggerHandle(CACHE, id, 0)
+
+        if (TEMP_TRIG == null) then
+            set TEMP_TRIG = CreateTrigger()
+
+            call TriggerAddCondition(TEMP_TRIG, Condition(c))
+
+            call SaveTriggerHandle(CACHE, id, 0, TEMP_TRIG)
+        endif
+
+        return TEMP_TRIG
+    endmethod
+
+    method Start takes real timeout, boolean periodic, code action returns nothing
+        local thistype next
+        local thistype prev
+        local integer i=0
+
+        if (this.isRunning) then
+            call this.Pause()
+        endif
+
+        set remainingTicks = R2I(timeout / thistype.TICK_TIME_OUT + 0.5)
+
+        /*if (remainingTicks == 0) then
+            call TimerStart()
+        endif*/
+
+        if (thistype.FIRST_TO_RUN == NULL) then
+            set thistype.FIRST_TO_RUN = this
+            set this.next = NULL
+        else
+            set next = thistype.FIRST_TO_RUN
+            set prev = NULL
+
+            loop
+                exitwhen (remainingTicks < next.remainingTicks)
+
+                set prev = next
+
+                set next = next.next
+
+                exitwhen (next == NULL)
+            endloop
+
+            if (prev == NULL) then
+                set thistype.FIRST_TO_RUN = this
+                set this.next = next
+            else
+                if (next == NULL) then
+                    set this.next = NULL
+                else
+                    set next.prev = this
+                    set this.next = next
+                endif
+
+                set prev.next = this
+                set this.prev = prev
+            endif
+        endif
+
+        set this.action = GetTriggerFromCode(action)
+        set this.initialTicks = remainingTicks
+        set this.isPeriodic = periodic
+        set this.isRunning = true
+        set this.remainingTicks = remainingTicks
+    endmethod
+
+    static method Tick takes nothing returns nothing
+        local integer i = -1
+        local integer iEnd
+        local thistype array temp
+        local thistype array temp2
+        local thistype this = thistype.FIRST_TO_RUN
+
+        loop
+            exitwhen (this == NULL)
+
+            set i = i + 1
+
+            set temp[i] = this
+            set this.remainingTicks = this.remainingTicks - 1
+
+            set this = this.next
+        endloop
+
+        set iEnd = i
+        set temp[i + 1] = NULL
+
+        set i = 0
+
+        loop
+            exitwhen (i > iEnd)
+
+            set this = temp[i]
+
+            if (this.remainingTicks < 1) then
+                call this.Pause()
+
+                if (this.isPeriodic) then
+                    call this.Restart()
+                endif
+
+                set thistype.TEMP = this
+
+                call TriggerEvaluate(this.action)
+            endif
+
+            set i = i + 1
+        endloop
+    endmethod
+
+    static method Tick2 takes nothing returns nothing
+        local integer i = -1
+        local integer i2 = -1
+        local integer iEnd
+        local thistype array temp
+        local thistype array temp2
+        local thistype this = thistype.FIRST_TO_RUN
+
+        loop
+            exitwhen (this == NULL)
+
+            set i = i + 1
+
+            set temp[i] = this
+            set this.remainingTicks = this.remainingTicks - 1
+
+            set this = this.next
+        endloop
+
+        set iEnd = i
+
+        set i = 0
+
+        loop
+            exitwhen (i > iEnd)
+
+            set this = temp[i]
+
+            if (this.remainingTicks < 1) then
+                set thistype.FIRST_TO_RUN = temp[i + 1]
+
+                if (this.isPeriodic) then
+                    call temp2[i].Restart()
+                else
+                    set this.isRunning = false
+                endif
+
+                set i2 = i2 + 1
+
+                set temp2[i2] = this
+            endif
+
+            set i = i + 1
+        endloop
+
+        set iEnd = i2
+
+        set i = 0
+
+        loop
+            exitwhen (i > iEnd)
+
+            if (temp2[i].isRunning and (temp2[i].remainingTicks < 1)) then
+                set thistype.TEMP = temp2[i]
+
+                call TriggerEvaluate(temp2[i].action)
+            endif
+
+            set i = i + 1
+        endloop
+    endmethod
+
+    static method onInit takes nothing returns nothing
+        set thistype.CACHE = InitHashtable()
+
+        call TimerStart(CreateTimer(), thistype.TICK_TIME_OUT, true, function thistype.Tick)
+    endmethod*/

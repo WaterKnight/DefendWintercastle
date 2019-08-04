@@ -1,0 +1,6 @@
+field	jass ident	1	2	3
+coldDuration		1	2	3
+damage		15	25	35
+damageDelay		0.9
+damageSpellPowerModFactor		1
+duration		2

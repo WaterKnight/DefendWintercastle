@@ -1,0 +1,103 @@
+field	value
+name	Salamander Shape
+raw	Sal
+
+classes
+hero	true
+structure	false
+team	DEFENDER
+
+model	units\creeps\ThunderLizardSalamander\ThunderLizardSalamander.mdx
+modelAttachPts
+modelAnims
+modelAttachMods	large
+modelBones
+standardScale	0.95
+
+elevPts	0
+elevRad	50.
+maxRoll	10.
+maxPitch	45.
+scale	0.95
+selScale	2.5
+vertexColorRed	255
+vertexColorGreen	150
+vertexColorBlue	170
+vertexColorAlpha	255
+
+impactZ	100.
+outpactX	0.
+outpactY	100.
+outpactZ	20.
+
+shadowPath	NORMAL
+shadowWidth	240.
+shadowHeight	240.
+shadowOffsetX	120.
+shadowOffsetY	120.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNThunderLizardSalamander.blp
+soundset	KotoBeastNoRider
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	280.
+turnRate	0.5
+height
+heightMin
+animWalk	100.
+animRun	240.
+moveInterp	1
+
+animBlend	0.15
+animCastWaitBefore	0.5
+animCastWaitAfter	0.5
+
+armorAmount	1
+armorSound	Flesh
+armorType	HERO
+life	100.
+lifeRegen	1.
+mana	100.
+manaRegen	0.
+spellPower	15.
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	NORMAL
+attackCooldown	1.8
+attackRange	140.
+attackRangeAcq	500.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	0.5
+attackWaitAfter	0.
+attackSound
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	NORMAL
+damageAmount	29
+damageDices	1
+damageSides	10
+
+collisionSize	48.
+combatFlags	ground
+deathTime	3.
+exp	10
+gold	20
+
+heroAttribute	INTELLIGENCE
+heroAgi	6.
+heroAgiUp	2.5
+heroInt	16.
+heroIntUp	4.5
+heroStr	9.
+heroStrUp	3.5
+heroArmorUp	0.8
+heroNames	Jota Temoinas

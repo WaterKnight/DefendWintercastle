@@ -1,0 +1,44 @@
+field	jass ident	1	2	3	4	5	6
+name		Thunderstrike
+raw		ThS
+
+base		NORMAL
+class		ELEMENTAL
+levelsAmount
+order		thunderclap
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Th
+learnTooltip
+learnUberTooltip		A spark rises above <Tajran:name>'s head up into the sky, only to strike down in a flash once it reaches the climax. Deals moderate damage and stuns hostile units in an area.
+learnUberTooltipUpgrades		{Damage,<damage>};{Stun duration,<stunDuration> (<stunHeroDuration>) second(s)}
+
+animation		spell
+areaRange		350	400	450	500	550	600
+areaRangeDisplay		true
+channelTime
+cooldown		14
+manaCost		90	105	120	135	150	165
+range		1000
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNMonsoon.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		A spark rises above <Tajran:name>'s head up into the sky, only to strike down in a flash once it reaches the climax. Deals <damage> damage and stuns hostile units for <stunDuration> (<stunHeroDuration>) seconds in an area of <areaRange>.
+
+damage		50	75	100	125	150	175
+delay		3
+stunDuration		2	2.25	2.5	2.75	3	3.25
+stunHeroDuration		1.5	1.75	2	2.25	2.5	2.75
+boltEffectPath		<Bolt.wc3imp:target>
+targetEffectAttachPoint		AttachPoint.ORIGIN
+targetEffectPath		Abilities\Spells\Orc\LightningShield\LightningShieldBuff.mdl

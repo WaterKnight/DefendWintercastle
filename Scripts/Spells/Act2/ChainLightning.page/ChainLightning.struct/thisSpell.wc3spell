@@ -1,0 +1,33 @@
+field	jass ident	1	2	3	4	5
+name		Chain Lightning
+raw		AChL
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		chainlightning
+target		UNIT
+
+animation		spell
+areaRange		500
+areaRangeDisplay		false
+channelTime
+cooldown		15
+manaCost		95
+range		550
+targets		air,enemies,ground,neutral,organic
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNChainLightning.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Fries up to <targetsAmount> enemy targets with a lightning bolt. The first target takes <damage> damage, the second <damageReductionFactor,%> less and so on.
+
+damage		120
+damageReductionFactor		0.1
+targetEffectAttachPoint		AttachPoint.CHEST
+targetEffectPath		Abilities\Spells\Items\AIlb\AIlbSpecialArt.mdl
+targetsAmount		6

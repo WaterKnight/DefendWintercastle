@@ -1,0 +1,15 @@
+field	1
+name	Magic immune
+raw	MaI
+
+class	NORMAL
+levelsAmount
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNAntiMagicShell.blp
+tooltip
+uberTooltip	This unit is protected from most negative magic.
+
+sfxPath	Abilities\Spells\Undead\AntiMagicShell\AntiMagicShell.mdl
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW

@@ -1,0 +1,17 @@
+field	1
+name	Banish
+raw	Ban
+
+base	SPECIAL_BHbn
+class	NORMAL
+classes	DUMMY
+levelsAmount
+positive
+
+icon	ReplaceableTextures\CommandButtons\BTNBanish.blp
+tooltip	Banished
+uberTooltip	This unit is in an ethereal form where it's insusceptible to any physical attacks.
+
+sfxPath
+sfxAttachPt
+sfxLevel

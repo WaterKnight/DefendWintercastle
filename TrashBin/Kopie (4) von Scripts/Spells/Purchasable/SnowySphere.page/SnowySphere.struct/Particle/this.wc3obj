@@ -1,0 +1,5 @@
+field	jass ident	1	2	3	4	5
+areaRange		50	50
+damage		7	13	21	31	43
+maxLength		400	500	600	700	800
+speed		700	700

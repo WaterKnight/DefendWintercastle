@@ -1,0 +1,47 @@
+//! runtextmacro BaseStruct("InitMisc", "INIT_MISC")
+    static method Init takes nothing returns nothing
+        //! runtextmacro Load("Misc")
+        call AfterIntro.Init()
+        call Drop.Init()
+        call Explosive.Init()
+        call GoldCoin.Init()
+        call HeroSelection.Init()
+        call HorseRide.Init()
+        call Infoboard.Init()
+        call Infocard.Init()
+        call Intro.Init()
+        call Library.Init()
+        call Lumber.Init()
+        call Meteorite.Init()
+        call Snowmen.Init()
+        call UnitNameTag.Init()
+        //Creep Buffs
+        call MarkOfThePaw.Init()
+
+        //! runtextmacro Load("Misc-2")
+        call Act.Init()
+        call BrazierOracle.Init()
+        call CameraQuickPosition.Init()
+        call HeroRevival.Init()
+        call Hint.Init()
+        call Nullboard.Init()
+        call OptionsBoard.Init()
+        call UnitStatus.Init()
+        call VictoryRush.Init()
+        call Zoom.Init()
+
+        //! runtextmacro Load("Misc-3")
+        call ActUpgrades.Init()
+        call Level.Init()
+
+        //! runtextmacro Load("Misc-4")
+        call Artifact.Init()
+        call CreepSet.Init()
+        call DefenderSpawn.Init()
+        call Spawn.Init()
+
+        //! runtextmacro Load("Misc-5")
+        call Rune.Init()
+        call Waypoint.Init()
+    endmethod
+endstruct

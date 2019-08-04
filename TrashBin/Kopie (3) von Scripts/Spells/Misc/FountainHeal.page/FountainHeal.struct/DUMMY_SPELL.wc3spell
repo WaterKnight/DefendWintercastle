@@ -1,0 +1,40 @@
+field	jass ident	1	2	3	4	5
+name		Fountain Heal
+raw		AFHD
+
+base		SPECIAL_Aeat
+class		NORMAL
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range		384.
+targets		structure,invulnerable,vulnerable
+
+buttonPosX
+buttonPosY
+hotkey
+icon
+lore
+sharedBuffs
+tooltip
+uberTooltip
+
+specials		Eat1=0
+specials		Eat2=0
+specials		Eat3=0
+
+casterEffectAttachPoint		AttachPoint.ORIGIN
+casterEffectPath		Abilities\Spells\NightElf\MoonWell\MoonWellCasterArt.mdl
+healLifePerManaPoint		1.5
+healManaPerManaPoint		1.5
+targetLifeEffectAttachPoint		AttachPoint.ORIGIN
+targetLifeEffectPath		Abilities\Spells\Human\Heal\HealTarget.mdl
+targetManaEffectAttachPoint		AttachPoint.ORIGIN
+targetManaEffectPath		Abilities\Spells\Items\AIma\AImaTarget.mdl

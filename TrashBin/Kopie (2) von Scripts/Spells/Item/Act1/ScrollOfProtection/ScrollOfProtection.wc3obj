@@ -1,0 +1,22 @@
+field	jass ident	1	2	3	4	5
+name		Scroll of Protection
+raw		AScP
+
+base		PARALLEL_IMMEDIATE
+class		ITEM
+levelsAmount
+order
+target
+
+animation
+areaRange		600
+areaRangeDisplay		false
+channelTime
+cooldown		40
+manaCost		0
+range
+targets
+
+specialEffectPath		Abilities\Spells\Items\AIda\AIdaCaster.mdl
+
+include		Target

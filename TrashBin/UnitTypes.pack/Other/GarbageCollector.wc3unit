@@ -1,0 +1,98 @@
+field	value
+name	Garbage Collector
+raw	GaC
+
+classes	NEUTRAL;STRUCTURE
+hero	false
+structure	true
+team	DEFENDER
+
+model	buildings\undead\TombOfRelics\TombOfRelics.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.
+
+elevPts	4
+elevRad	50.
+maxRoll	0.
+maxPitch	0.
+scale	1.5
+selScale	9.
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	120.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	ShadowTombOfRelics
+shadowWidth	0.
+shadowHeight	0.
+shadowOffsetX	0.
+shadowOffsetY	0.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNTombOfRelics.blp
+soundset	Merchant
+tooltip
+uberTooltip
+
+moveType
+moveSpeed
+turnRate
+height
+heightMin
+animWalk
+animRun
+moveInterp
+
+animBlend	0.15
+animCastWaitBefore	0.
+animCastWaitAfter	0.51
+
+armorAmount	0.
+armorSound	Wood
+armorType	FORT
+life	UNIT_TYPE.Life.BLACK_DISPLAY
+lifeRegen	0.
+mana
+manaRegen
+spellPower
+sightRange	500.
+sightRangeNight	500.
+
+attackType
+attackCooldown
+attackRange
+attackRangeAcq	0.
+attackRangeBuffer
+attackTargetFlags
+attackWaitBefore
+attackWaitAfter
+attackSound
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType
+damageAmount
+damageDices
+damageSides
+
+collisionSize
+combatFlags	structure
+deathTime	3.
+exp
+gold
+
+
+structurePathTex	PathTextures\12x12Default.tga
+structureSoldItems	IBoS,IRaS,IPeF,IRaF,IMeS,IMal,IGrA,IRoH
+structureUbersplat	HMED

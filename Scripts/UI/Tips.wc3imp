@@ -1,0 +1,4 @@
+field	1
+type	misc
+src	TipStrings.txt
+target	UI\TipStrings.txt

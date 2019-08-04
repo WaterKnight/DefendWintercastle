@@ -1,0 +1,11 @@
+field	jass ident	1	2	3	4	5	6
+damageFactor		0.5	0.75	1	1.25	1.5	1.75
+deathEffectAttachPoint		AttachPoint.WEAPON
+deathEffectPath		Abilities\Spells\NightElf\Blink\BlinkCaster.mdl
+purgeDuration		2	2
+purgeHeroDuration		0.25	0.25
+stolenMana		5	7.5	7.5	10	10	12.5
+summonEffectAttachPoint		AttachPoint.WEAPON
+summonEffectPath		Abilities\Spells\NightElf\Blink\BlinkCaster.mdl
+victimEffectAttachPoint		AttachPoint.ORIGIN
+victimEffectPath		Abilities\Spells\Human\Feedback\ArcaneTowerAttack.mdl

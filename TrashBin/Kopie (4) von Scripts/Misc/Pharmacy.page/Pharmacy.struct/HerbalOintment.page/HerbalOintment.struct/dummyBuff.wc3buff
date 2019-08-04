@@ -1,0 +1,20 @@
+field	1
+name	Herbal Ointment
+raw	HeO
+
+class	ITEM
+levelsAmount
+lostOn
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNHealingSalve.blp
+tooltip
+uberTooltip	Treated by '<name>', regenerates hitpoints and is dispelled after some seconds.
+
+sfxPath	Abilities\Spells\Other\ANrl\ANrlTarget.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW
+
+sfxPath	Abilities\Spells\Other\ANrm\ANrmTarget.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.NORMAL

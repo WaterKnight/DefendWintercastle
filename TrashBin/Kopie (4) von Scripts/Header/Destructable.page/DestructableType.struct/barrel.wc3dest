@@ -1,0 +1,44 @@
+field	value
+name	Barrel
+raw	005
+
+classes	DECOR
+
+model	Buildings\Other\BarrelsUnit1\BarrelsUnit1.mdx
+modelLightweight
+modelPortrait	Buildings\Other\BarrelsUnit1\BarrelsUnit1.mdx
+modelVariations
+
+flyHeight
+occluderHeight
+replaceableTex
+replaceableTexId
+selScale	80
+vertexColorRed	150
+vertexColorGreen	150
+vertexColorBlue	175
+
+elevRad
+maxRoll
+maxPitch
+
+minimapDisplay	true
+minimapRed
+minimapGreen
+minimapBlue
+
+deathSound	CrateDeath
+shadow	ShadowCrates
+
+armor	Wood
+fatLOS
+fogRad
+fogVisibility
+life	20
+selectable
+
+pathTex
+pathTexDead
+combatFlags	debris
+cliffLevel
+walkable

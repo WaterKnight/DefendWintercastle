@@ -1,0 +1,28 @@
+field	jass ident	1
+name		Attack
+raw		Aatk
+profileIdent		CmdAttack
+
+base		SPECIAL_Aatk
+classes		DUMMY
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX		3
+buttonPosY		0
+hotkey		A
+icon		CommandAttack
+lore
+sharedBuffs
+tooltip		(<color=GOLD><hotkey></color>) <color=DWC><name></color>
+uberTooltip		Assaults a targeted unit or all enemy units while moving along the path to a selected point.

@@ -1,0 +1,45 @@
+static integer array ANGLE_START
+static integer array FIELD
+static real array ANGLE_SPEED_OLD
+static real array ANGLE_ACC
+static integer array ANGLE_SPEED
+static integer array DUMMY_UNITS_AMOUNT
+static integer array OFFSET_START
+    
+static method Init_obj_Effects takes nothing returns nothing
+    set thistype.ANGLE_START[1] = 0
+    set thistype.FIELD[1] = 1
+    set thistype.ANGLE_SPEED_OLD[1] = 7.14
+    set thistype.ANGLE_ACC[1] = 1.43
+    set thistype.ANGLE_SPEED[1] = 3
+    set thistype.DUMMY_UNITS_AMOUNT[1] = 3
+    set thistype.OFFSET_START[1] = 150
+    set thistype.ANGLE_START[2] = 0
+    set thistype.FIELD[2] = 2
+    set thistype.ANGLE_SPEED_OLD[2] = 7.14
+    set thistype.ANGLE_ACC[2] = 1.43
+    set thistype.ANGLE_SPEED[2] = 3
+    set thistype.DUMMY_UNITS_AMOUNT[2] = 3
+    set thistype.OFFSET_START[2] = 150
+    set thistype.ANGLE_START[3] = 0
+    set thistype.FIELD[3] = 3
+    set thistype.ANGLE_SPEED_OLD[3] = 7.14
+    set thistype.ANGLE_ACC[3] = 1.43
+    set thistype.ANGLE_SPEED[3] = 3
+    set thistype.DUMMY_UNITS_AMOUNT[3] = 3
+    set thistype.OFFSET_START[3] = 150
+    set thistype.ANGLE_START[4] = 0
+    set thistype.FIELD[4] = 4
+    set thistype.ANGLE_SPEED_OLD[4] = 7.14
+    set thistype.ANGLE_ACC[4] = 1.43
+    set thistype.ANGLE_SPEED[4] = 3
+    set thistype.DUMMY_UNITS_AMOUNT[4] = 3
+    set thistype.OFFSET_START[4] = 150
+    set thistype.ANGLE_START[5] = 0
+    set thistype.FIELD[5] = 5
+    set thistype.ANGLE_SPEED_OLD[5] = 7.14
+    set thistype.ANGLE_ACC[5] = 1.43
+    set thistype.ANGLE_SPEED[5] = 3
+    set thistype.DUMMY_UNITS_AMOUNT[5] = 3
+    set thistype.OFFSET_START[5] = 150
+endmethod

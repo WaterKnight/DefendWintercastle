@@ -1,0 +1,8 @@
+field	jass ident	1
+name		Changer (USal to UJot)
+raw		ASaX
+base		SPECIAL_Abrf
+classes		DUMMY
+
+specials		Emeu=USal
+specials		Eme1=UJot

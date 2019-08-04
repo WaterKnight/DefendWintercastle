@@ -1,0 +1,4 @@
+field	1
+type	sound
+src	UpkeepRing.wav
+target	Sound\Interface\UpkeepRing.wav

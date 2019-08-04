@@ -1,0 +1,13 @@
+field	1
+name	Ibsq
+raw	Ibsq
+
+texPath	TerrainArt\Icecrown\Ice_BlackSquares.blp
+cliffSet
+
+walkable	true
+flyable	true
+buildable	false
+
+footprints	false
+blightPriority	5

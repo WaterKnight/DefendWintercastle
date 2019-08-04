@@ -1,0 +1,51 @@
+field	jass ident	1	2	3
+name		Negation Wave
+raw		NeW
+
+base		NORMAL
+class		HERO_ULTIMATE
+levelsAmount
+order		healingwave
+target		UNIT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		NW
+learnTooltip
+learnUberTooltip		Fires a chain of lightning bolts at hostile targets. Each unit takes damage, gets <SILENCE>silenced</SILENCE> and <Jota:name> steals positive buffs from the primary target.
+learnUberTooltipUpgrades		{Damage,<damage>};{Silence duration,<silenceDuration> (<silenceHeroDuration>) second(s);{Max targets amount,<targetsAmount>}
+
+animation		spell
+areaRange		500
+areaRangeDisplay		false
+channelTime
+cooldown		9
+manaCost		105	120	135
+range		550
+targets		air,enemies,ground,neutral,invulnerable,organic,vulnerable
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNFeedback.blp
+
+lore
+sharedBuffs		SILENCE
+tooltip
+uberTooltip		Fires a chain of lightning bolts at hostile targets. Each unit takes <damage> damage, gets <SILENCE>silenced</SILENCE> for <silenceDuration> (<silenceHeroDuration>) seconds and <Jota:name> steals positive buffs from the primary target.
+
+casterEffectAttachPoint		AttachPoint.ORIGIN
+casterEffectPath		Abilities\Spells\Other\Drain\DrainCaster.mdl
+damage		30	40	50
+delay		0.35
+silenceDuration		2	2.2	2.4
+silenceHeroDuration		1	1.1	1.2
+spellStealCasterEffectAttachPoint		AttachPoint.CHEST
+spellStealCasterEffectPath		Abilities\Spells\Human\SpellSteal\SpellStealMissile.mdl
+spellStealTargetEffectAttachPoint		AttachPoint.CHEST
+spellStealTargetEffectPath		Abilities\Spells\Human\Polymorph\PolyMorphDoneGround.mdl
+targetEffectAttachPoint		AttachPoint.CHEST
+targetEffectPath		Abilities\Weapons\Bolt\BoltImpact.mdl
+targetsAmount		7	11	15

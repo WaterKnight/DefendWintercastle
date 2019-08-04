@@ -1,0 +1,4 @@
+field	1
+type	texture
+src	casterEffect_drainOut.blp
+target	ManaColossus\TheurgicVessel\CasterEffect_DrainOut.blp

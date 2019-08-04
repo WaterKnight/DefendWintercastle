@@ -1,0 +1,31 @@
+field	jass ident	1	2	3	4	5
+name		Fuzzy Attack
+raw		AFuA
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		thunderbolt
+target		UNIT
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime		4.25
+cooldown		15
+manaCost		150
+range		700
+targets		enemies
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNFurbolg.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Fires up to <intervalsAmount> bushes of hair at the targeted unit, each dealing <damagePerMissile> damage. This spell has a delay time of 2.5 seconds, then blasting out the missiles in intervals of <interval> seconds.
+
+damagePerMissile		50
+delay		2.5
+intervalsAmount		7

@@ -1,0 +1,44 @@
+field	value
+name	Pathing Blocker Ground 4x4
+raw	PG4
+
+classes	DUMMY
+
+model	<PG4x4.wc3imp:target>
+modelLightweight
+modelPortrait
+modelVariations
+
+flyHeight
+occluderHeight
+replaceableTex
+replaceableTexId
+selScale	175
+vertexColorRed	255
+vertexColorGreen	255
+vertexColorBlue	255
+
+elevRad
+maxRoll
+maxPitch
+
+minimapDisplay
+minimapRed
+minimapGreen
+minimapBlue
+
+deathSound
+shadow
+
+armor
+fatLOS
+fogRad
+fogVisibility
+life
+selectable
+
+pathTex	PathTextures\4x4SimpleSolid.tga
+pathTexDead	PathTextures\4x4SimpleSolid.tga
+combatFlags
+cliffLevel
+walkable	true

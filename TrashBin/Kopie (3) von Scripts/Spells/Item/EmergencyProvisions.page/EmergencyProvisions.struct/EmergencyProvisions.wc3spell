@@ -1,0 +1,22 @@
+field	jass ident	1	2	3	4	5
+name		Emergency Provisions
+raw		AEmP
+
+base		PARALLEL_IMMEDIATE
+class		ITEM
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		20
+manaCost
+range
+targets
+
+casterEffectAttachPoint		AttachPoint.ORIGIN
+casterEffectPath		Abilities\Spells\Human\Heal\HealTarget.mdl
+heal		100

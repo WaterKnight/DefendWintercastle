@@ -1,0 +1,24 @@
+field	value
+name	Meteorite Shard
+raw	MeS
+
+classes
+
+model	Objects\InventoryItems\TreasureChest\treasurechest.mdl
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	Radiates a remarkable, soothing warmth.
+icon	ReplaceableTextures\CommandButtons\BTNGlyph.blp
+tooltip	Purchase <name>
+uberTooltip	Increases life by 100 and mana by 30.
+
+abilities
+armor
+chargesAmount
+cooldownGroup
+goldCost	120
+lumberCost	0

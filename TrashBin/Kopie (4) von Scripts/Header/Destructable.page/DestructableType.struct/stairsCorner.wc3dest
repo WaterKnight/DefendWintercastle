@@ -1,0 +1,44 @@
+field	value
+name	Stairs Corner
+raw	00E
+
+classes	DECOR
+
+model	Doodads\Cityscape\StairsCorner4.mdx
+modelLightweight
+modelPortrait
+modelVariations
+
+flyHeight
+occluderHeight
+replaceableTex
+replaceableTexId
+selScale
+vertexColorRed	140
+vertexColorGreen	150
+vertexColorBlue	160
+
+elevRad
+maxRoll
+maxPitch
+
+minimapDisplay	true
+minimapRed
+minimapGreen
+minimapBlue
+
+deathSound
+shadow
+
+armor
+fatLOS
+fogRad
+fogVisibility
+life
+selectable
+
+pathTex
+pathTexDead
+combatFlags
+cliffLevel
+walkable	true

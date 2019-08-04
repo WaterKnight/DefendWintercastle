@@ -1,0 +1,93 @@
+field	value
+name	Moonkin
+raw	Moo
+
+classes
+hero	false
+structure	false
+team	ATTACKER
+
+model	units\creeps\Owlbear\Owlbear.mdx
+modelAttachPts
+modelAnims
+modelAttachMods	medium
+modelBones
+standardScale	1.2
+
+elevPts	0
+elevRad	50.
+maxRoll	10.
+maxPitch	10.
+scale	1.25
+selScale	1.6
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	140.
+shadowHeight	140.
+shadowOffsetX	50.
+shadowOffsetY	50.
+
+attachments
+blood	Objects\Spawnmodels\NightElf\NightElfBlood\NightElfBloodDruidoftheClaw.mdx
+icon	ReplaceableTextures\CommandButtons\BTNOwlBear.blp
+soundset	Owlbear
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	135.
+turnRate	0.3
+height
+heightMin
+animWalk	200.
+animRun	200.
+moveInterp	3
+
+animBlend	0.15
+animCastWaitBefore	0.
+animCastWaitAfter	0.51
+
+armorAmount	3.
+armorSound	Flesh
+armorType	LARGE
+life	140.
+lifeRegen	4.
+mana
+manaRegen
+spellPower	27.5
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	NORMAL
+attackCooldown	1.7
+attackRange	128.
+attackRangeAcq	500.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	0.3
+attackWaitAfter	0.
+attackSound	WoodHeavyBash
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	NORMAL
+damageAmount	13
+damageDices	2
+damageSides	4
+
+collisionSize	48.
+combatFlags	ground
+deathTime	3.
+exp	60
+gold	9

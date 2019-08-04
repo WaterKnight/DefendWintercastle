@@ -1,0 +1,95 @@
+field	value
+name	Drummer
+raw	Dru
+
+classes
+hero	false
+structure	false
+team	ATTACKER
+
+model	units\orc\KotoBeast\KotoBeast.mdx
+modelAttachPts
+modelAnims
+modelAttachMods	large
+modelBones
+standardScale	1.5
+
+elevPts	2
+elevRad	50.
+maxRoll	10.
+maxPitch	45.
+scale	1.
+selScale	2.25
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	310.
+shadowHeight	280.
+shadowOffsetX	120.
+shadowOffsetY	120.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNKotoBeast.blp
+soundset	KotoBeast
+tooltip
+uberTooltip
+
+moveType	HORSE
+moveSpeed	110.
+turnRate	0.5
+height
+heightMin
+animWalk	100.
+animRun	240.
+moveInterp	1
+
+animBlend	0.15
+animCastWaitBefore	0.5
+animCastWaitAfter	0.5
+
+armorAmount	1.
+armorSound	Flesh
+armorType	FORT
+life	300.
+lifeRegen	10.
+mana
+manaRegen
+spellPower	50.
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	MISSILE
+attackCooldown	1.44
+attackRange	500.
+attackRangeAcq	500.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,air,item,ward
+attackWaitBefore	0.85
+attackWaitAfter	0.
+attackSound
+
+attackMissileModel	Abilities\Weapons\Axe\AxeMissile.mdx
+attackMissileSpeed	1200.
+attackMissileArc	0.15
+
+damageType	PIERCE
+damageAmount	4
+damageDices	1
+damageSides	3
+
+collisionSize	48.
+combatFlags	ground
+deathTime	3.
+exp	80
+gold	35
+
+abilities	Spells\Act2\DrumRoll.page\DrumRoll.struct\thisSpell

@@ -1,0 +1,37 @@
+field	jass ident	1	2	3	4	5
+name		Infection
+raw		AIfc
+
+base		PASSIVE
+class		PURCHASABLE
+levelsAmount
+order
+target
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		IF
+learnTooltip
+learnUberTooltip
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNDoom.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip
+
+include		Cone;Summon;Target

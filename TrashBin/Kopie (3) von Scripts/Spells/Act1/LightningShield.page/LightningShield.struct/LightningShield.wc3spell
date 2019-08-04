@@ -1,0 +1,31 @@
+field	jass ident	1	2	3	4	5
+name		Lightning Shield
+raw		ALiS
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		lightningshield
+target		UNIT
+
+animation		spell
+areaRange		130
+areaRangeDisplay		false
+channelTime
+cooldown		25
+manaCost		120
+range		900
+targets		friend,enemies,ground,invulnerable,neutral,vulnerable
+
+buttonPosX		3
+buttonPosY		2
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNLightningShield.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Summons an electrical shield around a targeted unit, which damages all nearby entities for <damagePerSecond> per second.|nLasts <duration> seconds.
+
+damagePerSecond		20
+duration		20
+interval		0.5

@@ -1,0 +1,7 @@
+field	jass ident	1
+name
+raw		Fly
+base		SPECIAL_Arav
+classes		DUMMY
+
+specials		Emeu=qFly

@@ -1,0 +1,4 @@
+field	jass ident	1	2	3	4	5
+delay		0.9
+targetEffectAttachPoint		AttachPoint.CHEST
+targetEffectPath		Objects\Spawnmodels\Critters\Albatross\CritterBloodAlbatross.mdl

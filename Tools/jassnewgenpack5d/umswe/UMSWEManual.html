@@ -1,0 +1,418 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>UMSWE Documentation</title>
+
+<style type="text/css">
+<!--
+  body
+  {
+  	background: #FFFFFF;
+  	color: #000000;
+  	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+  	margin: 5px 10px 10px 10px;
+  	padding: 0px;
+  }
+  a:link
+  {
+  	color: #736636;
+  }
+  a:visited
+  {
+  	color: #BCA88F;
+  }
+  a:hover, a:active
+  {
+  	color: #F7BE10;
+  }
+  .page
+  {
+  	background: #000000;
+  	color: #FFFFFF;
+  }
+  td, th, p, li
+  {
+  	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+  }
+  .tborder
+  {
+  	background: #000000;
+  	color: #000000;
+  	border: 1px solid #BCA88F;
+  }
+  .tcat
+  {
+  	background: #312121;
+  	color: #FFFFFF;
+  	font: bold 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+  }
+  .tcat a:link
+  {
+  	color: #ffffff;
+  	text-decoration: none;
+  }
+  .tcat a:visited
+  {
+  	color: #ffffff;
+  	text-decoration: none;
+  }
+  .tcat a:hover, .tcat a:active
+  {
+  	color: #F7BE10;
+  	text-decoration: underline;
+  }
+  .thead
+  {
+  	background: #554132;
+  	color: #FFFFFF;
+  	font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+  }
+  .thead a:link
+  {
+  	color: #FFFFFF;
+  }
+  .thead a:visited
+  {
+  	color: #FFFFFF;
+  }
+  .thead a:hover, .thead a:active
+  {
+  	color: #F7BE10;
+  }
+  .tfoot
+  {
+  	background: #554132;
+  	color: #FFFFFF;
+  }
+  .tfoot a:link
+  {
+  	color: #D3C6B6;
+  }
+  .tfoot a:visited
+  {
+  	color: #BCA88F;
+  }
+  .tfoot a:hover, .tfoot a:active
+  {
+  	color: #F7BE10;
+  }
+  .alt1, .alt1Active
+  {
+  	background: #332C29;
+  	color: #CCCCCC;
+  }
+  .alt2, .alt2Active
+  {
+  	background: #222222;
+  	color: #CCCCCC;
+  }
+  td.inlinemod
+  {
+  	background: #715746;
+  	color: #FFFFFF;
+  }
+  .wysiwyg
+  {
+  	background: #332C29;
+  	color: #CCCCCC;
+  	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+  }
+  textarea, .bginput
+  {
+  	background: #312C29;
+  	color: #F7BE10;
+  	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+  	border: 1px solid #000000;
+  	padding: 2px;
+  }
+  .button
+  {
+  	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+  }
+  select
+  {
+  	background: #312C29;
+  	color: #CCCCCC;
+  	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+  	border: 1px solid #000000;
+  	padding: 1px;
+  }
+  option, optgroup
+  {
+  	font-size: 11px;
+  	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+  }
+  .smallfont
+  {
+  	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+  }
+  .time
+  {
+  	color: #B8A26E;
+  }
+  .navbar
+  {
+  	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+  }
+  .highlight
+  {
+  	background: #F7BE10;
+  	color: #000000;
+  	font-weight: bold;
+  }
+  .fjsel
+  {
+  	background: #3E5C92;
+  	color: #E0E0F6;
+  }
+  .fjdpth0
+  {
+  	background: #F7F7F7;
+  	color: #000000;
+  }
+  .panel
+  {
+  	background: #222222;
+  	color: #CCCCCC;
+  	padding: 10px;
+  	border: 0px outset #808080;
+  }
+  .panelsurround
+  {
+  	background: #332C29;
+  	color: #CCCCCC;
+  }
+  legend
+  {
+  	background: transparent;
+  	color: #D3C6B6;
+  	font: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+  	font-weight: bold;
+  	padding: 2px;
+  }
+
+  .bigusername { font-size: 14pt; }
+  td.thead, div.thead { padding: 4px; }
+  .pagenav a { text-decoration: none; }
+  .pagenav td { padding: 2px 4px 2px 4px; }
+  .fieldset { margin-bottom: 6px; border: 1px outset #808080; }
+  .fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px;}
+  table.fieldset { border: 0px; }
+  div.fieldset { border: 0px; }
+  form { display: inline; }
+  label { cursor: default; }
+  .normal { font-weight: normal; }
+  .inlineimg { vertical-align: middle; }
+
+	p.setin { margin: 5px 20px 20px; }
+  div.jassblockstart { padding-left: 3%; margin-top:5px; padding-right:1%; width:99%; }
+  span.jassblock { font-size: 13px ; background:#FFFFFF ; color:#000000; font-family:monospace; padding-left: 5px; padding-right: 5px; }
+  div.jassblock { margin-top:5px; border:1px inset gray; width:99%; overflow:auto; background:#FFFFFF ; color:#000000; font-style:normal; }
+  pre.jass { margin:5px; font-weight:bold; } 
+  span.Jword { font-weight:bold; color:#000000; font-style:normal; }
+  span.Jword2 { font-weight:bold; color: #000077; font-style:normal; }
+  span.Jtype { color: #0055AA; font-weight:bold; font-style:normal; }
+  span.Jname { color: #000000; font-weight:normal; font-style:normal; }
+  span.Jnum { color: #000077; font-weight:normal; font-style:normal; }
+  span.Jcomment { color: #008800; font-weight:normal; font-style:normal; }
+  span.Jpreprocessor { color: #888888; font-weight:bold; font-style:normal; }
+  span.Jstring { color: #006000; font-style:italic; font-weight:normal; }
+  span.Jerror { color: #FFFFFF; background:#FF0000; }
+  span.Jhighlight { background:#FFFFCC; }
+  
+  .dtreed { font-family: Tahoma, Arial; font-size: 11px; padding:5px; margin:2px; white-space: nowrap; overflow: auto; }
+  .dtreed span { font-size: 11px; font-style: normal; }
+  .dtreed img { border: 0px; vertical-align: middle; }
+  .dtree { font-family: Tahoma, Arial; font-size: 11px; color: #000; background-color:#FFFFFF; margin-top:0px; border:1px solid #999999; white-space: nowrap; width: 97%; overflow: auto; }
+  .dtree img { border: 0px; vertical-align: middle; }
+  .dtree span { font-size: 11px; font-style: normal; }
+	
+  visiblenode { }
+  invisiblenode { visibility:hidden; position:absolute; }
+-->
+</style>
+
+<script type="text/javascript">
+//<![CDATA[
+ function ExpandCollapseNode(xcp_button,pimg,ming)
+ {
+     if (xcp_button==null) return true;
+     xcp_div=xcp_button.parentNode.getElementsByTagName("div")[0];
+     xcp_img=xcp_button.getElementsByTagName("img")[0];
+     if (xcp_div.style.visibility=="hidden")
+     {
+         xcp_div.style.visibility="inherit";
+         xcp_div.style.position="static";
+         xcp_img.src=ming;
+         xcp_img.setAttribute("alt","Collapse");
+         xcp_img.setAttribute("title","Collapse");
+     }
+     else
+     {
+         xcp_div.style.visibility="hidden";
+         xcp_div.style.position="absolute";
+         xcp_img.src=pimg;
+         xcp_img.setAttribute("alt","Expand");
+         xcp_img.setAttribute("title","Expand");
+     }
+     return false;
+ }
+ 
+ function ExpandCollapseJass(xcp_img, heival)
+ {
+     if (xcp_img==null) return true;
+     xcp_div=xcp_img.parentNode.parentNode.getElementsByTagName("div")[1];
+     xcp_pre=xcp_div.getElementsByTagName("pre")[0];
+     if (xcp_pre.style.visibility=="hidden")
+     {
+         xcp_div.style.height=heival;
+         xcp_pre.style.visibility="inherit";
+         xcp_pre.style.position="static";
+         xcp_img.src="img/minus.gif";
+         xcp_img.setAttribute("alt","Collapse");
+         xcp_img.setAttribute("title","Collapse");
+     }
+     else
+     {
+         xcp_div.style.height="10px";
+         xcp_pre.style.visibility="hidden";
+         xcp_pre.style.position="absolute";
+         xcp_img.src="img/plus.gif";
+         xcp_img.setAttribute("alt","Expand");
+         xcp_img.setAttribute("title","Expand");
+     }
+     return false;
+ }
+ 
+ function ToggleHiddenInfo(xcp_img)
+ {
+ 		 if (xcp_img.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') {
+		 		 xcp_img.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = '';
+         xcp_img.src="img/minus.gif";
+         xcp_img.setAttribute("alt","Collapse");
+         xcp_img.setAttribute("title","Collapse");
+		 } else {
+		 	   xcp_img.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none';
+				 xcp_img.src="img/plus.gif";
+         xcp_img.setAttribute("alt","Expand");
+         xcp_img.setAttribute("title","Expand");
+		 }
+ }
+//]]>
+</script>
+
+</head>
+<body>
+
+<h1>UMSWE 5.0</h1>
+
+<p>UMSWE basically adds all the missing content and functions to the World Editor that Blizzard forgot or didn't manage to add.
+Version 5 of UMSWE is now integrated into Grimoire/Jass NewGen and the changes are dynamically applied to your data files.
+This means that it's now independent of your language and the Warcraft patch that you are using.
+Now here's a list of the most important changes to the World Editor.</p>
+
+<h2>Table of content</h2>
+
+<ul>
+		<li><a href="#core">Core Features</a></li>
+		<li><a href="#cc">Category Configuration</a></li>
+		<li><a href="#tpc">Tile Pathability Configuration</a></li>
+		<li><a href="#tsc">Tileset Specific Creeps</a></li>
+		<li><a href="#credits">Credits</a></li>
+</ul>
+
+<h2><a name="core"></a>Core Features</h2>
+
+<p class="setin">The core features of UMSWE are enabled by checking the <b>UMSWE\Enable UMSWE</b> menu option. Enabling this option can take several seconds because many changes have to be applied.
+After enabling/disabling an UMSWE option or making changes in an UMSWE configuratin dialog, the editor must be restarted to have them applied.
+You will notice that UMSWE is enabled if the startup logo of the World Editor changes to the UMSWE logo. For all the optional features this core option must be enabled.</p>
+
+<h3>Terrain Editing Features</h3>
+
+<p class="setin">The max width and height for new maps is increased to 480 and the max and min terrain height is also increased.
+Additionally it's now possible to create steep hills with the raise/lower tool of the editor, so that you can create cliffs without using the cliff tool.</p>
+
+<h3>Game Interface Additions</h3>
+
+<p class="setin">All additional fields for the Game Interface configuration dialog that were part of the Game Interface Project are now included in UMSWE.
+This means that you can now edit Tooltips, Hotkeys and Icons of general commands like move, patrol, stop, hold position, cancel and so on. Chat recipients and the fonts used by the game can now also be edited in the Game Interface configuration.</p>
+
+<h3>Extended Object Editor Limits</h3>
+
+<p class="setin">The upper and lower bounds for many values in the object editor have been adjusted to better represent the actual bounds.
+It was always possible to override the bounds by shift-clicking the property in question, but is still useful as a guide to know which values will actually work ingame.
+Furthermore fields that are normally only available for buildings like units trained, researches available, items sold, etc. are now also available for units and heros.
+The type of the 'Destructable Created' field of the Volcano ability is changed to string, so that it won't display the unitpicker.</p>
+
+<h3>Trigger Editor Additions</h3>
+
+<ul>
+	<li>The custom script representation of many trigger actions is changed from a bj function to the native equivalent to improve performance.</li>
+	<li>Several trigger function hints are improved and the 'Region' trigger category is changed to 'Rectangle' in order to introduce the native region type to the GUI.</li>
+	<li>Several new types are made available as global variables and for comparison operators. For example event ids can now be compared to find out the triggering event for a trigger.</li>
+	<li>Numerious trigger presets have been added, for example animation names, animation tags, color presets and various other presets.</li>
+	<li>Many missing trigger functions have been added, for example unit group and trigger handling functions and many more. Those are marked with a <b>[UMSWE]</b> tag in their hint.</li>
+	<li>The new 'Return Success' trigger category offers numerous trigger actions in a way that a boolean is returned that indicates the success of the operation. That way you can issue orders and check if the order was issued successfully.</li>
+	<li>Many outdated functions that were part of previous UMSWE and WEU versions have been moved to the 'Compatibility' trigger category to indicate that they shouldn't be used any more, but still retain compatibility with those older versions. Their hints often point you to the function that should be used instead.</li>
+	<li>Finally a 'Custom Script' option has been added to conditions and all return types, so that you can now use custom script for function parameters and as a trigger condition.</li>
+</ul>
+
+<p class="setin">This screenshot shows the 'Return Success' functions and the 'Custom Script' option for boolean parameters:
+
+<br><br><img title="Trigger Functions" src="img/triggers.gif" alt="Trigger Functions" class="setin"><br><br></p>
+
+<h3>Hidden Material</h3>
+
+<p class="setin">All the hidden models and hidden icons are added to the editor by UMSWE.
+You can find them in the 'Extra' section of the mdl and blp selection dropdown.
+Also hidden abilities like Move, Attack, and Hero and hidden units are now shown in the object editor.
+
+<br><br><img title="Hidden Models" src="img/hiddenstuff.gif" alt="Hidden Models" class="setin"><br><br></p>
+
+<h2><a name="cc"></a>Category Configuration</h2>
+
+<p class="setin">UMSWE allows to change the order of the categories in the object editor, gameplay constants dialog and game interface dialog like WEU used to.
+Contrary to WEU, however, it's possible to customize the prefixes of the categories to change their order to your liking. This image shows the configuration dialog that can be opend via the menu command <b>UMSWE\Customize Editor Categories</b>:
+
+<br><br><img title="Category Configuration" src="img/categoryconf.gif" alt="Category Configuration" class="setin"><br><br>
+
+Finally to have your custom categories applied you must check the <b>UMSWE\Custom Editor Categories</b> menu option and restart the editor. Assuming the UMSWE core option is also enabled your changes will then be applied:
+
+<br><br><img title="Category Results" src="img/categoryresult.gif" alt="Category Results" class="setin"><br><br></p>
+
+<h2><a name="tpc"></a>Tile Pathability Configuration</h2>
+
+<p class="setin">You can modify the buildability, walkability and flyability of each tile in a GUI that can be started via the <b>UMSWE\Customize Tile Pathability</b> menu command:
+	
+<br><br><img title="Pathability Configuration" src="img/pathingconf.gif" alt="Pathability Configuration" class="setin"><br><br>
+
+After restarting the editor the changes will be applied if the <b>UMSWE\Custom Tile Pathability</b> menu option and the UMSWE core options are enabled.
+Whenever you save a map, the editor will then generate the pathing map for it according to your configuration. There's a known issue, that disabled flyability automatically disables buildability for the same tile. A workaround is using the Grimex PathMapper tool to enable buildability for those tiles.</p>
+
+<h2><a name="tsc"></a>Tileset Specific Creeps</h2>
+
+<p class="setin">With the <b>UMSWE\Non Tileset Specific Objects</b> menu option enabled, all creeps and destructables will be made available for all tilesets.
+After toggling this option you need to restart the editor to apply the changes.</p>
+
+<h2><a name="credits"></a>Credits</h2>
+
+<p class="setin">There are several people who worked on the original UMSWE and other related tools:</p>
+
+<ul>
+<li><b>Scio</b> being the UMSWE godfather</li>
+<li><b>Starcraftfreak</b> who developed UMSWE after Scio</li>
+<li><b>FyreDaug</b> has tested out many of the object editor limits</li>
+<li><b>PipeDream</b> made Grimoire</li>
+<li><b>ShadowFlare</b> made the SFmpq library</li>
+<li><b>KDEWolf</b> made the UMSWE logo</li>
+<li><b>Vexorian and BlacKDicK</b> are UMSWE contributors</li>
+<li><b>Earth-Fury, MindWorX and HappyTauren</b> helped with the testing/debugging
+<li><b><a href="http://www.wc3campaigns.net">Wc3Campaigns</a></b> is hosting us and a I used their tauren theme for this</li>
+</ul>
+
+<p class="setin">Have fun,
+PitzerMike</p>
+
+</body>
+</html>

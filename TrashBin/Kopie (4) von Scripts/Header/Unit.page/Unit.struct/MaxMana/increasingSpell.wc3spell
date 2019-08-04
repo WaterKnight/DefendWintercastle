@@ -1,0 +1,7 @@
+field	jass ident	1	2	3	4	5	6	7	8	9	10	11	12	13	14
+name
+raw		AiMn
+base		SPECIAL_AImm
+classes		DUMMY
+levelsAmount		12
+specials		Iman=0	Iman=-1	Iman=-2	Iman=-4	Iman=-8	Iman=-16	Iman=-32	Iman=-64	Iman=-128	Iman=-256	Iman=-512	Iman=-1024	Iman=-2048	Iman=-4096

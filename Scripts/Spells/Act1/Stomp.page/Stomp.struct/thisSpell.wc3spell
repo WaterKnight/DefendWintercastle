@@ -1,0 +1,31 @@
+field	jass ident	1
+name		Stomp
+raw		Stp
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		roar
+target		IMMEDIATE
+
+animation		spell
+areaRange		400
+areaRangeDisplay		false
+cooldown		10
+channelTime		1.5
+manaCost		40
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNWarStomp.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Stirs up the ground, damaging nearby enemies by <damage> and stunning them for <stunDuration> seconds.
+
+damage		25
+stunDuration		2
+specialEffectPath		Abilities\Spells\Orc\WarStomp\WarStompCaster.mdl

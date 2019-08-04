@@ -1,0 +1,16 @@
+field	1
+name	Infection
+raw	Inf
+
+class	HERO_SECOND
+levelsAmount	5
+lostOn
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNDoom.blp
+tooltip
+uberTooltip	Drakul's attacks infect the target; thereby reducing its armor and spawning a descendant in case of death. Also your spell power is increased.
+
+sfxPath	Spells\Infection\Caster.mdx
+sfxAttachPt	AttachPoint.HEAD
+sfxLevel	EffectLevel.LOW

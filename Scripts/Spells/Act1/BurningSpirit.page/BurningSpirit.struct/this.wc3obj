@@ -1,0 +1,4 @@
+field	jass ident	1
+attackSpeedInc		0.6
+critInc		25
+moveSpeedRelInc		0.6

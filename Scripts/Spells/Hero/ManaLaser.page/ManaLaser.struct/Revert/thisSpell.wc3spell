@@ -1,0 +1,41 @@
+field	jass ident	1	2	3	4	5	6
+name		Revert
+raw		MaR
+
+base		NORMAL
+class		HERO_FIRST
+levelsAmount
+order		darkconversion
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		MR
+learnTooltip
+learnUberTooltip		Ports back to the old position. This is only possible for a short span of time.
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		0
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNNeutralManaShieldOff.blp
+
+lore
+sharedBuffs
+tooltip
+uberTooltip		Ports back to the old position. This is only possible for a short span of time.
+
+castEffectPath		Abilities\Spells\Undead\Possession\PossessionMissile.mdl
+castEndEffectPath		Abilities\Spells\Undead\DarkRitual\DarkRitualTarget.mdl
+duration		5
+sourceEffectPath		<SourceEffect.wc3imp:target>

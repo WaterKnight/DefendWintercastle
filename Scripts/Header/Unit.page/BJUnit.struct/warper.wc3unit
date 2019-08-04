@@ -1,0 +1,93 @@
+field	value
+name	Warper
+raw	wrp
+
+classes	DUMMY;NOT_LOCUST;WARPER
+hero
+structure	true
+team
+
+model	Buildings\Other\Waygate\Waygate.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale
+
+elevPts
+elevRad
+maxRoll
+maxPitch
+scale	0.25
+selScale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ
+outpactX
+outpactY
+outpactZ
+
+shadowPath
+shadowWidth
+shadowHeight
+shadowOffsetX
+shadowOffsetY
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNMove.blp
+soundset
+tooltip
+uberTooltip
+
+moveType
+moveSpeed
+turnRate
+height
+heightMin
+animWalk
+animRun
+moveInterp
+
+animBlend
+animCastWaitBefore
+animCastWaitAfter
+
+armorAmount
+armorSound
+armorType
+life
+lifeRegen
+mana
+manaRegen
+spellPower
+sightRange
+sightRangeNight
+
+attackType
+attackCooldown
+attackRange
+attackRangeAcq
+attackRangeBuffer
+attackTargetFlags
+attackWaitBefore
+attackWaitAfter
+attackSound
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType
+damageAmount
+damageDices
+damageSides
+
+collisionSize
+combatFlags
+deathTime
+exp
+gold

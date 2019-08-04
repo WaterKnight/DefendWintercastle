@@ -1,0 +1,16 @@
+field	1
+name
+raw
+
+class	DUMMY
+levelsAmount
+lostOn	death
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath	Abilities\Spells\Human\Polymorph\PolyMorphTarget.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW

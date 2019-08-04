@@ -1,0 +1,25 @@
+field	jass ident	1	2	3	4	5
+name		Tropical Rainbow
+raw		ATrR
+
+base		PARALLEL_IMMEDIATE
+class		ITEM
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		60
+manaCost
+range
+targets
+
+damageRelInc		0.2
+duration		60
+lifeRegenRelInc		0.5
+manaRegenRelInc		0.5
+speedRelInc		0.2
+spellPowerRelInc		0.2

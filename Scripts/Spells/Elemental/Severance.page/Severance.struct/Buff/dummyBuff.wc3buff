@@ -1,0 +1,21 @@
+field	1	2	3	4	5	6
+name	Severance
+raw	Sev
+
+class
+levelsAmount
+lostOn	dispel
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNAcidBomb.blp
+tooltip
+uberTooltip	This unit's bones are deep-frozen. They easily splinter under physical force.
+
+sfxPath	Abilities\Spells\Undead\UnholyFrenzy\UnholyFrenzyTarget.mdl
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW
+
+unitMod	armorBonus	armorBonus
+unitModVal	<this.wc3obj:armorInc>	<this.wc3obj:armorInc>
+unitMod	moveSpeedBonus	moveSpeedBonus
+unitModVal	<this.wc3obj:moveSpeedInc>	<this.wc3obj:moveSpeedInc>

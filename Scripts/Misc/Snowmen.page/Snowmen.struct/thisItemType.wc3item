@@ -1,0 +1,24 @@
+field	value
+name	Seed of Hope
+raw	Sno
+
+classes	POWER_UP
+
+model	Objects\InventoryItems\Shimmerweed\Shimmerweed.mdl
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description
+icon
+tooltip
+uberTooltip
+
+abilities
+armor
+chargesAmount
+cooldownGroup
+goldCost
+lumberCost

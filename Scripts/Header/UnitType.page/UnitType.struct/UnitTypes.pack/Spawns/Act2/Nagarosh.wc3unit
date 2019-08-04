@@ -1,0 +1,95 @@
+field	value
+name	Nagarosh
+raw	Nag
+
+classes
+hero	false
+structure	false
+team	ATTACKER
+
+model	units\orc\HeroFarSeer\HeroFarSeer.mdx
+modelAttachPts
+modelAnims
+modelAttachMods	medium
+modelBones
+standardScale	1.
+
+elevPts	0
+elevRad	50.
+maxRoll	10.
+maxPitch	10.
+scale	1.
+selScale	1.
+vertexColorRed	255
+vertexColorGreen	255
+vertexColorBlue	255
+vertexColorAlpha	190
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	120.
+shadowHeight	120.
+shadowOffsetX	60.
+shadowOffsetY	60.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNHeroFarseer.blp
+soundset	ChaosWarlord
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	150.
+turnRate	0.6
+height
+heightMin
+animWalk	240.
+animRun	240.
+moveInterp	4
+
+animBlend	0.15
+animCastWaitBefore	0.3
+animCastWaitAfter	0.51
+
+armorAmount	0.
+armorSound	Ethereal
+armorType	LIGHT
+life	825.
+lifeRegen	2.75
+mana	400.
+manaRegen	2.5
+spellPower	70.
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	NORMAL
+attackCooldown	2.28
+attackRange	100.
+attackRangeAcq	500.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	0.5
+attackWaitAfter	0.
+attackSound
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	MAGIC
+damageAmount	10
+damageDices	2
+damageSides	3
+
+collisionSize	32.
+combatFlags	ground
+deathTime	1.75
+exp	100
+gold	50
+
+abilities	Spells\Act2\ChainLightning.page\ChainLightning.struct\thisSpell;Spells\Act2\SpiritWolves.page\SpiritWolves.struct\thisSpell

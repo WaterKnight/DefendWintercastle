@@ -1,0 +1,15 @@
+field	jass ident	1
+name
+raw		WhC
+base		SPECIAL_Acyc
+classes		DUMMY
+
+cooldown		0
+manaCost		0
+range		99999
+targets		ground,enemies,friend,structure,air,neutral,invulnerable,vulnerable,ward
+
+specials		abuf=<cycloneBuff.wc3buff:raw>,<cycloneBuffExtra.wc3buff:raw>
+specials		acat=
+specials		adur=0
+specials		ahdu=0

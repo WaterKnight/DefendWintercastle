@@ -1,0 +1,93 @@
+field	value
+name	Peon
+raw	Peo
+
+classes
+hero	false
+structure	false
+team	ATTACKER
+
+model	units\orc\Peon\Peon.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.
+
+elevPts	0
+elevRad	20.
+maxRoll	10.
+maxPitch	10.
+scale	0.85
+selScale	1.
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	45.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	120.
+shadowHeight	120.
+shadowOffsetX	50.
+shadowOffsetY	50.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNPeon.blp
+soundset	Peon
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	170.
+turnRate	0.6
+height
+heightMin
+animWalk	180.
+animRun	180.
+moveInterp	0
+
+animBlend	0.15
+animCastWaitBefore	0.3
+animCastWaitAfter	0.51
+
+armorAmount	0.
+armorSound	Flesh
+armorType	MEDIUM
+life	120.
+lifeRegen	0.5
+mana
+manaRegen
+spellPower	35.
+sightRange	800.
+sightRangeNight	600.
+
+attackType	NORMAL
+attackCooldown	3.
+attackRange	90.
+attackRangeAcq	500.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	0.5
+attackWaitAfter	0.
+attackSound	MetalLightChop
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	NORMAL
+damageAmount	5
+damageDices	1
+damageSides	2
+
+collisionSize	16.
+combatFlags	ground
+deathTime	2.
+exp	20
+gold	15

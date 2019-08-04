@@ -1,0 +1,31 @@
+field	jass ident	1	2	3	4	5
+name		White Staff
+raw		AWhS
+
+base		NORMAL
+class		ARTIFACT
+levelsAmount
+order		sanctuary
+target		UNIT
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime		5
+cooldown		10
+manaCost		5
+range		700
+targets		air,friend,ground,invulnerable,organic,vulnerable
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNAdvancedStrengthOfTheMoon.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		A stimulating shake is thrown to an allied unit, temporarily boosting the target's spellpower by <spellPowerIncrement> and restoring <manaIncrement> mana.|nLasts <duration> seconds.
+
+effectLightningPath		SPLK
+interval		0.75
+manaHealPerSecond		3	4	5	6	7

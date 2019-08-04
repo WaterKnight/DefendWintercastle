@@ -1,0 +1,44 @@
+field	value
+name	Darkness2
+raw	009
+
+classes	DECOR
+
+model	Doodads\Cinematic\FootSwitch\FootSwitch.mdx
+modelLightweight
+modelPortrait
+modelVariations
+
+flyHeight
+occluderHeight
+replaceableTex
+replaceableTexId
+selScale
+vertexColorRed	0
+vertexColorGreen	0
+vertexColorBlue	16
+
+elevRad
+maxRoll
+maxPitch
+
+minimapDisplay	true
+minimapRed
+minimapGreen
+minimapBlue
+
+deathSound
+shadow
+
+armor
+fatLOS
+fogRad	100
+fogVisibility	true
+life
+selectable
+
+pathTex
+pathTexDead
+combatFlags
+cliffLevel
+walkable

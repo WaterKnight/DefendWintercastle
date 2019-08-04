@@ -1,0 +1,13 @@
+field	1
+raw	Tes
+
+texPath	ReplaceableTextures\Weather\HealBeam.blp
+avgSegLen	50
+width	15
+red	255
+green	255
+blue	255
+alpha	255
+noiseScale	0.01
+texCoordScale	0.8
+duration	2

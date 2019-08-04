@@ -1,0 +1,16 @@
+field	1
+name	Volcanic Shot
+raw	VcS
+
+class	NORMAL
+levelsAmount
+lostOn
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNVolcano.blp
+tooltip
+uberTooltip	This unit is affected by '<name>', it explodes on death.
+
+sfxPath
+sfxAttachPt
+sfxLevel

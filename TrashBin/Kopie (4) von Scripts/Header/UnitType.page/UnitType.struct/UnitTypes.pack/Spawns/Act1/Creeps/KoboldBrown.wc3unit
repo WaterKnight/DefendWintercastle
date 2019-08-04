@@ -1,0 +1,93 @@
+field	value
+name	Brown Kobold
+raw	KoM
+
+classes
+hero	false
+structure	false
+team	ATTACKER
+
+model	units\creeps\Kobold\Kobold.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	0.85
+
+elevPts	0
+elevRad	30.
+maxRoll	10.
+maxPitch	10.
+scale	0.85
+selScale	1.
+vertexColorRed	255
+vertexColorGreen	255
+vertexColorBlue	165
+vertexColorAlpha	255
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	100.
+shadowHeight	100.
+shadowOffsetX	45.
+shadowOffsetY	45.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNKobold.blp
+soundset	Kobold
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	270.
+turnRate	0.5
+height
+heightMin
+animWalk	150.
+animRun	150.
+moveInterp	0
+
+animBlend	0.15
+animCastWaitBefore	0.5
+animCastWaitAfter	0.51
+
+armorAmount	1.
+armorSound	Flesh
+armorType	LARGE
+life	175.
+lifeRegen	1.
+mana
+manaRegen
+spellPower	10.
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	NORMAL
+attackCooldown	1.35
+attackRange	100.
+attackRangeAcq	300.
+attackRangeBuffer	250.
+attackTargetFlags	ground,ward
+attackWaitBefore	0.38
+attackWaitAfter	0.
+attackSound	MetalMediumChop
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	NORMAL
+damageAmount	4
+damageDices	1
+damageSides	3
+
+collisionSize	31.
+combatFlags	ground
+deathTime	3.
+exp	10
+gold	20

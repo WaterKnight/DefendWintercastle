@@ -1,0 +1,28 @@
+field	1
+name	Depriving Shock
+raw	DeS
+
+class	HERO_SECOND
+levelsAmount	5
+lostOn	dispel
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNRavenForm.blp
+tooltip
+uberTooltip	Swift movements grant this unit an increased evasion chance.
+
+sfxPath	Abilities\Spells\Other\Tornado\Tornado_Target.mdl
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW
+
+sfxPath	Abilities\Spells\Other\Tornado\Tornado_Target.mdl
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW
+
+sfxPath	Abilities\Spells\Other\Tornado\Tornado_Target.mdl
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW
+
+sfxPath	Abilities\Spells\Other\Tornado\Tornado_Target.mdl
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW

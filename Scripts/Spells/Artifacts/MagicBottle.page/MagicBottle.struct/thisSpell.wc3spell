@@ -1,0 +1,38 @@
+field	jass ident	1	2	3	4	5	6
+name		Magic Bottle
+raw		MaB
+
+base		NORMAL
+class		ARTIFACT
+levelsAmount
+order		sanctuary
+target		UNIT
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		13
+manaCost		55	75	95	115	125	135
+range		700
+targets		air,enemy,friend,ground,invulnerable,organic,vulnerable
+
+learnIcon
+learnRaw		MB
+learnTooltip
+learnUberTooltip		A stimulating shake is thrown to a target unit, its effect depending on the target's disposition.|non ally: Restores mana, adds a spell power buff.|non enemy: Dispels buffs, restores mana if at least one buff is dispelled and <WHIRL>whirls up</WHIRL> the target.
+learnUberTooltipUpgrades		{Mana restored,<manaInc>};{Spell power bonus,<Buff\this.wc3obj:spellPowerInc>};{Purge duration,<purgeDuration,asSecs>}
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNPotionOfOmniscience.blp
+lore
+sharedBuffs		WHIRL
+tooltip
+uberTooltip		A stimulating shake is thrown to a target unit, its effect depending on the target's disposition.|non ally: Restores <manaInc> mana, adds a spell power buff of <Buff\this.wc3obj:spellPowerInc> for <Buff\this.wc3obj:duration> seconds.|non enemy: Dispels buffs, restores <manaInc> mana if at least one buff is dispelled and <WHIRL>whirls up</WHIRL> the target for <whirlDuration> seconds.
+
+manaInc		40	60	80	100	120	140
+targetEffectAttachPoint		AttachPoint.ORIGIN
+targetEffectPath		Abilities\Spells\Items\AIil\AIilTarget.mdl
+whirlDuration		1.5	1.5

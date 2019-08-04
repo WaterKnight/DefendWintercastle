@@ -1,0 +1,28 @@
+field	jass ident	1
+name		Cancel
+raw
+profileIdent		CmdCancel
+
+base
+classes		DUMMY
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX		3
+buttonPosY		2
+hotkey		Esc
+icon		CommandCancel
+lore
+sharedBuffs
+tooltip		(<color=GOLD><hotkey></color>) <color=DWC><name></color>
+uberTooltip		Abort current action/close current menu.

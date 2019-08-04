@@ -1,0 +1,16 @@
+field	1
+name	Healed
+raw	FoA
+
+class	NORMAL
+levelsAmount
+lostOn
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNHeal.blp
+tooltip
+uberTooltip	A medicative fountain cures this unit's wounds.
+
+sfxPath	Abilities\Spells\Other\ANrm\ANrmTarget.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.NORMAL

@@ -1,0 +1,29 @@
+field	jass ident	1	2	3
+name		Theurgic Vessel
+raw		ThV
+
+base		PASSIVE
+class		NORMAL
+levelsAmount
+order
+target
+
+learnUberTooltipUpgrades		{Spell power bonus,<Target\this.wc3obj:spellPowerRelInc,%>};{Spell vamp bonus,<Target\this.wc3obj:spellVampInc,%>}
+
+animation
+areaRange		600.
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNPotionOfVampirism.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		An aura that grants nearby allied units a spell vamp of <Target\this.wc3obj:spellVampInc,%> and a bonus to spell power of <Target\this.wc3obj:spellPowerRelInc,%>.

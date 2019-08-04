@@ -1,0 +1,8 @@
+field	jass ident	1
+name
+raw		AEth
+base		SPECIAL_Agho
+classes		DUMMY
+
+specials		Gho1=0
+specials		Gho2=0

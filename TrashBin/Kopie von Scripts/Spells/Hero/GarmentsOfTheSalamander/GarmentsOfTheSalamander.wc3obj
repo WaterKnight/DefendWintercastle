@@ -1,0 +1,37 @@
+field	jass ident	1	2	3	4	5
+name		Garments of the Salamander
+raw		ASam
+
+base		PARALLEL_IMMEDIATE
+class		HERO_SECOND
+levelsAmount
+order		evileye
+target
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Sa
+learnTooltip
+learnUberTooltip
+
+animation		spell
+areaRange
+areaRangeDisplay
+cooldown		3
+channelTime
+manaCost		15
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNThunderLizardSalamander.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip
+
+lifeIncrement		5	8	11	14	17

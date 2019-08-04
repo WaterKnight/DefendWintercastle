@@ -1,0 +1,27 @@
+field	jass ident	1	2	3	4	5
+name		Soaking Poison
+raw		ASoP
+
+base		PASSIVE
+class		NORMAL
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\PassiveButtons\PASBTNPoisonSting.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Attachs some poison to your weapon to tranfer it to attacked targets. The poison deals <damagePerSecond> damage per second and remains <duration> (<heroDuration>) seconds.

@@ -1,0 +1,49 @@
+field	jass ident	1	2	3	4	5
+name		Khaki Recovery
+raw		ARec
+
+base		NORMAL
+class		HERO_FIRST
+levelsAmount
+order		healingwave
+target		UNIT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Rc
+learnTooltip
+learnUberTooltip		Enwraps a couple of allied units in a greenish light, instantly recovering their hitpoints whereas each new target receives less than the previous one. The first target will also be dispelled from negative buffs.	Enwraps a couple of allied units in a greenish light, instantly recovering their hitpoints whereas each new target receives less than the previous one. The first target will also be dispelled from negative buffs.|n|nNext Level:|nMana cost: <manaCost<prevLevel>> --> <manaCost>|nRestored life (first target): <restoredLife<prevLevel>> --> <restoredLife>|nTargets amount: <targetsAmount<prevLevel>> --> <targetsAmount>
+
+animation		spell
+areaRange		500
+areaRangeDisplay		false
+channelTime
+cooldown		6
+manaCost		105	120	135	150	165
+range		650
+targets		air,friend,ground,invulnerable,neutral,organic,self,vulnerable
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNMagicImmunity.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Enwraps up to <targetsAmount> allied units in a greenish light, instantly recovering their hitpoints by <restoredLife> whereas each next target receives <restoredLifeAddFactor,%> less from the initial value. The first target will also be dispelled from negative buffs.
+
+casterEffectAttachPoint		AttachPoint.ORIGIN
+casterEffectPath		Abilities\Spells\Other\Drain\DrainCaster.mdl
+damage		30	45	60	75	90
+damageAreaWidth		75
+delay		0.35
+effectLightningPath		HWSB
+firstLightningPath		SPLK
+restoredLife		120	180	240	300	360
+restoredLifeAddFactor		-0.15
+stunDuration		1	1.25	1.5	1.75	2
+targetEffectAttachPoint		AttachPoint.ORIGIN
+targetEffectPath		Abilities\Spells\NightElf\Tranquility\TranquilityTarget.mdl
+targetsAmount		3	3	4	4	5

@@ -1,0 +1,93 @@
+field	value
+name	Arctic Wolf (Level 1)
+raw	ArW
+
+classes
+hero	false
+structure	false
+team	DEFENDER
+
+model	units\creeps\WhiteWolf\WhiteWolf.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.
+
+elevPts	0
+elevRad	50.
+maxRoll	10.
+maxPitch	45.
+scale	1.25
+selScale	2.
+vertexColorRed	150
+vertexColorGreen	120
+vertexColorBlue	255
+vertexColorAlpha	200
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	180.
+shadowHeight	180.
+shadowOffsetX	70.
+shadowOffsetY	70.
+
+attachments	Abilities\Weapons\SpiritOfVengeanceMissile\SpiritOfVengeanceMissile.mdl;HAND_LEFT;NORMAL;Abilities\Weapons\SpiritOfVengeanceMissile\SpiritOfVengeanceMissile.mdl;HAND_RIGHT;NORMAL;Abilities\Weapons\SpiritOfVengeanceMissile\SpiritOfVengeanceMissile.mdl;FOOT_LEFT;NORMAL;Abilities\Weapons\SpiritOfVengeanceMissile\SpiritOfVengeanceMissile.mdl;FOOT_RIGHT;NORMAL
+blood
+icon	ReplaceableTextures\CommandButtons\BTNTimberWolf.blp
+soundset	SpiritWolf
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	320.
+turnRate	0.6
+height
+heightMin
+animWalk	240.
+animRun	240.
+moveInterp	5
+
+animBlend	0.15
+animCastWaitBefore	0.3
+animCastWaitAfter	0.51
+
+armorAmount	2.
+armorSound	Flesh
+armorType	LARGE
+life	750.
+lifeRegen	0.
+mana	300.
+manaRegen	0
+spellPower	50.
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	NORMAL
+attackCooldown	1.35
+attackRange	90.
+attackRangeAcq	500.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	0.33
+attackWaitAfter	0.
+attackSound	WoodMediumBash
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	NORMAL
+damageAmount	30
+damageDices	2
+damageSides	9
+
+collisionSize	33.
+combatFlags	ground
+deathTime	1.75
+exp
+gold

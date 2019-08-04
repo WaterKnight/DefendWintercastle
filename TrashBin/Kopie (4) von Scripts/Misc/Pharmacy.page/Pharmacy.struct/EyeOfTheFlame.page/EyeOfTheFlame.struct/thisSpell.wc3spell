@@ -1,0 +1,30 @@
+field	jass ident	1	2	3	4	5
+name		Eye of the Flame
+raw		AEoF
+
+base		NORMAL
+class		ITEM
+levelsAmount
+order		evileye
+target		POINT
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		15
+manaCost
+range		550
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\
+lore
+sharedBuffs
+tooltip
+uberTooltip
+
+duration		40
+summonsAmount		1

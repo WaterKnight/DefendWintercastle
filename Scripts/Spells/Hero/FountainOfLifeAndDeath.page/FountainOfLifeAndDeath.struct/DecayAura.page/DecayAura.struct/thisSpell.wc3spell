@@ -1,0 +1,30 @@
+field	jass ident	1	2	3
+name		Decay Aura
+raw		DkA
+
+base		PASSIVE
+class
+levelsAmount
+order
+target
+
+learnUberTooltip		A destructive aura dealing damage per second to nearby enemy units and lowering their resistance.
+learnUberTooltipUpgrades		{Damage per second,<damagePerSecond>};{Resistance malus,<Target\this.wc3obj:resistanceInc,-,%>}
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\PassiveButtons\PASBTNShadeTrueSight.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		A destructive aura that deals <this.wc3obj:damagePerSecond> damage per second to nearby hostile units and lowers their resistance by <Target\this.wc3obj:resistanceInc,-,%>.

@@ -1,0 +1,28 @@
+field	jass ident	1
+name		Move
+raw		Amov
+profileIdent		CmdMove
+
+base		SPECIAL_Amov
+classes		DUMMY
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX		0
+buttonPosY		0
+hotkey		M
+icon		CommandMove
+lore
+sharedBuffs
+tooltip		(<color=GOLD><hotkey></color>) <color=DWC><name></color>
+uberTooltip		Orders the unit to move to a targeted point.

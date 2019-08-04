@@ -1,0 +1,24 @@
+field	value
+name	Frozen Star
+raw	FrS
+
+classes	SCROLL
+
+model	Objects\InventoryItems\TreasureChest\treasurechest.mdl
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description
+icon	ReplaceableTextures\CommandButtons\BTNStaffOfNegation.blp
+tooltip	Purchase <name>
+uberTooltip	Contains power.
+
+abilities
+armor
+chargesAmount
+cooldownGroup
+goldCost
+lumberCost

@@ -1,0 +1,13 @@
+field	1
+raw	RBD
+
+texPath	<bolt.wc3imp:target>
+avgSegLen	2
+width	1
+red	255
+green	255
+blue	255
+alpha	255
+noiseScale	0
+texCoordScale	-1
+duration	2

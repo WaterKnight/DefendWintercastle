@@ -1,0 +1,51 @@
+static string array DAMAGE_EFFECT_ATTACH_POINT
+static string array DAMAGE_EFFECT_PATH
+static integer array FIELD
+static real array DAMAGE_FACTOR
+static integer array DAMAGE
+static integer array DURATION
+static real array DAMAGE_RELATIVE_INCREMENT
+static real array ATTACK_SPEED_INCREMENT
+    
+static method Init_obj_Target takes nothing returns nothing
+    set thistype.DAMAGE_EFFECT_ATTACH_POINT[1] = AttachPoint.ORIGIN
+    set thistype.DAMAGE_EFFECT_PATH[1] = "Abilities\\Spells\\Undead\\OrbOfDeath\\AnnihilationMissile.mdl"
+    set thistype.FIELD[1] = 1
+    set thistype.DAMAGE_FACTOR[1] = 0.06
+    set thistype.DAMAGE[1] = 20
+    set thistype.DURATION[1] = 6
+    set thistype.DAMAGE_RELATIVE_INCREMENT[1] = -0.3
+    set thistype.ATTACK_SPEED_INCREMENT[1] = -0.5
+    set thistype.DAMAGE_EFFECT_ATTACH_POINT[2] = AttachPoint.ORIGIN
+    set thistype.DAMAGE_EFFECT_PATH[2] = "Abilities\\Spells\\Undead\\OrbOfDeath\\AnnihilationMissile.mdl"
+    set thistype.FIELD[2] = 2
+    set thistype.DAMAGE_FACTOR[2] = 0.07
+    set thistype.DAMAGE[2] = 30
+    set thistype.DURATION[2] = 6
+    set thistype.DAMAGE_RELATIVE_INCREMENT[2] = -0.3
+    set thistype.ATTACK_SPEED_INCREMENT[2] = -0.55
+    set thistype.DAMAGE_EFFECT_ATTACH_POINT[3] = AttachPoint.ORIGIN
+    set thistype.DAMAGE_EFFECT_PATH[3] = "Abilities\\Spells\\Undead\\OrbOfDeath\\AnnihilationMissile.mdl"
+    set thistype.FIELD[3] = 3
+    set thistype.DAMAGE_FACTOR[3] = 0.08
+    set thistype.DAMAGE[3] = 40
+    set thistype.DURATION[3] = 6
+    set thistype.DAMAGE_RELATIVE_INCREMENT[3] = -0.3
+    set thistype.ATTACK_SPEED_INCREMENT[3] = -0.6
+    set thistype.DAMAGE_EFFECT_ATTACH_POINT[4] = AttachPoint.ORIGIN
+    set thistype.DAMAGE_EFFECT_PATH[4] = "Abilities\\Spells\\Undead\\OrbOfDeath\\AnnihilationMissile.mdl"
+    set thistype.FIELD[4] = 4
+    set thistype.DAMAGE_FACTOR[4] = 0.09
+    set thistype.DAMAGE[4] = 50
+    set thistype.DURATION[4] = 6
+    set thistype.DAMAGE_RELATIVE_INCREMENT[4] = -0.3
+    set thistype.ATTACK_SPEED_INCREMENT[4] = -0.65
+    set thistype.DAMAGE_EFFECT_ATTACH_POINT[5] = AttachPoint.ORIGIN
+    set thistype.DAMAGE_EFFECT_PATH[5] = "Abilities\\Spells\\Undead\\OrbOfDeath\\AnnihilationMissile.mdl"
+    set thistype.FIELD[5] = 5
+    set thistype.DAMAGE_FACTOR[5] = 0.1
+    set thistype.DAMAGE[5] = 60
+    set thistype.DURATION[5] = 6
+    set thistype.DAMAGE_RELATIVE_INCREMENT[5] = -0.3
+    set thistype.ATTACK_SPEED_INCREMENT[5] = -0.7
+endmethod

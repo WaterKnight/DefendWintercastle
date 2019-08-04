@@ -1,0 +1,18 @@
+field	1
+name	Possession
+raw	Pos
+
+class	NORMAL
+levelsAmount
+lostOn
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNMagicalSentry.blp
+tooltip
+uberTooltip	This unit's owner is changed from the default one.
+
+sfxPath
+sfxAttachPt
+sfxLevel
+
+showCountdown	true

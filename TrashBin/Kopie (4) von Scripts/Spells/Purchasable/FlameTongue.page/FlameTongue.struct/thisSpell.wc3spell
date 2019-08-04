@@ -1,0 +1,47 @@
+field	jass ident	1	2	3	4	5
+name		Flame Tongue
+raw		AFlT
+
+base		NORMAL
+class		PURCHASABLE
+levelsAmount
+order		clusterrockets
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		FT
+learnTooltip
+learnUberTooltip		Scorches enemies in two parabolic lines starting from the target point. The flames cause damage benefitting from attack damage and deals more if the target is ignited. A target can be hit twice since the tongue snaps back.
+
+animation		spell
+areaRange		200
+areaRangeDisplay		false
+channelTime
+cooldown		10
+manaCost		30	45	55	70	90
+range		700
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNMarkOfFire.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Scorches enemies in two parabolic lines starting from the target point. The flames cause <damage> (+<damageDamageModFactor> x attack damage) damage and deals <damageIgniteBonus,%> more if the target is ignited. A target can be hit twice since the tongue snaps back.
+
+damage		35	50	65	80	95
+damageDamageModFactor		1
+damageIgniteBonus		0.5	0.6	0.7	0.8	0.9
+horizontalMaxWidth		500	500
+horizontalMaxWidthLengthFactor		0.5	0.5
+interval		0.2
+maxDamage		500	900	1500	2200	3000
+maxLength		600	600
+specialEffectPath		Abilities\Spells\Other\Incinerate\FireLordDeathExplode.mdl
+specialEffect2Path		Abilities\Spells\Human\FlameStrike\FlameStrikeEmbers.mdl
+speed		700	700

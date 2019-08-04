@@ -1,0 +1,17 @@
+field	jass ident	1
+name
+raw		ARev
+base		SPECIAL_Aast
+classes		DUMMY
+levelsAmount		3
+specials		Imvb=0
+
+cooldown		0
+manaCost		0
+range		99999
+targets		air,dead,ground,invulnerable,player,structure,vulnerable
+
+specials		acat=
+specials		areq=
+specials		ast1=
+specials		ast2=

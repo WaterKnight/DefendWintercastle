@@ -1,0 +1,40 @@
+field	jass ident	1	2	3
+name		Sanguine Eyes
+raw		SaE
+
+base		NORMAL
+class		HERO_ULTIMATE_EX
+levelsAmount
+order		healingwave
+target		UNIT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		SE
+learnTooltip
+learnUberTooltip		Intimidates a single enemy unit by an immense charisma, up to the point that it cannot act any longer, even physically starts to <BLEED>bleed</BLEED> and is put under such pressure that it <EXPLOSION>explodes</EXPLOSION> on death. Any damage the target takes is converted into life for <Smokealot:name>. The ability is refreshed as soon as the buff vanishes.
+learnUberTooltipUpgrades		{Damage to life factor,<damageToLifeFactor,%>};{Duration,<duration,asSecs>}
+
+animation		spell
+areaRange
+areaRangeDisplay		false
+channelTime
+cooldown		150
+manaCost		140	170	200
+range		2000
+targets		air,enemies,ground,neutral,invulnerable,organic,vulnerable
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNOrbofSlowness.blp
+
+lore
+sharedBuffs		BLEED;EXPLOSION
+tooltip
+uberTooltip		Intimidates a single enemy unit by an immense charisma, up to the point that it cannot act any longer, even physically starts to <BLEED>bleed</BLEED> and is put under such pressure that it <EXPLOSION>explodes</EXPLOSION> on death. Any damage the target takes is converted into life for <Smokealot:name> (<damageToLifeFactor,%>). The ability is refreshed as soon as the buff vanishes.|nLasts <duration,asSecs>.
+
+damageToLifeFactor		0.3	0.5	0.7
+duration		20	20

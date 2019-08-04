@@ -1,0 +1,42 @@
+field	jass ident	1	2	3	4	5
+name		Hop'n'Drop
+raw		AHop
+
+base		NORMAL
+class		HERO_SECOND
+levelsAmount
+order		stasistrap
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		HD
+learnTooltip
+learnUberTooltip		Executes a mighty pounce directed at the target location while dropping explosives underneath. These traps activate when being destroyed and deal damage as well as stun near foes.	Executes a mighty pounce directed at the target location while dropping explosives underneath. These traps activate when being destroyed and deal damage as well as stun near foes.|n|nNext Level:|nCooldown: <cooldown<prevLevel>> seconds --> <cooldown> seconds|nDamage: <damage<prevLevel>> --> <damage>|nExplosion Radius: <areaRange<prevLevel>> --> <areaRange>|nMana cost: <manaCost<prevLevel>> --> <manaCost>
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		22	20	18	16	14
+manaCost		120	140	160	180	200
+range		900
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNGoblinLandMine.blp
+lore		Precision, elegance, courage,.. and 10 kilograms of gun powder refine my combat ability. I ain't your little support. My teacher has thaught me this technique. I have never quite understood what it was meant for but I kinda liked the fireworks.
+sharedBuffs
+tooltip
+uberTooltip		Executes a mighty pounce directed at the target location while dropping explosives underneath. These traps activate when being destroyed and deal <damage> damage as well stun near foes for <stunDuration> seconds. Allied units receive <friendlyFireFactor,%> of the damage amount.
+
+duration		1
+floorTolerance		1
+height		500
+maxLength		900
+
+include		SetMines

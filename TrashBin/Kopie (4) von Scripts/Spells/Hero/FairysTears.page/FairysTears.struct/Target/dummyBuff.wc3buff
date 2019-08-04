@@ -1,0 +1,16 @@
+field	1
+name
+raw
+
+class	HERO_ULTIMATE
+levelsAmount	3
+lostOn	death
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath	Abilities\Spells\NightElf\Starfall\StarfallTarget.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW

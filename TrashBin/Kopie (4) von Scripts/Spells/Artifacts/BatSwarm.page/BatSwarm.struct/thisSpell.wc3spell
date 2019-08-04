@@ -1,0 +1,35 @@
+field	jass ident	1	2	3	4	5
+name		Bat Swarm
+raw		ABaS
+
+base		NORMAL
+class		ARTIFACT
+levelsAmount
+order		sanctuary
+target		UNIT
+
+animation		spell
+areaRange		400
+areaRangeDisplay		true
+cooldown		14
+channelTime
+manaCost		75	85	95	105	115
+range		800
+targets		air,enemies,friend,ground,invulnerable,neutral,organic,self,vulnerable
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNCarrionSwarm.blp
+lore
+sharedBuffs		ECLIPSE
+tooltip
+uberTooltip		Some bats from the ceiling of Wintercastle appear that engulf the target unit. Enemy targets will be rendered in an eclipse for <eclipseDuration> seconds, allies protected by a spell shield for <spellShieldDuration> seconds. The bats will then swarm out to up to <maxEnemiesAmount> nearby enemy units in order to deal <damage> damage and restore <heal> lifepoints each to the target of the spell (allies only).
+
+damage		20	30	45	65	90
+eclipseDuration		7	7
+enemyEffectAttachPoint		AttachPoint.CHEST
+enemyEffectPath		Abilities\Weapons\LocustMissile\LocustMissile.mdl
+heal		20	25	30	35	40
+maxEnemiesAmount		3	3
+spellShieldDuration		7	7

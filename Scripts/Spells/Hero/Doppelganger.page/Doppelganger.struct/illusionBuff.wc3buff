@@ -1,0 +1,12 @@
+field	1
+name	Doppelganger
+raw	DGI
+
+class
+levelsAmount
+lostOn
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNDoom.blp
+tooltip
+uberTooltip	Your vision play tricks on you. But the pain seems rather real.

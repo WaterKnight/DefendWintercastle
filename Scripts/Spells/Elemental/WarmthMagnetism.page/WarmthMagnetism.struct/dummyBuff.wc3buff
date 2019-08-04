@@ -1,0 +1,19 @@
+field	1	2	3	4	5	6
+name
+raw
+
+class
+levelsAmount
+lostOn	death;dispel
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath
+sfxAttachPt
+sfxLevel
+
+unitMod	moveDisable	moveDisable
+unitModVal	true	true

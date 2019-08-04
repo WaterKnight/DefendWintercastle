@@ -1,0 +1,25 @@
+field	jass ident	1	2	3	4	5
+name		Teleport Scroll
+raw		ATpS
+
+base		NORMAL
+class		ITEM
+levelsAmount
+order
+target		POINT_OR_UNIT
+
+animation
+areaRange
+areaRangeDisplay
+channelTime		4
+cooldown		30
+manaCost		0
+range		99999
+targets		structure,item,invulnerable,vulnerable
+
+casterArrivalEffectAttachPoint		AttachPoint.ORIGIN
+casterArrivalEffectPath		Abilities\Spells\Human\MassTeleport\MassTeleportTarget.mdl
+delay		4
+maxOffset		1024
+targetEffectAttachPoint		AttachPoint.ORIGIN
+targetEffectPath		Abilities\Spells\Human\MassTeleport\MassTeleportTo.mdl

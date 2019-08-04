@@ -1,0 +1,142 @@
+<form action="UnitGen.php" method="post" target="result">
+       <b>General</b>
+       <table border="1" bordercolordark="#FFFFFF">
+                 <tr><td>Name</td><td><input type="Text" name="objectName" value="" size="" maxlength=""></td></tr>
+                 <tr><td>Id</td><td><input type="Text" name="id" value="" size="" maxlength=""></td>
+                 <tr><td>Var</td><td><input type="Text" name="varName" value="" size="" maxlength=""</td>
+                 <tr><td>Class</td><td><select name="cl" size="1">
+                 <option value="DEFENDER">DEFENDER</option>
+                 <option value="ATTACKER">ATTACKER</option>
+                 <option value="OTHER">OTHER</option></select></td></tr>
+                 <tr><td>Standard Scale</td><td><input type="Text" name="standardScale" value="1." size="" maxlength=""></td>
+       </table>
+
+       <b>Armor</b>
+       <table border="1" bordercolordark="#FFFFFF">
+               <tr><td>Defense Type</td><td><select name="defType" size="1" selected="LARGE">
+               <option value="LIGHT">LIGHT</option>
+               <option value="MEDIUM">MEDIUM</option>
+               <option value="LARGE">LARGE</option>
+               <option value="FORT">FORT</option>
+               <option value="HERO">HERO</option>
+               <option value="UNARMORED">UNARMORED</option>
+               <option value="DIVINE">DIVINE</option></td></tr>
+               <tr><td>Amount</td><td><input type="Text" name="armorAmount" value="0." size="" maxlength=""></td></tr>
+               <tr><td>Sound Type</td><td><select name="armorSound" size="1">
+               <option value="Ethereal">Ethereal</option>
+               <option value="Flesh">Flesh</option>
+               <option value="Metal">Metal</option>
+               <option value="Stone">Stone</option>
+               <option value="Wood">Wood</option></td></tr>
+       </table>
+
+       <b>Attack</b>
+       <table border="1" bordercolordark="#FFFFFF">
+                <tr><td>Type</td><td><select name="atkType" size="1">
+               <option value="NORMAL">NORMAL</option>
+               <option value="MISSILE">MISSILE</option>
+               <option value="HOMING_MISSILE">HOMING_MISSILE</option>
+               <option value="ARTILLERY">ARTILLERY</option></td></tr>
+               <tr><td>Cooldown</td><td><input type="Text" name="atkCooldown" value="1.5" size="" maxlength=""></td></tr>
+               <tr><td>Range</td><td><input type="Text" name="atkRange" value="100." size="" maxlength=""></td></tr>
+               <tr><td>Range Buffer</td><td><input type="Text" name="atkBuffer" value="250." size="" maxlength=""></td></tr>
+               <tr><td>Targets</td><td><input type="Text" name="atkTargets" value="ground,structure,debris,air,item,ward" size="" maxlength=""></td></tr>
+               <tr><td>Wait after</td><td><input type="Text" name="atkWaitAfter" value="0." size="" maxlength=""></td></tr>
+               <tr><td>Sound</td><td><input type="Text" name="atkSound" value="" size="" maxlength=""></td></tr>
+               <tr><td>Acq Range</td><td><input type="Text" name="acqRange" value="600." size="" maxlength=""></td></tr>
+               <tr><td>Own Combat Flags</td><td><input type="Text" name="combatFlags" value="ground,structure,debris,air,item,ward" size="" maxlength=""></td></tr>
+       </table>
+
+       <b>Attack Missile</b>
+       <table border="1" bordercolordark="#FFFFFF">
+                <tr><td>Model</td><td><input type="Text" name="misModel" value="" size="" maxlength=""></td></tr>
+                <tr><td>Speed</td><td><input type="Text" name="misSpeed" value="700." size="" maxlength=""></td></tr>
+                <tr><td>Arc</td><td><input type="Text" name="misArc" value="0.15" size="" maxlength=""></td></tr>
+       </table>
+
+       <b>Damage</b>
+       <table border="1" bordercolordark="#FFFFFF">
+               <tr><td>Type</td><td><select name="dmgType" size="1">
+               <option value="NORMAL">NORMAL</option>
+               <option value="PIERCE">PIERCE</option>
+               <option value="SIEGE">SIEGE</option>
+               <option value="MAGIC">MAGIC</option>
+               <option value="CHAOS">CHAOS</option>
+               <option value="HERO">HERO</option>
+               <option value="SPELLS">SPELLS</option></td></tr>
+               <tr><td>Amount + Dice x Side</td><td><input type="Text" name="dmgAmount" value="12" size="" maxlength=""> + <input type="Text" name="dmgDice" value="2" size="" maxlength=""> x <input type="Text" name="dmgSide" value="6" size="" maxlength=""></td></tr>
+               <tr><td>Wait before</td><td><input type="Text" name="dmgPt" value="1." size="" maxlength=""></td></tr>
+       </table>
+
+       <b>Arts</b>
+       <table border="1" bordercolordark="#FFFFFF">
+                <tr><td>Model</td><td><input type="Text" name="model" value="" size="" maxlength=""></td></tr>
+                <tr><td>AttachPts</td><td><input type="Text" name="attachPts" value="" size="" maxlength=""></td></tr>
+                <tr><td>Anims</td><td><input type="Text" name="anims" value="" size="" maxlength=""></td></tr>
+                <tr><td>AttachMods</td><td><input type="Text" name="attachMods" value="medium" size="" maxlength=""></td></tr>
+                <tr><td>Bones</td><td><input type="Text" name="bones" value="" size="" maxlength=""></td></tr>
+                <tr><td>Icon</td><td><input type="Text" name="icon" value="ReplaceableTextures\\CommandButtons\\" size="" maxlength=""></td></tr>
+                <tr><td>Move Interpolation</td><td><input type="Text" name="moveInterpolation" value="0" size="" maxlength=""></td></tr>
+                <tr><td>Color</td><td><input type="Text" name="colorRed" value="255" size="" maxlength=""></td><td><input type="Text" name="colorGreen" value="255" size="" maxlength=""></td><td><input type="Text" name="colorBlue" value="255" size="" maxlength=""></td><td><input type="Text" name="colorAlpha" value="255" size="" maxlength=""></td></tr>
+                <tr><td>Scale</td><td><input type="Text" name="scale" value="1." size="" maxlength=""></td></tr>
+                <tr><td>Sel Scale</td><td><input type="Text" name="selScale" value="1.75" size="" maxlength=""></td></tr>
+                <tr><td>Soundset</td><td><input type="Text" name="soundset" value="" size="" maxlength=""></td></tr>
+                <tr><td>ImpactZ</td><td><input type="Text" name="impactZ" value="60." size="" maxlength=""></td></tr>
+                <tr><td>OutpactX</td><td><input type="Text" name="outpactX" value="0." size="" maxlength=""></td></tr>
+                <tr><td>OutpactY</td><td><input type="Text" name="outpactY" value="0." size="" maxlength=""></td></tr>
+                <tr><td>OutpactZ</td><td><input type="Text" name="outpactZ" value="60." size="" maxlength=""></td></tr>
+                <tr><td><b>Shadow</b></td></tr>
+                <tr><td><table border="1" bordercolordark="#FFFFFF">
+                         <tr><td>Path</td><td><input type="Text" name="shadPath" value="NONE/NORMAL/FLY" size="" maxlength=""></td></tr>
+                         <tr><td>Width</td><td><input type="Text" name="shadWidth" value="200." size="" maxlength=""></td></tr>
+                         <tr><td>Height</td><td><input type="Text" name="shadHeight" value="200." size="" maxlength=""></td></tr>
+                         <tr><td>Offset X</td><td><input type="Text" name="shadOffsetX" value="70." size="" maxlength=""></td></tr>
+                         <tr><td>Offset Y</td><td><input type="Text" name="shadOffsetY" value="70." size="" maxlength=""></td></tr>
+                </table></td></tr>
+       </table>
+
+       <b>Animation</b>
+       <table border="1" bordercolordark="#FFFFFF">
+                <tr><td>Blend</td><td><input type="Text" name="blend" value="0.15" size="" maxlength=""></td></tr>
+                <tr><td>Cast Pt</td><td><input type="Text" name="castPt" value="0.5" size="" maxlength=""></td></tr>
+                <tr><td>Cast Back</td><td><input type="Text" name="castBack" value="0.51" size="" maxlength=""></td></tr>
+                <tr><td>Walk</td><td><input type="Text" name="walk" value="200." size="" maxlength=""></td></tr>
+                <tr><td>Run</td><td><input type="Text" name="run" value="200." size="" maxlength=""></td></tr>
+       </table>
+
+       <b>Stats</b>
+       <table border="1" bordercolordark="#FFFFFF">
+                <tr><td>Life</td><td><input type="Text" name="life" value="100." size="" maxlength=""></td><td>Regen</td><td><input type="Text" name="lifeRegen" value="1." size="" maxlength=""></td></tr>
+                <tr><td>Mana</td><td><input type="Text" name="mana" value="0." size="" maxlength=""></td><td>Regen</td><td><input type="Text" name="manaRegen" value="0." size="" maxlength=""></td></tr>
+                <tr><td>SpellPower</td><td><input type="Text" name="spellPower" value="15." size="" maxlength=""></td></tr>
+                <tr><td>Sight</td><td><input type="Text" name="sight" value="1400." size="" maxlength=""></td><td>Night</td><td><input type="Text" name="sightN" value="800." size="" maxlength=""></td></tr>
+       </table>
+
+       <b>Misc</b>
+       <table border="1" bordercolordark="#FFFFFF">
+                <tr><td>Collision</td><td><input type="Text" name="collision" value="32." size="" maxlength=""></td></tr>
+                <tr><td>Death Time</td><td><input type="Text" name="deathTime" value="3." size="" maxlength=""></td></tr>
+                <tr><td>Exp</td><td><input type="Text" name="exp" value="10" size="" maxlength=""></td></tr>
+                <tr><td>Gold</td><td><input type="Text" name="gold" value="20" size="" maxlength=""></td></tr>
+                <tr><th colspan="2"><table border="1" bordercolordark="#FFFFFF">
+	                <tr><th colspan="4"><b>Elevation</b></th></tr>
+                         <tr><td>Pts</td><td><input type="Text" name="elevPts" value="0" size="" maxlength=""></td><td>Radius</td><td><input type="Text" name="elevRad" value="50." size="" maxlength=""></td></tr>
+                         <tr><td>Max Roll</td><td><input type="Text" name="roll" value="10." size="" maxlength=""></td><td>Max Pitch</td><td><input type="Text" name="pitch" value="10." size="" maxlength=""></td></tr>
+                </table></th></tr>
+       </table>
+
+       <b>Movement</b>
+       <table border="1" bordercolordark="#FFFFFF">
+               <tr><td>Type</td><td><select name="moveType" size="1">
+               <option value="NONE">NONE</option>
+               <option value="FOOT">FOOT</option>
+               <option value="HORSE">HORSE</option>
+               <option value="FLY">FLY</option>
+               <option value="HOVER">HOVER</option>
+               <option value="FLOAT">FLOAT</option>
+               <option value="AMPHIBIOUS">AMPHIBIOUS</option></td></tr>
+               <tr><td>Speed</td><td><input type="Text" name="moveSpeed" value="270." size="" maxlength=""></td></tr>
+               <tr><td>Turn Rate</td><td><input type="Text" name="turnRate" value="0.1" size="" maxlength=""></td></tr>
+       </table>
+       <input type="Submit" name="Finish" value="Finish"></td></tr>
+</form>

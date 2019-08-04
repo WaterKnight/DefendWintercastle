@@ -1,0 +1,24 @@
+field	value
+name	Mallet
+raw	Mal
+
+classes
+
+model	Objects\InventoryItems\TreasureChest\treasurechest.mdl
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	Big hammer for big damage.
+icon	ReplaceableTextures\CommandButtons\BTNHammer.blp
+tooltip	Purchase <name>
+uberTooltip	Increases the strength by 4 and the damage by 12 when carried.
+
+abilities
+armor
+chargesAmount
+cooldownGroup
+goldCost	400
+lumberCost	0

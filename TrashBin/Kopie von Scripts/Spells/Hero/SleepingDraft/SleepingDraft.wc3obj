@@ -1,0 +1,41 @@
+field	jass ident	1	2	3	4	5
+name		Sleeping Draft
+raw		ASlD
+
+base		NORMAL
+class		HERO_FIRST
+levelsAmount
+order		sleep
+target		UNIT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		SD
+learnTooltip
+learnUberTooltip		Hurls a bottle filled with the strongest soporifics at the target unit. Itself and other nearby enemies will be put to sleep for some time.	Hurls a bottle filled with the strongest soporifics at the target unit. Itself and other nearby enemies will be put to sleep for some time.|n|nNext Level:|nCooldown: <cooldown<prevLevel>> seconds --> <cooldown> seconds|nDuration: <duration<prevLevel>> (<heroDuration<prevLevel>>) seconds --> <duration> (<heroDuration>) seconds|nTargets amount: <targetsAmount<prevLevel>> --> <targetsAmount>
+
+animation		spell
+areaRange		350
+areaRangeDisplay		false
+channelTime
+cooldown		16	15	14	13	12
+manaCost		120
+range		600
+targets		air,enemies,ground,neutral,organic
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNPotionOfClarity.blp
+lore		Sleep it off, my friend!
+sharedBuffs		SLEEP
+tooltip
+uberTooltip		Hurls a soporifics-filled bottle at the target unit. On impact, the <targetsAmount> closest enemies will be put to sleep for <duration> (<heroDuration>) seconds.
+
+duration		5	6	7	8	9
+heroDuration		1	1.5	2	2.5	3
+targetEffectAttachPoint		AttachPoint.ORIGIN
+targetEffectPath		Abilities\Spells\Undead\Sleep\SleepSpecialArt.mdl
+targetsAmount		3	4	5	6	7

@@ -1,0 +1,26 @@
+field	value
+name	Eternal Vial
+raw	Via
+
+classes
+
+model	Objects\InventoryItems\TreasureChest\treasurechest.mdl
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	Filled with never-ending moon-enchanted water.
+icon	ReplaceableTextures\CommandButtons\BTNVialFull.blp
+tooltip	Purchase <name>
+uberTooltip	Refreshes the hero's life by <thisSpell.wc3spell:healFactorPerInterval,%>, mana by <thisSpell.wc3spell:healManaFactorPerInterval,%> and stamina by <thisSpell.wc3spell:healStaminaFactorPerInterval,%> over <thisSpell.wc3spell:duration> seconds.
+
+abilities	thisSpell
+armor
+chargesAmount
+cooldownGroup
+goldCost	10000
+lumberCost	0
+
+usageGoldCost	50

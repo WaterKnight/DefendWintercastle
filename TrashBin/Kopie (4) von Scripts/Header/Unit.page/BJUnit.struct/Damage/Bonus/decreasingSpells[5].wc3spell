@@ -1,0 +1,7 @@
+field	jass ident	1
+name
+raw		AdD5
+base		SPECIAL_AIat
+classes		DUMMY
+
+specials		Iatt=-32

@@ -1,0 +1,10 @@
+field	jass ident	1
+name
+raw		AdI4
+base		SPECIAL_Aamk
+classes		DUMMY
+
+specials		Iagi=0
+specials		Iint=-16
+specials		Istr=0
+specials		Ihid=1

@@ -1,0 +1,29 @@
+field	jass ident	1	2	3	4	5
+name		Drum Roll
+raw		ADrR
+
+base		PASSIVE
+class		NORMAL
+levelsAmount
+order
+target
+
+animation
+areaRange		500
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\PassiveButtons\PASBTNCommand.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Puts morale into your troups by casting the sound of drums forth. This increases their damage by <damageRelativeIncrement,%> and can be stacked.
+
+include		Target

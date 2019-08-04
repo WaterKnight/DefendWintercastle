@@ -1,0 +1,5 @@
+field	jass ident	1	2	3	4	5
+banishDuration		2	2
+banishHeroDuration		0.5	0.5
+cooldown		6	6
+damageFactor		2	2	3	3	4

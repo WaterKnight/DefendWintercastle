@@ -1,0 +1,93 @@
+field	value
+name	Cobra Lily (Level 1)
+raw	CoL
+
+classes	WARD
+hero	false
+structure	false
+team	ATTACKER
+
+model	<CobraLily.wc3imp:target>
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.
+
+elevPts	0
+elevRad	50.
+maxRoll	25.
+maxPitch	25.
+scale	0.7
+selScale	0.9
+vertexColorRed	0
+vertexColorGreen	255
+vertexColorBlue	0
+vertexColorAlpha	255
+
+impactZ	100.
+outpactX	30.
+outpactY	30.
+outpactZ	225.
+
+shadowPath	NORMAL
+shadowWidth	90.
+shadowHeight	90.
+shadowOffsetX	35.
+shadowOffsetY	35.
+
+attachments	<orb.wc3imp:target>;HEAD;NORMAL
+blood
+icon	ReplaceableTextures\CommandButtons\BTNDeathAndDecay.blp
+soundset
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed
+turnRate
+height
+heightMin
+animWalk
+animRun
+moveInterp
+
+animBlend	0.15
+animCastWaitBefore	0.3
+animCastWaitAfter	0.51
+
+armorAmount	0.
+armorSound	Flesh
+armorType	LARGE
+life	150.
+lifeRegen	0.
+mana
+manaRegen
+spellPower	15.
+sightRange	1200.
+sightRangeNight	800.
+
+attackType	HOMING_MISSILE
+attackCooldown	1.25
+attackRange	500.
+attackRangeAcq	600.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,air,item,ward
+attackWaitBefore	0.4
+attackWaitAfter	0.
+attackSound
+
+attackMissileModel	Abilities\Weapons\snapMissile\snapMissile.mdl
+attackMissileSpeed	600.
+attackMissileArc	0.1
+
+damageType	PIERCE
+damageAmount	12
+damageDices	1
+damageSides	3
+
+collisionSize	40.
+combatFlags	ground
+deathTime	1.07
+exp
+gold

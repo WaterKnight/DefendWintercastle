@@ -1,0 +1,33 @@
+field	jass ident	1	2	3	4	5
+name		Chaos Ball
+raw		AKao
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		deathcoil
+target		UNIT
+
+animation		spell
+areaRange		100
+areaRangeDisplay		true
+cooldown		20
+channelTime		0.75
+manaCost		100
+range		700
+targets		enemies,ground,neutral
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNOrbOfDeath.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Fires a heavy bolt dealing <damage> splash damage and coating hit targets with poison for <duration> seconds. Requires <channelTime> seconds channeling.
+
+damage		65
+duration		3
+offsetZ		80
+rangeTolerance		300
+specialEffectPath		Objects\Spawnmodels\Undead\UCancelDeath\UCancelDeath.mdl

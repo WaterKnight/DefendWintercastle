@@ -1,0 +1,9 @@
+field	jass ident	1
+name
+raw		AmSx
+base		SPECIAL_Aspb
+classes		DUMMY
+
+specials		spb1=AmSp
+specials		spb3=1
+specials		spb4=1

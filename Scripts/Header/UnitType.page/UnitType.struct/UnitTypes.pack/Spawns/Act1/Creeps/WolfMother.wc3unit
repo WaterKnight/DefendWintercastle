@@ -1,0 +1,93 @@
+field	value
+name	Wolf Mother
+raw	WoM
+
+classes
+hero	false
+structure	false
+team	ATTACKER
+
+model	units\creeps\WhiteWolf\WhiteWolf.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.45
+
+elevPts	0
+elevRad	50.
+maxRoll	10.
+maxPitch	45.
+scale	1.45
+selScale	2.
+vertexColorRed	150
+vertexColorGreen	120
+vertexColorBlue	255
+vertexColorAlpha	255
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	180.
+shadowHeight	180.
+shadowOffsetX	70.
+shadowOffsetY	70.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNTimberWolf.blp
+soundset	SpiritWolf
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	320.
+turnRate	0.6
+height
+heightMin
+animWalk	240.
+animRun	240.
+moveInterp	5
+
+animBlend	0.15
+animCastWaitBefore	0.3
+animCastWaitAfter	0.51
+
+armorAmount	2.
+armorSound	Flesh
+armorType	LARGE
+life	350.
+lifeRegen	2.
+mana
+manaRegen
+spellPower	20.
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	NORMAL
+attackCooldown	1.4
+attackRange	90.
+attackRangeAcq	300.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	0.33
+attackWaitAfter	0.
+attackSound	WoodMediumBash
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	NORMAL
+damageAmount	18
+damageDices	3
+damageSides	4
+
+collisionSize	48.
+combatFlags	ground
+deathTime	1.75
+exp	60
+gold	50

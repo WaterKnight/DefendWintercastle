@@ -1,0 +1,24 @@
+field	value
+name	Soft Drink
+raw	SDr
+
+classes
+
+model	Objects\InventoryItems\TreasureChest\treasurechest.mdl
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	Replenishes mana.
+icon	ReplaceableTextures\CommandButtons\BTNMinorRejuvPotion.blp
+tooltip	Purchase <name>
+uberTooltip	Gives 200 mana back.
+
+abilities	thisSpell
+armor
+chargesAmount	1
+cooldownGroup
+goldCost	40
+lumberCost	0

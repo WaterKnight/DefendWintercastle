@@ -1,0 +1,37 @@
+field	jass ident	1	2	3	4	5
+name		Summon Polar Bear
+raw		ASuG
+
+base		NORMAL
+class		HERO_SECOND
+levelsAmount
+order		summongrizzly
+target		UNIT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		SP
+learnTooltip
+learnUberTooltip		Calls for Rocketeyes thick-skinned buddy, a strong bear summon that immediately appears at the allied target unit to taunt adversaries away from the dear friend. When the temporary magical bond is unsealed, half of the bear's remaining hitpoints accrue to Rocketeye. There can only be one summon of this kind at a time.	Calls for Rocketeyes thick-skinned buddy, a strong bear summon that immediately appears at the allied target unit to taunt adversaries away from the dear friend. When the temporary magical bond is unsealed, the bear's remaining hitpoints accrue to Rocketeye. There can only be one summon of this kind at a time.|n|nNext Level:|nCooldown: <cooldown<prevLevel>> seconds --> <cooldown> seconds|nMana cost: <manaCost<prevLevel>> --> <manaCost>|nBear gains better stats.
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		25	23	21	19	17
+manaCost		85	100	115	130	145
+range		650
+targets		enemies,friend,ground,invulnerable,neutral,organic,self,vulnerable
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNFrostBear.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Calls for Rocketeyes thick-skinned buddy, a strong bear summon that immediately appears at the allied target unit to taunt adversaries away from the dear friend. When the temporary magical bond is unsealed, half of the bear's remaining hitpoints accrue to Rocketeye. There can only be one summon of this kind at a time. Has 15-19 damage and 400 life.	Calls for Rocketeyes thick-skinned buddy, a strong bear summon that immediately appears at the allied target unit to taunt adversaries away from the dear friend. When the temporary magical bond is unsealed, half of the bear's remaining hitpoints accrue to Rocketeye. There can only be one summon of this kind at a time. Has 19-24 damage and 500 life.	Calls for Rocketeyes thick-skinned buddy, a strong bear summon that immediately appears at the allied target unit to taunt adversaries away from the dear friend. When the temporary magical bond is unsealed, half of the bear's remaining hitpoints accrue to Rocketeye. There can only be one summon of this kind at a time. Has 26-32 damage and 620 life.	Calls for Rocketeyes thick-skinned buddy, a strong bear summon that immediately appears at the allied target unit to taunt adversaries away from the dear friend. When the temporary magical bond is unsealed, half of the bear's remaining hitpoints accrue to Rocketeye. There can only be one summon of this kind at a time. Has 29-38 damage and 750 life.	Calls for Rocketeyes thick-skinned buddy, a strong bear summon that immediately appears at the allied target unit to taunt adversaries away from the dear friend. When the temporary magical bond is unsealed, half of the bear's remaining hitpoints accrue to Rocketeye. There can only be one summon of this kind at a time. Has 31-43 damage and 900 life.
+
+include		Summon

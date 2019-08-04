@@ -1,0 +1,12 @@
+field	jass ident	1
+name		Taunt
+raw		Tau
+
+base		SPECIAL_Atau
+class		NORMAL
+levelsAmount
+order
+target
+
+areaRange		450
+targets		enemy,invulnerable,vulnerable

@@ -1,0 +1,15 @@
+field	jass ident	1
+name
+raw		Ban
+base		SPECIAL_AHbn
+classes		DUMMY
+
+cooldown		0
+manaCost		0
+range		99999
+targets		ground,enemies,friend,structure,air,neutral,invulnerable,vulnerable,ward
+
+specials		abuf=<banBuff.wc3buff:raw>
+specials		acat=
+specials		adur=0
+specials		ahdu=0

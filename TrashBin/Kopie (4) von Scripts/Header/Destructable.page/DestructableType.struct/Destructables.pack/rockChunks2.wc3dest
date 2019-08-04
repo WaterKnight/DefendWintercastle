@@ -1,0 +1,44 @@
+field	value
+name	Rock Chunks2
+raw	008
+
+classes	DECOR
+
+model	Doodads\Cinematic\GlowingRunes\GlowingRunes
+modelLightweight
+modelPortrait	Doodads\Terrain\Portraits\RockChunks_Portrait\RockChunks_Portrait.mdx
+modelVariations	6
+
+flyHeight	100
+occluderHeight	230
+replaceableTex
+replaceableTexId
+selScale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+
+elevRad
+maxRoll
+maxPitch
+
+minimapDisplay	true
+minimapRed
+minimapGreen
+minimapBlue
+
+deathSound
+shadow
+
+armor
+fatLOS
+fogRad
+fogVisibility
+life
+selectable
+
+pathTex
+pathTexDead
+combatFlags
+cliffLevel
+walkable

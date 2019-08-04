@@ -1,0 +1,9 @@
+field	jass ident	1	2	3	4	5
+dummyUnitEffectAttachPoint		AttachPoint.ORIGIN
+dummyUnitEffectPath		Spells\ArcticWolf\IceVortex.mdl
+dummyUnitFadeOut		0.5
+height		50
+speed		400
+startOffset		90
+stunDuration		3	4	5
+summonDuration		60	60

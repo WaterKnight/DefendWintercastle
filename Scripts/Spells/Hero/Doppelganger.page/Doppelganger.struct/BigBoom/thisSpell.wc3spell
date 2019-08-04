@@ -1,0 +1,36 @@
+field	jass ident	1	2	3
+name		Big Boom
+raw		BiB
+
+base		NORMAL
+class
+levelsAmount
+order		mirrorimage
+target		POINT_OR_UNIT
+
+learnUberTooltip		Detonates the Doppelganger, causing large area damage and igniting enemy units.
+learnUberTooltipUpgrades		{Damage,<damage>};{Ignition duration,<igniteDuration> (<igniteHeroDuration>) second(s)}
+
+animation		spell
+areaRange		300
+areaRangeDisplay		true
+channelTime
+cooldown		0
+manaCost		0
+range		50
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNSelfDestruct.blp
+lore
+sharedBuffs		IGNITION
+tooltip
+uberTooltip		Detonates the Doppelganger for <damage> area damage (<areaRange> range). <IGNITION>Ignites</IGNITION> enemies for <igniteDuration> (<igniteHeroDuration>) seconds.
+
+damage		100	200	300
+igniteDuration		10	12	14
+igniteHeroDuration		5	6	7
+specialEffectPath		Objects\Spawnmodels\Other\ToonBoom\ToonBoom.mdl
+specialEffect2Path		<BigBoom.wc3imp:target>

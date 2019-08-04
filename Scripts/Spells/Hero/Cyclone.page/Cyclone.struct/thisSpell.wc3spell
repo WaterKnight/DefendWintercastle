@@ -1,0 +1,45 @@
+field	jass ident	1	2	3
+name		Cyclone
+raw		Cyc
+
+base		NORMAL
+class		HERO_ULTIMATE_EX
+levelsAmount
+order		blink
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Cy
+learnTooltip
+learnUberTooltip		Calls upon the mighty winds to meet up as a coherent entity. While doing so, <Tajran:name> makes them gush into a target direction, hurting all enemy units in a line (physical damage) and <WHIRL>whirling</WHIRL> them up. What manifests in the end is a steady shape of rotating air, bound together by the spell, which the caster can move around. The summon has the ability '<WindDance:name>', which deals damage to hostile units per second and makes them gyrate around it.
+learnUberTooltipUpgrades		{Damage,<damage>};{Whirl duration,<whirlDuration,asSecs>};{Summon duration,<summonDuration,asSecs>};|n<WindDance:name>:|n<WindDance:learnUberTooltipUpgrades>
+
+animation		spell
+areaRange		500	500
+areaRangeDisplay		true
+channelTime
+cooldown		120
+manaCost		150	200	250
+range		1000
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNTornado.blp
+lore
+sharedBuffs		WHIRL
+tooltip
+uberTooltip		Calls upon the mighty winds to meet up as a coherent entity. While doing so, <Tajran:name> makes them gush into a target direction, hurting all enemy units in a line (<maxLength> range) for <damage> damage (physical) and <WHIRL>whirling</WHIRL> them up for <whirlDuration> seconds. What manifests in the end is a steady shape of rotating air, bound together by the spell, which the caster can move around, until it dissolves after <summonDuration> seconds. The summon has the ability '<WindDance:name>', which deals <WindDance.page\WindDance.struct\this.wc3obj:damagePerSecond> damage to hostile units per second and makes them gyrate around it.
+
+damage		50	80	120
+hitRange		128
+maxLength		1000	1000
+minLength		300
+summonDuration		40	40
+targetEffectAttachPoint		AttachPoint.CHEST
+targetEffectPath		Abilities\Spells\NightElf\Cyclone\CycloneTarget.mdl
+whirlDuration		3	3

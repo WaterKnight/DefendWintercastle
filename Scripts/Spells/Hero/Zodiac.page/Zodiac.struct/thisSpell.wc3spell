@@ -1,0 +1,38 @@
+field	jass ident	1	2	3
+name		Zodiac
+raw		Zod
+
+base		NORMAL
+class		HERO_ULTIMATE_EX
+levelsAmount
+order		darkconversion
+target		UNIT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Zo
+learnTooltip
+learnUberTooltip		Buffs an allied unit with an immense aura that steadily heals nearby friends (benefits from animus) and boosts their movement speed. The spell target itself becomes <IMMORTAL>immortal</IMMORTAL> for the whole duration.
+learnUberTooltipUpgrades		{Buff duration,<buffDuration,asSecs>};{Heal per second,<Zodiac.page\ZodiacAura.struct\this.wc3obj:healPerSecond> (+<Zodiac.page\ZodiacAura.struct\this.wc3obj:healPerSecondPerAnimus> * animus)};{Movement speed bonus,<Zodiac.page\ZodiacAura.struct\Target\this.wc3obj:moveSpeedRelInc,%>}
+
+animation		spell
+areaRange		750
+areaRangeDisplay		true
+channelTime
+cooldown		150	135	120
+manaCost
+range		1000
+targets		air,friend,ground,hero,invulnerable,neutral,organic,self,vulnerable
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNEnchantedCrows.blp
+lore
+sharedBuffs		IMMORTAL
+tooltip
+uberTooltip		Buffs an allied unit with an immense aura that steadily heals nearby friends by <ZodiacAura.page\ZodiacAura.struct\this.wc3obj:healPerSecond) (+<ZodiacAura.page\ZodiacAura.struct\this.wc3obj:healPerSecondPerAnimus) per second and boosts their movement speed. The spell target itself becomes <IMMORTAL>immortal</IMMORTAL> for the whole duration of <buffDuration> seconds.
+
+buffDuration		15	20	25

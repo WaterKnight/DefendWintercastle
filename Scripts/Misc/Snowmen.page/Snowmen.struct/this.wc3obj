@@ -1,0 +1,3 @@
+field	1
+deathEffectPath	<DeathEffect.wc3imp:target>
+deathEffectAttachPoint	AttachPoint.ORIGIN

@@ -1,0 +1,22 @@
+field	1	2	3	4	5	6
+name	Soaking wet
+raw	SA1
+
+class	NORMAL
+levelsAmount
+lostOn
+positive	false
+
+icon	ReplaceableTextures\PassiveButtons\PASBTNPlagueCloud.blp
+tooltip
+uberTooltip	This unit is wet, its move and attack speed are hampered.
+
+sfxPath	Abilities\Spells\Items\AIob\AIobTarget.mdl
+sfxAttachPt	AttachPoint.HEAD
+sfxLevel	EffectLevel.LOW
+
+unitMod	moveSpeedBonus	moveSpeedBonus
+unitModVal	<this.wc3obj:moveSpeedInc>	<this.wc3obj:moveSpeedInc>
+
+unitMod	attackSpeedBonus	attackSpeedBonus
+unitModVal	<this.wc3obj:attackSpeedInc>	<this.wc3obj:attackSpeedInc>

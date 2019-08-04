@@ -1,0 +1,37 @@
+field	jass ident	1	2	3	4	5	6
+name		Violet Earring
+raw		ViE
+
+base		NORMAL
+class		ARTIFACT
+levelsAmount
+order		sanctuary
+target		UNIT
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		40	38	36	34	32	30
+manaCost		0
+range		1000
+targets		air,enemies,friend,ground,invulnerable,neutral,self,structure,vulnerable
+
+learnIcon
+learnRaw		VE
+learnTooltip
+learnUberTooltip		When this dapper trinket is activated, it emits a fairy light that is able to swap the position of the caster and any non-structure target unit. It also instantly restores a portion of mana and refreshes the cooldowns of '<PurgingRain:name>' and '<ArcaneAttractor:name>'.|nPassive properties: Amplifies <Lizzy:name>'s attack in intervals and charges it with a banishing effect.
+learnUberTooltipUpgrades		{Mana restored,<manaInc>};{Charge cooldown,<Charge\this.wc3obj:cooldown,asSecs>};{Banish duration,<Charge\this.wc3obj:banishDuration> (<Charge\this.wc3obj:banishHeroDuration>) second(s)};{Charge damage factor,<Charge\this.wc3obj:damageFactor,%>}
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNHeartOfAszune.blp
+lore
+sharedBuffs		BANISH
+tooltip
+uberTooltip		When this dapper trinket is activated, it emits a fairy light that is able to swap the position of the caster and any non-structure target unit. It also instantly restores <manaInc> mana and refreshes the cooldowns of '<PurgingRain:name>' and '<ArcaneAttractor:name>'.|nPassive properties: Amplifies <Lizzy:name>'s attack to <Charge\this.wc3obj:damageFactor,%> in intervals (<Charge\this.wc3obj:cooldown> seconds cooldown) and charges it with a banishing effect (<Charge\this.wc3obj:banishDuration> (<Charge\this.wc3obj:banishHeroDuration>) seconds).
+
+casterEffectAttachPoint		AttachPoint.CHEST
+casterEffectPath		Abilities\Spells\Human\Invisibility\InvisibilityTarget.mdl
+manaInc		160	250	340	430	520	610

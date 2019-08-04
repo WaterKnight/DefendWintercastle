@@ -1,0 +1,30 @@
+field	jass ident	1
+name		Serpent Ward
+raw		SeW
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		ward
+target		POINT
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		15
+manaCost		55
+range		550
+targets
+
+buttonPosX		1
+buttonPosY		2
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNSerpentWard.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Summons <summonAmount> serpent wards at the target location with piercing attacks but low health.|nThey last <duration> seconds.
+
+duration		20
+summonAmount		3

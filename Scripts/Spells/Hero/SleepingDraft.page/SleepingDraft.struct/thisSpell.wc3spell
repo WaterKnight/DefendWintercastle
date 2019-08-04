@@ -1,0 +1,44 @@
+field	jass ident	1	2	3	4	5	6
+name		Sleeping Draft
+raw		SlD
+
+base		NORMAL
+class		HERO_FIRST
+levelsAmount
+order		sleep
+target		UNIT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		SD
+learnTooltip
+learnUberTooltip		Hurls a bottle filled with the strongest soporifics at the target unit. Itself and other nearby enemies will be put to <SLEEP>sleep</SLEEP> for some time but <Stormy:name> is incited, regenerates stamina, benefits from a higher attack speed and his punches apply <COLDNESS>coldness</COLDNESS>.
+learnUberTooltipUpgrades		{Duration,<duration> (<heroDuration>) second(s)};{Targets amount,<targetsAmount>};{Stamina bonus,<staminaInc>};{Coldness duration,<Buff\this.wc3obj:coldnessDuration,asSecs>}
+
+animation		spell
+areaRange		350
+areaRangeDisplay		false
+channelTime
+cooldown		16	15	14	13	12	11
+manaCost		120
+range		700
+targets		air,enemies,ground,neutral,organic
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNPotionOfClarity.blp
+lore		Sleep it off, my friend!
+sharedBuffs		SLEEP;COLDNESS
+tooltip
+uberTooltip		Hurls a soporifics-filled bottle at the target unit. On impact, the <targetsAmount> closest enemies will be put to <SLEEP>sleep</SLEEP> for <duration> (<heroDuration>) seconds but <Stormy:name> is incited, regenerates <staminaRelInc,%> + <staminaInc> stamina, benefits from a <Buff\this.wc3obj:attackSpeedInc,%> higher attack speed and his punches apply a <Buff\this.wc3obj:coldnessDuration,asSecs>-<COLDNESS>coldness</COLDNESS> for <Buff\this.wc3obj:duration,asSecs>.
+
+duration		6	8	10	12	14	16
+heroDuration		2	3	4	5	6	7
+staminaInc		25	35	45	55	60	65
+staminaRelInc		0.05
+targetEffectAttachPoint		AttachPoint.ORIGIN
+targetEffectPath		Abilities\Spells\Undead\Sleep\SleepSpecialArt.mdl
+targetsAmount		3	4	5	6	7	8

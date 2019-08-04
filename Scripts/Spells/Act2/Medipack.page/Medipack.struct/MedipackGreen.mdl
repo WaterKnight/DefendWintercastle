@@ -1,0 +1,71 @@
+Version {
+	FormatVersion 800,
+}
+Model "HealthRegainGreen" {
+	NumParticleEmitters2 1,
+	BlendTime 150,
+}
+Sequences 2 {
+	Anim "Stand" {
+		Interval { 0, 1800 },
+	}
+	Anim "Death" {
+		Interval { 3000, 4250 },
+		NonLooping,
+	}
+}
+Textures 1 {
+	Bitmap {
+		Image "Textures\HealthRegain.blp",
+	}
+}
+PivotPoints 1 {
+	{ 0, 0, 60 },
+}
+ParticleEmitter2 "Particle" {
+	BillboardedLockZ,
+	Unshaded,
+	Unfogged,
+	ModelSpace,
+	static Speed 70,
+	static Variation 0.5,
+	static Latitude 40,
+	static Gravity 0,
+	Visibility 3 {
+		DontInterp,
+		0: 1,
+		3000: 1,
+		4250: 0,
+	}
+	LifeSpan 1.3,
+	EmissionRate 3 {
+		DontInterp,
+		0: 15,
+		800: 0,
+		3000: 13,
+	}
+	static Width 30,
+	static Length 30,
+	Blend,
+	Rows 1,
+	Columns 1,
+	Head,
+	TailLength 1,
+	Time 0.5,
+	SegmentColor {
+		Color { 0, 1, 0 },
+		Color { 0.145098, 0.854902, 0.145098 },
+		Color { 0.290196, 0.709804, 0.501961 },
+	},
+	Alpha {210, 140, 0},
+	ParticleScaling {20, 10, 5},
+	LifeSpanUVAnim {0, 0, 1},
+	DecayUVAnim {0, 0, 1},
+	TailUVAnim {0, 0, 1},
+	TailDecayUVAnim {0, 0, 1},
+	TextureID 0,
+	Translation 1 {
+		DontInterp,
+		0: { 0, 0, 0 },
+	}
+}

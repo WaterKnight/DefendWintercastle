@@ -1,0 +1,7 @@
+field	jass ident	1
+name
+raw		Ada2
+base		SPECIAL_AIde
+classes		DUMMY
+
+specials		Idef=-4

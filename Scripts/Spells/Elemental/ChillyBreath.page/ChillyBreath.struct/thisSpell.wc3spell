@@ -1,0 +1,42 @@
+field	jass ident	1	2	3	4	5	6
+name		Chilly Breath
+raw		ChB
+
+base		NORMAL
+class		ELEMENTAL
+levelsAmount
+order		breathoffrost
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		CB
+learnTooltip
+learnUberTooltip		<Drakul:name> ascends into the air to eject a wave of freezing madness. Aside from magic damage, which becomes stronger as the spell is channeled, targets incur <COLDNESS>coldness</COLDNESS> and <color=MADNESS>madness</color>.
+learnUberTooltipUpgrades		{Damage,<damage>};{Length,<maxLength>}
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime		2	2
+cooldown		14
+manaCost		20	30	40	50	60	70
+range		500	550	600	650	700	750
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNBreathOfFrost.blp
+lore
+sharedBuffs		COLDNESS;MADNESS
+tooltip
+uberTooltip		Spouts a wave of frosty chills in front of the caster, dealing <damage> damage and applying the <COLDNESS>Cold</COLDNESS> and <MADNESS>Madness</MADNESS> debuffs, plus an additional slow for <Buff\this.wc3obj:duration> seconds.
+
+damage		35	60	85	110	135	160
+damageRangeFactor		0.5
+maxLength		800	850	900	950	1000	1050
+widthEnd		300
+widthStart		0

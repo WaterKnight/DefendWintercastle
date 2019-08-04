@@ -1,0 +1,44 @@
+field	jass ident	1	2	3	4	5
+name		Frozen Star
+raw		AFrS
+
+base		NORMAL
+class		PURCHASABLE
+levelsAmount
+order		carrionswarm
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		FS
+learnTooltip
+learnUberTooltip
+
+animation		spell
+areaRange		400
+areaRangeDisplay		true
+channelTime
+cooldown		9
+manaCost		55	75	95	115	135
+range		700
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNStaffOfNegation.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip
+
+angleDFactor		10
+casterSightDFactor		0.1
+interval		0.035
+maxAngleD	real	0.25 * Math.QUARTER_ANGLE
+maxLength		700	700
+movingAreaRange		200	200
+specialEffectPath		Abilities\Spells\Undead\FreezingBreath\FreezingBreathMissile.mdl
+speed		600	600

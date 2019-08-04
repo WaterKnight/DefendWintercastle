@@ -1,0 +1,41 @@
+field	jass ident	1	2	3	4	5
+name		Vivid Meteor
+raw		AViM
+
+base		NORMAL
+class		PURCHASABLE
+levelsAmount
+order		monsoon
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Vi
+learnTooltip
+learnUberTooltip
+
+animation		spell
+areaRange		300
+areaRangeDisplay		true
+channelTime
+cooldown		10
+manaCost		80	100	120	140	160
+range		1400
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNFireRocks.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip
+
+damage		65	105	145	185	225
+delay		1.5
+heal		125	200	275	350	425
+poisonDuration		3	4	5	6	7
+specialEffectPath		Units\Demon\Infernal\InfernalBirth.mdl

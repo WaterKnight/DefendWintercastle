@@ -1,0 +1,7 @@
+field	jass ident	1	2	3
+name
+raw		AmSp
+base		SPECIAL_AIms
+classes		DUMMY
+levelsAmount		3
+specials		Imvb=0	Imvb=-1	Imvb=1

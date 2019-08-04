@@ -1,0 +1,24 @@
+field	value
+name	Fire-Water
+raw	FiW
+
+classes
+
+model	Objects\InventoryItems\TreasureChest\treasurechest.mdl
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	Replenishes mana.
+icon	ReplaceableTextures\CommandButtons\BTNGreaterInvulneralbility.blp
+tooltip	Purchase <name>
+uberTooltip	Grants 750 mana and a 15 second immolation.
+
+abilities	AFiW
+armor
+chargesAmount	1
+cooldownGroup
+goldCost	400
+lumberCost	0

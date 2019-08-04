@@ -1,0 +1,27 @@
+field	1
+name	Snow
+raw	Snw
+
+texPath	<snow.wc3imp:target>
+blendMode
+scale
+birthTime
+pauseTime
+decay
+
+redStart	255
+greenStart	255
+blueStart	255
+alphaStart	255
+
+redMid	255
+greenMid	255
+blueMid	255
+alphaMid	255
+
+redEnd	255
+greenEnd	255
+blueEnd	255
+alphaEnd	255
+
+sound

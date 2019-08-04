@@ -1,0 +1,24 @@
+field	value
+name	Rune
+raw	Run
+
+classes	POWER_UP
+
+model	Objects\InventoryItems\runicobject\runicobject.mdl
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	Pick me up to regain some health.
+icon
+tooltip
+uberTooltip
+
+abilities
+armor
+chargesAmount
+cooldownGroup
+goldCost
+lumberCost

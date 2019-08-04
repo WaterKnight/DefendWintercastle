@@ -1,0 +1,31 @@
+field	jass ident	1	2	3	4	5
+name		Energy Charge
+raw		AEnC
+
+base		PASSIVE
+class		NORMAL
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\PassiveButtons\PASBTNSeaGiantPulverize.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Every third attack deals <damageIncrement> extra damage and restores <heal> life.
+
+attacksAmountNeeded		3
+
+include		Target

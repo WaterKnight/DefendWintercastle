@@ -1,0 +1,29 @@
+field	jass ident	1	2	3	4	5	6
+name		Hack'n'Slay
+raw		HnS
+
+base		PASSIVE
+class		NORMAL
+levelsAmount
+order
+target
+
+learnUberTooltipUpgrades		{Attack speed bonus,<Target\this.wc3obj:attackSpeedInc>};{Critical value bonus,<Target\this.wc3obj:critInc>}
+
+animation		spell
+areaRange		400
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets		air,enemies,friend,ground,invulnerable,neutral,organic,self,vulnerable
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\PassiveButtons\PASBTNCriticalStrike.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Boosts the attack speed of nearby units by <Target\this.wc3obj:attackSpeedInc,%> and the critical value by <Target\this.wc3obj:critInc>.

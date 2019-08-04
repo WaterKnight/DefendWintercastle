@@ -1,0 +1,19 @@
+field	1	2	3	4	5	6
+name	Hand of Nature (Prison)
+raw	HNP
+
+class	HERO_SECOND
+levelsAmount
+lostOn
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNEntanglingRoots.blp
+tooltip
+uberTooltip	Unit is caught between Cobra Lilys.
+
+sfxPath
+sfxAttachPt
+sfxLevel
+
+unitMod	moveDisable	moveDisable
+unitModVal	true	true

@@ -1,0 +1,16 @@
+field	1
+name	Poisoned
+raw	SoP
+
+class	NORMAL
+levelsAmount
+lostOn	dispel
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNPoisonSting.blp
+tooltip
+uberTooltip	This unit suffers from a poison, its movements are slowed and the toxin prevents regeneration.
+
+sfxPath	Abilities\Weapons\PoisonSting\PoisonStingTarget.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW

@@ -1,0 +1,93 @@
+field	value
+name	Purple Treant
+raw	TrP
+
+classes
+hero	false
+structure	false
+team	ATTACKER
+
+model	units\creeps\CorruptedEnt\CorruptedEnt.mdx
+modelAttachPts
+modelAnims
+modelAttachMods	medium
+modelBones
+standardScale	0.9
+
+elevPts	0
+elevRad	50.
+maxRoll	10.
+maxPitch	10.
+scale	1.
+selScale	1.
+vertexColorRed	255
+vertexColorGreen	140
+vertexColorBlue	255
+vertexColorAlpha	255
+
+impactZ	100.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	140.
+shadowHeight	140.
+shadowOffsetX	50.
+shadowOffsetY	50.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNCorruptedEnt.blp
+soundset	CorruptedEnt
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	280.
+turnRate	0.5
+height
+heightMin
+animWalk	110.
+animRun	110.
+moveInterp	1
+
+animBlend	0.15
+animCastWaitBefore	0.5
+animCastWaitAfter	0.51
+
+armorAmount	0.
+armorSound	Wood
+armorType	LARGE
+life	400.
+lifeRegen	1.5
+mana
+manaRegen
+spellPower	30.
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	NORMAL
+attackCooldown	1.35
+attackRange	100.
+attackRangeAcq	500.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	0.467
+attackWaitAfter	0.
+attackSound	WoodMediumBash
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	NORMAL
+damageAmount	15
+damageDices	1
+damageSides	2
+
+collisionSize	32.
+combatFlags	ground
+deathTime	3.
+exp	55
+gold	21

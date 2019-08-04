@@ -1,0 +1,11 @@
+field	jass ident	1
+name
+raw		AInv
+base		SPECIAL_AInv
+classes		DUMMY
+
+specials		inv1=6
+specials		inv2=false
+specials		inv3=true
+specials		inv4=true
+specials		inv5=true

@@ -1,0 +1,16 @@
+field	1
+name	Wan Shroud
+raw	WSh
+
+class	HERO_SECOND
+levelsAmount
+lostOn
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNCyclone.blp
+tooltip
+uberTooltip	This unit's vision is restricted. Its sight range is reduced and attacks are likely to miss. Shrouded units take damage in intervals. Additionally, their armor is reduced.
+
+sfxPath
+sfxAttachPt
+sfxLevel

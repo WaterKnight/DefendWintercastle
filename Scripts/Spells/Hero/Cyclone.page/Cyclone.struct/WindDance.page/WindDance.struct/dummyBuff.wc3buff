@@ -1,0 +1,16 @@
+field	1
+name	Cyclone Aura
+raw	CyA
+
+class
+levelsAmount
+lostOn
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNTornado.blp
+tooltip
+uberTooltip	Causes gradual destruction by circularly dealing damage per second and pushing units around.
+
+sfxPath
+sfxAttachPt
+sfxLevel

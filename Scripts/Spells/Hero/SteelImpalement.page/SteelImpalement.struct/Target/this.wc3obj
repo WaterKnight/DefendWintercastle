@@ -1,0 +1,4 @@
+field	jass ident	1	2	3
+duration		5	7.5	10
+specialEffectPath		Abilities\Spells\Undead\Impale\ImpaleHitTarget.mdl
+specialEffectAttachPoint		AttachPoint.ORIGIN

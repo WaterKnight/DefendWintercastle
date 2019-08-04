@@ -1,0 +1,36 @@
+field	jass ident	1	2	3	4	5	6
+name		Water Bindings
+raw		WaB
+
+base		NORMAL
+class		HERO_FIRST
+levelsAmount
+order		summongrizzly
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		WB
+learnTooltip
+learnUberTooltip		Summons a water elemental with moderate hitpoints and damage but slow movement speed. <Jota:name> gains bonus animus for each elemental on the map.|nWater elementals have the '<SoakingAttack:name>' ability, which additively slows down the attack and movement of engaged targets.
+learnUberTooltipUpgrades		{Animus bonus per summon,<Summon\this.wc3obj:animusInc>}
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		20	19	18	17	16	15
+manaCost		70	85	100	120	140	160
+range		650
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNSummonWaterElemental.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Summons a water elemental with <Summon\thisUnitTypes[<level>].wc3unit:life> hitpoints and <Summon\thisUnitTypes[<level>].wc3unit:minDmg>-<Summon\thisUnitTypes[<level>].wc3unit:maxDmg> damage but low movement speed. <Jota:name> gains <Summon\this.wc3obj:animusInc> bonus animus for each elemental on the map.|nWater elementals have the '<SoakingAttack:name>' ability, which additively slows down the attack and movement of engaged targets.

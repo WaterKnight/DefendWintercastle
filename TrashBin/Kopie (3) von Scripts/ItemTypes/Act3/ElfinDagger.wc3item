@@ -1,0 +1,24 @@
+field	value
+name	Elfin Dagger
+raw	ElD
+
+classes
+
+model	Objects\InventoryItems\TreasureChest\treasurechest.mdl
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	Increases spell damage and intelligence.
+icon	ReplaceableTextures\CommandButtons\BTNWandOfManaSteal.blp
+tooltip	Purchase <name>
+uberTooltip	Grants 25% spell damage and 10 intelligence.
+
+abilities
+armor
+chargesAmount
+cooldownGroup
+goldCost	600
+lumberCost	0

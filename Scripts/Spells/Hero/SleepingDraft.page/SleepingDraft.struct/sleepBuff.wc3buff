@@ -1,0 +1,16 @@
+field	1
+name	Sleep
+raw	SDB
+
+class	HERO_FIRST
+levelsAmount
+lostOn	death;dispel
+positive
+
+icon	ReplaceableTextures\CommandButtons\BTNPotionOfClarity.blp
+tooltip
+uberTooltip	zzZ
+
+sfxPath
+sfxAttachPt
+sfxLevel

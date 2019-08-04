@@ -1,0 +1,35 @@
+field	jass ident	1	2	3	4	5
+name		Bouncy Bomb
+raw		ABoB
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		firebolt
+target		POINT
+
+animation		spell
+areaRange		100
+areaRangeDisplay		true
+channelTime
+cooldown		10
+manaCost		25
+range		600
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNHealthStone.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Throws a rubberlike explosive bomb that jumps to the target point or further and explodes after <explosionDuration> seconds for <damage> splash damage.
+
+damage		40
+explosionDuration		3
+explosionEffectPath		Objects\Spawnmodels\Human\FragmentationShards\FragBoomSpawn.mdl
+firstBounceDuration		1
+floorTolerance		1
+maxDamage		120
+zAcceleration		-1000

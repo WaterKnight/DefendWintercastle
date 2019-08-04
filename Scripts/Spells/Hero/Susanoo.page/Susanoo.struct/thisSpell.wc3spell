@@ -1,0 +1,45 @@
+field	jass ident	1	2
+name		Susanoo
+raw		Sus
+
+base		NORMAL
+class		HERO_ULTIMATE_EX
+levelsAmount
+order		manashieldon
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Sa
+learnTooltip
+learnUberTooltip		Drastically raises the caster's attack rate, spellpower and his/her resistances. The duration of the buff is stretched by <durationAdd> seconds each time the hero gets rid of an enemy unit.
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		60
+manaCost		110	170
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNHowlOfTerror.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Drastically raises the caster's attack rate by <attackSpeedInc,%>, spellpower by <spellPowerRelInc,%> and his/her relative armor by <armorInc,%>. The duration of the buff is stretched by <durationAdd> seconds each time the hero gets rid of an enemy unit.|nLasts <duration> seconds.
+
+addTimeEffectAttachPoint		AttachPoint.ORIGIN
+addTimeEffectPath		Abilities\Spells\Items\AIil\AIilTarget.mdl
+armorInc		0.35	0.45
+attackSpeedInc		0.35	0.6
+duration		12	12
+durationAdd		2	2
+durationAddAddFactor		-0.3
+specialEffectPath		Abilities\Spells\Other\HowlOfTerror\HowlCaster.mdl
+spellPowerRelInc		0.5	1

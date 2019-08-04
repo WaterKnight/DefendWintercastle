@@ -1,0 +1,24 @@
+field	value
+name	Eye of the Flame
+raw	EoF
+
+classes
+
+model	Objects\InventoryItems\TreasureChest\treasurechest.mdl
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	Sets up a flame-spouting ward that can reveal hidden enemies.
+icon	ReplaceableTextures\CommandButtons\BTNSentryWard.blp
+tooltip	Purchase <name>
+uberTooltip	Summons a ward with 65 hitpoints. That ward attacks nearby hostile units and is able to light them up to blow their magic hoods.
+
+abilities	thisSpell
+armor
+chargesAmount	1
+cooldownGroup
+goldCost	250
+lumberCost	0

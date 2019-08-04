@@ -1,0 +1,41 @@
+field	jass ident	1	2	3	4	5	6
+name		Razor Blade
+raw		Raz
+
+base		NORMAL
+class		HERO_FIRST
+levelsAmount
+order		evileye
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		RB
+learnTooltip
+learnUberTooltip		Throws a big shuriken into the target direction, damaging (physical) and pushing back enemies. When reaching the destination point, it splits up into smaller blades that return to the caster and slice up every foe (physical damage) along the way.|nPassively grants <Kera:name> spell vamp.
+learnUberTooltipUpgrades		{Primary damage,<damage>};{Max range,<maxLength>};{Blades amount,<RazorBladeDrawback:missilesAmount>};{Damage per blade,<RazorBladeDrawback:damage>};{Passive spell vamp bonus,<Vamp\this.wc3obj:spellVampInc,%>}
+
+animation		spell
+areaRange		90
+areaRangeDisplay		false
+channelTime
+cooldown		12
+manaCost		70	85	100	115	130	145
+range		99999
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNWhirlwind.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Throws a big shuriken into the target direction, dealing <damage> damage (physical) and pushing back enemies. When reaching the destination point, it splits up into <RazorBladeDrawback:missilesAmount> smaller blades that return to the caster and slice up every foe for <RazorbladeDrawback:damage> damage (physical) each along the way.|nPassively grants <Kera:name> <Vamp\this.wc3obj:spellVampInc,%> spell vamp.
+
+damage		20	35	55	80	110	145
+maxLength		750	750
+targetEffectAttachPoint		AttachPoint.CHEST
+targetEffectPath		Abilities\Weapons\GlaiveMissile\GlaiveMissileTarget.mdl

@@ -1,0 +1,24 @@
+field	value
+name	Herbal Ointment
+raw	HeO
+
+classes
+
+model	Objects\InventoryItems\TreasureChest\treasurechest.mdl
+scale
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+description	Dispels negative effects and has regenerative properties.
+icon	ReplaceableTextures\CommandButtons\BTNHealingSalve.blp
+tooltip	Purchase <name>
+uberTooltip	Regenerates 200 life/mana over 12 seconds. The user will be purged from negative effects.|n|cffffcc00Vanishes upon being attacked|r
+
+abilities	AHeO
+armor
+chargesAmount	2
+cooldownGroup
+goldCost	65
+lumberCost	0

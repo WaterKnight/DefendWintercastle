@@ -1,0 +1,21 @@
+field	jass ident	1	2	3	4	5
+name		Boomerang Stone
+raw		ABoS
+
+base		NORMAL
+class		ITEM
+levelsAmount
+order
+target		UNIT
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		10
+manaCost		50
+range		650
+targets		air,enemies,ground,neutral,organic
+
+damage		40
+duration		3

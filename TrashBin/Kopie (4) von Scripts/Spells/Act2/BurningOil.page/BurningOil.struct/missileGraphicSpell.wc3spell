@@ -1,0 +1,16 @@
+field	jass ident	1
+name
+raw		ABuX
+base		SPECIAL_AIll
+classes		DUMMY
+
+specials		amac=0.35
+specials		amat=Abilities\Weapons\DemolisherFireMissile\DemolisherFireMissile.mdl
+specials		amsp=900
+specials		atat=
+specials		Idam=0
+specials		Iob2=0
+specials		Iob3=0
+specials		Iob4=0
+specials		Iob5=0
+specials		Iobu=

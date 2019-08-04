@@ -1,0 +1,6 @@
+field	jass ident	1
+min		-5
+minIndex		0
+max		5
+maxIndex		500
+stepSize		0.02

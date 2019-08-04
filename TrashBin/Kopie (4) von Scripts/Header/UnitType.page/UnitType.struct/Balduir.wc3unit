@@ -1,0 +1,95 @@
+field	value
+name	Balduir
+raw	Bal
+
+classes
+hero	false
+structure	false
+team	ATTACKER
+
+model	Units\Spawns\Act2\Balduir\Balduir.mdx
+modelAttachPts
+modelAnims
+modelAttachMods	large
+modelBones
+standardScale	1.75
+
+elevPts	0
+elevRad	50.
+maxRoll	10.
+maxPitch	10.
+scale	1.75
+selScale	2.
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	90.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	230.
+shadowHeight	230.
+shadowOffsetX	75.
+shadowOffsetY	75.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNBeastMaster.blp
+soundset	Beastmaster
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	135.
+turnRate	0.4
+height
+heightMin
+animWalk	250.
+animRun	250.
+moveInterp	1
+
+animBlend	0.15
+animCastWaitBefore	0.5
+animCastWaitAfter	0.5
+
+armorAmount	12.
+armorSound	Stone
+armorType	HERO
+life	1300.
+lifeRegen	5.
+mana
+manaRegen
+spellPower	70.
+sightRange	1800.
+sightRangeNight	800.
+
+attackType	NORMAL
+attackCooldown	2.2
+attackRange	170.
+attackRangeAcq	500.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	0.33
+attackWaitAfter	0.
+attackSound	MetalHeavySlice
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	NORMAL
+damageAmount	40
+damageDices	2
+damageSides	6
+
+collisionSize	84.
+combatFlags	ground
+deathTime	3.67
+exp	250
+gold	120
+
+abilities	Spells\Act2\Barrage.page\Barrage.struct\thisSpell;Spells\Misc\MeteoriteProtection.page\MeteoriteProtection.struct\thisSpell

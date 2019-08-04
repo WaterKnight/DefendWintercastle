@@ -1,0 +1,16 @@
+field	1
+name	Relentless Shiver
+raw	ReS
+
+class	HERO_ULTIMATE
+levelsAmount
+lostOn
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNDoom.blp
+tooltip
+uberTooltip	Sends out sparks of frost, shackling hostile spirits in the living world.
+
+sfxPath
+sfxAttachPt
+sfxLevel

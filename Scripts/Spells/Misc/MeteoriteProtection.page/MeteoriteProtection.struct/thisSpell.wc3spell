@@ -1,0 +1,27 @@
+field	jass ident	1
+name		Meteorite Protection
+raw		AMtP
+
+base		PASSIVE
+class		NORMAL
+levelsAmount		2
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon
+lore
+sharedBuffs
+tooltip
+uberTooltip

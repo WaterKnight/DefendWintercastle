@@ -1,0 +1,10 @@
+Test header message
+
+[13:00:04] Dll injected
+[13:00:04] test values are (null) 0
+[13:00:04] kernel32.dll loaded
+[13:00:04] blizzard.ax loaded
+[13:00:04] game.dll loaded
+[13:00:04] game.dll found, patching memory...
+	[13:00:04] Redirecting API calls...
+	[13:00:04] Redirected successfully, pathing memory...

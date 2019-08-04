@@ -1,0 +1,37 @@
+field	jass ident	1	2	3	4	5	6
+name		Lightning Attack
+raw		ALiA
+
+base		PASSIVE
+class		NORMAL
+levelsAmount		6
+order
+target
+
+animation
+areaRange		500
+areaRangeDisplay		false
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNMonsoon.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Triggers a chain lightning on attack that consecutively hits up to <targetsAmount> enemy targets, dealing <damage> damage to the first and losing <damageReductionFactor,%> strength per bounce. As an extra, the first <stunTargetsAmount> targets get stunned for <stunDuration> seconds.
+
+damage		20	35	50	65	80	95
+damageReductionFactor		0.2
+effectLightningPath		CLPB
+effectLightning2Path		CLSB
+stunDuration		1.25
+stunTargetsAmount		2	3	3	4	4	5
+targetEffectAttachPoint		AttachPoint.CHEST
+targetEffectPath		Abilities\Spells\Items\AIlb\AIlbSpecialArt.mdl
+targetsAmount		10

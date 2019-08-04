@@ -1,0 +1,42 @@
+field	jass ident	1	2	3	4	5
+name		Battle Rage
+raw		ABaR
+
+base		NORMAL
+class		HERO_FIRST
+levelsAmount
+order		roar
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		BR
+learnTooltip
+learnUberTooltip		Enforces the battle strength by buffing the attack damage of all nearby allied units. Enemies in the same area will be disarmed for a short amount of time and lose a percentage of life. Rawwww	Enforces the battle strength by buffing the attack damage of all nearby allied units. Enemies in the same area will be disarmed for a short amount of time and lose a percentage of life.|n|nNext Level:|nAttack damage increment: <damageRelativeIncrement<prevLevel>,%> --> <damageRelativeIncrement,%>|nDamage: <damage<prevLevel>> + <damageFactor<prevLevel>,%> --> <damage> + <damageFactor,%>|nMana cost: <manaCost<prevLevel>> --> <manaCost>
+
+animation		spell
+areaRange		450
+areaRangeDisplay		false
+cooldown		15
+channelTime
+manaCost		80	92	104	116	128
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNBattleRoar.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Buffs the attack damage of friends around Rocketeye by <damageRelativeIncrement,%> for <duration> seconds while damaging enemies for <damage> + <damageFactor,%> of their life and disarming them for <attackDisableDuration> seconds.
+
+attackDisableDuration		2
+damage		35	45	55	65	75
+damageFactor		0.04	0.05	0.06	0.07	0.08
+specialEffectPath		Abilities\Spells\NightElf\BattleRoar\RoarCaster.mdl
+
+include		Target

@@ -1,0 +1,7 @@
+field	jass ident	1	2	3	4	5	6
+damageDelay		0.8
+damage		20	30	40	50	60	70
+damageRelAdd		0.2	0.2
+debrisAmount		3	3	4	4	5	5
+purgeDuration		4	4
+specialEffectPath		Abilities\Spells\NightElf\Starfall\StarfallTarget.mdx

@@ -1,0 +1,26 @@
+field	jass ident	1	2	3
+name		Relentless Shiver (Revert)
+raw		ARSR
+
+base		PARALLEL_IMMEDIATE
+class		HERO_ULTIMATE
+levelsAmount
+order		animatedead
+target
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		RR
+learnTooltip
+learnUberTooltip
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNCorpseExplode.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip

@@ -1,0 +1,13 @@
+field	1
+name	cIc2
+raw	cIc2
+
+texPath	TerrainArt\Icecrown\Ice_RuneBricks.blp
+cliffSet	1
+
+walkable	true
+flyable	true
+buildable	false
+
+footprints	false
+blightPriority	9

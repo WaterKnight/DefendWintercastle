@@ -1,0 +1,32 @@
+field	1
+name	Lapidated
+raw	Lap
+
+class	NORMAL
+levelsAmount
+lostOn	dispel
+positive	false
+
+icon	ReplaceableTextures\CommandButtons\BTNGolemStormBolt.blp
+tooltip
+uberTooltip	This unit is stunned by '<name>'.
+
+sfxPath	Abilities\Weapons\RockBoltMissile\RockBoltMissile.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW
+
+sfxPath	Abilities\Weapons\RockBoltMissile\RockBoltMissile.mdl
+sfxAttachPt	AttachPoint.FOOT_LEFT
+sfxLevel	EffectLevel.NORMAL
+
+sfxPath	Abilities\Weapons\RockBoltMissile\RockBoltMissile.mdl
+sfxAttachPt	AttachPoint.FOOT_RIGHT
+sfxLevel	EffectLevel.NORMAL
+
+sfxPath	Abilities\Weapons\RockBoltMissile\RockBoltMissile.mdl
+sfxAttachPt	AttachPoint.HAND_LEFT
+sfxLevel	EffectLevel.NORMAL
+
+sfxPath	Abilities\Weapons\RockBoltMissile\RockBoltMissile.mdl
+sfxAttachPt	AttachPoint.HAND_RIGHT
+sfxLevel	EffectLevel.NORMAL

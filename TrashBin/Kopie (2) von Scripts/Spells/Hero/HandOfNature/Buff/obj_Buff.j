@@ -1,0 +1,39 @@
+static real array DAMAGE_INTERVAL
+static integer array FIELD
+static integer array DAMAGE
+static integer array EVASION_INCREMENT
+static integer array DURATION
+static integer array HERO_DURATION
+    
+static method Init_obj_Buff takes nothing returns nothing
+    set thistype.DAMAGE_INTERVAL[1] = 0.5
+    set thistype.FIELD[1] = 1
+    set thistype.DAMAGE[1] = 40
+    set thistype.EVASION_INCREMENT[1] = -40
+    set thistype.DURATION[1] = 3
+    set thistype.HERO_DURATION[1] = 1
+    set thistype.DAMAGE_INTERVAL[2] = 0.5
+    set thistype.FIELD[2] = 2
+    set thistype.DAMAGE[2] = 40
+    set thistype.EVASION_INCREMENT[2] = -50
+    set thistype.DURATION[2] = 3.5
+    set thistype.HERO_DURATION[2] = 1
+    set thistype.DAMAGE_INTERVAL[3] = 0.5
+    set thistype.FIELD[3] = 3
+    set thistype.DAMAGE[3] = 40
+    set thistype.EVASION_INCREMENT[3] = -60
+    set thistype.DURATION[3] = 4
+    set thistype.HERO_DURATION[3] = 1
+    set thistype.DAMAGE_INTERVAL[4] = 0.5
+    set thistype.FIELD[4] = 4
+    set thistype.DAMAGE[4] = 40
+    set thistype.EVASION_INCREMENT[4] = -70
+    set thistype.DURATION[4] = 4.5
+    set thistype.HERO_DURATION[4] = 1
+    set thistype.DAMAGE_INTERVAL[5] = 0.5
+    set thistype.FIELD[5] = 5
+    set thistype.DAMAGE[5] = 40
+    set thistype.EVASION_INCREMENT[5] = -80
+    set thistype.DURATION[5] = 5
+    set thistype.HERO_DURATION[5] = 1
+endmethod

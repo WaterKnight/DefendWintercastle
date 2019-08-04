@@ -1,0 +1,50 @@
+field	jass ident	1	2	3	4	5
+name		Negation Wave
+raw		ANeW
+
+base		NORMAL
+class		HERO_ULTIMATE
+levelsAmount
+order		healingwave
+target		UNIT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		NW
+learnTooltip
+learnUberTooltip
+
+animation		spell
+areaRange		500
+areaRangeDisplay		false
+channelTime
+cooldown		9
+manaCost		105	120	135
+range		550
+targets		air,enemies,ground,neutral,invulnerable,organic,vulnerable
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNFeedback.blp
+
+lore
+sharedBuffs
+tooltip
+uberTooltip
+
+casterEffectAttachPoint		AttachPoint.ORIGIN
+casterEffectPath		Abilities\Spells\Other\Drain\DrainCaster.mdl
+damage		30	40	50
+delay		0.35
+effectLightningPath		FORK
+silenceDuration		2	2.2	2.4
+spellStealCasterEffectAttachPoint		AttachPoint.CHEST
+spellStealCasterEffectPath		Abilities\Spells\Human\SpellSteal\SpellStealMissile.mdl
+spellStealTargetEffectAttachPoint		AttachPoint.CHEST
+spellStealTargetEffectPath		Abilities\Spells\Human\Polymorph\PolyMorphDoneGround.mdl
+targetEffectAttachPoint		AttachPoint.CHEST
+targetEffectPath		Abilities\Weapons\Bolt\BoltImpact.mdl
+targetsAmount		3	4	5

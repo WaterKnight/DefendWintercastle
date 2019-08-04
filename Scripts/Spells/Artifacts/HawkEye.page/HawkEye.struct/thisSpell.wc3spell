@@ -1,0 +1,46 @@
+field	jass ident	1	2	3	4	5	6
+name		Hawk Eye
+raw		HaE
+
+base		NORMAL
+class		ARTIFACT
+levelsAmount
+order		sanctuary
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		HE
+learnTooltip
+learnUberTooltip		A sensory skill that reveals nearby enemy units. The affected targets lose resistance and begin to <BLEED>bleed</BLEED> when attacked. If a unit dies under the effect of the debuff, the killing player's hero regains some mana.
+learnUberTooltipUpgrades		{Debuff duration,<buffDuration,asSecs>};{Resistance malus,<resistanceInc,-,%>};{Max targets amount,<targetsAmount>};{Bleeding duration,<bleedDuration,asSecs>};{manaHeal,Mana restored}
+
+animation		spell
+areaRange		750
+areaRangeDisplay		false
+channelTime
+cooldown		10
+manaCost		30	40	50	60	70	80
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNScout.blp
+lore
+sharedBuffs		BLEED
+tooltip
+uberTooltip		A sensory skill that reveals the next <targetsAmount> nearby enemy units for <buffDuration> seconds. The affected targets lose <resistanceInc,-,%> resistance and begin to <BLEED>bleed</BLEED> for <bleedDuration> seconds when attacked. If a unit dies under the effect of the debuff, the killing player's hero regains <manaHeal> mana.
+
+buffDuration		10	10
+bleedDuration		5	5
+manaHeal		15	20	25	30	35	40
+targetsAmount		3	3
+
+specialEffectPath		Abilities\Spells\Human\Flare\FlareCaster.mdl
+specialEffect2Path		<area.wc3imp:target>
+
+resistanceInc		-0.1	-0.1	-0.2	-0.2	-0.3	-0.3

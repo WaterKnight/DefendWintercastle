@@ -1,0 +1,4 @@
+field	1
+type	skin
+src	HumanUITile-TimeIndicatorFrame.blp
+target	UI\Console\Human\HumanUITile-TimeIndicatorFrame.blp

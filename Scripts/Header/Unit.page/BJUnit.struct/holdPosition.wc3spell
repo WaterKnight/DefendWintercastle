@@ -1,0 +1,28 @@
+field	jass ident	1
+name		Hold Position
+raw
+profileIdent		CmdHoldPos
+
+base
+classes		DUMMY
+levelsAmount
+order
+target
+
+animation
+areaRange
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX		2
+buttonPosY		0
+hotkey		H
+icon		CommandHoldPosition
+lore
+sharedBuffs
+tooltip		(<color=GOLD><hotkey></color>) <color=DWC><name></color>
+uberTooltip		Instructs the unit to remain at its current spot.

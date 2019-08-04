@@ -1,0 +1,27 @@
+field	jass ident	1
+name		Drum Roll
+raw		DrR
+
+base		PASSIVE
+class		NORMAL
+levelsAmount
+order
+target
+
+animation
+areaRange		500
+areaRangeDisplay
+channelTime
+cooldown
+manaCost
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\PassiveButtons\PASBTNCommand.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Bestows an aura of fighting spirit upon your troops by casting the sound of drums forth. This increases their damage by <Target\this.wc3obj:dmgRelInc,%>.

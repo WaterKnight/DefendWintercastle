@@ -1,0 +1,8 @@
+field	jass ident	1	2	3
+areaRange		60	60
+damage		20	30	40	50	60
+maxLength		550	550
+missilesAmount		3	3	4	4	5
+targetEffectAttachPoint		AttachPoint.CHEST
+targetEffectPath		Objects\Spawnmodels\Critters\Albatross\CritterBloodAlbatross.mdl
+window	real	2./3 * Math.QUARTER_ANGLE	2./3 * Math.QUARTER_ANGLE

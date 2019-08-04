@@ -1,0 +1,37 @@
+field	jass ident	1	2	3	4	5
+name		Fairy's Tears
+raw		AFyT
+
+base		NORMAL
+class		HERO_ULTIMATE
+levelsAmount
+order		starfall
+target		IMMEDIATE
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		Fy
+learnTooltip
+learnUberTooltip		Channels tears of the goddess pelting from the sky. Periodically damages enemy units around the caster by starry bolts that inflict the <COLDNESS>coldness</COLDNESS> debuff.	Channels tears of the goddess pelting from the sky. Periodically damages enemy units around the caster by starry bolts that inflict the <COLDNESS>coldness</COLDNESS> debuff.|n|nNext Level:|nArea range: <areaRange<prevLevel>> --> <areaRange>|nChannel time: <channelTime<prevLevel>> seconds --> <channelTime> seconds|n<COLDNESS>Coldness</COLDNESS> duration: <coldDuration<prevLevel>> second --> <coldDuration> seconds|nDamage per bolt: <damage<prevLevel>> --> <damage>|nMana cost: <manaCost<prevLevel>> --> <manaCost>
+
+animation		spell,channel
+areaRange		450	525	600
+areaRangeDisplay		true
+channelTime		80
+cooldown		24	27	30
+manaCost		250	350	450
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNStarfall.blp
+lore		Just like a dream. Why had this to happen? Cannot even scream, outside my head. My friends are dead. I won't look back but tears shall be shed.
+sharedBuffs		COLDNESS
+tooltip
+uberTooltip		Channels tears of the goddess pelting from the sky. Shoots one bolt per <interval> seconds at a random hostile unit whereas the same unit can only be picked once in <minDamageInterval> seconds. Targets will be damaged by <damage> and engulfed by <COLDNESS>coldness</COLDNESS> for <coldDuration> second.
+
+interval		0.25

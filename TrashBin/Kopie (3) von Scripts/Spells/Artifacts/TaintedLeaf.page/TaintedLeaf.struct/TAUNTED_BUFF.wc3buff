@@ -1,0 +1,16 @@
+field	1
+name	Tainted Leaf
+raw	TaL
+
+class	ARTIFACT
+levelsAmount
+lostOn	dispel
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNRejuvenation.blp
+tooltip
+uberTooltip	Transformed.
+
+sfxPath
+sfxAttachPt
+sfxLevel

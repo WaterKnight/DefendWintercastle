@@ -1,0 +1,35 @@
+field	jass ident	1	2	3
+name		Palingenesis
+raw		FLX
+
+base		AUTOCAST_IMMEDIATE
+class
+levelsAmount
+order
+target
+
+learnUberTooltip		Temporarily revives any organic unit and passes its control to the owner of the fountain.
+learnUberTooltipUpgrades		{Summon duration,<summonDuration,asSecs>}
+
+animation		spell
+areaRange		500	600	700
+areaRangeDisplay
+channelTime
+cooldown		6	6	6
+manaCost		100	100	100
+range
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNOrbOfDarkness.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Revives any organic unit for <summonDuration> seconds and passes its control to the owner of the fountain.
+
+summonDuration		30	30
+summonDeathEffectPath		Objects\Spawnmodels\Undead\UndeadLargeDeathExplode\UndeadLargeDeathExplode.mdl
+summonEffectAttachPoint		AttachPoint.ORIGIN
+summonEffectPath		Abilities\Spells\Undead\AnimateDead\AnimateDeadTarget.mdl

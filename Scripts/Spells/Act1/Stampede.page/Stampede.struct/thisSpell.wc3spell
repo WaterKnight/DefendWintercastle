@@ -1,0 +1,37 @@
+field	jass ident	1
+name		Stampede
+raw		Stm
+
+base		NORMAL
+class		NORMAL
+levelsAmount
+order		stampede
+target		POINT
+
+animation		spell
+areaRange
+areaRangeDisplay
+channelTime
+cooldown		8
+manaCost		0
+range		1000
+targets
+
+buttonPosX		3
+buttonPosY		1
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNSmash.blp
+lore
+sharedBuffs
+tooltip
+uberTooltip		Runs towards the target location and stamps down every enemy unit along the path.
+
+damageSpeedFactorPerSecond		0.2
+interval		0.035
+maxLength		1300
+speed		500
+speedAdd		300
+specialEffectPath		Abilities\Weapons\AncientProtectorMissile\AncientProtectorMissile.mdl
+specialEffectScale		0.5
+targetEffectAttachPoint		AttachPoint.CHEST
+targetEffectPath		Abilities\Weapons\HydraliskImpact\HydraliskImpact.mdl

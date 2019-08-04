@@ -1,0 +1,398 @@
+format --> 0
+camCount --> 33
+cam1
+	targetX --> -7994.83
+	targetY --> 1822.26
+	zOffset --> 0
+	rotation --> 4.9300918301276
+	angleOfAttack --> 305.45
+	dist --> 555.99
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 001
+cam2
+	targetX --> -8066.14
+	targetY --> 1840.51
+	zOffset --> 0
+	rotation --> 4.8309799870501
+	angleOfAttack --> 303.6
+	dist --> 3740.44
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 002
+cam3
+	targetX --> -10467.02
+	targetY --> 2731.76
+	zOffset --> 0
+	rotation --> 2.1423122224338
+	angleOfAttack --> 325.66
+	dist --> 4114.48
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 003
+cam4
+	targetX --> -11655.75
+	targetY --> 4125.2
+	zOffset --> 0
+	rotation --> 3.9814240655113
+	angleOfAttack --> 315.27
+	dist --> 4525.93
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 004
+cam5
+	targetX --> -12292.91
+	targetY --> 7119.68
+	zOffset --> 0
+	rotation --> 6.2000918301276
+	angleOfAttack --> 322.52
+	dist --> 5476.38
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 005
+cam6
+	targetX --> -9237
+	targetY --> 8860.5
+	zOffset --> 0
+	rotation --> 3.2282387583317
+	angleOfAttack --> 323.24
+	dist --> 2554.77
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 006
+cam7
+	targetX --> -7571.53
+	targetY --> 8306.72
+	zOffset --> 0
+	rotation --> 2.4096477516663
+	angleOfAttack --> 317.28
+	dist --> 1919.44
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 007
+cam8
+	targetX --> -6668.81
+	targetY --> 5361.67
+	zOffset --> 0
+	rotation --> 6.0477946798705
+	angleOfAttack --> 319.86
+	dist --> 2111.38
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 008
+cam9
+	targetX --> -4537.15
+	targetY --> 4009.01
+	zOffset --> 0
+	rotation --> 5.3723889803847
+	angleOfAttack --> 315.51
+	dist --> 2554.77
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 009
+cam10
+	targetX --> -4245.76
+	targetY --> 1366.1
+	zOffset --> 0
+	rotation --> 5.5408264711483
+	angleOfAttack --> 338.94
+	dist --> 2111.38
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 010
+cam11
+	targetX --> -4393.21
+	targetY --> -602.31
+	zOffset --> 0
+	rotation --> 5.8173506014092
+	angleOfAttack --> 323.32
+	dist --> 3091.27
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 011
+cam12
+	targetX --> -1235.23
+	targetY --> -593.7
+	zOffset --> 0
+	rotation --> 5.8109799870501
+	angleOfAttack --> 333.14
+	dist --> 1919.44
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 012
+cam13
+	targetX --> 4546.71
+	targetY --> -1176.15
+	zOffset --> 0
+	rotation --> 5.6209799870501
+	angleOfAttack --> 318.65
+	dist --> 4114.48
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 013
+cam14
+	targetX --> 5303.68
+	targetY --> -539.31
+	zOffset --> 0
+	rotation --> 5.216906522948
+	angleOfAttack --> 320.66
+	dist --> 2322.52
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 014
+cam15
+	targetX --> 7413.55
+	targetY --> 1611.58
+	zOffset --> 0
+	rotation --> 5.1950534511521
+	angleOfAttack --> 317.28
+	dist --> 4978.52
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 015
+cam16
+	targetX --> 5965.31
+	targetY --> 5077.48
+	zOffset --> 0
+	rotation --> 0.90957099371545
+	angleOfAttack --> 325.01
+	dist --> 3400.4
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 016
+cam17
+	targetX --> 5678.77
+	targetY --> 9336.53
+	zOffset --> 0
+	rotation --> 0.44638568653585
+	angleOfAttack --> 322.52
+	dist --> 2554.77
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 017
+cam18
+	targetX --> 6035.51
+	targetY --> 10827.51
+	zOffset --> 0
+	rotation --> 5.9514240655113
+	angleOfAttack --> 314.47
+	dist --> 3091.27
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 018
+cam19
+	targetX --> 5666.06
+	targetY --> 11769.27
+	zOffset --> 0
+	rotation --> 1.488682836793
+	angleOfAttack --> 330.57
+	dist --> 3740.44
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 019
+cam20
+	targetX --> 2530.56
+	targetY --> 10946.76
+	zOffset --> 0
+	rotation --> 5.9077946798705
+	angleOfAttack --> 331.37
+	dist --> 2111.38
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 020
+cam21
+	targetX --> -73.970000000002
+	targetY --> 10973.56
+	zOffset --> 0
+	rotation --> 0.69460937269091
+	angleOfAttack --> 331.77
+	dist --> 2111.38
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 021
+cam22
+	targetX --> -2814.42
+	targetY --> 10784.95
+	zOffset --> 0
+	rotation --> 1.2923122224338
+	angleOfAttack --> 327.59
+	dist --> 3091.27
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 022
+cam23
+	targetX --> -3241.48
+	targetY --> 12669.28
+	zOffset --> 0
+	rotation --> 1.2959416080746
+	angleOfAttack --> 322.68
+	dist --> 6024.01
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 023
+cam24
+	targetX --> -2800.38
+	targetY --> 11201.09
+	zOffset --> 0
+	rotation --> 4.1773506014092
+	angleOfAttack --> 306.66
+	dist --> 10671.91
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 024
+cam25
+	targetX --> -684.58
+	targetY --> 7090.42
+	zOffset --> 0
+	rotation --> 0.76053590858883
+	angleOfAttack --> 305.69
+	dist --> 6626.42
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 025
+cam26
+	targetX --> -978.24
+	targetY --> 4972.94
+	zOffset --> 0
+	rotation --> 1.9054975296134
+	angleOfAttack --> 313.98
+	dist --> 5476.38
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 026
+cam27
+	targetX --> 92.02
+	targetY --> 3152.66
+	zOffset --> 0
+	rotation --> 1.612756300895
+	angleOfAttack --> 309.23
+	dist --> 5476.38
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 027
+cam28
+	targetX --> 2689.65
+	targetY --> 4405.97
+	zOffset --> 0
+	rotation --> 4.8313473075604
+	angleOfAttack --> 310.28
+	dist --> 5476.38
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 028
+cam29
+	targetX --> 2581.35
+	targetY --> 5453.9
+	zOffset --> 0
+	rotation --> 3.3126795429442
+	angleOfAttack --> 314.87
+	dist --> 5476.38
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 029
+cam30
+	targetX --> 1817.41
+	targetY --> 7001.46
+	zOffset --> 0
+	rotation --> 1.6540117783279
+	angleOfAttack --> 312.29
+	dist --> 5476.38
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 030
+cam31
+	targetX --> 269.77
+	targetY --> 5583.41
+	zOffset --> 0
+	rotation --> 6.1873506014092
+	angleOfAttack --> 319.62
+	dist --> 5476.38
+	roll --> 0
+	fieldOfView --> 70
+	farZ --> 10000
+	unknown --> 100
+	cinematicName --> Camera 031
+cam32
+	targetX --> 10537.09
+	targetY --> 5106.05
+	zOffset --> 0
+	rotation --> 0.4646093726909
+	angleOfAttack --> 304
+	dist --> 2500
+	roll --> 0
+	fieldOfView --> 82
+	farZ --> 5000
+	unknown --> 100
+	cinematicName --> Screenshot Ingame Camera Settings
+cam33
+	targetX --> 10503.46
+	targetY --> 5126.78
+	zOffset --> 0
+	rotation --> 0.4646093726909
+	angleOfAttack --> 299
+	dist --> 2500
+	roll --> 0
+	fieldOfView --> 82
+	farZ --> 5000
+	unknown --> 100
+	cinematicName --> Camera 033

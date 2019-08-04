@@ -1,0 +1,93 @@
+field	value
+name	Treant (Level 1)
+raw	NG1
+
+classes
+hero	false
+structure	false
+team	DEFENDER
+
+model	units\nightelf\Ent\Ent.mdx
+modelAttachPts
+modelAnims
+modelAttachMods	medium
+modelBones
+standardScale	1.
+
+elevPts	0
+elevRad	20.
+maxRoll	10.
+maxPitch	10.
+scale	1
+selScale	1.5
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	140.
+shadowHeight	140.
+shadowOffsetX	60.
+shadowOffsetY	60.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNEnt.blp
+soundset	Ent
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	120.
+turnRate	0.5
+height
+heightMin
+animWalk	110.
+animRun	110.
+moveInterp	4
+
+animBlend	0.15
+animCastWaitBefore	0.3
+animCastWaitAfter	0.51
+
+armorAmount	0.
+armorSound	Wood
+armorType	LIGHT
+life	40.
+lifeRegen	0.
+mana
+manaRegen
+spellPower	15.
+sightRange	600.
+sightRangeNight	600.
+
+attackType	NORMAL
+attackCooldown	1.75
+attackRange	100.
+attackRangeAcq	400.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	0.467
+attackWaitAfter	0.
+attackSound
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	NORMAL
+damageAmount	7
+damageDices	2
+damageSides	2
+
+collisionSize	32.
+combatFlags	ground
+deathTime	3.14
+exp
+gold

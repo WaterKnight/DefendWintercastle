@@ -1,0 +1,7 @@
+field	jass ident	1
+name
+raw		AOwk
+base		SPECIAL_AOwk
+classes		DUMMY
+
+specials		abuf=<windwalkBuff.wc3buff:raw>

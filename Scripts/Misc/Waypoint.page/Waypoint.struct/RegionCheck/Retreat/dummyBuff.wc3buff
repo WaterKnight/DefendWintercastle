@@ -1,0 +1,25 @@
+field	1
+name
+raw
+
+class	NORMAL
+levelsAmount
+lostOn	death
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath	Abilities\Spells\Human\ManaShield\ManaShieldCaster.mdl
+sfxAttachPt	AttachPoint.ORIGIN
+sfxLevel	EffectLevel.LOW
+
+unitMod	lifeRegenBonusRel
+unitModVal	<this.wc3obj:lifeRegenRelInc>
+
+unitMod	moveSpeedBonusRel
+unitModVal	<this.wc3obj:moveSpeedRelInc>
+
+unitMod	attackDisable
+unitModVal	true

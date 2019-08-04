@@ -1,0 +1,45 @@
+field	jass ident	1	2	3
+name		Panda Paw
+raw		PaP
+
+base		NORMAL
+class		HERO_ULTIMATE
+levelsAmount
+order		drunkenhaze
+target		POINT
+
+learnButtonPosX
+learnButtonPosY
+learnHotkey
+learnIcon
+learnRaw		PP
+learnTooltip
+learnUberTooltip		<Stormy:name> furiously brandishes his paws into all directions while rushing to the target point (and becomes <UNTOUCH>untouchable</UNTOUCH> while doing so). On arrival, enemies will be shoved away by the accrued vortex, getting knocked up and landing hard on ground or other obstacles, subsequently being stunned. The dealt damage (magical) benefits from the caster's attack damage and triggers damage events.|nPassively grants <Stormy:name> a life leech effect.
+learnUberTooltipUpgrades		{Damage,<Arrival\Target\this.wc3obj:damage> (+<Arrival\Target\this.wc3obj:damageAttackDamageMod> * attack damage)};{Stun duration,<Arrival\Target\this.wc3obj:stunDuration> (<Arrival\Target\this.wc3obj:stunHeroDuration>) second(s)};{Life leech bonus,<Leech\this.wc3obj:lifeLeechInc>}
+
+animation		attack
+areaRange		400
+areaRangeDisplay		true
+channelTime
+cooldown		15	14	13
+manaCost		125	150	175
+range		800
+targets
+
+buttonPosX
+buttonPosY
+hotkey
+icon		ReplaceableTextures\CommandButtons\BTNBearForm.blp
+
+lore
+sharedBuffs		UNTOUCH
+tooltip
+uberTooltip		<Stormy:name> furiously brandishes his paws into all directions while rushing to the target point (and becomes <UNTOUCH>untouchable</UNTOUCH> while doing so). On arrival, enemies will be shoved away by the accrued vortex, getting knocked up and landing hard on ground or other obstacles, subsequently being stunned for <Arrival\Target\this.wc3obj:stunDuration> (<Arrival\Target\this.wc3obj:stunHeroDuration>) seconds. The dealt damage (magical) equals <Arrival\Target\this.wc3obj:damage> + <Arrival\Target\this.wc3obj:damageAttackDamageMod> * caster's attack damage and triggers damage events.|nPassively grants <Stormy:name> a life leech effect of <Leech\this.wc3obj:lifeLeechInc>.
+
+acceleration		500	500
+animationInc		1
+arrivalTolerance		5
+dummyUnitDuration		0.5
+dummyUnitOffset		-75
+effectInterval		0.125
+speed		650	650

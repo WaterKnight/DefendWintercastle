@@ -1,0 +1,16 @@
+field	1
+name	Cold Buff
+raw	DGC
+
+class	HERO_ULTIMATE
+levelsAmount	3
+lostOn
+positive	true
+
+icon	ReplaceableTextures\CommandButtons\BTNFrost.blp
+tooltip
+uberTooltip	This unit's attacks are cold.
+
+sfxPath	Abilities\Spells\Items\AIob\AIobTarget.mdl
+sfxAttachPt	AttachPoint.WEAPON
+sfxLevel	EffectLevel.LOW

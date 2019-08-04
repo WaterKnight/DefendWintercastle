@@ -1,0 +1,15 @@
+field	1
+name
+raw
+
+class	NORMAL
+levelsAmount
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath	Abilities\Spells\Orc\StasisTrap\StasisTotemTarget.mdl
+sfxAttachPt	AttachPoint.OVERHEAD
+sfxLevel	EffectLevel.LOW

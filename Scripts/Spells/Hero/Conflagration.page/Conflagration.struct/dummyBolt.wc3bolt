@@ -1,0 +1,13 @@
+field	1
+raw	Con
+
+texPath	ReplaceableTextures\Weather\DrainLightning.blp
+avgSegLen	50
+width	20
+red	255
+green	255
+blue	255
+alpha	255
+noiseScale	0.01
+texCoordScale	0.8
+duration	2

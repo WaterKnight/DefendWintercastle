@@ -1,0 +1,4 @@
+field	1
+type	skin
+src	HumanUITile-InventoryCover.blp
+target	UI\Console\Human\HumanUITile-InventoryCover.blp

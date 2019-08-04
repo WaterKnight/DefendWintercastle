@@ -1,0 +1,93 @@
+field	value
+name	Satyr
+raw	Sat
+
+classes
+hero	false
+structure	false
+team	ATTACKER
+
+model	units\creeps\Satyr\Satyr.mdx
+modelAttachPts
+modelAnims
+modelAttachMods
+modelBones
+standardScale	1.15
+
+elevPts	0
+elevRad	50.
+maxRoll	10.
+maxPitch	10.
+scale	1.4
+selScale	1.
+vertexColorRed
+vertexColorGreen
+vertexColorBlue
+vertexColorAlpha
+
+impactZ	60.
+outpactX	0.
+outpactY	0.
+outpactZ	60.
+
+shadowPath	NORMAL
+shadowWidth	120.
+shadowHeight	120.
+shadowOffsetX	50.
+shadowOffsetY	50.
+
+attachments
+blood
+icon	ReplaceableTextures\CommandButtons\BTNSatyr.blp
+soundset	Satyr
+tooltip
+uberTooltip
+
+moveType	FOOT
+moveSpeed	230.
+turnRate	0.5
+height
+heightMin
+animWalk	250.
+animRun	250.
+moveInterp	5
+
+animBlend	0.15
+animCastWaitBefore	0.5
+animCastWaitAfter	1.2
+
+armorAmount	1.
+armorSound	Flesh
+armorType	LARGE
+life	80.
+lifeRegen	2.
+mana	120.
+manaRegen	3.5
+spellPower	35.
+sightRange	1400.
+sightRangeNight	800.
+
+attackType	NORMAL
+attackCooldown	1.35
+attackRange	100.
+attackRangeAcq	500.
+attackRangeBuffer	250.
+attackTargetFlags	ground,structure,debris,item,ward
+attackWaitBefore	0.3
+attackWaitAfter	0.
+attackSound	MetalMediumSlice
+
+attackMissileModel
+attackMissileSpeed
+attackMissileArc
+
+damageType	NORMAL
+damageAmount	14
+damageDices	1
+damageSides	4
+
+collisionSize	32.
+combatFlags	ground
+deathTime	3.
+exp	35
+gold	15

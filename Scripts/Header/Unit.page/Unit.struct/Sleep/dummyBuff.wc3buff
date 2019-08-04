@@ -1,0 +1,15 @@
+field	1
+name	Sleep
+raw
+
+class	DUMMY
+levelsAmount
+positive
+
+icon
+tooltip
+uberTooltip
+
+sfxPath
+sfxAttachPt
+sfxLevel

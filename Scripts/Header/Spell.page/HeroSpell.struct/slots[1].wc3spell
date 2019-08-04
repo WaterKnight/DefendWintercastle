@@ -1,0 +1,9 @@
+field	jass ident	1
+name
+raw		AHS1
+base		SPECIAL_ANcl
+classes		DUMMY
+levelsAmount		6
+specials		aher=1
+specials		arlv=1
+specials		alsk=2    

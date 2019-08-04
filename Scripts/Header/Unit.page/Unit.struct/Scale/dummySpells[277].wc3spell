@@ -1,0 +1,11 @@
+field	jass ident	1
+name		Unit Scale Ability 0.54
+raw		AC7P
+base		SPECIAL_Ablo
+classes		DUMMY
+
+range		99999
+targets		ground,enemies,friend,structure,air,neutral,invulnerable,vulnerable,ward
+
+specials		Blo3=0.54
+specials		abuf=BUSC
