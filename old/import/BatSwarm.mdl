@@ -1,0 +1,284 @@
+// MDLFile version	Jun 27 2002 20:34:57
+// Exported on Wed Mar 02 10:00:47 2011
+Version {
+	FormatVersion 800,
+}
+Model "HeroDemonHunter" {
+	NumParticleEmitters2 1,
+	BlendTime 150,
+	MinimumExtent { -203.614, -207.822, -90.9144 },
+	MaximumExtent { 198.601, 200.794, 549.164 },
+}
+Sequences 2 {
+	Anim "Morph" {
+		Interval { 70533, 72033 },
+		NonLooping,
+		MinimumExtent { -191.477, -189.225, -90.1353 },
+		MaximumExtent { 186.108, 188.36, 321.963 },
+		BoundsRadius 303.281,
+	}
+	Anim "Morph Alternate" {
+		Interval { 73067, 74533 },
+		NonLooping,
+		MinimumExtent { -201.482, -199.288, -90.9144 },
+		MaximumExtent { 196.468, 198.661, 321.963 },
+		BoundsRadius 302.951,
+	}
+}
+GlobalSequences 9 {
+	Duration 133,
+	Duration 100,
+	Duration 0,
+	Duration 167,
+	Duration 600,
+	Duration 1067,
+	Duration 633,
+	Duration 74533,
+	Duration 3333,
+}
+Textures 9 {
+	Bitmap {
+		Image "Textures\Black32.blp",
+	}
+	Bitmap {
+		Image "Textures\Shadow.blp",
+	}
+	Bitmap {
+		Image "Textures\Dust5ABlack.blp",
+	}
+	Bitmap {
+		Image "Textures\Zap1.blp",
+	}
+	Bitmap {
+		Image "Textures\Clouds8x8Mod.blp",
+	}
+	Bitmap {
+		Image "Textures\Clouds8x8FadeWhite.blp",
+	}
+}
+Materials 8 {
+	Material {
+		Layer {
+			FilterMode Transparent,
+			TwoSided,
+			static TextureID 0,
+		}
+	}
+	Material {
+		Layer {
+			FilterMode None,
+			static TextureID 1,
+		}
+		Layer {
+			FilterMode Blend,
+			static TextureID 0,
+		}
+	}
+	Material {
+		Layer {
+			FilterMode Additive,
+			Unshaded,
+			Unfogged,
+			static TextureID 2,
+			static Alpha 0.8,
+		}
+	}
+	Material {
+		Layer {
+			FilterMode None,
+			Unshaded,
+			TwoSided,
+			static TextureID 3,
+		}
+	}
+	Material {
+		Layer {
+			FilterMode Blend,
+			Unshaded,
+			Unfogged,
+			static TextureID 4,
+			Alpha 10 {
+				Linear,
+				70533: 0,
+				70700: 0,
+				71100: 1,
+				71333: 1,
+				71633: 1,
+				73467: 1,
+				73767: 1,
+				73967: 1,
+				74367: 0,
+				74533: 0,
+			}
+		}
+	}
+	Material {
+		Layer {
+			FilterMode Blend,
+			Unshaded,
+			Unfogged,
+			static TextureID 5,
+			Alpha 10 {
+				Linear,
+				70533: 0,
+				70700: 0,
+				71100: 1,
+				71333: 1,
+				71633: 1,
+				73467: 1,
+				73767: 1,
+				73967: 1,
+				74367: 0,
+				74533: 0,
+			}
+		}
+	}
+	Material {
+		Layer {
+			FilterMode Additive,
+			Unshaded,
+			TwoSided,
+			Unfogged,
+			static TextureID 6,
+			Alpha 16 {
+				Bezier,
+				1467: 1,
+					InTan 3.63505,
+					OutTan 0.816159,
+				1567: 0.41,
+					InTan 0.459167,
+					OutTan 0.344444,
+				1833: 1,
+					InTan 1.19302,
+					OutTan 0.855238,
+				1933: 0.24,
+					InTan 0.354762,
+					OutTan 0.0869841,
+				2067: 0.52,
+					InTan 0.479088,
+					OutTan 0.612051,
+				2367: 0,
+					InTan 0.172574,
+					OutTan -39.2126,
+				70533: 0,
+					InTan 0,
+					OutTan 0,
+				70900: 0,
+					InTan -0.320106,
+					OutTan 0.203704,
+				71133: 1,
+					InTan 0.753086,
+					OutTan 1.70547,
+				71800: 1,
+					InTan 1.70547,
+					OutTan 0.753086,
+				72033: 0,
+					InTan 0.27193,
+					OutTan -1.20426,
+				73067: 0,
+					InTan -1.20426,
+					OutTan 0.27193,
+				73300: 1,
+					InTan 0.75641,
+					OutTan 1.66117,
+				73933: 1,
+					InTan 1.66117,
+					OutTan 0.75641,
+				74167: 0,
+					InTan 0.203704,
+					OutTan -0.320106,
+				74533: 0,
+					InTan -0.320106,
+					OutTan 0,
+			}
+		}
+	}
+	Material {
+		Layer {
+			FilterMode Additive,
+			Unshaded,
+			static TextureID 2,
+			static Alpha 0.75,
+		}
+	}
+}
+ParticleEmitter2 "BlizParticle01smoke" {
+	ObjectId 0,
+	Unshaded,
+	static Speed 120,
+	static Variation 0.02,
+	static Latitude 180,
+	static Gravity 0,
+	Visibility 26 {
+		DontInterp,
+		167: 0,
+		1733: 0,
+		4067: 0,
+		8433: 0,
+		17367: 0,
+		18467: 0,
+		19700: 0,
+		20933: 0,
+		26033: 0,
+		27533: 0,
+		28867: 0,
+		34667: 0,
+		36100: 0,
+		53667: 0,
+		55667: 0,
+		57067: 0,
+		58200: 0,
+		59367: 0,
+		61033: 0,
+		64333: 0,
+		70533: 0,
+		70867: 1,
+		71700: 0,
+		73067: 0,
+		73433: 1,
+		74067: 0,
+	}
+	LifeSpan 0.85,
+	static EmissionRate 60.7,
+	static Width 10,
+	static Length 10,
+	Modulate,
+	Rows 8,
+	Columns 8,
+	Head,
+	TailLength 1,
+	Time 0.5,
+	SegmentColor {
+		Color { 1, 1, 1 },
+		Color { 1, 1, 1 },
+		Color { 1, 1, 1 },
+	},
+	Alpha {255, 255, 0},
+	ParticleScaling {42.8, 38.6, 37.8},
+	LifeSpanUVAnim {0, 32, 1},
+	DecayUVAnim {33, 63, 1},
+	TailUVAnim {0, 0, 1},
+	TailDecayUVAnim {0, 0, 1},
+	TextureID 7,
+	Translation 9 {
+		Linear,
+		70533: { 0, 0, -87.5652 },
+		71067: { 0, 0, -87.5652 },
+		71333: { 0, 0, -91.3823 },
+		71700: { 0, 0, 21.0362 },
+		72033: { 0, 0, 15.9054 },
+		73067: { 0, 0, 0 },
+		73467: { 0, 0, 0 },
+		73867: { 0, 0, -99.2836 },
+		74533: { 0, 0, -99.2836 },
+	}
+	Rotation 2 {
+		Hermite,
+		70533: { -0.5, 0.5, 0.5, 0.5 },
+			InTan { -0.5, 0.5, 0.5, 0.5 },
+			OutTan { -0.5, 0.5, 0.5, 0.5 },
+		73067: { -0.5, 0.5, 0.5, 0.5 },
+			InTan { -0.5, 0.5, 0.5, 0.5 },
+			OutTan { -0.5, 0.5, 0.5, 0.5 },
+	}
+}
